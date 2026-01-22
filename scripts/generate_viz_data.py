@@ -34,7 +34,7 @@ def extract_race_type(race_title):
 def determine_competitiveness_band(margin_pct):
     """Determine competitiveness band based on margin percentage."""
     if margin_pct < 5:
-        return "Toss-up"
+        return "Thin"
     elif margin_pct < 10:
         return "Lean"
     elif margin_pct < 20:
@@ -155,7 +155,7 @@ def generate_data():
         band = race["competitiveness_band"]
         bands[band] = bands.get(band, 0) + 1
     print(f"\nCompetitiveness distribution:")
-    for band in ["Toss-up", "Lean", "Likely", "Safe"]:
+    for band in ["Thin", "Lean", "Likely", "Safe"]:
         print(f"  {band}: {bands.get(band, 0)}")
 
 if __name__ == "__main__":

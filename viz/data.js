@@ -37,7 +37,7 @@ const racesData = [
     "total_votes": 3126,
     "margin_pct": 0.13,
     "vote_deficit": 4,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 396,
@@ -53,7 +53,7 @@ const racesData = [
     "total_votes": 1507,
     "margin_pct": 0.13,
     "vote_deficit": 2,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 23,
@@ -69,7 +69,7 @@ const racesData = [
     "total_votes": 4210,
     "margin_pct": 0.24,
     "vote_deficit": 10,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 383,
@@ -85,7 +85,7 @@ const racesData = [
     "total_votes": 4538,
     "margin_pct": 0.35,
     "vote_deficit": 16,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 195,
@@ -101,7 +101,7 @@ const racesData = [
     "total_votes": 2727,
     "margin_pct": 0.4,
     "vote_deficit": 11,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 342,
@@ -117,7 +117,7 @@ const racesData = [
     "total_votes": 3066,
     "margin_pct": 0.42,
     "vote_deficit": 13,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 145,
@@ -133,7 +133,7 @@ const racesData = [
     "total_votes": 13956,
     "margin_pct": 0.43,
     "vote_deficit": 60,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 349,
@@ -149,7 +149,7 @@ const racesData = [
     "total_votes": 3493,
     "margin_pct": 0.46,
     "vote_deficit": 16,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 96,
@@ -165,7 +165,7 @@ const racesData = [
     "total_votes": 834,
     "margin_pct": 0.48,
     "vote_deficit": 4,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 101,
@@ -181,7 +181,7 @@ const racesData = [
     "total_votes": 278575,
     "margin_pct": 0.48,
     "vote_deficit": 1345,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 161,
@@ -197,7 +197,7 @@ const racesData = [
     "total_votes": 1417,
     "margin_pct": 0.49,
     "vote_deficit": 7,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 71,
@@ -213,7 +213,7 @@ const racesData = [
     "total_votes": 6387,
     "margin_pct": 0.52,
     "vote_deficit": 33,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 170,
@@ -229,7 +229,7 @@ const racesData = [
     "total_votes": 4536,
     "margin_pct": 0.57,
     "vote_deficit": 26,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 77,
@@ -245,7 +245,7 @@ const racesData = [
     "total_votes": 1800,
     "margin_pct": 0.61,
     "vote_deficit": 11,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 392,
@@ -261,7 +261,7 @@ const racesData = [
     "total_votes": 12175,
     "margin_pct": 0.66,
     "vote_deficit": 80,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 5,
@@ -277,7 +277,7 @@ const racesData = [
     "total_votes": 1485,
     "margin_pct": 0.67,
     "vote_deficit": 10,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 15,
@@ -293,7 +293,7 @@ const racesData = [
     "total_votes": 715,
     "margin_pct": 0.7,
     "vote_deficit": 5,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 9,
@@ -309,7 +309,7 @@ const racesData = [
     "total_votes": 1382,
     "margin_pct": 0.72,
     "vote_deficit": 10,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 379,
@@ -325,7 +325,7 @@ const racesData = [
     "total_votes": 2468,
     "margin_pct": 0.73,
     "vote_deficit": 18,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 55,
@@ -341,7 +341,7 @@ const racesData = [
     "total_votes": 1138,
     "margin_pct": 0.79,
     "vote_deficit": 9,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 285,
@@ -357,7 +357,7 @@ const racesData = [
     "total_votes": 502,
     "margin_pct": 0.8,
     "vote_deficit": 4,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 201,
@@ -373,7 +373,7 @@ const racesData = [
     "total_votes": 2269,
     "margin_pct": 0.84,
     "vote_deficit": 19,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 406,
@@ -389,7 +389,7 @@ const racesData = [
     "total_votes": 4840,
     "margin_pct": 0.87,
     "vote_deficit": 42,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 370,
@@ -405,7 +405,7 @@ const racesData = [
     "total_votes": 5703,
     "margin_pct": 0.89,
     "vote_deficit": 51,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 204,
@@ -421,7 +421,7 @@ const racesData = [
     "total_votes": 1429,
     "margin_pct": 0.91,
     "vote_deficit": 13,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 171,
@@ -437,7 +437,7 @@ const racesData = [
     "total_votes": 846,
     "margin_pct": 0.95,
     "vote_deficit": 8,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 52,
@@ -453,7 +453,7 @@ const racesData = [
     "total_votes": 1874,
     "margin_pct": 0.96,
     "vote_deficit": 18,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 210,
@@ -469,7 +469,7 @@ const racesData = [
     "total_votes": 3010,
     "margin_pct": 0.96,
     "vote_deficit": 29,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 276,
@@ -485,7 +485,7 @@ const racesData = [
     "total_votes": 623,
     "margin_pct": 0.96,
     "vote_deficit": 6,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 282,
@@ -501,7 +501,7 @@ const racesData = [
     "total_votes": 2098,
     "margin_pct": 1.0,
     "vote_deficit": 21,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 358,
@@ -517,7 +517,7 @@ const racesData = [
     "total_votes": 749,
     "margin_pct": 1.07,
     "vote_deficit": 8,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 174,
@@ -533,7 +533,7 @@ const racesData = [
     "total_votes": 5486,
     "margin_pct": 1.09,
     "vote_deficit": 60,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 32,
@@ -549,7 +549,7 @@ const racesData = [
     "total_votes": 1653,
     "margin_pct": 1.15,
     "vote_deficit": 19,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 250,
@@ -565,7 +565,7 @@ const racesData = [
     "total_votes": 2149,
     "margin_pct": 1.16,
     "vote_deficit": 25,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 273,
@@ -581,7 +581,7 @@ const racesData = [
     "total_votes": 848,
     "margin_pct": 1.18,
     "vote_deficit": 10,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 290,
@@ -597,7 +597,7 @@ const racesData = [
     "total_votes": 922,
     "margin_pct": 1.19,
     "vote_deficit": 11,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 141,
@@ -613,7 +613,7 @@ const racesData = [
     "total_votes": 2577,
     "margin_pct": 1.2,
     "vote_deficit": 31,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 81,
@@ -629,7 +629,7 @@ const racesData = [
     "total_votes": 2056,
     "margin_pct": 1.22,
     "vote_deficit": 25,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 409,
@@ -645,7 +645,7 @@ const racesData = [
     "total_votes": 3605,
     "margin_pct": 1.25,
     "vote_deficit": 45,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 376,
@@ -661,7 +661,7 @@ const racesData = [
     "total_votes": 3235,
     "margin_pct": 1.27,
     "vote_deficit": 41,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 148,
@@ -677,7 +677,7 @@ const racesData = [
     "total_votes": 5750,
     "margin_pct": 1.3,
     "vote_deficit": 75,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 211,
@@ -693,7 +693,7 @@ const racesData = [
     "total_votes": 6190,
     "margin_pct": 1.32,
     "vote_deficit": 82,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 37,
@@ -709,7 +709,7 @@ const racesData = [
     "total_votes": 745,
     "margin_pct": 1.34,
     "vote_deficit": 10,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 48,
@@ -725,7 +725,7 @@ const racesData = [
     "total_votes": 4306,
     "margin_pct": 1.35,
     "vote_deficit": 58,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 268,
@@ -741,7 +741,7 @@ const racesData = [
     "total_votes": 148,
     "margin_pct": 1.35,
     "vote_deficit": 2,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 278,
@@ -757,7 +757,7 @@ const racesData = [
     "total_votes": 443,
     "margin_pct": 1.35,
     "vote_deficit": 6,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 190,
@@ -773,7 +773,7 @@ const racesData = [
     "total_votes": 4039,
     "margin_pct": 1.39,
     "vote_deficit": 56,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 42,
@@ -789,7 +789,7 @@ const racesData = [
     "total_votes": 849,
     "margin_pct": 1.41,
     "vote_deficit": 12,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 400,
@@ -805,7 +805,7 @@ const racesData = [
     "total_votes": 3709,
     "margin_pct": 1.46,
     "vote_deficit": 54,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 316,
@@ -821,7 +821,7 @@ const racesData = [
     "total_votes": 2333,
     "margin_pct": 1.54,
     "vote_deficit": 36,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 256,
@@ -837,7 +837,7 @@ const racesData = [
     "total_votes": 2729,
     "margin_pct": 1.58,
     "vote_deficit": 43,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 362,
@@ -853,7 +853,7 @@ const racesData = [
     "total_votes": 6588,
     "margin_pct": 1.58,
     "vote_deficit": 104,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 126,
@@ -869,7 +869,7 @@ const racesData = [
     "total_votes": 3520,
     "margin_pct": 1.59,
     "vote_deficit": 56,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 363,
@@ -885,7 +885,7 @@ const racesData = [
     "total_votes": 2749,
     "margin_pct": 1.64,
     "vote_deficit": 45,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 429,
@@ -901,7 +901,7 @@ const racesData = [
     "total_votes": 2299,
     "margin_pct": 1.78,
     "vote_deficit": 41,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 158,
@@ -917,7 +917,7 @@ const racesData = [
     "total_votes": 9530,
     "margin_pct": 1.8,
     "vote_deficit": 172,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 104,
@@ -933,7 +933,7 @@ const racesData = [
     "total_votes": 3378,
     "margin_pct": 1.81,
     "vote_deficit": 61,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 17,
@@ -949,7 +949,7 @@ const racesData = [
     "total_votes": 3561,
     "margin_pct": 1.88,
     "vote_deficit": 67,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 65,
@@ -965,7 +965,7 @@ const racesData = [
     "total_votes": 626,
     "margin_pct": 1.92,
     "vote_deficit": 12,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 82,
@@ -981,7 +981,7 @@ const racesData = [
     "total_votes": 1037,
     "margin_pct": 1.93,
     "vote_deficit": 20,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 150,
@@ -997,7 +997,7 @@ const racesData = [
     "total_votes": 5733,
     "margin_pct": 1.95,
     "vote_deficit": 112,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 341,
@@ -1013,7 +1013,7 @@ const racesData = [
     "total_votes": 348,
     "margin_pct": 2.01,
     "vote_deficit": 7,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 57,
@@ -1029,7 +1029,7 @@ const racesData = [
     "total_votes": 1968,
     "margin_pct": 2.08,
     "vote_deficit": 41,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 79,
@@ -1045,7 +1045,7 @@ const racesData = [
     "total_votes": 1159,
     "margin_pct": 2.16,
     "vote_deficit": 25,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 6,
@@ -1061,7 +1061,7 @@ const racesData = [
     "total_votes": 734,
     "margin_pct": 2.18,
     "vote_deficit": 16,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 206,
@@ -1077,7 +1077,7 @@ const racesData = [
     "total_votes": 2194,
     "margin_pct": 2.23,
     "vote_deficit": 49,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 130,
@@ -1093,7 +1093,7 @@ const racesData = [
     "total_votes": 2149,
     "margin_pct": 2.28,
     "vote_deficit": 49,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 372,
@@ -1109,7 +1109,7 @@ const racesData = [
     "total_votes": 2144,
     "margin_pct": 2.43,
     "vote_deficit": 52,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 402,
@@ -1125,7 +1125,7 @@ const racesData = [
     "total_votes": 6507,
     "margin_pct": 2.49,
     "vote_deficit": 162,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 90,
@@ -1141,7 +1141,7 @@ const racesData = [
     "total_votes": 1237,
     "margin_pct": 2.51,
     "vote_deficit": 31,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 135,
@@ -1157,7 +1157,7 @@ const racesData = [
     "total_votes": 4555,
     "margin_pct": 2.61,
     "vote_deficit": 119,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 172,
@@ -1173,7 +1173,7 @@ const racesData = [
     "total_votes": 1629,
     "margin_pct": 2.64,
     "vote_deficit": 43,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 345,
@@ -1189,7 +1189,7 @@ const racesData = [
     "total_votes": 6020,
     "margin_pct": 2.66,
     "vote_deficit": 160,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 227,
@@ -1205,7 +1205,7 @@ const racesData = [
     "total_votes": 842,
     "margin_pct": 2.73,
     "vote_deficit": 23,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 69,
@@ -1221,7 +1221,7 @@ const racesData = [
     "total_votes": 604,
     "margin_pct": 2.81,
     "vote_deficit": 17,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 187,
@@ -1237,7 +1237,7 @@ const racesData = [
     "total_votes": 6439,
     "margin_pct": 2.83,
     "vote_deficit": 182,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 407,
@@ -1253,7 +1253,7 @@ const racesData = [
     "total_votes": 1306,
     "margin_pct": 2.91,
     "vote_deficit": 38,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 147,
@@ -1269,7 +1269,7 @@ const racesData = [
     "total_votes": 9773,
     "margin_pct": 2.97,
     "vote_deficit": 290,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 318,
@@ -1285,7 +1285,7 @@ const racesData = [
     "total_votes": 1378,
     "margin_pct": 3.41,
     "vote_deficit": 47,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 22,
@@ -1301,7 +1301,7 @@ const racesData = [
     "total_votes": 2134,
     "margin_pct": 3.56,
     "vote_deficit": 76,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 246,
@@ -1317,7 +1317,7 @@ const racesData = [
     "total_votes": 253,
     "margin_pct": 3.56,
     "vote_deficit": 9,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 205,
@@ -1333,7 +1333,7 @@ const racesData = [
     "total_votes": 1447,
     "margin_pct": 3.59,
     "vote_deficit": 52,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 254,
@@ -1349,7 +1349,7 @@ const racesData = [
     "total_votes": 3441,
     "margin_pct": 3.6,
     "vote_deficit": 124,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 367,
@@ -1365,7 +1365,7 @@ const racesData = [
     "total_votes": 5027,
     "margin_pct": 3.72,
     "vote_deficit": 187,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 103,
@@ -1381,7 +1381,7 @@ const racesData = [
     "total_votes": 3567,
     "margin_pct": 3.78,
     "vote_deficit": 135,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 260,
@@ -1397,7 +1397,7 @@ const racesData = [
     "total_votes": 474,
     "margin_pct": 3.8,
     "vote_deficit": 18,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 352,
@@ -1413,7 +1413,7 @@ const racesData = [
     "total_votes": 102,
     "margin_pct": 3.92,
     "vote_deficit": 4,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 85,
@@ -1429,7 +1429,7 @@ const racesData = [
     "total_votes": 1452,
     "margin_pct": 4.06,
     "vote_deficit": 59,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 115,
@@ -1445,7 +1445,7 @@ const racesData = [
     "total_votes": 2494,
     "margin_pct": 4.09,
     "vote_deficit": 102,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 4,
@@ -1461,7 +1461,7 @@ const racesData = [
     "total_votes": 747,
     "margin_pct": 4.15,
     "vote_deficit": 31,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 231,
@@ -1477,7 +1477,7 @@ const racesData = [
     "total_votes": 1104,
     "margin_pct": 4.17,
     "vote_deficit": 46,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 240,
@@ -1493,7 +1493,7 @@ const racesData = [
     "total_votes": 10357,
     "margin_pct": 4.39,
     "vote_deficit": 455,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 44,
@@ -1509,7 +1509,7 @@ const racesData = [
     "total_votes": 840,
     "margin_pct": 4.4,
     "vote_deficit": 37,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 29,
@@ -1525,7 +1525,7 @@ const racesData = [
     "total_votes": 998,
     "margin_pct": 4.51,
     "vote_deficit": 45,
-    "competitiveness_band": "Toss-up"
+    "competitiveness_band": "Thin"
   },
   {
     "id": 387,

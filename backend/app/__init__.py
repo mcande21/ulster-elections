@@ -1,0 +1,1 @@
+"""Ulster Elections FastAPI backend."""

@@ -553,7 +553,7 @@
             });
 
             // Competitiveness - always hardcoded since these are bands
-            const bands = ['Toss-up', 'Lean', 'Likely', 'Safe'];
+            const bands = ['Thin', 'Lean', 'Likely', 'Safe'];
             const compFiltersEl = document.getElementById('competitivenessFilters');
             bands.forEach(band => {
                 const label = document.createElement('label');
@@ -790,7 +790,7 @@
         }
 
         function updateCompetitivenessChart() {
-            const bands = ['Toss-up', 'Lean', 'Likely', 'Safe'];
+            const bands = ['Thin', 'Lean', 'Likely', 'Safe'];
             const counts = bands.map(band => filteredRaces.filter(r => r.competitiveness_band === band).length);
 
             const ctx = document.getElementById('competitivenessChart').getContext('2d');
