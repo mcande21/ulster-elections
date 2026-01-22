@@ -21,7 +21,9 @@ export const Dashboard = () => {
   if (isLoading && !races) {
     return (
       <Layout style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Spin size="large" tip="Loading races..." />
+        <Spin size="large" tip="Loading races...">
+          <div style={{ padding: 50 }} />
+        </Spin>
       </Layout>
     );
   }
@@ -30,8 +32,7 @@ export const Dashboard = () => {
     return (
       <Layout style={{ minHeight: '100vh', padding: 24 }}>
         <Alert
-          message="Error Loading Data"
-          description="Failed to load race data. Please try again later."
+          description="Error Loading Data: Failed to load race data. Please try again later."
           type="error"
           showIcon
         />
