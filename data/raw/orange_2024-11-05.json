@@ -1,0 +1,1242 @@
+{
+  "county": "Orange",
+  "election_date": "2024-11-05",
+  "races": [
+    {
+      "race_title": "Presidential Electors for President and Vice President",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kamala D. Harris and Tim Walz",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 76403
+            },
+            {
+              "party": "Working Families",
+              "votes": 3850
+            }
+          ],
+          "total_votes": 80253
+        },
+        {
+          "name": "Donald J. Trump and JD Vance",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 87189
+            },
+            {
+              "party": "Conservative",
+              "votes": 7747
+            }
+          ],
+          "total_votes": 94936
+        },
+        {
+          "name": "Write-in - Claudia De la Cruz",
+          "party_lines": [],
+          "total_votes": 27
+        },
+        {
+          "name": "Write-in - Chris Garrity",
+          "party_lines": [],
+          "total_votes": 3
+        },
+        {
+          "name": "Write-in - Garry Hubbard",
+          "party_lines": [],
+          "total_votes": 0
+        },
+        {
+          "name": "Write-in - Andre Ramon McNeil Sr",
+          "party_lines": [],
+          "total_votes": 0
+        },
+        {
+          "name": "Write-in - Andrew O'Donnell",
+          "party_lines": [],
+          "total_votes": 0
+        },
+        {
+          "name": "Write-in - Chase Oliver",
+          "party_lines": [],
+          "total_votes": 81
+        },
+        {
+          "name": "Write-in - Future Madam Potus",
+          "party_lines": [],
+          "total_votes": 2
+        },
+        {
+          "name": "Write-in - Raymond Anthony Scollin",
+          "party_lines": [],
+          "total_votes": 0
+        },
+        {
+          "name": "Write-in - Peter Sonski",
+          "party_lines": [],
+          "total_votes": 20
+        },
+        {
+          "name": "Write-in - Jill Stein",
+          "party_lines": [],
+          "total_votes": 299
+        },
+        {
+          "name": "Write-in - Cornel West",
+          "party_lines": [],
+          "total_votes": 35
+        },
+        {
+          "name": "Write-in - Shiva Ayyadurai",
+          "party_lines": [],
+          "total_votes": 4
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 178506,
+      "under_votes": 1805,
+      "over_votes": 1041,
+      "total_ballots_cast": 178506
+    },
+    {
+      "race_title": "United States Senator",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kirsten E. Gillibrand",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 83236
+            },
+            {
+              "party": "Working Families",
+              "votes": 5878
+            }
+          ],
+          "total_votes": 89114
+        },
+        {
+          "name": "Michael D. Sapraicone",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 70686
+            },
+            {
+              "party": "Conservative",
+              "votes": 7623
+            }
+          ],
+          "total_votes": 78309
+        },
+        {
+          "name": "Diane Sare",
+          "party_lines": [
+            {
+              "party": "LaRouche",
+              "votes": 762
+            }
+          ],
+          "total_votes": 762
+        }
+      ],
+      "write_in": 125,
+      "total_votes_cast": 178502,
+      "under_votes": 9960,
+      "over_votes": 232,
+      "total_ballots_cast": 178502
+    },
+    {
+      "race_title": "State Supreme Court Justice - 9th Judicial District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Colleen D. Duffy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 79521
+            },
+            {
+              "party": "Conservative",
+              "votes": 8715
+            }
+          ],
+          "total_votes": 88236
+        },
+        {
+          "name": "Brett Broge",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 72958
+            },
+            {
+              "party": "Conservative",
+              "votes": 7783
+            }
+          ],
+          "total_votes": 80741
+        },
+        {
+          "name": "Kyle C. McGovern",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 73340
+            },
+            {
+              "party": "Conservative",
+              "votes": 8135
+            }
+          ],
+          "total_votes": 81475
+        },
+        {
+          "name": "Mary Anne Scattaretico-Naber",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 72858
+            },
+            {
+              "party": "Conservative",
+              "votes": 6992
+            }
+          ],
+          "total_votes": 79850
+        },
+        {
+          "name": "Rachel E. Tanguay",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 71655
+            },
+            {
+              "party": "Conservative",
+              "votes": 6666
+            }
+          ],
+          "total_votes": 78321
+        },
+        {
+          "name": "Thomas Humbach",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 68806
+            }
+          ],
+          "total_votes": 68806
+        },
+        {
+          "name": "Edward R. Mevec",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 65823
+            }
+          ],
+          "total_votes": 65823
+        },
+        {
+          "name": "Karen A. Ostberg",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 66478
+            }
+          ],
+          "total_votes": 66478
+        },
+        {
+          "name": "Mark T. Starkman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 65729
+            }
+          ],
+          "total_votes": 65729
+        },
+        {
+          "name": "Leslie Kahn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 64797
+            }
+          ],
+          "total_votes": 64797
+        }
+      ],
+      "write_in": 420,
+      "total_votes_cast": 891175,
+      "under_votes": 149109,
+      "over_votes": 1390,
+      "total_ballots_cast": 178235
+    },
+    {
+      "race_title": "Representative in Congress for 18th Congressional District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Pat Ryan",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 87141
+            },
+            {
+              "party": "Working Families",
+              "votes": 5463
+            }
+          ],
+          "total_votes": 92604
+        },
+        {
+          "name": "Alison Esposito",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 70586
+            },
+            {
+              "party": "Conservative",
+              "votes": 7514
+            }
+          ],
+          "total_votes": 78100
+        }
+      ],
+      "write_in": 123,
+      "total_votes_cast": 178502,
+      "under_votes": 7542,
+      "over_votes": 133,
+      "total_ballots_cast": 178502
+    },
+    {
+      "race_title": "State Senator for 39th Senatorial District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yvette Valdes Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 15327
+            },
+            {
+              "party": "Working Families",
+              "votes": 1307
+            }
+          ],
+          "total_votes": 16634
+        },
+        {
+          "name": "Rob Rolison",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 14171
+            },
+            {
+              "party": "Conservative",
+              "votes": 1633
+            }
+          ],
+          "total_votes": 15804
+        }
+      ],
+      "write_in": 18,
+      "total_votes_cast": 35184,
+      "under_votes": 2713,
+      "over_votes": 15,
+      "total_ballots_cast": 35184
+    },
+    {
+      "race_title": "State Senator for 42nd Senatorial District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "James G. Skoufis",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 68764
+            },
+            {
+              "party": "Working Families",
+              "votes": 4656
+            }
+          ],
+          "total_votes": 73420
+        },
+        {
+          "name": "Dorey F. Houle",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 54614
+            }
+          ],
+          "total_votes": 54614
+        },
+        {
+          "name": "Timothy Mitts",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 6694
+            }
+          ],
+          "total_votes": 6694
+        }
+      ],
+      "write_in": 77,
+      "total_votes_cast": 143051,
+      "under_votes": 8032,
+      "over_votes": 214,
+      "total_ballots_cast": 143051
+    },
+    {
+      "race_title": "Member of Assembly for 98th Assembly District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Karl A. Brabenec",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 25375
+            },
+            {
+              "party": "Conservative",
+              "votes": 3373
+            }
+          ],
+          "total_votes": 28748
+        }
+      ],
+      "write_in": 242,
+      "total_votes_cast": 43436,
+      "under_votes": 14443,
+      "over_votes": 3,
+      "total_ballots_cast": 43436
+    },
+    {
+      "race_title": "Member of Assembly for 99th Assembly District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christopher W. Eachus",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 24173
+            },
+            {
+              "party": "Working Families",
+              "votes": 1203
+            }
+          ],
+          "total_votes": 25376
+        },
+        {
+          "name": "Tom Lapolla",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 15183
+            },
+            {
+              "party": "Conservative",
+              "votes": 1687
+            }
+          ],
+          "total_votes": 16870
+        }
+      ],
+      "write_in": 23,
+      "total_votes_cast": 45015,
+      "under_votes": 2730,
+      "over_votes": 16,
+      "total_ballots_cast": 45015
+    },
+    {
+      "race_title": "Member of Assembly for 100th Assembly District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Paula Elaine Kay",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 11905
+            }
+          ],
+          "total_votes": 11905
+        },
+        {
+          "name": "Louis J. Ingrassia Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8592
+            },
+            {
+              "party": "Conservative",
+              "votes": 1058
+            }
+          ],
+          "total_votes": 9650
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 23317,
+      "under_votes": 1512,
+      "over_votes": 33,
+      "total_ballots_cast": 23317
+    },
+    {
+      "race_title": "Member of Assembly for 101st Assembly District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Brian M. Maher",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 24280
+            },
+            {
+              "party": "Conservative",
+              "votes": 3651
+            }
+          ],
+          "total_votes": 27931
+        }
+      ],
+      "write_in": 211,
+      "total_votes_cast": 43196,
+      "under_votes": 15051,
+      "over_votes": 3,
+      "total_ballots_cast": 43196
+    },
+    {
+      "race_title": "Member of Assembly for 104th Assembly District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jonathan G. Jacobson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 12195
+            },
+            {
+              "party": "Working Families",
+              "votes": 1882
+            }
+          ],
+          "total_votes": 14077
+        }
+      ],
+      "write_in": 89,
+      "total_votes_cast": 23271,
+      "under_votes": 9102,
+      "over_votes": 3,
+      "total_ballots_cast": 23271
+    },
+    {
+      "race_title": "Family Court Judge",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christine P. Krahulik",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 94858
+            },
+            {
+              "party": "Conservative",
+              "votes": 14239
+            }
+          ],
+          "total_votes": 109097
+        }
+      ],
+      "write_in": 686,
+      "total_votes_cast": 178235,
+      "under_votes": 68439,
+      "over_votes": 13,
+      "total_ballots_cast": 178235
+    },
+    {
+      "race_title": "County Legislator (TFV) for 9th Legislative District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ronald M. Feller",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 5647
+            }
+          ],
+          "total_votes": 5647
+        }
+      ],
+      "write_in": 28,
+      "total_votes_cast": 9797,
+      "under_votes": 4122,
+      "over_votes": 0,
+      "total_ballots_cast": 9797
+    },
+    {
+      "race_title": "City Court Judge (City of Newburgh)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Paul Trachte",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3912
+            },
+            {
+              "party": "Working Families",
+              "votes": 725
+            }
+          ],
+          "total_votes": 4637
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 6390,
+      "under_votes": 1744,
+      "over_votes": 1,
+      "total_ballots_cast": 6390
+    },
+    {
+      "race_title": "City Court Judge (City of Port Jervis)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kiel E. Vanhorn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1860
+            },
+            {
+              "party": "Conservative",
+              "votes": 312
+            }
+          ],
+          "total_votes": 2172
+        }
+      ],
+      "write_in": 15,
+      "total_votes_cast": 3359,
+      "under_votes": 1172,
+      "over_votes": 0,
+      "total_ballots_cast": 3359
+    },
+    {
+      "race_title": "Town Justice (Town of Chester)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Janet M. Haislip",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3500
+            },
+            {
+              "party": "Conservative",
+              "votes": 596
+            }
+          ],
+          "total_votes": 4096
+        }
+      ],
+      "write_in": 24,
+      "total_votes_cast": 6642,
+      "under_votes": 2522,
+      "over_votes": 0,
+      "total_ballots_cast": 6642
+    },
+    {
+      "race_title": "Town Justice (Town of Cornwall)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lynn A. Beesecker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3604
+            },
+            {
+              "party": "Conservative",
+              "votes": 1281
+            },
+            {
+              "party": "Working Families",
+              "votes": 334
+            }
+          ],
+          "total_votes": 5219
+        }
+      ],
+      "write_in": 39,
+      "total_votes_cast": 7432,
+      "under_votes": 2172,
+      "over_votes": 2,
+      "total_ballots_cast": 7432
+    },
+    {
+      "race_title": "Town Justice (Town of Woodbury)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Bruce Schonberg",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3488
+            }
+          ],
+          "total_votes": 3488
+        }
+      ],
+      "write_in": 28,
+      "total_votes_cast": 5831,
+      "under_votes": 2315,
+      "over_votes": 0,
+      "total_ballots_cast": 5831
+    },
+    {
+      "race_title": "Town Justice (Town of Minisink)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "George A. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1657
+            },
+            {
+              "party": "Conservative",
+              "votes": 179
+            }
+          ],
+          "total_votes": 1836
+        }
+      ],
+      "write_in": 17,
+      "total_votes_cast": 2573,
+      "under_votes": 720,
+      "over_votes": 0,
+      "total_ballots_cast": 2573
+    },
+    {
+      "race_title": "City Council Member (TFV - Port Jervis Ward 3)(cid:9)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jackie L. Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 370
+            }
+          ],
+          "total_votes": 370
+        },
+        {
+          "name": "Gerald Oney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 476
+            },
+            {
+              "party": "Conservative",
+              "votes": 49
+            }
+          ],
+          "total_votes": 525
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1007,
+      "under_votes": 90,
+      "over_votes": 4,
+      "total_ballots_cast": 1007
+    },
+    {
+      "race_title": "Council Member (TFV - Town of Woodbury)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sandra J. Capriglione",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1870
+            }
+          ],
+          "total_votes": 1870
+        }
+      ],
+      "write_in": 34,
+      "total_votes_cast": 5831,
+      "under_votes": 3619,
+      "over_votes": 0,
+      "total_ballots_cast": 5831
+    },
+    {
+      "race_title": "Council Member (TFV - Town of Deerpark)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert A. Whitney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2414
+            },
+            {
+              "party": "Conservative",
+              "votes": 305
+            }
+          ],
+          "total_votes": 2719
+        }
+      ],
+      "write_in": 13,
+      "total_votes_cast": 3656,
+      "under_votes": 924,
+      "over_votes": 0,
+      "total_ballots_cast": 3656
+    },
+    {
+      "race_title": "Council Member (TFV - Town of Hamptonburgh)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lyle Shute",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2212
+            }
+          ],
+          "total_votes": 2212
+        }
+      ],
+      "write_in": 19,
+      "total_votes_cast": 3352,
+      "under_votes": 1120,
+      "over_votes": 1,
+      "total_ballots_cast": 3352
+    },
+    {
+      "race_title": "Council Member (TFV - Town of Minisink)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michelle L. Miedema",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1676
+            },
+            {
+              "party": "Conservative",
+              "votes": 180
+            }
+          ],
+          "total_votes": 1856
+        }
+      ],
+      "write_in": 17,
+      "total_votes_cast": 2573,
+      "under_votes": 700,
+      "over_votes": 0,
+      "total_ballots_cast": 2573
+    },
+    {
+      "race_title": "Council Member (TFV - Town of Tuxedo)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christopher A. Dollbaum",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1296
+            }
+          ],
+          "total_votes": 1296
+        }
+      ],
+      "write_in": 20,
+      "total_votes_cast": 2266,
+      "under_votes": 950,
+      "over_votes": 0,
+      "total_ballots_cast": 2266
+    },
+    {
+      "race_title": "Council Member (TFV - Newburgh Town)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Mary McLymore",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 7349
+            }
+          ],
+          "total_votes": 7349
+        },
+        {
+          "name": "Jim Politi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 7447
+            },
+            {
+              "party": "Conservative",
+              "votes": 834
+            }
+          ],
+          "total_votes": 8281
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 16881,
+      "under_votes": 1241,
+      "over_votes": 5,
+      "total_ballots_cast": 16881
+    },
+    {
+      "race_title": "Receiver of Taxes (TFV - Town of Goshen)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nan Gil-Wilson",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 11
+            }
+          ],
+          "total_votes": 11
+        },
+        {
+          "name": "Mary Risso",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 3
+            }
+          ],
+          "total_votes": 3
+        },
+        {
+          "name": "Salvatore LaBruna",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 2
+            }
+          ],
+          "total_votes": 2
+        },
+        {
+          "name": "Edward Shaw",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Margaret Howe",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Matthew Weinrit",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Robert McLean",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Cindy Volkman",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Doug Mason",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Matthew Ulshafer",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "John Mullooly",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Echo",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Angela Silver",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Eric D. Silver",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "John Sibley",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Frank Ottochian",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Javon Delgado",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        },
+        {
+          "name": "Esther Tanis",
+          "party_lines": [
+            {
+              "party": "Write-In",
+              "votes": 1
+            }
+          ],
+          "total_votes": 1
+        }
+      ],
+      "write_in": 14,
+      "total_votes_cast": 7463,
+      "under_votes": 7418,
+      "over_votes": 0,
+      "total_ballots_cast": 7463
+    },
+    {
+      "race_title": "Superintendent of Highways (TFV - Town of Deerpark)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Raymond Cirulli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2455
+            },
+            {
+              "party": "Conservative",
+              "votes": 320
+            }
+          ],
+          "total_votes": 2775
+        }
+      ],
+      "write_in": 10,
+      "total_votes_cast": 3656,
+      "under_votes": 871,
+      "over_votes": 0,
+      "total_ballots_cast": 3656
+    },
+    {
+      "race_title": "Village Trustee (Chester Village)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Anthony Laspina 1st",
+          "party_lines": [
+            {
+              "party": "Community 1st",
+              "votes": 762
+            }
+          ],
+          "total_votes": 762
+        },
+        {
+          "name": "Elizabeth A. Reilly 1st",
+          "party_lines": [
+            {
+              "party": "Community 1st",
+              "votes": 743
+            }
+          ],
+          "total_votes": 743
+        }
+      ],
+      "write_in": 13,
+      "total_votes_cast": 4140,
+      "under_votes": 2620,
+      "over_votes": 2,
+      "total_ballots_cast": 2070
+    },
+    {
+      "race_title": "Village Trustee (Woodbury Village)",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tyler A. Etzel Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2118
+            }
+          ],
+          "total_votes": 2118
+        },
+        {
+          "name": "John U. Kelemen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2109
+            }
+          ],
+          "total_votes": 2109
+        },
+        {
+          "name": "Victor J. Ferrarelli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2309
+            },
+            {
+              "party": "Conservative",
+              "votes": 499
+            }
+          ],
+          "total_votes": 2808
+        },
+        {
+          "name": "Susan Fries-Ciriello",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2245
+            },
+            {
+              "party": "Conservative",
+              "votes": 488
+            }
+          ],
+          "total_votes": 2733
+        }
+      ],
+      "write_in": 19,
+      "total_votes_cast": 5072,
+      "under_votes": 878,
+      "over_votes": 0,
+      "total_ballots_cast": 5072
+    }
+  ]
+}
