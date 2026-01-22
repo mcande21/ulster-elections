@@ -21,7 +21,7 @@ export const Dashboard = () => {
   if (isLoading && !races) {
     return (
       <Layout style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Spin size="large" tip="Loading races...">
+        <Spin size="large" tip="What up Brian">
           <div style={{ padding: 50 }} />
         </Spin>
       </Layout>

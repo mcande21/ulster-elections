@@ -8,10 +8,17 @@ export const api = axios.create({
 });
 
 interface VulnerabilityFilters {
-  county?: string[];
-  party?: string[];
-  competitiveness?: string[];
-  raceType?: string[];
+  county?: string | string[];
+  party?: string | string[];
+  competitiveness?: string | string[];
+  raceType?: string | string[];
+}
+
+// Helper to normalize filter values (handles both string and string[])
+function normalizeFilter(value?: string | string[]): string | undefined {
+  if (!value) return undefined;
+  if (Array.isArray(value)) return value.length ? value.join(',') : undefined;
+  return value;
 }
 
 export async function getFusionMetrics(raceId: number): Promise<RaceFusionMetrics> {
@@ -25,10 +32,15 @@ export async function getVulnerabilityScores(
 ): Promise<VulnerabilityScore[]> {
   const params: Record<string, string | number> = { limit };
 
-  if (filters?.county?.length) params.county = filters.county.join(',');
-  if (filters?.party?.length) params.party = filters.party.join(',');
-  if (filters?.competitiveness?.length) params.competitiveness = filters.competitiveness.join(',');
-  if (filters?.raceType?.length) params.raceType = filters.raceType.join(',');
+  const county = normalizeFilter(filters?.county);
+  const party = normalizeFilter(filters?.party);
+  const competitiveness = normalizeFilter(filters?.competitiveness);
+  const raceType = normalizeFilter(filters?.raceType);
+
+  if (county) params.county = county;
+  if (party) params.party = party;
+  if (competitiveness) params.competitiveness = competitiveness;
+  if (raceType) params.raceType = raceType;
 
   const response = await api.get('/api/races/vulnerability', { params });
   return response.data;

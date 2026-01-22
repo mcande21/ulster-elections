@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
-import { Table, Tag, Typography, Input, Card, Spin, Descriptions } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
+import { Table, Tag, Typography, Input, Card, Spin, Descriptions, Tooltip } from 'antd';
+import { SearchOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import type { ColumnsType, TablePaginationConfig } from 'antd/es/table';
 import type { FilterValue, SorterResult } from 'antd/es/table/interface';
 import type { Race, RaceFusionMetrics } from '../types';
@@ -104,7 +104,13 @@ export const RacesTable = ({ races }: RacesTableProps) => {
             {data.margin_of_victory.toLocaleString()} votes
           </Descriptions.Item>
           {data.decisive_minor_party && (
-            <Descriptions.Item label="Decisive Minor Party">
+            <Descriptions.Item
+              label={
+                <Tooltip title="A minor party is 'decisive' when its votes alone exceed the margin of victory - removing that party line would flip the result.">
+                  Decisive Minor Party <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                </Tooltip>
+              }
+            >
               <Tag color={getPartyColor(data.decisive_minor_party)}>
                 {data.decisive_minor_party}
               </Tag>
@@ -124,7 +130,13 @@ export const RacesTable = ({ races }: RacesTableProps) => {
             <Descriptions.Item label="Minor Party Share">
               {data.winner_metrics.minor_party_share.toFixed(1)}%
             </Descriptions.Item>
-            <Descriptions.Item label="Leverage">
+            <Descriptions.Item
+              label={
+                <Tooltip title="Leverage = Minor party votes ÷ Margin of victory. Values >1.0 mean the minor party alone provided enough votes to flip the outcome.">
+                  Leverage <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                </Tooltip>
+              }
+            >
               {getLeverageTag(data.winner_leverage)}
             </Descriptions.Item>
           </Descriptions>
@@ -153,7 +165,13 @@ export const RacesTable = ({ races }: RacesTableProps) => {
               <Descriptions.Item label="Minor Party Share">
                 {data.runner_up_metrics.minor_party_share.toFixed(1)}%
               </Descriptions.Item>
-              <Descriptions.Item label="Leverage">
+              <Descriptions.Item
+                label={
+                  <Tooltip title="Leverage = Minor party votes ÷ Margin of victory. Values >1.0 mean the minor party alone provided enough votes to flip the outcome.">
+                    Leverage <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                  </Tooltip>
+                }
+              >
                 {getLeverageTag(data.runner_up_leverage)}
               </Descriptions.Item>
             </Descriptions>
@@ -220,7 +238,11 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       defaultSortOrder: 'ascend',
     },
     {
-      title: 'Competitiveness',
+      title: (
+        <Tooltip title="Based on margin %: Thin (<2%), Lean (2-5%), Likely (5-10%), Safe (>10%)">
+          Competitiveness <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+        </Tooltip>
+      ),
       dataIndex: 'competitiveness_band',
       key: 'competitiveness_band',
       filters: [
