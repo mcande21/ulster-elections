@@ -13,7 +13,8 @@ services:
         sync: false
 
   # Frontend Static Site
-  - type: static_site
+  - type: web
+    runtime: static
     name: ulster-elections
     rootDir: frontend
     buildCommand: npm install && npm run build
