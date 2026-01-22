@@ -76,9 +76,27 @@ async def get_filters():
 
 
 @router.get("/races/vulnerability", response_model=List[VulnerabilityScore])
-async def get_vulnerability(limit: int = Query(20, description="Number of races to return")):
-    """Get races ranked by vulnerability score."""
-    return get_vulnerability_scores(limit)
+async def get_vulnerability(
+    limit: int = Query(20, description="Number of races to return"),
+    county: Optional[str] = Query(None, description="Comma-separated counties"),
+    competitiveness: Optional[str] = Query(None, description="Comma-separated competitiveness levels"),
+    party: Optional[str] = Query(None, description="Comma-separated parties"),
+    raceType: Optional[str] = Query(None, description="Comma-separated race types"),
+):
+    """Get races ranked by vulnerability score, with optional filters."""
+    # Parse comma-separated query params
+    county_list = county.split(",") if county else None
+    comp_list = competitiveness.split(",") if competitiveness else None
+    party_list = party.split(",") if party else None
+    race_type_list = raceType.split(",") if raceType else None
+
+    return get_vulnerability_scores(
+        limit=limit,
+        county=county_list,
+        competitiveness=comp_list,
+        party=party_list,
+        race_type=race_type_list,
+    )
 
 
 @router.get("/races/{race_id}/fusion", response_model=RaceFusionMetrics)

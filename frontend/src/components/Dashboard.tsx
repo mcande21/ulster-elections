@@ -61,7 +61,7 @@ export const Dashboard = () => {
           <StatCards races={races || []} />
 
           <div style={{ marginTop: 24 }}>
-            <VulnerabilityPanel />
+            <VulnerabilityPanel filters={filters} />
           </div>
 
           <Row gutter={16} style={{ marginTop: 24 }}>

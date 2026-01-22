@@ -358,7 +358,13 @@ def calculate_vulnerability_score(
     return round(min(100, max(0, final_score)), 1)
 
 
-def get_vulnerability_scores(limit: int = 20) -> List[dict]:
+def get_vulnerability_scores(
+    limit: int = 20,
+    county: Optional[List[str]] = None,
+    competitiveness: Optional[List[str]] = None,
+    party: Optional[List[str]] = None,
+    race_type: Optional[List[str]] = None,
+) -> List[dict]:
     """Get races ranked by vulnerability score.
 
     Strategic vulnerability scoring for political analysis.
@@ -377,12 +383,15 @@ def get_vulnerability_scores(limit: int = 20) -> List[dict]:
     with pool.connection() as conn:
         with conn.cursor(row_factory=dict_row) as cursor:
 
-            query = """
+            # Build WHERE clause for SQL-filterable fields
+            where_clause, params = build_where_clause(county=county, party=party)
+
+            query = f"""
             SELECT
                 r.id,
                 r.race_title,
                 r.county,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
                 r.total_votes_cast,
                 r.under_votes,
                 r.total_ballots_cast,
@@ -390,12 +399,13 @@ def get_vulnerability_scores(limit: int = 20) -> List[dict]:
                 MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes
             FROM races r
             JOIN candidates c ON r.id = c.race_id
+            {where_clause}
             GROUP BY r.id
             HAVING MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) IS NOT NULL
                 AND MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) IS NOT NULL
             """
 
-            cursor.execute(query)
+            cursor.execute(query, params)
             rows = cursor.fetchall()
 
     results = []
@@ -409,10 +419,16 @@ def get_vulnerability_scores(limit: int = 20) -> List[dict]:
 
         vote_diff = winner_votes - runnerup_votes
         margin = (vote_diff / total_votes) * 100
-        winner_party = row['winner_party'] or ''
+        winner_party_raw = row['winner_party_raw'] or ''
 
         # Normalize party using existing function
-        normalized_party = normalize_party(winner_party)
+        normalized_party = normalize_party(winner_party_raw)
+
+        # Extract race type for filtering
+        race_type_str = extract_race_type(row['race_title'])
+
+        # Determine competitiveness band for filtering
+        competitiveness_band = determine_competitiveness_band(margin)
 
         # Determine category based on winner party
         if normalized_party == 'R':
@@ -438,8 +454,17 @@ def get_vulnerability_scores(limit: int = 20) -> List[dict]:
             'category': category,
             'race_title': row['race_title'],
             'county': row['county'],
-            'margin_pct': round(margin, 1)
+            'margin_pct': round(margin, 1),
+            'race_type': race_type_str,
+            'competitiveness_band': competitiveness_band,
         })
+
+    # Apply post-query filters (calculated fields)
+    if competitiveness:
+        results = [r for r in results if r['competitiveness_band'] in competitiveness]
+
+    if race_type:
+        results = [r for r in results if r['race_type'] in race_type]
 
     # Sort by vulnerability score descending (highest vulnerability first)
     results.sort(key=lambda x: x['vulnerability_score'], reverse=True)
