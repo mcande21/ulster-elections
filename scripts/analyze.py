@@ -12,18 +12,21 @@ Outputs three CSV reports to data/analysis/:
 - full_vulnerability_report.csv: Combined analysis
 """
 
-import sqlite3
 import csv
+import os
 from pathlib import Path
-from typing import List, Dict, Tuple
+from typing import List, Dict
+
+from dotenv import load_dotenv
+import psycopg
 
 
-def connect_db(db_path: str) -> sqlite3.Connection:
+def connect_db(database_url: str) -> psycopg.Connection:
     """Connect to the elections database."""
-    return sqlite3.connect(db_path)
+    return psycopg.connect(database_url)
 
 
-def get_flip_opportunities(conn: sqlite3.Connection) -> List[Dict]:
+def get_flip_opportunities(conn: psycopg.Connection) -> List[Dict]:
     """
     Find R-held seats where Democrats came within 10%.
     These represent the best opportunities to flip in 2026.
@@ -53,12 +56,12 @@ def get_flip_opportunities(conn: sqlite3.Connection) -> List[Dict]:
             ru.vote_share * 100 as runner_up_pct,
             (w.vote_share - COALESCE(ru.vote_share, 0)) * 100 as margin_of_victory
         FROM races r
-        JOIN candidates w ON w.race_id = r.id AND w.is_winner = 1
-        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = 0
+        JOIN candidates w ON w.race_id = r.id AND w.is_winner = TRUE
+        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = FALSE
             AND ru.total_votes = (
                 SELECT MAX(total_votes)
                 FROM candidates
-                WHERE race_id = r.id AND is_winner = 0
+                WHERE race_id = r.id AND is_winner = FALSE
             )
     )
     WHERE winner_coalition = 'R'
@@ -74,7 +77,7 @@ def get_flip_opportunities(conn: sqlite3.Connection) -> List[Dict]:
     return [dict(zip(columns, row)) for row in cursor.fetchall()]
 
 
-def get_retention_risks(conn: sqlite3.Connection) -> List[Dict]:
+def get_retention_risks(conn: psycopg.Connection) -> List[Dict]:
     """
     Find D-held seats where Republicans came within 10%.
     These represent the seats Democrats must defend in 2026.
@@ -104,12 +107,12 @@ def get_retention_risks(conn: sqlite3.Connection) -> List[Dict]:
             ru.vote_share * 100 as runner_up_pct,
             (w.vote_share - COALESCE(ru.vote_share, 0)) * 100 as margin_of_victory
         FROM races r
-        JOIN candidates w ON w.race_id = r.id AND w.is_winner = 1
-        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = 0
+        JOIN candidates w ON w.race_id = r.id AND w.is_winner = TRUE
+        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = FALSE
             AND ru.total_votes = (
                 SELECT MAX(total_votes)
                 FROM candidates
-                WHERE race_id = r.id AND is_winner = 0
+                WHERE race_id = r.id AND is_winner = FALSE
             )
     )
     WHERE winner_coalition = 'D'
@@ -181,12 +184,19 @@ def print_summary(flip_opps: List[Dict], retention_risks: List[Dict]) -> None:
 
 def main():
     """Run vulnerability analysis and generate reports."""
-    # Paths
-    db_path = "data/normalized/elections.db"
+    # Load environment from backend/.env
+    project_root = Path(__file__).parent.parent
+    env_path = project_root / "backend" / ".env"
+    load_dotenv(env_path)
+
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    if not DATABASE_URL:
+        raise ValueError("DATABASE_URL not found in backend/.env")
+
     output_dir = "data/analysis"
 
     # Connect to database
-    conn = connect_db(db_path)
+    conn = connect_db(DATABASE_URL)
 
     try:
         # Run analyses

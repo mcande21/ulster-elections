@@ -1,14 +1,38 @@
-"""SQLite database query service."""
+"""PostgreSQL database query service."""
 
-import sqlite3
-from pathlib import Path
 from typing import List, Optional, Dict, Any
+import psycopg
+from psycopg.rows import dict_row
+from psycopg_pool import ConnectionPool
 
 from ..models.schemas import RaceData, StatsResponse, FilterOptions
+from ..config import DATABASE_URL
 
 
-# Database path relative to backend directory
-DB_PATH = Path(__file__).parent.parent.parent.parent / "data" / "normalized" / "elections.db"
+# Connection pool (initialized by app lifespan)
+_pool: Optional[ConnectionPool] = None
+
+
+def init_pool():
+    """Initialize the connection pool."""
+    global _pool
+    if _pool is None:
+        _pool = ConnectionPool(DATABASE_URL, min_size=1, max_size=10)
+
+
+def close_pool():
+    """Close the connection pool."""
+    global _pool
+    if _pool is not None:
+        _pool.close()
+        _pool = None
+
+
+def get_pool() -> ConnectionPool:
+    """Get the connection pool."""
+    if _pool is None:
+        raise RuntimeError("Connection pool not initialized. Call init_pool() first.")
+    return _pool
 
 
 def extract_race_type(race_title: str) -> str:
@@ -73,13 +97,13 @@ def build_where_clause(
     params = []
 
     if county:
-        placeholders = ",".join("?" * len(county))
+        placeholders = ", ".join(["%s"] * len(county))
         conditions.append(f"r.county IN ({placeholders})")
         params.extend(county)
 
     if party:
         # Party filter applies to winner_party (will be normalized later)
-        placeholders = ",".join("?" * len(party))
+        placeholders = ", ".join(["%s"] * len(party))
         conditions.append(f"winner_party_raw IN ({placeholders})")
         params.extend(party)
 
@@ -98,33 +122,34 @@ def get_races(
     order: str = "asc",
 ) -> List[RaceData]:
     """Query races from database with filtering and sorting."""
-    with sqlite3.connect(DB_PATH) as conn:
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
+    pool = get_pool()
+    with pool.connection() as conn:
+        with conn.cursor(row_factory=dict_row) as cursor:
 
-        where_clause, params = build_where_clause(county, party=party)
+            where_clause, params = build_where_clause(county, party=party)
 
-        query = f"""
-        SELECT
-            r.id,
-            r.county,
-            r.race_title,
-            r.total_votes_cast,
-            MAX(CASE WHEN c.is_winner THEN c.total_votes END) as winner_votes,
-            MAX(CASE WHEN c.is_winner THEN c.name END) as winner_name,
-            MAX(CASE WHEN c.is_winner THEN c.party_coalition END) as winner_party_raw,
-            MAX(CASE WHEN NOT c.is_winner THEN c.total_votes END) as runnerup_votes,
-            MAX(CASE WHEN NOT c.is_winner THEN c.name END) as runnerup_name,
-            MAX(CASE WHEN NOT c.is_winner THEN c.party_coalition END) as runnerup_party_raw
-        FROM races r
-        JOIN candidates c ON r.id = c.race_id
-        {where_clause}
-        GROUP BY r.id
-        HAVING winner_votes IS NOT NULL AND runnerup_votes IS NOT NULL
-        """
+            query = f"""
+            SELECT
+                r.id,
+                r.county,
+                r.race_title,
+                r.total_votes_cast,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.name END) as winner_name,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
+                MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes,
+                MAX(CASE WHEN c.is_winner = FALSE THEN c.name END) as runnerup_name,
+                MAX(CASE WHEN c.is_winner = FALSE THEN c.party_coalition END) as runnerup_party_raw
+            FROM races r
+            JOIN candidates c ON r.id = c.race_id
+            {where_clause}
+            GROUP BY r.id
+            HAVING MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) IS NOT NULL
+                AND MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) IS NOT NULL
+            """
 
-        cursor.execute(query, params)
-        rows = cursor.fetchall()
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
 
     races = []
     for row in rows:
@@ -200,21 +225,21 @@ def get_stats(
 
 def get_filter_options() -> FilterOptions:
     """Get available filter options from database."""
-    with sqlite3.connect(DB_PATH) as conn:
-        conn.row_factory = sqlite3.Row
-        cursor = conn.cursor()
+    pool = get_pool()
+    with pool.connection() as conn:
+        with conn.cursor(row_factory=dict_row) as cursor:
 
-        # Get all races to extract unique values
-        query = """
-        SELECT DISTINCT r.county, r.race_title,
-            MAX(CASE WHEN c.is_winner THEN c.party_coalition END) as winner_party
-        FROM races r
-        JOIN candidates c ON r.id = c.race_id
-        GROUP BY r.id
-        """
+            # Get all races to extract unique values
+            query = """
+            SELECT DISTINCT r.county, r.race_title,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party
+            FROM races r
+            JOIN candidates c ON r.id = c.race_id
+            GROUP BY r.id
+            """
 
-        cursor.execute(query)
-        rows = cursor.fetchall()
+            cursor.execute(query)
+            rows = cursor.fetchall()
 
     counties = sorted(set(row["county"] for row in rows))
     race_types = sorted(set(extract_race_type(row["race_title"]) for row in rows))

@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
 """
-Load election data from JSON files into SQLite database with vulnerability scoring.
+Load election data from JSON files into PostgreSQL database with vulnerability scoring.
 """
 
 import json
-import sqlite3
+import os
 from pathlib import Path
 from typing import Dict, List
 
+from dotenv import load_dotenv
+import psycopg
 
-def create_schema(conn: sqlite3.Connection) -> None:
+
+def create_schema(conn: psycopg.Connection) -> None:
     """Create database schema."""
     cursor = conn.cursor()
 
+    # Drop existing views and tables
+    cursor.execute("DROP VIEW IF EXISTS turnout_analysis CASCADE")
+    cursor.execute("DROP VIEW IF EXISTS party_performance CASCADE")
+    cursor.execute("DROP VIEW IF EXISTS competitive_races CASCADE")
+    cursor.execute("DROP TABLE IF EXISTS party_lines CASCADE")
+    cursor.execute("DROP TABLE IF EXISTS candidates CASCADE")
+    cursor.execute("DROP TABLE IF EXISTS races CASCADE")
+
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS races (
-            id INTEGER PRIMARY KEY,
+        CREATE TABLE races (
+            id SERIAL PRIMARY KEY,
             county TEXT NOT NULL,
             election_date DATE,
             race_title TEXT NOT NULL,
@@ -28,20 +39,20 @@ def create_schema(conn: sqlite3.Connection) -> None:
     """)
 
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS candidates (
-            id INTEGER PRIMARY KEY,
+        CREATE TABLE candidates (
+            id SERIAL PRIMARY KEY,
             race_id INTEGER REFERENCES races(id),
             name TEXT NOT NULL,
             total_votes INTEGER,
-            is_winner BOOLEAN DEFAULT 0,
+            is_winner BOOLEAN DEFAULT FALSE,
             vote_share REAL,
             party_coalition TEXT
         )
     """)
 
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS party_lines (
-            id INTEGER PRIMARY KEY,
+        CREATE TABLE party_lines (
+            id SERIAL PRIMARY KEY,
             candidate_id INTEGER REFERENCES candidates(id),
             party TEXT NOT NULL,
             votes INTEGER
@@ -49,9 +60,9 @@ def create_schema(conn: sqlite3.Connection) -> None:
     """)
 
     # Create indexes for faster queries
-    cursor.execute("CREATE INDEX IF NOT EXISTS idx_candidates_race ON candidates(race_id)")
-    cursor.execute("CREATE INDEX IF NOT EXISTS idx_party_lines_candidate ON party_lines(candidate_id)")
-    cursor.execute("CREATE INDEX IF NOT EXISTS idx_races_county ON races(county)")
+    cursor.execute("CREATE INDEX idx_candidates_race ON candidates(race_id)")
+    cursor.execute("CREATE INDEX idx_party_lines_candidate ON party_lines(candidate_id)")
+    cursor.execute("CREATE INDEX idx_races_county ON races(county)")
 
     conn.commit()
 
@@ -68,7 +79,7 @@ def determine_coalition(party_lines: List[Dict]) -> str:
         return 'Other'
 
 
-def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_data: Dict) -> None:
+def load_race(conn: psycopg.Connection, county: str, election_date: str, race_data: Dict) -> None:
     """Load a single race and its candidates into the database."""
     cursor = conn.cursor()
 
@@ -76,7 +87,8 @@ def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_da
     cursor.execute("""
         INSERT INTO races (county, election_date, race_title, vote_for, total_votes_cast,
                           under_votes, over_votes, total_ballots_cast)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        RETURNING id
     """, (
         county,
         election_date,
@@ -88,7 +100,7 @@ def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_da
         race_data.get('total_ballots_cast')
     ))
 
-    race_id = cursor.lastrowid
+    race_id = cursor.fetchone()[0]
     total_votes = race_data.get('total_votes_cast', 0)
 
     # Find winner (highest vote total)
@@ -108,7 +120,8 @@ def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_da
             cursor.execute("""
                 INSERT INTO candidates (race_id, name, total_votes, is_winner,
                                       vote_share, party_coalition)
-                VALUES (?, ?, ?, ?, ?, ?)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                RETURNING id
             """, (
                 race_id,
                 candidate['name'],
@@ -118,13 +131,13 @@ def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_da
                 party_coalition
             ))
 
-            candidate_id = cursor.lastrowid
+            candidate_id = cursor.fetchone()[0]
 
             # Load party lines
             for party_line in candidate.get('party_lines', []):
                 cursor.execute("""
                     INSERT INTO party_lines (candidate_id, party, votes)
-                    VALUES (?, ?, ?)
+                    VALUES (%s, %s, %s)
                 """, (
                     candidate_id,
                     party_line['party'],
@@ -134,7 +147,7 @@ def load_race(conn: sqlite3.Connection, county: str, election_date: str, race_da
     conn.commit()
 
 
-def load_json_file(conn: sqlite3.Connection, json_path: Path) -> int:
+def load_json_file(conn: psycopg.Connection, json_path: Path) -> int:
     """Load all races from a JSON file."""
     with open(json_path) as f:
         data = json.load(f)
@@ -149,13 +162,13 @@ def load_json_file(conn: sqlite3.Connection, json_path: Path) -> int:
     return len(races)
 
 
-def create_analysis_views(conn: sqlite3.Connection) -> None:
+def create_analysis_views(conn: psycopg.Connection) -> None:
     """Create views for vulnerability analysis."""
     cursor = conn.cursor()
 
     # Competitive races view (margin < 10%)
     cursor.execute("""
-        CREATE VIEW IF NOT EXISTS competitive_races AS
+        CREATE VIEW competitive_races AS
         WITH race_margins AS (
             SELECT
                 r.id,
@@ -187,7 +200,7 @@ def create_analysis_views(conn: sqlite3.Connection) -> None:
 
     # Party performance summary
     cursor.execute("""
-        CREATE VIEW IF NOT EXISTS party_performance AS
+        CREATE VIEW party_performance AS
         SELECT
             r.county,
             c.party_coalition,
@@ -203,7 +216,7 @@ def create_analysis_views(conn: sqlite3.Connection) -> None:
 
     # Turnout analysis
     cursor.execute("""
-        CREATE VIEW IF NOT EXISTS turnout_analysis AS
+        CREATE VIEW turnout_analysis AS
         SELECT
             county,
             race_title,
@@ -221,7 +234,7 @@ def create_analysis_views(conn: sqlite3.Connection) -> None:
     conn.commit()
 
 
-def print_summary(conn: sqlite3.Connection) -> None:
+def print_summary(conn: psycopg.Connection) -> None:
     """Print summary statistics."""
     cursor = conn.cursor()
 
@@ -284,36 +297,41 @@ def print_summary(conn: sqlite3.Connection) -> None:
 
 def main():
     """Main execution."""
-    # Setup paths
+    # Load environment from backend/.env
     project_root = Path(__file__).parent.parent
-    db_path = project_root / "data" / "normalized" / "elections.db"
+    env_path = project_root / "backend" / ".env"
+    load_dotenv(env_path)
+
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    if not DATABASE_URL:
+        raise ValueError("DATABASE_URL not found in backend/.env")
+
+    # Setup paths
     raw_dir = project_root / "data" / "raw"
 
-    # Remove existing database for clean load
-    if db_path.exists():
-        db_path.unlink()
-
     # Connect and create schema
-    conn = sqlite3.connect(db_path)
-    print("Creating database schema...")
-    create_schema(conn)
+    print(f"Connecting to PostgreSQL...")
+    with psycopg.connect(DATABASE_URL) as conn:
+        print("Creating database schema...")
+        create_schema(conn)
 
-    # Load data files (glob-load all JSON files)
-    print("\nLoading data files...")
+        # Load data files (glob-load all JSON files)
+        print("\nLoading data files...")
 
-    for json_file in sorted(raw_dir.glob("*.json")):
-        count = load_json_file(conn, json_file)
-        print(f"Loaded {count} races from {json_file.name}")
+        for json_file in sorted(raw_dir.glob("*.json")):
+            count = load_json_file(conn, json_file)
+            print(f"Loaded {count} races from {json_file.name}")
 
-    # Create analysis views
-    print("\nCreating analysis views...")
-    create_analysis_views(conn)
+        # Create analysis views
+        print("\nCreating analysis views...")
+        create_analysis_views(conn)
 
-    # Print summary
-    print_summary(conn)
+        # Print summary
+        print_summary(conn)
 
-    conn.close()
-    print(f"\n✓ Database created: {db_path}")
+        conn.commit()
+
+    print(f"\n✓ Database loaded successfully")
 
 
 if __name__ == "__main__":

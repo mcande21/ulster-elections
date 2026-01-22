@@ -1,0 +1,14 @@
+{
+  "name": "ulster-elections",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Generate visualization data from elections database."""
 
-import sqlite3
 import json
 import os
 from pathlib import Path
 
-# Database path
-DB_PATH = Path(__file__).parent.parent / "data" / "normalized" / "elections.db"
+from dotenv import load_dotenv
+import psycopg
+
+# Output path
 OUTPUT_PATH = Path(__file__).parent.parent / "viz" / "data.js"
 
 def extract_race_type(race_title):
@@ -60,8 +61,16 @@ def normalize_party(party_str):
 
 def generate_data():
     """Query database and generate JavaScript data file."""
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
+    # Load environment from backend/.env
+    project_root = Path(__file__).parent.parent
+    env_path = project_root / "backend" / ".env"
+    load_dotenv(env_path)
+
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    if not DATABASE_URL:
+        raise ValueError("DATABASE_URL not found in backend/.env")
+
+    conn = psycopg.connect(DATABASE_URL)
     cursor = conn.cursor()
 
     query = """
@@ -87,9 +96,14 @@ def generate_data():
 
     races = []
     for row in rows:
-        total_votes = row["total_votes_cast"] or 0
-        winner_votes = row["winner_votes"] or 0
-        runnerup_votes = row["runnerup_votes"] or 0
+        # psycopg returns tuples, not Row objects - unpack manually
+        (race_id, county, race_title, total_votes_cast,
+         winner_votes, winner_name, winner_party,
+         runnerup_votes, runnerup_name, runnerup_party) = row
+
+        total_votes = total_votes_cast or 0
+        winner_votes = winner_votes or 0
+        runnerup_votes = runnerup_votes or 0
 
         if total_votes == 0:
             continue
@@ -98,15 +112,15 @@ def generate_data():
         margin_pct = (vote_deficit / total_votes) * 100
 
         race_data = {
-            "id": row["id"],
-            "county": row["county"],
-            "race_title": row["race_title"],
-            "race_type": extract_race_type(row["race_title"]),
-            "winner_name": row["winner_name"],
-            "winner_party": normalize_party(row["winner_party"]),
+            "id": race_id,
+            "county": county,
+            "race_title": race_title,
+            "race_type": extract_race_type(race_title),
+            "winner_name": winner_name,
+            "winner_party": normalize_party(winner_party),
             "winner_votes": winner_votes,
-            "runnerup_name": row["runnerup_name"],
-            "runnerup_party": normalize_party(row["runnerup_party"]),
+            "runnerup_name": runnerup_name,
+            "runnerup_party": normalize_party(runnerup_party),
             "runnerup_votes": runnerup_votes,
             "total_votes": total_votes,
             "margin_pct": round(margin_pct, 2),
