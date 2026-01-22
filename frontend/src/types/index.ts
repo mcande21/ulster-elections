@@ -4,8 +4,10 @@ export interface Race {
   race_title: string;
   winner_name: string;
   winner_party: string;
+  winner_votes: number;
   runner_up_name: string;
   runner_up_party: string;
+  runner_up_votes: number;
   margin_pct: number;
   vote_diff: number;
   competitiveness_band: string;

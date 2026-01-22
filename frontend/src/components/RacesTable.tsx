@@ -100,6 +100,13 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       defaultSortOrder: 'ascend',
     },
     {
+      title: 'Vote Diff',
+      dataIndex: 'vote_diff',
+      key: 'vote_diff',
+      sorter: (a, b) => a.vote_diff - b.vote_diff,
+      render: (diff: number) => diff.toLocaleString(),
+    },
+    {
       title: 'Competitiveness',
       dataIndex: 'competitiveness_band',
       key: 'competitiveness_band',

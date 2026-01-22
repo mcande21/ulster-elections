@@ -92,7 +92,7 @@ async def upload_pdf(file: UploadFile = File(...)):
     # Run import script
     try:
         result = subprocess.run(
-            ["python3", str(IMPORT_SCRIPT), "--full"],
+            ["python3", str(IMPORT_SCRIPT), str(file_path), "--full"],
             cwd=str(IMPORT_SCRIPT.parent.parent),
             capture_output=True,
             text=True,

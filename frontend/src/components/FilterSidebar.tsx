@@ -14,6 +14,7 @@ interface FilterSidebarProps {
 export const FilterSidebar = ({ filters, onFilterChange, onClearFilters, filterOptions }: FilterSidebarProps) => {
   const counties = filterOptions?.counties || [];
   const raceTypes = filterOptions?.raceTypes || [];
+  const parties = filterOptions?.parties || [];
 
   return (
     <Card
@@ -60,6 +61,21 @@ export const FilterSidebar = ({ filters, onFilterChange, onClearFilters, filterO
           options={raceTypes.map(r => ({ label: r, value: r }))}
           value={filters.raceType ? filters.raceType.split(',') : []}
           onChange={(values) => onFilterChange('raceType', values.join(','))}
+          style={{ display: 'flex', flexDirection: 'column', gap: 4 }}
+        />
+      </div>
+
+      <Divider style={{ margin: '12px 0' }} />
+
+      <div style={{ marginBottom: 16 }}>
+        <Title level={5} style={{ marginBottom: 8 }}>Party</Title>
+        <Checkbox.Group
+          options={parties.map(p => ({
+            label: p === 'D' ? 'Democrat' : p === 'R' ? 'Republican' : p,
+            value: p
+          }))}
+          value={filters.party ? filters.party.split(',') : []}
+          onChange={(values) => onFilterChange('party', values.join(','))}
           style={{ display: 'flex', flexDirection: 'column', gap: 4 }}
         />
       </div>
