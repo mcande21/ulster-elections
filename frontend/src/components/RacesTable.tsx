@@ -1,9 +1,10 @@
 import { useState, useMemo } from 'react';
-import { Table, Tag, Typography, Input, Card } from 'antd';
+import { Table, Tag, Typography, Input, Card, Spin, Descriptions } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import type { ColumnsType, TablePaginationConfig } from 'antd/es/table';
 import type { FilterValue, SorterResult } from 'antd/es/table/interface';
-import type { Race } from '../types';
+import type { Race, RaceFusionMetrics } from '../types';
+import { getFusionMetrics } from '../api/client';
 
 const { Text } = Typography;
 
@@ -26,6 +27,8 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       pageSize: 10,
     },
   });
+  const [fusionData, setFusionData] = useState<Record<number, RaceFusionMetrics>>({});
+  const [loadingFusion, setLoadingFusion] = useState<Record<number, boolean>>({});
 
   // Filter races based on search text across multiple fields
   const filteredRaces = useMemo(() => {
@@ -51,6 +54,123 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       default:
         return 'default';
     }
+  };
+
+  const getPartyColor = (party: string): string => {
+    const p = party.toLowerCase();
+    if (p.includes('dem')) return 'blue';
+    if (p.includes('rep')) return 'red';
+    if (p.includes('con')) return 'purple';
+    if (p.includes('wor')) return 'orange';
+    if (p.includes('ind')) return 'cyan';
+    return 'default';
+  };
+
+  const getLeverageTag = (leverage: number | null): JSX.Element | null => {
+    if (leverage === null) return null;
+    if (leverage > 1.5) return <Tag color="red">High Leverage</Tag>;
+    if (leverage > 1.0) return <Tag color="orange">Moderate Leverage</Tag>;
+    return <Tag color="green">Low Leverage</Tag>;
+  };
+
+  const handleExpand = async (expanded: boolean, record: Race) => {
+    if (expanded && !fusionData[record.id]) {
+      setLoadingFusion(prev => ({ ...prev, [record.id]: true }));
+      try {
+        const data = await getFusionMetrics(record.id);
+        setFusionData(prev => ({ ...prev, [record.id]: data }));
+      } catch (error) {
+        console.error('Failed to load fusion metrics:', error);
+      } finally {
+        setLoadingFusion(prev => ({ ...prev, [record.id]: false }));
+      }
+    }
+  };
+
+  const renderFusionDetails = (record: Race) => {
+    if (loadingFusion[record.id]) {
+      return <Spin />;
+    }
+
+    const data = fusionData[record.id];
+    if (!data) {
+      return <div>No fusion data available</div>;
+    }
+
+    return (
+      <div style={{ padding: '16px', background: '#fafafa' }}>
+        <Descriptions title="Fusion Voting Analysis" bordered column={2}>
+          <Descriptions.Item label="Margin of Victory">
+            {data.margin_of_victory.toLocaleString()} votes
+          </Descriptions.Item>
+          {data.decisive_minor_party && (
+            <Descriptions.Item label="Decisive Minor Party">
+              <Tag color={getPartyColor(data.decisive_minor_party)}>
+                {data.decisive_minor_party}
+              </Tag>
+            </Descriptions.Item>
+          )}
+        </Descriptions>
+
+        <div style={{ marginTop: 24 }}>
+          <Typography.Title level={5}>Winner: {data.winner_metrics.candidate_name}</Typography.Title>
+          <Descriptions bordered column={2} size="small">
+            <Descriptions.Item label="Main Party Votes">
+              {data.winner_metrics.main_party_votes.toLocaleString()}
+            </Descriptions.Item>
+            <Descriptions.Item label="Minor Party Votes">
+              {data.winner_metrics.minor_party_votes.toLocaleString()}
+            </Descriptions.Item>
+            <Descriptions.Item label="Minor Party Share">
+              {data.winner_metrics.minor_party_share.toFixed(1)}%
+            </Descriptions.Item>
+            <Descriptions.Item label="Leverage">
+              {getLeverageTag(data.winner_leverage)}
+            </Descriptions.Item>
+          </Descriptions>
+          <div style={{ marginTop: 12 }}>
+            <strong>Party Lines:</strong>
+            <div style={{ marginTop: 8 }}>
+              {data.winner_metrics.party_lines.map((line, idx) => (
+                <Tag key={idx} color={getPartyColor(line.party)} style={{ marginBottom: 4 }}>
+                  {line.party}: {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
+                </Tag>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {data.runner_up_metrics && (
+          <div style={{ marginTop: 24 }}>
+            <Typography.Title level={5}>Runner-up: {data.runner_up_metrics.candidate_name}</Typography.Title>
+            <Descriptions bordered column={2} size="small">
+              <Descriptions.Item label="Main Party Votes">
+                {data.runner_up_metrics.main_party_votes.toLocaleString()}
+              </Descriptions.Item>
+              <Descriptions.Item label="Minor Party Votes">
+                {data.runner_up_metrics.minor_party_votes.toLocaleString()}
+              </Descriptions.Item>
+              <Descriptions.Item label="Minor Party Share">
+                {data.runner_up_metrics.minor_party_share.toFixed(1)}%
+              </Descriptions.Item>
+              <Descriptions.Item label="Leverage">
+                {getLeverageTag(data.runner_up_leverage)}
+              </Descriptions.Item>
+            </Descriptions>
+            <div style={{ marginTop: 12 }}>
+              <strong>Party Lines:</strong>
+              <div style={{ marginTop: 8 }}>
+                {data.runner_up_metrics.party_lines.map((line, idx) => (
+                  <Tag key={idx} color={getPartyColor(line.party)} style={{ marginBottom: 4 }}>
+                    {line.party}: {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
+                  </Tag>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    );
   };
 
   const columns: ColumnsType<Race> = [
@@ -144,6 +264,10 @@ export const RacesTable = ({ races }: RacesTableProps) => {
         rowKey="id"
         pagination={tableParams.pagination}
         onChange={handleTableChange}
+        expandable={{
+          expandedRowRender: renderFusionDetails,
+          onExpand: handleExpand,
+        }}
       />
     </Card>
   );

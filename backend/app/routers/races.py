@@ -1,10 +1,10 @@
 """Race data API endpoints."""
 
 from typing import List, Optional
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 
-from ..models.schemas import RaceData, StatsResponse, FilterOptions
-from ..services.database import get_races, get_stats, get_filter_options
+from ..models.schemas import RaceData, StatsResponse, FilterOptions, RaceFusionMetrics, VulnerabilityScore
+from ..services.database import get_races, get_stats, get_filter_options, get_race_fusion_metrics, get_vulnerability_scores
 
 
 router = APIRouter(prefix="/api", tags=["races"])
@@ -73,3 +73,18 @@ async def get_statistics(
 async def get_filters():
     """Get available filter options."""
     return get_filter_options()
+
+
+@router.get("/races/vulnerability", response_model=List[VulnerabilityScore])
+async def get_vulnerability(limit: int = Query(20, description="Number of races to return")):
+    """Get races ranked by vulnerability score."""
+    return get_vulnerability_scores(limit)
+
+
+@router.get("/races/{race_id}/fusion", response_model=RaceFusionMetrics)
+async def get_fusion_metrics(race_id: int):
+    """Get fusion voting metrics for a specific race."""
+    metrics = get_race_fusion_metrics(race_id)
+    if not metrics:
+        raise HTTPException(status_code=404, detail="Race not found")
+    return metrics

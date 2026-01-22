@@ -8,6 +8,7 @@ import { RacesTable } from './RacesTable';
 import { CompetitivenessChart } from './charts/CompetitivenessChart';
 import { CountyChart } from './charts/CountyChart';
 import { UploadSection } from './UploadSection';
+import { VulnerabilityPanel } from './VulnerabilityPanel';
 
 const { Header, Sider, Content } = Layout;
 const { Title, Text } = Typography;
@@ -58,6 +59,10 @@ export const Dashboard = () => {
 
         <Content style={{ padding: 24, background: '#f0f2f5' }}>
           <StatCards races={races || []} />
+
+          <div style={{ marginTop: 24 }}>
+            <VulnerabilityPanel />
+          </div>
 
           <Row gutter={16} style={{ marginTop: 24 }}>
             <Col span={12}>

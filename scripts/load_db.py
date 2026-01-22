@@ -63,6 +63,7 @@ def create_schema(conn: psycopg.Connection) -> None:
     cursor.execute("CREATE INDEX idx_candidates_race ON candidates(race_id)")
     cursor.execute("CREATE INDEX idx_party_lines_candidate ON party_lines(candidate_id)")
     cursor.execute("CREATE INDEX idx_races_county ON races(county)")
+    cursor.execute("CREATE INDEX idx_candidates_race_winner ON candidates(race_id, is_winner)")
 
     conn.commit()
 

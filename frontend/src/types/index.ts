@@ -8,6 +8,9 @@ export interface Race {
   runner_up_party: string;
   margin_pct: number;
   vote_diff: number;
+  winner_votes: number;
+  runner_up_votes: number;
+  total_votes: number;
   competitiveness_band: string;
   race_type: string;
 }
@@ -16,7 +19,7 @@ export interface Stats {
   total: number;
   flipOpportunities: number;
   retentionRisks: number;
-  closestMargin: number;
+  closestMargin: number | null;
 }
 
 export interface FilterOptions {
@@ -24,4 +27,38 @@ export interface FilterOptions {
   raceTypes: string[];
   parties: string[];
   competitivenessLevels: string[];
+}
+
+export interface PartyLineBreakdown {
+  party: string;
+  votes: number;
+  share_pct: number;
+}
+
+export interface CandidateFusionMetrics {
+  candidate_name: string;
+  party_lines: PartyLineBreakdown[];
+  main_party_votes: number;
+  minor_party_votes: number;
+  minor_party_share: number;
+}
+
+export interface RaceFusionMetrics {
+  race_id: number;
+  race_title: string;
+  margin_of_victory: number;
+  winner_metrics: CandidateFusionMetrics;
+  runner_up_metrics: CandidateFusionMetrics | null;
+  winner_leverage: number | null;
+  runner_up_leverage: number | null;
+  decisive_minor_party: string | null;
+}
+
+export interface VulnerabilityScore {
+  id: number;
+  vulnerability_score: number;
+  category: string;
+  race_title: string;
+  county: string;
+  margin_pct: number;
 }

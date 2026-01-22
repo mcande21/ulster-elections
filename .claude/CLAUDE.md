@@ -16,14 +16,14 @@ cd frontend && npm install && npm run dev
 ## Stack
 
 - **Frontend:** React + TypeScript + Vite + Ant Design
-- **Backend:** FastAPI + SQLite
+- **Backend:** FastAPI + PostgreSQL
 - **Data:** PDF extraction with pdfplumber
 
 ## Data Pipeline
 
 1. Upload PDF via UI or `python scripts/import_pdf.py <path> --full`
 2. Extracts races, candidates, party lines
-3. Loads into SQLite database
+3. Loads into PostgreSQL database
 4. Generates vulnerability analysis
 
 ## Key Files
