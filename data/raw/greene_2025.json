@@ -1,0 +1,1955 @@
+{
+  "county": "Greene",
+  "election_date": "2025-11-18",
+  "races": [
+    {
+      "race_title": "Supervisor - Town of Ashland",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christopher M. Hamilton",
+          "total_votes": 121,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 2,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 123,
+      "under_votes": 30,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Ashland",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Jeffrey M. Gonzalez",
+          "total_votes": 129,
+          "party_lines": []
+        },
+        {
+          "name": "Scott O. Tuttle",
+          "total_votes": 120,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 4,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 253,
+      "under_votes": 53,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of Ashland",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Dawn J. Thorp",
+          "total_votes": 137,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 138,
+      "under_votes": 15,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Ashland",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Richard E. Tompkins",
+          "total_votes": 130,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 2,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 132,
+      "under_votes": 21,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Athens",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michael N. Pirrone",
+          "total_votes": 719,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 666
+            },
+            {
+              "party": "OA",
+              "votes": 53
+            }
+          ]
+        },
+        {
+          "name": "Anthony T. Paluch",
+          "total_votes": 389,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 334
+            },
+            {
+              "party": "Conservative",
+              "votes": 55
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1109,
+      "under_votes": 11,
+      "over_votes": 3
+    },
+    {
+      "race_title": "Council Member - Town of Athens",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Karen A. Haas",
+          "total_votes": 611,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 563
+            },
+            {
+              "party": "OA",
+              "votes": 48
+            }
+          ]
+        },
+        {
+          "name": "Brittany K. Palmateer",
+          "total_votes": 636,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 589
+            },
+            {
+              "party": "OA",
+              "votes": 47
+            }
+          ]
+        },
+        {
+          "name": "Mary A. Hodor",
+          "total_votes": 449,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 379
+            },
+            {
+              "party": "Conservative",
+              "votes": 70
+            }
+          ]
+        },
+        {
+          "name": "Ian T. Palmateer",
+          "total_votes": 453,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 384
+            },
+            {
+              "party": "Conservative",
+              "votes": 69
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2149,
+      "under_votes": 91,
+      "over_votes": 6
+    },
+    {
+      "race_title": "Supervisor - Town of Cairo",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ted Banta, III",
+          "total_votes": 648,
+          "party_lines": []
+        },
+        {
+          "name": "Debra A. Bogins",
+          "total_votes": 863,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 649
+            },
+            {
+              "party": "Conservative",
+              "votes": 214
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1514,
+      "under_votes": 31,
+      "over_votes": 1
+    },
+    {
+      "race_title": "Council Member - Town of Cairo",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "David Fisher",
+          "total_votes": 538,
+          "party_lines": []
+        },
+        {
+          "name": "Jason R. Watts",
+          "total_votes": 530,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 387
+            },
+            {
+              "party": "Conservative",
+              "votes": 143
+            }
+          ]
+        },
+        {
+          "name": "Michael C. Flaherty",
+          "total_votes": 954,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 717
+            },
+            {
+              "party": "Conservative",
+              "votes": 237
+            }
+          ]
+        },
+        {
+          "name": "John M. VanDenburgh",
+          "total_votes": 806,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2829,
+      "under_votes": 261,
+      "over_votes": 2
+    },
+    {
+      "race_title": "Tax Collector - Town of Cairo",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Susan B. Hilgendorff",
+          "total_votes": 927,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 4,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 931,
+      "under_votes": 615,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Catskill",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Sara R. Verdon",
+          "total_votes": 1223,
+          "party_lines": []
+        },
+        {
+          "name": "Jared A. Giordiano",
+          "total_votes": 1098,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 926
+            },
+            {
+              "party": "Conservative",
+              "votes": 172
+            }
+          ]
+        },
+        {
+          "name": "Brenda L. VanDermark",
+          "total_votes": 1099,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 912
+            },
+            {
+              "party": "Conservative",
+              "votes": 187
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 21,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3441,
+      "under_votes": 1149,
+      "over_votes": 6
+    },
+    {
+      "race_title": "Supervisor - Town of Coxsackie",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Richard K. Hanse",
+          "total_votes": 956,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 734
+            },
+            {
+              "party": "Conservative",
+              "votes": 222
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 9,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 965,
+      "under_votes": 449,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Coxsackie",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Patrick B. Kennedy",
+          "total_votes": 711,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 649
+            },
+            {
+              "party": "OT",
+              "votes": 62
+            }
+          ]
+        },
+        {
+          "name": "Thomas J. Burke",
+          "total_votes": 754,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 687
+            },
+            {
+              "party": "OT",
+              "votes": 67
+            }
+          ]
+        },
+        {
+          "name": "Earl K. Hotaling",
+          "total_votes": 637,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 524
+            },
+            {
+              "party": "Conservative",
+              "votes": 113
+            }
+          ]
+        },
+        {
+          "name": "Jacob W. Halsted",
+          "total_votes": 624,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 513
+            },
+            {
+              "party": "Conservative",
+              "votes": 111
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2729,
+      "under_votes": 81,
+      "over_votes": 18
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of Coxsackie",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Bambi L. Hotaling",
+          "total_votes": 1042,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 806
+            },
+            {
+              "party": "Conservative",
+              "votes": 236
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 7,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1049,
+      "under_votes": 365,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Coxsackie",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Scott H. Eldred",
+          "total_votes": 1024,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 785
+            },
+            {
+              "party": "Conservative",
+              "votes": 239
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 7,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1031,
+      "under_votes": 383,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Durham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Shawn D. Marriott",
+          "total_votes": 258,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 209
+            },
+            {
+              "party": "Conservative",
+              "votes": 49
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 6,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 264,
+      "under_votes": 121,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Durham",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Lisa M. Cirillo",
+          "total_votes": 242,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 197
+            },
+            {
+              "party": "Conservative",
+              "votes": 45
+            }
+          ]
+        },
+        {
+          "name": "Edward F. Kerrigan",
+          "total_votes": 224,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 8,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 474,
+      "under_votes": 296,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of Durham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Janet L. Partridge",
+          "total_votes": 267,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 215
+            },
+            {
+              "party": "Conservative",
+              "votes": 52
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 5,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 272,
+      "under_votes": 113,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Durham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joseph S. VanHolsteyn",
+          "total_votes": 264,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 213
+            },
+            {
+              "party": "Conservative",
+              "votes": 51
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 4,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 268,
+      "under_votes": 117,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Greenville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Paul J. Macko",
+          "total_votes": 430,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 315
+            },
+            {
+              "party": "Conservative",
+              "votes": 115
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 7,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 437,
+      "under_votes": 163,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Greenville",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "James Goode, Jr.",
+          "total_votes": 425,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 307
+            },
+            {
+              "party": "Conservative",
+              "votes": 118
+            }
+          ]
+        },
+        {
+          "name": "Richard Y. Bear",
+          "total_votes": 382,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 274
+            },
+            {
+              "party": "Conservative",
+              "votes": 108
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 7,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 814,
+      "under_votes": 386,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of Greenville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jessica K. Lewis",
+          "total_votes": 413,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 305
+            },
+            {
+              "party": "Conservative",
+              "votes": 108
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 6,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 419,
+      "under_votes": 181,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Greenville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michael A. Dudley",
+          "total_votes": 431,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 315
+            },
+            {
+              "party": "Conservative",
+              "votes": 116
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 6,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 437,
+      "under_votes": 163,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Halcott",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Samantha A. Bouton",
+          "total_votes": 77,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 42
+            },
+            {
+              "party": "Republican",
+              "votes": 35
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 77,
+      "under_votes": 5,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Halcott",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Eric C. Fronckowiak",
+          "total_votes": 73,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 37
+            },
+            {
+              "party": "Republican",
+              "votes": 36
+            }
+          ]
+        },
+        {
+          "name": "Gregorio W. DiBenedetto",
+          "total_votes": 75,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 39
+            },
+            {
+              "party": "Republican",
+              "votes": 36
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 148,
+      "under_votes": 16,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk - Town of Halcott",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Patricia L. Warfield",
+          "total_votes": 77,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 43
+            },
+            {
+              "party": "Republican",
+              "votes": 34
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 77,
+      "under_votes": 5,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Halcott",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Russell C. Bouton",
+          "total_votes": 80,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 44
+            },
+            {
+              "party": "Republican",
+              "votes": 36
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 80,
+      "under_votes": 2,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Tax Collector - Town of Halcott",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robin M. White",
+          "total_votes": 77,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 44
+            },
+            {
+              "party": "Republican",
+              "votes": 33
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 77,
+      "under_votes": 5,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Hunter",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sean S. Mahoney",
+          "total_votes": 427,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 240
+            },
+            {
+              "party": "Republican",
+              "votes": 166
+            },
+            {
+              "party": "Conservative",
+              "votes": 21
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 7,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 434,
+      "under_votes": 37,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Hunter",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Dolph J. Semenza",
+          "total_votes": 425,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 241
+            },
+            {
+              "party": "Republican",
+              "votes": 163
+            },
+            {
+              "party": "Conservative",
+              "votes": 21
+            }
+          ]
+        },
+        {
+          "name": "Ernest C. Reale",
+          "total_votes": 415,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 242
+            },
+            {
+              "party": "Republican",
+              "votes": 173
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 8,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 848,
+      "under_votes": 94,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Hunter",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert J. Blain, Jr.",
+          "total_votes": 443,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 258
+            },
+            {
+              "party": "Republican",
+              "votes": 185
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 443,
+      "under_votes": 28,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Jewett",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Gregory B. Kroyer",
+          "total_votes": 194,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in John Pumilia",
+          "total_votes": 70,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in misc.",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 267,
+      "under_votes": 56,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Jewett",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "William B. Rod",
+          "total_votes": 126,
+          "party_lines": []
+        },
+        {
+          "name": "Renee M. Blinkwolt",
+          "total_votes": 105,
+          "party_lines": []
+        },
+        {
+          "name": "John M. Giordano",
+          "total_votes": 185,
+          "party_lines": []
+        },
+        {
+          "name": "James P. Pellitteri",
+          "total_votes": 179,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in Tammy Vanucchi",
+          "total_votes": 27,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in misc.",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 623,
+      "under_votes": 23,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Lexington",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert L. Riccardella",
+          "total_votes": 222,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 140
+            },
+            {
+              "party": "Republican",
+              "votes": 82
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 223,
+      "under_votes": 13,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Lexington",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Michael P. Barcone",
+          "total_votes": 224,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 131
+            },
+            {
+              "party": "Republican",
+              "votes": 93
+            }
+          ]
+        },
+        {
+          "name": "Bradley J. Jenkins",
+          "total_votes": 218,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 129
+            },
+            {
+              "party": "Republican",
+              "votes": 89
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 443,
+      "under_votes": 29,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of Lexington",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Maureen A. Anshanslin",
+          "total_votes": 226,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 128
+            },
+            {
+              "party": "Republican",
+              "votes": 98
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 226,
+      "under_votes": 10,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Lexington",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kevin P. Simmons, Jr.",
+          "total_votes": 227,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 133
+            },
+            {
+              "party": "Republican",
+              "votes": 94
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 228,
+      "under_votes": 8,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of New Baltimore",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Denise M. Taber",
+          "total_votes": 609,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 481
+            },
+            {
+              "party": "HR",
+              "votes": 128
+            }
+          ]
+        },
+        {
+          "name": "Jeffry R. Ruso",
+          "total_votes": 459,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 363
+            },
+            {
+              "party": "Conservative",
+              "votes": 96
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1069,
+      "under_votes": 10,
+      "over_votes": 2
+    },
+    {
+      "race_title": "Council Member - Town of New Baltimore",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Daniel P. Ferry",
+          "total_votes": 569,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 450
+            },
+            {
+              "party": "HR",
+              "votes": 119
+            }
+          ]
+        },
+        {
+          "name": "David D. Faul",
+          "total_votes": 548,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 431
+            },
+            {
+              "party": "HR",
+              "votes": 117
+            }
+          ]
+        },
+        {
+          "name": "Kelly C. Downes",
+          "total_votes": 469,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 377
+            },
+            {
+              "party": "Conservative",
+              "votes": 92
+            }
+          ]
+        },
+        {
+          "name": "Shelly A. VanEtten",
+          "total_votes": 512,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 403
+            },
+            {
+              "party": "Conservative",
+              "votes": 109
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2098,
+      "under_votes": 62,
+      "over_votes": 2
+    },
+    {
+      "race_title": "Town Clerk/ Collector - Town of New Baltimore",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Barbara M. Finke",
+          "total_votes": 702,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 531
+            },
+            {
+              "party": "Conservative",
+              "votes": 171
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 5,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 707,
+      "under_votes": 374,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Prattsville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Greg T. Cross",
+          "total_votes": 191,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 23,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 214,
+      "under_votes": 45,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Council Member - Town of Prattsville",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Stephanie A. Braswell",
+          "total_votes": 95,
+          "party_lines": []
+        },
+        {
+          "name": "Darcy L. Jaeger Brand",
+          "total_votes": 93,
+          "party_lines": []
+        },
+        {
+          "name": "Eli Martin",
+          "total_votes": 159,
+          "party_lines": []
+        },
+        {
+          "name": "Heidrun Ruehlmann",
+          "total_votes": 155,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 502,
+      "under_votes": 16,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Clerk - Town of Prattsville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Bonita Chase",
+          "total_votes": 93,
+          "party_lines": []
+        },
+        {
+          "name": "Theresa C. Whitworth",
+          "total_votes": 158,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 251,
+      "under_votes": 7,
+      "over_votes": 1
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Prattsville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jeremy A. Marsh",
+          "total_votes": 112,
+          "party_lines": []
+        },
+        {
+          "name": "Dewitt D. Olmstead",
+          "total_votes": 145,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 257,
+      "under_votes": 2,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Tax Collector - Town of Prattsville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Carole Cangelosi",
+          "total_votes": 190,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 193,
+      "under_votes": 66,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Supervisor - Town of Windham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Connor R. Exum",
+          "total_votes": 173,
+          "party_lines": []
+        },
+        {
+          "name": "Thomas F. Hoyt",
+          "total_votes": 380,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 344
+            },
+            {
+              "party": "Conservative",
+              "votes": 36
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 553,
+      "under_votes": 22,
+      "over_votes": 1
+    },
+    {
+      "race_title": "Council Member - Town of Windham",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Debra A. Daily",
+          "total_votes": 244,
+          "party_lines": []
+        },
+        {
+          "name": "Wayne E. VanValin",
+          "total_votes": 343,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 310
+            },
+            {
+              "party": "Conservative",
+              "votes": 33
+            }
+          ]
+        },
+        {
+          "name": "Ian T. Peters",
+          "total_votes": 332,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 295
+            },
+            {
+              "party": "Conservative",
+              "votes": 37
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 922,
+      "under_votes": 226,
+      "over_votes": 4
+    },
+    {
+      "race_title": "Superintendent of Highways - Town of Windham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert J. Murray",
+          "total_votes": 430,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 374
+            },
+            {
+              "party": "Conservative",
+              "votes": 56
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 433,
+      "under_votes": 143,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Tax Collector - Town of Windham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Katherine Murray",
+          "total_votes": 441,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 380
+            },
+            {
+              "party": "Conservative",
+              "votes": 61
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 441,
+      "under_votes": 135,
+      "over_votes": 0
+    },
+    {
+      "race_title": "State Supreme Court Justice 3rd Judicial District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "William T. Little, Jr.",
+          "total_votes": 4656,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4053
+            },
+            {
+              "party": "Working Families",
+              "votes": 603
+            }
+          ]
+        },
+        {
+          "name": "Dana Lynn Salazar",
+          "total_votes": 5244,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4417
+            },
+            {
+              "party": "Conservative",
+              "votes": 827
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 5,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 9905,
+      "under_votes": 629,
+      "over_votes": 13
+    },
+    {
+      "race_title": "Town Justice - Town of Ashland",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Garth W. Aull",
+          "total_votes": 129,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 130,
+      "under_votes": 23,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Athens",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Constance J. Pazin",
+          "total_votes": 661,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 523
+            },
+            {
+              "party": "Conservative",
+              "votes": 138
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 15,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 676,
+      "under_votes": 447,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Cairo",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joan M. VanDenburgh",
+          "total_votes": 990,
+          "party_lines": []
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 12,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1002,
+      "under_votes": 544,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Durham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michele M. DeCarlo",
+          "total_votes": 254,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 206
+            },
+            {
+              "party": "Conservative",
+              "votes": 48
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 5,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 259,
+      "under_votes": 126,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Halcott",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kenneth Williams",
+          "total_votes": 76,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 44
+            },
+            {
+              "party": "Republican",
+              "votes": 32
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 77,
+      "under_votes": 5,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Hunter",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kimberly A. Prince Walsh",
+          "total_votes": 434,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 250
+            },
+            {
+              "party": "Republican",
+              "votes": 163
+            },
+            {
+              "party": "Conservative",
+              "votes": 21
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 3,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 437,
+      "under_votes": 34,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Lexington",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Steven A. Rossignol",
+          "total_votes": 224,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 129
+            },
+            {
+              "party": "Republican",
+              "votes": 95
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 1,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 225,
+      "under_votes": 11,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Prattsville",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Daniel W. Peckham",
+          "total_votes": 244,
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 70
+            },
+            {
+              "party": "Republican",
+              "votes": 174
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 244,
+      "under_votes": 15,
+      "over_votes": 0
+    },
+    {
+      "race_title": "Town Justice - Town of Windham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ann Marie B. Rabin",
+          "total_votes": 253,
+          "party_lines": []
+        },
+        {
+          "name": "Marilyn T. Carreras",
+          "total_votes": 309,
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 280
+            },
+            {
+              "party": "Conservative",
+              "votes": 29
+            }
+          ]
+        },
+        {
+          "name": "Write-in",
+          "total_votes": 0,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 562,
+      "under_votes": 14,
+      "over_votes": 0
+    },
+    {
+      "race_title": "PROPOSAL NUMBER ONE, AN AMENDMENT",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "total_votes": 5531,
+          "party_lines": []
+        },
+        {
+          "name": "No",
+          "total_votes": 4407,
+          "party_lines": []
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 9938,
+      "under_votes": 608,
+      "over_votes": 1
+    }
+  ]
+}

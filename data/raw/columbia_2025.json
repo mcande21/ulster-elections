@@ -1,0 +1,3119 @@
+{
+  "county": "Columbia",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "race_title": "State Supreme Court Justice, 3rd Judicial District",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "William T. Little, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 11238
+            },
+            {
+              "party": "Working Families",
+              "votes": 1646
+            }
+          ],
+          "total_votes": 12884
+        },
+        {
+          "name": "Dana Lynn Salazar",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 7877
+            },
+            {
+              "party": "Conservative",
+              "votes": 1419
+            }
+          ],
+          "total_votes": 9296
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 22183,
+      "under_votes": 972,
+      "over_votes": 8,
+      "total_ballots_cast": 23163
+    },
+    {
+      "race_title": "Proposal Number One, a State Constitutional Amendment",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 13128
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 8591
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 21719,
+      "under_votes": 1440,
+      "over_votes": 4,
+      "total_ballots_cast": 23163
+    },
+    {
+      "race_title": "County Sheriff for Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jackie Salvatore",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 11567
+            },
+            {
+              "party": "Working Families",
+              "votes": 1816
+            }
+          ],
+          "total_votes": 13383
+        },
+        {
+          "name": "John M. Rivero",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8132
+            },
+            {
+              "party": "Conservative",
+              "votes": 1435
+            }
+          ],
+          "total_votes": 9567
+        }
+      ],
+      "write_in": 17,
+      "total_votes_cast": 22967,
+      "under_votes": 186,
+      "over_votes": 10,
+      "total_ballots_cast": 23163
+    },
+    {
+      "race_title": "Town Supervisor for Ancram, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Colleen Lutz",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 389
+            }
+          ],
+          "total_votes": 389
+        },
+        {
+          "name": "James MacArthur",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 358
+            }
+          ],
+          "total_votes": 358
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 747,
+      "under_votes": 3,
+      "over_votes": 1,
+      "total_ballots_cast": 751
+    },
+    {
+      "race_title": "Town Council for Ancram, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Bonnie Hundt",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 369
+            }
+          ],
+          "total_votes": 369
+        },
+        {
+          "name": "Amy Gold",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 372
+            }
+          ],
+          "total_votes": 372
+        },
+        {
+          "name": "Rick Dubray",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 358
+            }
+          ],
+          "total_votes": 358
+        },
+        {
+          "name": "Jennifer Boice",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 382
+            }
+          ],
+          "total_votes": 382
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1485,
+      "under_votes": 17,
+      "over_votes": 0,
+      "total_ballots_cast": 751
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Ancram",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 359
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 375
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 734,
+      "under_votes": 17,
+      "over_votes": 0,
+      "total_ballots_cast": 751
+    },
+    {
+      "race_title": "Town Supervisor for Austerlitz, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Vanessa Villanova",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 324
+            }
+          ],
+          "total_votes": 324
+        },
+        {
+          "name": "Robert Lagonia",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 479
+            }
+          ],
+          "total_votes": 479
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 803,
+      "under_votes": 29,
+      "over_votes": 0,
+      "total_ballots_cast": 832
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Austerlitz, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Susan Haag",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 528
+            },
+            {
+              "party": "Republican",
+              "votes": 256
+            }
+          ],
+          "total_votes": 784
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 786,
+      "under_votes": 46,
+      "over_votes": 0,
+      "total_ballots_cast": 832
+    },
+    {
+      "race_title": "Town Council for Austerlitz, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Erin E. Stamper",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 500
+            }
+          ],
+          "total_votes": 500
+        },
+        {
+          "name": "Greg Vogler",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 510
+            }
+          ],
+          "total_votes": 510
+        },
+        {
+          "name": "Brian Kellogg",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 372
+            }
+          ],
+          "total_votes": 372
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1382,
+      "under_votes": 282,
+      "over_votes": 0,
+      "total_ballots_cast": 832
+    },
+    {
+      "race_title": "Town Highway Superintendent for Austerlitz, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Peter Fitzpatrick",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 529
+            },
+            {
+              "party": "Republican",
+              "votes": 255
+            }
+          ],
+          "total_votes": 784
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 787,
+      "under_votes": 45,
+      "over_votes": 0,
+      "total_ballots_cast": 832
+    },
+    {
+      "race_title": "Town Justice for Austerlitz, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sharon E. Grubin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 515
+            },
+            {
+              "party": "Republican",
+              "votes": 241
+            }
+          ],
+          "total_votes": 756
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 760,
+      "under_votes": 72,
+      "over_votes": 0,
+      "total_ballots_cast": 832
+    },
+    {
+      "race_title": "Town Supervisor for Canaan, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Brenda Adams",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 513
+            },
+            {
+              "party": "Republican",
+              "votes": 176
+            }
+          ],
+          "total_votes": 689
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 691,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 749
+    },
+    {
+      "race_title": "Town Clerk for Canaan, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sandra Bevens",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 507
+            },
+            {
+              "party": "Republican",
+              "votes": 181
+            }
+          ],
+          "total_votes": 688
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 689,
+      "under_votes": 60,
+      "over_votes": 0,
+      "total_ballots_cast": 749
+    },
+    {
+      "race_title": "Town Council for Canaan, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Victoria Mills",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 507
+            }
+          ],
+          "total_votes": 507
+        },
+        {
+          "name": "Frank Wood",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 440
+            },
+            {
+              "party": "Republican",
+              "votes": 173
+            }
+          ],
+          "total_votes": 613
+        },
+        {
+          "name": "Suzanne Maiello",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 239
+            }
+          ],
+          "total_votes": 239
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1360,
+      "under_votes": 138,
+      "over_votes": 0,
+      "total_ballots_cast": 749
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Canaan",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 355
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 360
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 715,
+      "under_votes": 34,
+      "over_votes": 0,
+      "total_ballots_cast": 749
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Chatham, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Beth Anne Rippel",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 839
+            },
+            {
+              "party": "Chatham For All",
+              "votes": 407
+            }
+          ],
+          "total_votes": 1246
+        }
+      ],
+      "write_in": 9,
+      "total_votes_cast": 1255,
+      "under_votes": 568,
+      "over_votes": 0,
+      "total_ballots_cast": 1823
+    },
+    {
+      "race_title": "Town Council for Chatham, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Lisa Simonetti",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 931
+            },
+            {
+              "party": "Chatham Neighbors",
+              "votes": 72
+            }
+          ],
+          "total_votes": 1003
+        },
+        {
+          "name": "Rick Werwaiss",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 869
+            },
+            {
+              "party": "Chatham Neighbors",
+              "votes": 67
+            }
+          ],
+          "total_votes": 936
+        },
+        {
+          "name": "Vance F. Pitkin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 654
+            },
+            {
+              "party": "Chatham For All",
+              "votes": 169
+            }
+          ],
+          "total_votes": 823
+        },
+        {
+          "name": "Timothy M. Mackerer",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 635
+            },
+            {
+              "party": "Chatham For All",
+              "votes": 163
+            }
+          ],
+          "total_votes": 798
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 3561,
+      "under_votes": 83,
+      "over_votes": 2,
+      "total_ballots_cast": 1823
+    },
+    {
+      "race_title": "Town Highway Superintendent for Chatham, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "James Fetzer",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1037
+            },
+            {
+              "party": "Republican",
+              "votes": 640
+            }
+          ],
+          "total_votes": 1677
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1681,
+      "under_votes": 142,
+      "over_votes": 0,
+      "total_ballots_cast": 1823
+    },
+    {
+      "race_title": "Town Justice for Chatham, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michael Rosen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1068
+            },
+            {
+              "party": "Republican",
+              "votes": 636
+            }
+          ],
+          "total_votes": 1704
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 1709,
+      "under_votes": 114,
+      "over_votes": 0,
+      "total_ballots_cast": 1823
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Chatham",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 1298
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 465
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1763,
+      "under_votes": 60,
+      "over_votes": 0,
+      "total_ballots_cast": 1823
+    },
+    {
+      "race_title": "Town Supervisor for Claverack, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ilze Earner",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 920
+            },
+            {
+              "party": "Do Something",
+              "votes": 82
+            }
+          ],
+          "total_votes": 1002
+        },
+        {
+          "name": "Clifford Kippy Weigelt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 987
+            },
+            {
+              "party": "Conservative",
+              "votes": 150
+            }
+          ],
+          "total_votes": 1137
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2139,
+      "under_votes": 31,
+      "over_votes": 0,
+      "total_ballots_cast": 2170
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Claverack, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Amber D'Amato",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 938
+            },
+            {
+              "party": "Do Something",
+              "votes": 90
+            }
+          ],
+          "total_votes": 1028
+        },
+        {
+          "name": "William R. Dickie Michael",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 964
+            },
+            {
+              "party": "Conservative",
+              "votes": 140
+            }
+          ],
+          "total_votes": 1104
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 2134,
+      "under_votes": 36,
+      "over_votes": 0,
+      "total_ballots_cast": 2170
+    },
+    {
+      "race_title": "Town Council for Claverack, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Peter Hoffman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 953
+            },
+            {
+              "party": "Do Something",
+              "votes": 94
+            }
+          ],
+          "total_votes": 1047
+        },
+        {
+          "name": "Robert Honeywell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 928
+            },
+            {
+              "party": "Do Something",
+              "votes": 91
+            }
+          ],
+          "total_votes": 1019
+        },
+        {
+          "name": "Philip Tkacy",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 934
+            },
+            {
+              "party": "Conservative",
+              "votes": 143
+            }
+          ],
+          "total_votes": 1077
+        },
+        {
+          "name": "Stephen Hookie Hook",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 935
+            },
+            {
+              "party": "Conservative",
+              "votes": 132
+            }
+          ],
+          "total_votes": 1067
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 4210,
+      "under_votes": 126,
+      "over_votes": 4,
+      "total_ballots_cast": 2170
+    },
+    {
+      "race_title": "Town Highway Superintendent for Claverack, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Louis C. Lamont",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 939
+            },
+            {
+              "party": "Republican",
+              "votes": 930
+            },
+            {
+              "party": "Conservative",
+              "votes": 145
+            }
+          ],
+          "total_votes": 2014
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 2020,
+      "under_votes": 150,
+      "over_votes": 0,
+      "total_ballots_cast": 2170
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Claverack",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 1350
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 733
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2083,
+      "under_votes": 87,
+      "over_votes": 0,
+      "total_ballots_cast": 2170
+    },
+    {
+      "race_title": "Town Supervisor for Clermont, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Raymond Staats",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 349
+            },
+            {
+              "party": "Republican",
+              "votes": 213
+            },
+            {
+              "party": "Conservative",
+              "votes": 62
+            }
+          ],
+          "total_votes": 624
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 626,
+      "under_votes": 44,
+      "over_votes": 0,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Clerk for Clermont, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tracey Gallant",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 340
+            },
+            {
+              "party": "Republican",
+              "votes": 223
+            },
+            {
+              "party": "Conservative",
+              "votes": 60
+            }
+          ],
+          "total_votes": 623
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 625,
+      "under_votes": 45,
+      "over_votes": 0,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Tax Collector for Clermont, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joan Buser",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 348
+            },
+            {
+              "party": "Republican",
+              "votes": 264
+            }
+          ],
+          "total_votes": 612
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 612,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Council for Clermont, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Anthony Finta",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 368
+            }
+          ],
+          "total_votes": 368
+        },
+        {
+          "name": "Kris Gildersleeve",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 258
+            },
+            {
+              "party": "Conservative",
+              "votes": 65
+            }
+          ],
+          "total_votes": 323
+        },
+        {
+          "name": "Robert G. Desmond",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 240
+            },
+            {
+              "party": "Conservative",
+              "votes": 66
+            }
+          ],
+          "total_votes": 306
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 998,
+      "under_votes": 340,
+      "over_votes": 2,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Highway Superintendent for Clermont, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tyler J. Case",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 399
+            }
+          ],
+          "total_votes": 399
+        },
+        {
+          "name": "Lee Gallant",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 245
+            },
+            {
+              "party": "Clermont Friends",
+              "votes": 17
+            }
+          ],
+          "total_votes": 262
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 661,
+      "under_votes": 9,
+      "over_votes": 0,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Justice for Clermont, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ronald W. F. Banks",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 336
+            },
+            {
+              "party": "Republican",
+              "votes": 220
+            },
+            {
+              "party": "Conservative",
+              "votes": 64
+            }
+          ],
+          "total_votes": 620
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 621,
+      "under_votes": 49,
+      "over_votes": 0,
+      "total_ballots_cast": 670
+    },
+    {
+      "race_title": "Town Council for Copake, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Will Morningstar",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 809
+            }
+          ],
+          "total_votes": 809
+        },
+        {
+          "name": "Linda Gabaccia",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 828
+            }
+          ],
+          "total_votes": 828
+        }
+      ],
+      "write_in": 16,
+      "total_votes_cast": 1653,
+      "under_votes": 817,
+      "over_votes": 0,
+      "total_ballots_cast": 1235
+    },
+    {
+      "race_title": "Town Justice for Copake, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Jeanne E. Mettler",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 913
+            }
+          ],
+          "total_votes": 913
+        }
+      ],
+      "write_in": 13,
+      "total_votes_cast": 926,
+      "under_votes": 309,
+      "over_votes": 0,
+      "total_ballots_cast": 1235
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Copake",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 716
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 492
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1208,
+      "under_votes": 27,
+      "over_votes": 0,
+      "total_ballots_cast": 1235
+    },
+    {
+      "race_title": "Town Supervisor for Gallatin, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John C. Reilly",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 398
+            }
+          ],
+          "total_votes": 398
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 399,
+      "under_votes": 93,
+      "over_votes": 0,
+      "total_ballots_cast": 492
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Gallatin, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lisa DeLeeuw",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 410
+            }
+          ],
+          "total_votes": 410
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 410,
+      "under_votes": 82,
+      "over_votes": 0,
+      "total_ballots_cast": 492
+    },
+    {
+      "race_title": "Town Council for Gallatin, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Tara Silberberg",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 375
+            }
+          ],
+          "total_votes": 375
+        },
+        {
+          "name": "Benjamin Maron",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 365
+            }
+          ],
+          "total_votes": 365
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 745,
+      "under_votes": 239,
+      "over_votes": 0,
+      "total_ballots_cast": 492
+    },
+    {
+      "race_title": "Town Justice for Gallatin, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Matthew A. Gold",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 382
+            }
+          ],
+          "total_votes": 382
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 382,
+      "under_votes": 110,
+      "over_votes": 0,
+      "total_ballots_cast": 492
+    },
+    {
+      "race_title": "Town Supervisor for Germantown, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "David L. Helsley",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 320
+            },
+            {
+              "party": "Conservative",
+              "votes": 97
+            }
+          ],
+          "total_votes": 417
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 425,
+      "under_votes": 294,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Clerk for Germantown, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joyce Vale",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 342
+            },
+            {
+              "party": "Conservative",
+              "votes": 106
+            }
+          ],
+          "total_votes": 448
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 450,
+      "under_votes": 268,
+      "over_votes": 1,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Tax Collector for Germantown, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kerrie M. Abela",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 325
+            },
+            {
+              "party": "Conservative",
+              "votes": 101
+            }
+          ],
+          "total_votes": 426
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 428,
+      "under_votes": 291,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Council for Germantown, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Austin P. Sullivan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 326
+            },
+            {
+              "party": "Conservative",
+              "votes": 100
+            }
+          ],
+          "total_votes": 426
+        },
+        {
+          "name": "John J. Kukon",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 315
+            },
+            {
+              "party": "Conservative",
+              "votes": 99
+            }
+          ],
+          "total_votes": 414
+        }
+      ],
+      "write_in": 9,
+      "total_votes_cast": 849,
+      "under_votes": 589,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Highway Superintendent for Germantown, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Anthony C. Cidras",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 320
+            },
+            {
+              "party": "Conservative",
+              "votes": 103
+            }
+          ],
+          "total_votes": 423
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 427,
+      "under_votes": 292,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Justice for Germantown, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "John J. Rustici",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 304
+            },
+            {
+              "party": "Conservative",
+              "votes": 96
+            }
+          ],
+          "total_votes": 400
+        },
+        {
+          "name": "Wendy E. Nack-Lawlor",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 341
+            },
+            {
+              "party": "Conservative",
+              "votes": 96
+            }
+          ],
+          "total_votes": 437
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 840,
+      "under_votes": 598,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Germantown",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 453
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 232
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 685,
+      "under_votes": 34,
+      "over_votes": 0,
+      "total_ballots_cast": 719
+    },
+    {
+      "race_title": "Town Supervisor for Ghent, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Frederick Hutchinson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1022
+            }
+          ],
+          "total_votes": 1022
+        },
+        {
+          "name": "Craig Simmons",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1011
+            },
+            {
+              "party": "Connect Ghent",
+              "votes": 147
+            }
+          ],
+          "total_votes": 1158
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2180,
+      "under_votes": 33,
+      "over_votes": 0,
+      "total_ballots_cast": 2213
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Ghent, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Michelle Radley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1035
+            },
+            {
+              "party": "Republican",
+              "votes": 914
+            },
+            {
+              "party": "Connect Ghent",
+              "votes": 135
+            }
+          ],
+          "total_votes": 2084
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 2091,
+      "under_votes": 122,
+      "over_votes": 0,
+      "total_ballots_cast": 2213
+    },
+    {
+      "race_title": "Town Council for Ghent, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Penny Coulson-Sanchez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1060
+            }
+          ],
+          "total_votes": 1060
+        },
+        {
+          "name": "Carl Quinn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1081
+            }
+          ],
+          "total_votes": 1081
+        },
+        {
+          "name": "Wally Engel",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1000
+            },
+            {
+              "party": "Connect Ghent",
+              "votes": 139
+            }
+          ],
+          "total_votes": 1139
+        },
+        {
+          "name": "Scott C. Myers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 906
+            },
+            {
+              "party": "Connect Ghent",
+              "votes": 119
+            }
+          ],
+          "total_votes": 1025
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 4306,
+      "under_votes": 120,
+      "over_votes": 0,
+      "total_ballots_cast": 2213
+    },
+    {
+      "race_title": "Town Highway Superintendent for Ghent, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Benjamin J. Perry",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1045
+            },
+            {
+              "party": "Republican",
+              "votes": 918
+            },
+            {
+              "party": "Connect Ghent",
+              "votes": 141
+            }
+          ],
+          "total_votes": 2104
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 2106,
+      "under_votes": 107,
+      "over_votes": 0,
+      "total_ballots_cast": 2213
+    },
+    {
+      "race_title": "Town Supervisor for Greenport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kathleen P. Eldridge",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 526
+            },
+            {
+              "party": "Republican",
+              "votes": 331
+            },
+            {
+              "party": "Conservative",
+              "votes": 72
+            }
+          ],
+          "total_votes": 929
+        }
+      ],
+      "write_in": 16,
+      "total_votes_cast": 945,
+      "under_votes": 214,
+      "over_votes": 0,
+      "total_ballots_cast": 1159
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Greenport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Deborah L. Mausolf",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 526
+            },
+            {
+              "party": "Republican",
+              "votes": 368
+            },
+            {
+              "party": "Conservative",
+              "votes": 86
+            }
+          ],
+          "total_votes": 980
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 984,
+      "under_votes": 175,
+      "over_votes": 0,
+      "total_ballots_cast": 1159
+    },
+    {
+      "race_title": "Town Council for Greenport, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "James J. Dolan, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 500
+            },
+            {
+              "party": "Republican",
+              "votes": 348
+            },
+            {
+              "party": "Conservative",
+              "votes": 77
+            }
+          ],
+          "total_votes": 925
+        },
+        {
+          "name": "Clayton Clark, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 492
+            },
+            {
+              "party": "Republican",
+              "votes": 365
+            },
+            {
+              "party": "Conservative",
+              "votes": 86
+            }
+          ],
+          "total_votes": 943
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 1874,
+      "under_votes": 444,
+      "over_votes": 0,
+      "total_ballots_cast": 1159
+    },
+    {
+      "race_title": "Town Highway Superintendent for Greenport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John P. Mausolf, Sr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 516
+            },
+            {
+              "party": "Republican",
+              "votes": 366
+            },
+            {
+              "party": "Conservative",
+              "votes": 95
+            }
+          ],
+          "total_votes": 977
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 980,
+      "under_votes": 179,
+      "over_votes": 0,
+      "total_ballots_cast": 1159
+    },
+    {
+      "race_title": "Town Justice for Greenport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John J. Porreca, Sr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 527
+            },
+            {
+              "party": "Republican",
+              "votes": 387
+            },
+            {
+              "party": "Conservative",
+              "votes": 99
+            }
+          ],
+          "total_votes": 1013
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1014,
+      "under_votes": 145,
+      "over_votes": 0,
+      "total_ballots_cast": 1159
+    },
+    {
+      "race_title": "Town Council for Hillsdale, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Nico Hernandez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 494
+            },
+            {
+              "party": "Hillsdale Unity Party",
+              "votes": 79
+            }
+          ],
+          "total_votes": 573
+        },
+        {
+          "name": "Bart Ziegler",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 480
+            },
+            {
+              "party": "Hillsdale Unity Party",
+              "votes": 84
+            }
+          ],
+          "total_votes": 564
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1138,
+      "under_votes": 340,
+      "over_votes": 0,
+      "total_ballots_cast": 739
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Hillsdale",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 535
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 188
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 723,
+      "under_votes": 16,
+      "over_votes": 0,
+      "total_ballots_cast": 739
+    },
+    {
+      "race_title": "Mayor for Hudson, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joseph Ferris",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 959
+            }
+          ],
+          "total_votes": 959
+        },
+        {
+          "name": "Lloyd A. Koedding",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 61
+            },
+            {
+              "party": "The Harmony Party",
+              "votes": 7
+            }
+          ],
+          "total_votes": 68
+        },
+        {
+          "name": "Kamal Johnson",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 918
+            }
+          ],
+          "total_votes": 918
+        },
+        {
+          "name": "",
+          "party_lines": [
+            {
+              "party": "Peter Spear Future Hudson",
+              "votes": 18
+            }
+          ],
+          "total_votes": 0
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 1968,
+      "under_votes": 37,
+      "over_votes": 3,
+      "total_ballots_cast": 2008
+    },
+    {
+      "race_title": "City Treasurer for Hudson, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Heather S. Campbell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1509
+            }
+          ],
+          "total_votes": 1509
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1513,
+      "under_votes": 495,
+      "over_votes": 0,
+      "total_ballots_cast": 2008
+    },
+    {
+      "race_title": "Common Council President for Hudson, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Margaret Morris",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1425
+            },
+            {
+              "party": "Hudson United",
+              "votes": 79
+            }
+          ],
+          "total_votes": 1504
+        }
+      ],
+      "write_in": 22,
+      "total_votes_cast": 1526,
+      "under_votes": 482,
+      "over_votes": 0,
+      "total_ballots_cast": 2008
+    },
+    {
+      "race_title": "Supervisor for 1st Ward, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Alexandria Madero",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 315
+            }
+          ],
+          "total_votes": 315
+        },
+        {
+          "name": "Randall Martin",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 106
+            }
+          ],
+          "total_votes": 106
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 423,
+      "under_votes": 36,
+      "over_votes": 0,
+      "total_ballots_cast": 459
+    },
+    {
+      "race_title": "Councilmember for 1st Ward, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Henry A. Haddad",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 337
+            }
+          ],
+          "total_votes": 337
+        },
+        {
+          "name": "Gary W. Purnhagen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 212
+            }
+          ],
+          "total_votes": 212
+        },
+        {
+          "name": "Patricia L. Ramoska",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 50
+            }
+          ],
+          "total_votes": 50
+        },
+        {
+          "name": "Donna Streitz",
+          "party_lines": [],
+          "total_votes": 112
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 716,
+      "under_votes": 200,
+      "over_votes": 2,
+      "total_ballots_cast": 459
+    },
+    {
+      "race_title": "Supervisor for 2nd Ward, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Abdus Miah",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 208
+            }
+          ],
+          "total_votes": 208
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 209,
+      "under_votes": 103,
+      "over_votes": 0,
+      "total_ballots_cast": 312
+    },
+    {
+      "race_title": "Councilmember for 2nd Ward, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Dewan A. Sarowar",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 179
+            }
+          ],
+          "total_votes": 179
+        },
+        {
+          "name": "Mohammed M. Rony",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 154
+            }
+          ],
+          "total_votes": 154
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 335,
+      "under_votes": 289,
+      "over_votes": 0,
+      "total_ballots_cast": 312
+    },
+    {
+      "race_title": "Supervisor for 3rd Ward, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sonja Okun",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 263
+            },
+            {
+              "party": "Working Families",
+              "votes": 92
+            }
+          ],
+          "total_votes": 355
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 359,
+      "under_votes": 62,
+      "over_votes": 0,
+      "total_ballots_cast": 421
+    },
+    {
+      "race_title": "Councilmember for 3rd Ward, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Jason Foster",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 288
+            },
+            {
+              "party": "Grounded Vision",
+              "votes": 16
+            }
+          ],
+          "total_votes": 304
+        },
+        {
+          "name": "Lola F. Roberts",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 231
+            },
+            {
+              "party": "Working Families",
+              "votes": 85
+            }
+          ],
+          "total_votes": 316
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 626,
+      "under_votes": 216,
+      "over_votes": 0,
+      "total_ballots_cast": 421
+    },
+    {
+      "race_title": "Supervisor for 4th Ward, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Linda L. Mussmann",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 272
+            }
+          ],
+          "total_votes": 272
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 273,
+      "under_votes": 78,
+      "over_votes": 0,
+      "total_ballots_cast": 351
+    },
+    {
+      "race_title": "Councilmember for 4th Ward, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Rich Trixie Volo",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 253
+            },
+            {
+              "party": "Hudson United",
+              "votes": 11
+            }
+          ],
+          "total_votes": 264
+        },
+        {
+          "name": "Jennifer Belton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 223
+            }
+          ],
+          "total_votes": 223
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 489,
+      "under_votes": 213,
+      "over_votes": 0,
+      "total_ballots_cast": 351
+    },
+    {
+      "race_title": "Supervisor for 5th Ward, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Richard E. Scalera",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 325
+            }
+          ],
+          "total_votes": 325
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 328,
+      "under_votes": 137,
+      "over_votes": 0,
+      "total_ballots_cast": 465
+    },
+    {
+      "race_title": "Councilmember for 5th Ward, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Claire Cousin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 217
+            },
+            {
+              "party": "Working Families",
+              "votes": 92
+            }
+          ],
+          "total_votes": 309
+        },
+        {
+          "name": "Dominic Merante",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 292
+            }
+          ],
+          "total_votes": 292
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 604,
+      "under_votes": 326,
+      "over_votes": 0,
+      "total_ballots_cast": 465
+    },
+    {
+      "race_title": "Town Supervisor for Kinderhook, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Timothy Ooms",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1410
+            },
+            {
+              "party": "Republican",
+              "votes": 1298
+            },
+            {
+              "party": "Conservative",
+              "votes": 321
+            }
+          ],
+          "total_votes": 3029
+        }
+      ],
+      "write_in": 13,
+      "total_votes_cast": 3042,
+      "under_votes": 272,
+      "over_votes": 0,
+      "total_ballots_cast": 3314
+    },
+    {
+      "race_title": "Town Council for Kinderhook, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Jessie Anderson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1496
+            },
+            {
+              "party": "Kinderhook",
+              "votes": 128
+            }
+          ],
+          "total_votes": 1624
+        },
+        {
+          "name": "Steven J. D'Ambrozio",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1425
+            },
+            {
+              "party": "Kinderhook",
+              "votes": 129
+            }
+          ],
+          "total_votes": 1554
+        },
+        {
+          "name": "Sean Casey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1337
+            },
+            {
+              "party": "Conservative",
+              "votes": 320
+            }
+          ],
+          "total_votes": 1657
+        },
+        {
+          "name": "Melissa Falkner",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1250
+            },
+            {
+              "party": "Conservative",
+              "votes": 302
+            }
+          ],
+          "total_votes": 1552
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 6387,
+      "under_votes": 223,
+      "over_votes": 18,
+      "total_ballots_cast": 3314
+    },
+    {
+      "race_title": "Town Highway Superintendent for Kinderhook, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John Ruchel, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1502
+            },
+            {
+              "party": "Republican",
+              "votes": 1256
+            },
+            {
+              "party": "Conservative",
+              "votes": 329
+            }
+          ],
+          "total_votes": 3087
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 3091,
+      "under_votes": 223,
+      "over_votes": 0,
+      "total_ballots_cast": 3314
+    },
+    {
+      "race_title": "Town Justice for Kinderhook, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lisa M. Mills",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1744
+            },
+            {
+              "party": "Conservative",
+              "votes": 557
+            }
+          ],
+          "total_votes": 2301
+        }
+      ],
+      "write_in": 31,
+      "total_votes_cast": 2332,
+      "under_votes": 982,
+      "over_votes": 0,
+      "total_ballots_cast": 3314
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Kinderhook",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 1823
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 1433
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3256,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 3314
+    },
+    {
+      "race_title": "Town Supervisor for Livingston, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "James Guzzi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 517
+            },
+            {
+              "party": "Republican",
+              "votes": 472
+            },
+            {
+              "party": "Conservative",
+              "votes": 86
+            }
+          ],
+          "total_votes": 1075
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1079,
+      "under_votes": 88,
+      "over_votes": 1,
+      "total_ballots_cast": 1168
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Livingston, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tammy Molinski",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 627
+            },
+            {
+              "party": "Conservative",
+              "votes": 176
+            }
+          ],
+          "total_votes": 803
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 805,
+      "under_votes": 363,
+      "over_votes": 0,
+      "total_ballots_cast": 1168
+    },
+    {
+      "race_title": "Town Council for Livingston, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Joseph Rapp",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 573
+            }
+          ],
+          "total_votes": 573
+        },
+        {
+          "name": "Philip J. Massaro",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 514
+            },
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total_votes": 608
+        },
+        {
+          "name": "Fred Conte",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 510
+            },
+            {
+              "party": "Conservative",
+              "votes": 109
+            }
+          ],
+          "total_votes": 619
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1800,
+      "under_votes": 536,
+      "over_votes": 0,
+      "total_ballots_cast": 1168
+    },
+    {
+      "race_title": "Town Highway Superintendent for Livingston, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "David Lyons",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 527
+            },
+            {
+              "party": "Republican",
+              "votes": 476
+            },
+            {
+              "party": "Conservative",
+              "votes": 87
+            }
+          ],
+          "total_votes": 1090
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1092,
+      "under_votes": 76,
+      "over_votes": 0,
+      "total_ballots_cast": 1168
+    },
+    {
+      "race_title": "Town Justice for Livingston, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth Kennedy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 592
+            }
+          ],
+          "total_votes": 592
+        },
+        {
+          "name": "Angela Guzzi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 491
+            },
+            {
+              "party": "Conservative",
+              "votes": 76
+            }
+          ],
+          "total_votes": 567
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1159,
+      "under_votes": 9,
+      "over_votes": 0,
+      "total_ballots_cast": 1168
+    },
+    {
+      "race_title": "Town Supervisor for New Lebanon, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tistrya Houghtling",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 502
+            },
+            {
+              "party": "Working Families",
+              "votes": 80
+            }
+          ],
+          "total_votes": 582
+        },
+        {
+          "name": "Darla Dobert-Crosby",
+          "party_lines": [],
+          "total_votes": 380
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 973,
+      "under_votes": 79,
+      "over_votes": 0,
+      "total_ballots_cast": 1052
+    },
+    {
+      "race_title": "Town Council for New Lebanon, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Chris Patterson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 524
+            }
+          ],
+          "total_votes": 524
+        },
+        {
+          "name": "Jim Dawson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 480
+            }
+          ],
+          "total_votes": 480
+        },
+        {
+          "name": "Craig James Skerkis",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 436
+            },
+            {
+              "party": "Conservative",
+              "votes": 66
+            }
+          ],
+          "total_votes": 502
+        },
+        {
+          "name": "Joanne E. Amlaw",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 471
+            },
+            {
+              "party": "Conservative",
+              "votes": 78
+            }
+          ],
+          "total_votes": 549
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 2056,
+      "under_votes": 46,
+      "over_votes": 2,
+      "total_ballots_cast": 1052
+    },
+    {
+      "race_title": "Town Council Unexpired Term for New Lebanon, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Susan Tipogragh",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 528
+            }
+          ],
+          "total_votes": 528
+        },
+        {
+          "name": "Joanna Phillips",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 442
+            },
+            {
+              "party": "Conservative",
+              "votes": 66
+            }
+          ],
+          "total_votes": 508
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1037,
+      "under_votes": 14,
+      "over_votes": 1,
+      "total_ballots_cast": 1052
+    },
+    {
+      "race_title": "Proposal Number Two, Town of New Lebanon",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 597
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 432
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1029,
+      "under_votes": 23,
+      "over_votes": 0,
+      "total_ballots_cast": 1052
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Stockport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sandra M. Novak",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 475
+            },
+            {
+              "party": "Conservative",
+              "votes": 136
+            }
+          ],
+          "total_votes": 611
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 613,
+      "under_votes": 161,
+      "over_votes": 0,
+      "total_ballots_cast": 774
+    },
+    {
+      "race_title": "Town Council for Stockport, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Toye Honeyman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 246
+            }
+          ],
+          "total_votes": 246
+        },
+        {
+          "name": "Amy Hausknecht",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 229
+            }
+          ],
+          "total_votes": 229
+        },
+        {
+          "name": "Kathleen A. Hamm",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 387
+            },
+            {
+              "party": "Conservative",
+              "votes": 86
+            }
+          ],
+          "total_votes": 473
+        },
+        {
+          "name": "Joanne M. Briggs",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 414
+            }
+          ],
+          "total_votes": 414
+        },
+        {
+          "name": "John L. Drabick",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 88
+            }
+          ],
+          "total_votes": 88
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1452,
+      "under_votes": 90,
+      "over_votes": 6,
+      "total_ballots_cast": 774
+    },
+    {
+      "race_title": "Town Highway Superintendent for Stockport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Timothy A. Masten",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 455
+            },
+            {
+              "party": "Conservative",
+              "votes": 129
+            }
+          ],
+          "total_votes": 584
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 586,
+      "under_votes": 188,
+      "over_votes": 0,
+      "total_ballots_cast": 774
+    },
+    {
+      "race_title": "Town Justice for Stockport, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John Jack Mabb",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 284
+            }
+          ],
+          "total_votes": 284
+        },
+        {
+          "name": "Joseph C. Carey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 385
+            },
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total_votes": 479
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 764,
+      "under_votes": 10,
+      "over_votes": 0,
+      "total_ballots_cast": 774
+    },
+    {
+      "race_title": "Town Supervisor for Stuyvesant, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lee F. Jamison",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 299
+            },
+            {
+              "party": "Working Families",
+              "votes": 32
+            }
+          ],
+          "total_votes": 331
+        },
+        {
+          "name": "Ron Knott",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 349
+            },
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total_votes": 443
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 774,
+      "under_votes": 4,
+      "over_votes": 1,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Stuyvesant, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Melissa Naegeli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 425
+            },
+            {
+              "party": "Conservative",
+              "votes": 135
+            }
+          ],
+          "total_votes": 560
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 566,
+      "under_votes": 213,
+      "over_votes": 0,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Town Council for Stuyvesant, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Greg Pettyjohn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 356
+            }
+          ],
+          "total_votes": 356
+        },
+        {
+          "name": "Brian Chittenden",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 337
+            },
+            {
+              "party": "Conservative",
+              "votes": 87
+            }
+          ],
+          "total_votes": 424
+        },
+        {
+          "name": "Carolyn Gleason",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 346
+            },
+            {
+              "party": "Conservative",
+              "votes": 109
+            }
+          ],
+          "total_votes": 455
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1237,
+      "under_votes": 321,
+      "over_votes": 0,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Town Highway Superintendent for Stuyvesant, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joseph Scrum",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 414
+            },
+            {
+              "party": "Conservative",
+              "votes": 129
+            }
+          ],
+          "total_votes": 543
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 547,
+      "under_votes": 232,
+      "over_votes": 0,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Town Justice for Stuyvesant, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Heather M. Johnson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 342
+            }
+          ],
+          "total_votes": 342
+        },
+        {
+          "name": "Carrie A. O'Hare",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 334
+            },
+            {
+              "party": "Conservative",
+              "votes": 88
+            }
+          ],
+          "total_votes": 422
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 764,
+      "under_votes": 15,
+      "over_votes": 0,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Proposal Number Two, Town of Stuyvesant",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YES",
+          "party_lines": [],
+          "total_votes": 495
+        },
+        {
+          "name": "NO",
+          "party_lines": [],
+          "total_votes": 273
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 768,
+      "under_votes": 11,
+      "over_votes": 0,
+      "total_ballots_cast": 779
+    },
+    {
+      "race_title": "Town Supervisor for Taghkanic, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ryan Skoda",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 226
+            },
+            {
+              "party": "Conservative",
+              "votes": 76
+            }
+          ],
+          "total_votes": 302
+        }
+      ],
+      "write_in": 9,
+      "total_votes_cast": 311,
+      "under_votes": 205,
+      "over_votes": 0,
+      "total_ballots_cast": 516
+    },
+    {
+      "race_title": "Town Clerk/Tax Collector for Taghkanic, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Cheryl E. Rogers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 239
+            },
+            {
+              "party": "Conservative",
+              "votes": 80
+            }
+          ],
+          "total_votes": 319
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 327,
+      "under_votes": 189,
+      "over_votes": 0,
+      "total_ballots_cast": 516
+    },
+    {
+      "race_title": "Town Council for Taghkanic, Columbia County",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Linda Mirabelli",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 317
+            }
+          ],
+          "total_votes": 317
+        },
+        {
+          "name": "Betsy Albert",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 313
+            }
+          ],
+          "total_votes": 313
+        },
+        {
+          "name": "Joshua Plass",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 162
+            },
+            {
+              "party": "Conservative",
+              "votes": 41
+            }
+          ],
+          "total_votes": 203
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 834,
+      "under_votes": 198,
+      "over_votes": 0,
+      "total_ballots_cast": 516
+    },
+    {
+      "race_title": "Town Justice for Taghkanic, Columbia County",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nicholas Zapp",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 309
+            },
+            {
+              "party": "Conservative",
+              "votes": 115
+            }
+          ],
+          "total_votes": 424
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 424,
+      "under_votes": 92,
+      "over_votes": 0,
+      "total_ballots_cast": 516
+    }
+  ]
+}

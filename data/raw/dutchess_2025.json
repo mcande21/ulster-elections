@@ -1,0 +1,4690 @@
+{
+  "county": "Dutchess",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "race_title": "Comptroller",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Dan Aymar-Blair",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 36534
+            },
+            {
+              "party": "Working Families",
+              "votes": 4630
+            }
+          ],
+          "total": 41164
+        },
+        {
+          "name": "William G. Truitt",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 4854
+            },
+            {
+              "party": "Republican",
+              "votes": 28492
+            }
+          ],
+          "total": 33346
+        }
+      ],
+      "write_in": 16,
+      "total_votes_cast": 74526,
+      "under_votes": 1357,
+      "over_votes": 45,
+      "total_ballots_cast": 75928
+    },
+    {
+      "race_title": "County Court Judge",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kara Gerry",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 37215
+            },
+            {
+              "party": "Working Families",
+              "votes": 4547
+            }
+          ],
+          "total": 41762
+        },
+        {
+          "name": "Edward Ned McLoughlin",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 4753
+            },
+            {
+              "party": "Republican",
+              "votes": 27805
+            }
+          ],
+          "total": 32558
+        }
+      ],
+      "write_in": 10,
+      "total_votes_cast": 74330,
+      "under_votes": 1546,
+      "over_votes": 52,
+      "total_ballots_cast": 75928
+    },
+    {
+      "race_title": "Family Court Judge",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Tracy MacKenzie",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 8649
+            },
+            {
+              "party": "Republican",
+              "votes": 35540
+            }
+          ],
+          "total": 44189
+        }
+      ],
+      "write_in": 626,
+      "total_votes_cast": 44815,
+      "under_votes": 31107,
+      "over_votes": 6,
+      "total_ballots_cast": 75928
+    },
+    {
+      "race_title": "Supreme Court Justice",
+      "vote_for": 4,
+      "candidates": [
+        {
+          "name": "Verris B. Shako",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3358
+            },
+            {
+              "party": "Democratic",
+              "votes": 38280
+            }
+          ],
+          "total": 41638
+        },
+        {
+          "name": "Diane M. Clerkin",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3895
+            },
+            {
+              "party": "Democratic",
+              "votes": 39460
+            }
+          ],
+          "total": 43355
+        },
+        {
+          "name": "John P. Collins Jr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3755
+            },
+            {
+              "party": "Democratic",
+              "votes": 38255
+            }
+          ],
+          "total": 42010
+        },
+        {
+          "name": "Desmond C. Lyons",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 38587
+            }
+          ],
+          "total": 38587
+        },
+        {
+          "name": "George A. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 28357
+            }
+          ],
+          "total": 28357
+        },
+        {
+          "name": "Kiel E. Van Horn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 26749
+            }
+          ],
+          "total": 26749
+        },
+        {
+          "name": "Thomas Humbach",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 26964
+            }
+          ],
+          "total": 26964
+        },
+        {
+          "name": "Raymond P. Raiche",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 4374
+            },
+            {
+              "party": "Republican",
+              "votes": 26453
+            }
+          ],
+          "total": 30827
+        }
+      ],
+      "write_in": 88,
+      "total_votes_cast": 278575,
+      "under_votes": 24953,
+      "over_votes": 184,
+      "total_ballots_cast": 75928
+    },
+    {
+      "race_title": "County Legislator District 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Trevor Redl",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1080
+            },
+            {
+              "party": "Working Families",
+              "votes": 142
+            }
+          ],
+          "total": 1222
+        },
+        {
+          "name": "Robert V. Gorman",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 103
+            },
+            {
+              "party": "Republican",
+              "votes": 587
+            }
+          ],
+          "total": 690
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1916,
+      "under_votes": 19,
+      "over_votes": 1,
+      "total_ballots_cast": 1936
+    },
+    {
+      "race_title": "County Legislator District 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Emma Arnoff",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1666
+            },
+            {
+              "party": "Working Families",
+              "votes": 185
+            }
+          ],
+          "total": 1851
+        },
+        {
+          "name": "Ryan Travelpiece",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 254
+            },
+            {
+              "party": "Republican",
+              "votes": 1462
+            }
+          ],
+          "total": 1716
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3567,
+      "under_votes": 43,
+      "over_votes": 2,
+      "total_ballots_cast": 3612
+    },
+    {
+      "race_title": "County Legislator District 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "David Siegel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1504
+            },
+            {
+              "party": "Working Families",
+              "votes": 154
+            }
+          ],
+          "total": 1658
+        },
+        {
+          "name": "Michael Polasek",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 258
+            },
+            {
+              "party": "Republican",
+              "votes": 1461
+            }
+          ],
+          "total": 1719
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 3378,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 3436
+    },
+    {
+      "race_title": "County Legislator District 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Brendan Lawler",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1613
+            },
+            {
+              "party": "Working Families",
+              "votes": 175
+            }
+          ],
+          "total": 1788
+        },
+        {
+          "name": "Anthony Avello",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 180
+            },
+            {
+              "party": "Republican",
+              "votes": 988
+            }
+          ],
+          "total": 1168
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 2957,
+      "under_votes": 50,
+      "over_votes": 0,
+      "total_ballots_cast": 3007
+    },
+    {
+      "race_title": "County Legislator District 5",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Anna Shah",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1562
+            },
+            {
+              "party": "Working Families",
+              "votes": 157
+            }
+          ],
+          "total": 1719
+        },
+        {
+          "name": "Tony D'Aquanni",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 218
+            },
+            {
+              "party": "Republican",
+              "votes": 1275
+            }
+          ],
+          "total": 1493
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3212,
+      "under_votes": 28,
+      "over_votes": 1,
+      "total_ballots_cast": 3241
+    },
+    {
+      "race_title": "County Legislator District 6",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lisa Kaul",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1681
+            },
+            {
+              "party": "Working Families",
+              "votes": 343
+            }
+          ],
+          "total": 2024
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 2035,
+      "under_votes": 713,
+      "over_votes": 0,
+      "total_ballots_cast": 2748
+    },
+    {
+      "race_title": "County Legislator District 7",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Trish Prunty",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1588
+            }
+          ],
+          "total": 1588
+        },
+        {
+          "name": "Lew Darrow",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 257
+            },
+            {
+              "party": "Republican",
+              "votes": 1518
+            }
+          ],
+          "total": 1775
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 3364,
+      "under_votes": 51,
+      "over_votes": 1,
+      "total_ballots_cast": 3416
+    },
+    {
+      "race_title": "County Legislator District 8",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Craig Brendli",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2264
+            },
+            {
+              "party": "Working Families",
+              "votes": 424
+            }
+          ],
+          "total": 2688
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 2699,
+      "under_votes": 837,
+      "over_votes": 0,
+      "total_ballots_cast": 3536
+    },
+    {
+      "race_title": "County Legislator District 9",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Barrington Atkins",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 870
+            },
+            {
+              "party": "Working Families",
+              "votes": 183
+            }
+          ],
+          "total": 1053
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1054,
+      "under_votes": 284,
+      "over_votes": 1,
+      "total_ballots_cast": 1339
+    },
+    {
+      "race_title": "County Legislator District 10",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Randy Johnson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 722
+            }
+          ],
+          "total": 722
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 728,
+      "under_votes": 145,
+      "over_votes": 0,
+      "total_ballots_cast": 873
+    },
+    {
+      "race_title": "County Legislator District 11",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Brennan Kearney",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2664
+            },
+            {
+              "party": "Working Families",
+              "votes": 472
+            }
+          ],
+          "total": 3136
+        }
+      ],
+      "write_in": 38,
+      "total_votes_cast": 3174,
+      "under_votes": 1247,
+      "over_votes": 1,
+      "total_ballots_cast": 4422
+    },
+    {
+      "race_title": "County Legislator District 12",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John Metzger",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 318
+            },
+            {
+              "party": "Republican",
+              "votes": 1668
+            }
+          ],
+          "total": 1986
+        }
+      ],
+      "write_in": 32,
+      "total_votes_cast": 2018,
+      "under_votes": 802,
+      "over_votes": 0,
+      "total_ballots_cast": 2820
+    },
+    {
+      "race_title": "County Legislator District 13",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Keith Odums",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1348
+            },
+            {
+              "party": "Working Families",
+              "votes": 105
+            }
+          ],
+          "total": 1453
+        },
+        {
+          "name": "Kevin M. Giles",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1828
+            }
+          ],
+          "total": 1828
+        },
+        {
+          "name": "Freedom Party",
+          "party_lines": [],
+          "total": 12
+        },
+        {
+          "name": "Michael Kuzmicz Jr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 212
+            }
+          ],
+          "total": 224
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3505,
+      "under_votes": 43,
+      "over_votes": 4,
+      "total_ballots_cast": 3552
+    },
+    {
+      "race_title": "County Legislator District 14",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Alix Winsby",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1159
+            },
+            {
+              "party": "Working Families",
+              "votes": 138
+            }
+          ],
+          "total": 1297
+        },
+        {
+          "name": "Lynne Miele-Versaci",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 186
+            },
+            {
+              "party": "Republican",
+              "votes": 1009
+            }
+          ],
+          "total": 1195
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 2494,
+      "under_votes": 31,
+      "over_votes": 0,
+      "total_ballots_cast": 2525
+    },
+    {
+      "race_title": "County Legislator District 15",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert Faust",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 331
+            },
+            {
+              "party": "Republican",
+              "votes": 1550
+            }
+          ],
+          "total": 1881
+        }
+      ],
+      "write_in": 24,
+      "total_votes_cast": 1905,
+      "under_votes": 1067,
+      "over_votes": 1,
+      "total_ballots_cast": 2973
+    },
+    {
+      "race_title": "County Legislator District 16",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yvette Valdes Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1671
+            },
+            {
+              "party": "Working Families",
+              "votes": 329
+            }
+          ],
+          "total": 2000
+        },
+        {
+          "name": "John Forman",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 172
+            },
+            {
+              "party": "Republican",
+              "votes": 822
+            }
+          ],
+          "total": 994
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 2997,
+      "under_votes": 35,
+      "over_votes": 3,
+      "total_ballots_cast": 3035
+    },
+    {
+      "race_title": "County Legislator District 17",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Douglas A.A. McHoul",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 363
+            },
+            {
+              "party": "Republican",
+              "votes": 1451
+            }
+          ],
+          "total": 1814
+        }
+      ],
+      "write_in": 41,
+      "total_votes_cast": 1855,
+      "under_votes": 1013,
+      "over_votes": 0,
+      "total_ballots_cast": 2868
+    },
+    {
+      "race_title": "County Legislator District 18",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Molly Rhodes",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1981
+            },
+            {
+              "party": "Working Families",
+              "votes": 626
+            }
+          ],
+          "total": 2607
+        }
+      ],
+      "write_in": 21,
+      "total_votes_cast": 2628,
+      "under_votes": 426,
+      "over_votes": 0,
+      "total_ballots_cast": 3054
+    },
+    {
+      "race_title": "County Legislator District 19",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Chris Drago",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2102
+            },
+            {
+              "party": "Working Families",
+              "votes": 306
+            }
+          ],
+          "total": 2408
+        },
+        {
+          "name": "Tonya Pulver",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 166
+            },
+            {
+              "party": "Republican",
+              "votes": 1429
+            }
+          ],
+          "total": 1595
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 4006,
+      "under_votes": 53,
+      "over_votes": 1,
+      "total_ballots_cast": 4060
+    },
+    {
+      "race_title": "County Legislator District 20",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kristofer Munn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2139
+            },
+            {
+              "party": "Working Families",
+              "votes": 443
+            }
+          ],
+          "total": 2582
+        },
+        {
+          "name": "Mark Maroney",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 207
+            },
+            {
+              "party": "Republican",
+              "votes": 1113
+            }
+          ],
+          "total": 1320
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 3909,
+      "under_votes": 82,
+      "over_votes": 3,
+      "total_ballots_cast": 3994
+    },
+    {
+      "race_title": "County Legislator District 21",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Eric Eckley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1106
+            }
+          ],
+          "total": 1106
+        },
+        {
+          "name": "Stephen M. Caswell",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 273
+            },
+            {
+              "party": "Republican",
+              "votes": 1270
+            }
+          ],
+          "total": 1543
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 2650,
+      "under_votes": 40,
+      "over_votes": 0,
+      "total_ballots_cast": 2690
+    },
+    {
+      "race_title": "County Legislator District 22",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Heidi Tucci",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1359
+            },
+            {
+              "party": "Working Families",
+              "votes": 137
+            }
+          ],
+          "total": 1496
+        },
+        {
+          "name": "Joseph Tresca",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1818
+            }
+          ],
+          "total": 1818
+        }
+      ],
+      "write_in": 20,
+      "total_votes_cast": 3334,
+      "under_votes": 75,
+      "over_votes": 2,
+      "total_ballots_cast": 3411
+    },
+    {
+      "race_title": "County Legislator District 23",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Chris Rolison",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 470
+            },
+            {
+              "party": "Republican",
+              "votes": 1624
+            }
+          ],
+          "total": 2094
+        }
+      ],
+      "write_in": 29,
+      "total_votes_cast": 2123,
+      "under_votes": 902,
+      "over_votes": 1,
+      "total_ballots_cast": 3026
+    },
+    {
+      "race_title": "County Legislator District 24",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Andrew J. House",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 339
+            },
+            {
+              "party": "Republican",
+              "votes": 1450
+            }
+          ],
+          "total": 1789
+        }
+      ],
+      "write_in": 20,
+      "total_votes_cast": 1809,
+      "under_votes": 921,
+      "over_votes": 0,
+      "total_ballots_cast": 2730
+    },
+    {
+      "race_title": "County Legislator District 25",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Eric Alexander",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1788
+            }
+          ],
+          "total": 1788
+        },
+        {
+          "name": "Deirdre A. Houston",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 203
+            },
+            {
+              "party": "Republican",
+              "votes": 1529
+            }
+          ],
+          "total": 1732
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3520,
+      "under_votes": 100,
+      "over_votes": 4,
+      "total_ballots_cast": 3624
+    },
+    {
+      "race_title": "Amenia Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Rosanna L. Hamm",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 628
+            },
+            {
+              "party": "Working Families",
+              "votes": 74
+            }
+          ],
+          "total": 702
+        },
+        {
+          "name": "Common Ground",
+          "party_lines": [],
+          "total": 14
+        },
+        {
+          "name": "Terrence P. McCauley",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 400
+            }
+          ],
+          "total": 414
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1117,
+      "under_votes": 18,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Amenia Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Dawn Marie Klingner",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 823
+            }
+          ],
+          "total": 823
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 824,
+      "under_votes": 311,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Amenia Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Megan M. Chamberlin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 591
+            },
+            {
+              "party": "Republican",
+              "votes": 473
+            }
+          ],
+          "total": 1064
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1066,
+      "under_votes": 69,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Amenia Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Walter R. Dietrich",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 540
+            }
+          ],
+          "total": 540
+        },
+        {
+          "name": "Charlie Miller",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 492
+            },
+            {
+              "party": "Working Families",
+              "votes": 47
+            }
+          ],
+          "total": 539
+        },
+        {
+          "name": "Common Ground",
+          "party_lines": [],
+          "total": 19
+        },
+        {
+          "name": "Brad H. Rebillard",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 458
+            }
+          ],
+          "total": 477
+        },
+        {
+          "name": "Common Ground",
+          "party_lines": [],
+          "total": 26
+        },
+        {
+          "name": "Nicole M. Ahearn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 563
+            }
+          ],
+          "total": 589
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 2149,
+      "under_votes": 115,
+      "over_votes": 6,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Amenia Member of Town Council Unexpired",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Vicki Doyle",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 641
+            }
+          ],
+          "total": 641
+        },
+        {
+          "name": "Common Ground",
+          "party_lines": [],
+          "total": 18
+        },
+        {
+          "name": "Jamie F. Deines",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 440
+            }
+          ],
+          "total": 458
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1100,
+      "under_votes": 33,
+      "over_votes": 2,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Amenia Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christopher G. Klingner",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 821
+            }
+          ],
+          "total": 821
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 824,
+      "under_votes": 311,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Beekman Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Laureen Abbatantuono",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2334
+            }
+          ],
+          "total": 2334
+        }
+      ],
+      "write_in": 61,
+      "total_votes_cast": 2395,
+      "under_votes": 769,
+      "over_votes": 2,
+      "total_ballots_cast": 3166
+    },
+    {
+      "race_title": "Beekman Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Anthony Coviello",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2304
+            }
+          ],
+          "total": 2304
+        },
+        {
+          "name": "Brian",
+          "party_lines": [
+            {
+              "party": "Green",
+              "votes": 156
+            }
+          ],
+          "total": 156
+        }
+      ],
+      "write_in": 27,
+      "total_votes_cast": 2487,
+      "under_votes": 677,
+      "over_votes": 2,
+      "total_ballots_cast": 3166
+    },
+    {
+      "race_title": "Beekman Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Kate Blake",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1940
+            }
+          ],
+          "total": 1940
+        },
+        {
+          "name": "Gina Ragusa",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2059
+            }
+          ],
+          "total": 2059
+        },
+        {
+          "name": "Frank M. Lemak V",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 493
+            }
+          ],
+          "total": 493
+        }
+      ],
+      "write_in": 63,
+      "total_votes_cast": 4555,
+      "under_votes": 1773,
+      "over_votes": 4,
+      "total_ballots_cast": 3166
+    },
+    {
+      "race_title": "Clinton Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Team Clinton",
+          "party_lines": [],
+          "total": 51
+        },
+        {
+          "name": "Michael Whitton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 823
+            }
+          ],
+          "total": 874
+        },
+        {
+          "name": "Dean Michael",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 713
+            }
+          ],
+          "total": 713
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1588,
+      "under_votes": 30,
+      "over_votes": 1,
+      "total_ballots_cast": 1619
+    },
+    {
+      "race_title": "Clinton Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Team Clinton",
+          "party_lines": [],
+          "total": 42
+        },
+        {
+          "name": "Eliot Werner",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 767
+            }
+          ],
+          "total": 809
+        },
+        {
+          "name": "Sapna Moudgil-Shah",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 749
+            }
+          ],
+          "total": 749
+        },
+        {
+          "name": "Katherine K. Mustello",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 805
+            }
+          ],
+          "total": 805
+        },
+        {
+          "name": "Charles J. Wyant Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 702
+            }
+          ],
+          "total": 702
+        },
+        {
+          "name": "Hannah Black Team Clinton",
+          "party_lines": [],
+          "total": 61
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3126,
+      "under_votes": 108,
+      "over_votes": 4,
+      "total_ballots_cast": 1619
+    },
+    {
+      "race_title": "Clinton Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Barbara Seelbach",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 172
+            },
+            {
+              "party": "Republican",
+              "votes": 809
+            }
+          ],
+          "total": 981
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 989,
+      "under_votes": 630,
+      "over_votes": 0,
+      "total_ballots_cast": 1619
+    },
+    {
+      "race_title": "Dover Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Community First",
+          "party_lines": [],
+          "total": 27
+        },
+        {
+          "name": "Linda French",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 506
+            }
+          ],
+          "total": 533
+        },
+        {
+          "name": "Richard C. Yeno",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 140
+            },
+            {
+              "party": "Republican",
+              "votes": 896
+            }
+          ],
+          "total": 1036
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 1576,
+      "under_votes": 15,
+      "over_votes": 1,
+      "total_ballots_cast": 1592
+    },
+    {
+      "race_title": "Dover Tax Collector",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Dina Marie Yeno",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1132
+            }
+          ],
+          "total": 1132
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 1139,
+      "under_votes": 453,
+      "over_votes": 0,
+      "total_ballots_cast": 1592
+    },
+    {
+      "race_title": "Dover Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Community First",
+          "party_lines": [],
+          "total": 29
+        },
+        {
+          "name": "Ed Friend",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 554
+            }
+          ],
+          "total": 583
+        },
+        {
+          "name": "Roy T. Holmes",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 131
+            },
+            {
+              "party": "Republican",
+              "votes": 847
+            }
+          ],
+          "total": 978
+        },
+        {
+          "name": "Susan L. Jackson",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 150
+            },
+            {
+              "party": "Republican",
+              "votes": 859
+            }
+          ],
+          "total": 1009
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 2577,
+      "under_votes": 605,
+      "over_votes": 2,
+      "total_ballots_cast": 1592
+    },
+    {
+      "race_title": "Dover Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "R. Wren Abrams",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 187
+            },
+            {
+              "party": "Republican",
+              "votes": 1024
+            }
+          ],
+          "total": 1211
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 1218,
+      "under_votes": 374,
+      "over_votes": 0,
+      "total_ballots_cast": 1592
+    },
+    {
+      "race_title": "East Fishkill Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nicholas D'Alessandro",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 939
+            },
+            {
+              "party": "Republican",
+              "votes": 4052
+            }
+          ],
+          "total": 4991
+        }
+      ],
+      "write_in": 120,
+      "total_votes_cast": 5111,
+      "under_votes": 2119,
+      "over_votes": 0,
+      "total_ballots_cast": 7230
+    },
+    {
+      "race_title": "East Fishkill Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kenneth Williams",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 955
+            },
+            {
+              "party": "Republican",
+              "votes": 4076
+            }
+          ],
+          "total": 5031
+        }
+      ],
+      "write_in": 79,
+      "total_votes_cast": 5110,
+      "under_votes": 2120,
+      "over_votes": 0,
+      "total_ballots_cast": 7230
+    },
+    {
+      "race_title": "East Fishkill Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Johnathon Falcone",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2882
+            }
+          ],
+          "total": 2882
+        },
+        {
+          "name": "Francine Caracappa",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2840
+            }
+          ],
+          "total": 2840
+        },
+        {
+          "name": "Emanuele Marinaro",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 673
+            },
+            {
+              "party": "Republican",
+              "votes": 3472
+            }
+          ],
+          "total": 4145
+        },
+        {
+          "name": "Thomas Franco",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 649
+            },
+            {
+              "party": "Republican",
+              "votes": 3436
+            }
+          ],
+          "total": 4085
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 13956,
+      "under_votes": 492,
+      "over_votes": 12,
+      "total_ballots_cast": 7230
+    },
+    {
+      "race_title": "Fishkill Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Cooper M. Leatherwood",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 635
+            },
+            {
+              "party": "Republican",
+              "votes": 2355
+            }
+          ],
+          "total": 2990
+        }
+      ],
+      "write_in": 56,
+      "total_votes_cast": 3046,
+      "under_votes": 2034,
+      "over_votes": 0,
+      "total_ballots_cast": 5080
+    },
+    {
+      "race_title": "Fishkill Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Jacqueline Bardini",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2439
+            },
+            {
+              "party": "Working Families",
+              "votes": 396
+            }
+          ],
+          "total": 2835
+        },
+        {
+          "name": "Don Przytula",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2202
+            },
+            {
+              "party": "Working Families",
+              "votes": 343
+            }
+          ],
+          "total": 2545
+        },
+        {
+          "name": "Douglas Dellipaoli",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 332
+            },
+            {
+              "party": "Republican",
+              "votes": 1789
+            }
+          ],
+          "total": 2121
+        },
+        {
+          "name": "Rebecca Tompkins",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 394
+            },
+            {
+              "party": "Republican",
+              "votes": 1874
+            }
+          ],
+          "total": 2268
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 9773,
+      "under_votes": 375,
+      "over_votes": 12,
+      "total_ballots_cast": 5080
+    },
+    {
+      "race_title": "Hyde Park Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Andre J. Clarke",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2837
+            }
+          ],
+          "total": 2837
+        },
+        {
+          "name": "Alfred D. Torreggiani",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 452
+            },
+            {
+              "party": "Republican",
+              "votes": 2460
+            }
+          ],
+          "total": 2912
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 5750,
+      "under_votes": 83,
+      "over_votes": 0,
+      "total_ballots_cast": 5833
+    },
+    {
+      "race_title": "Hyde Park Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Azra Daie",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2710
+            }
+          ],
+          "total": 2710
+        },
+        {
+          "name": "Sarah J. Hohmann",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 483
+            },
+            {
+              "party": "Republican",
+              "votes": 2522
+            }
+          ],
+          "total": 3005
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 5716,
+      "under_votes": 117,
+      "over_votes": 0,
+      "total_ballots_cast": 5833
+    },
+    {
+      "race_title": "Hyde Park Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ray Davis",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2920
+            }
+          ],
+          "total": 2920
+        },
+        {
+          "name": "Rodney J. Wager",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 425
+            },
+            {
+              "party": "Republican",
+              "votes": 2383
+            }
+          ],
+          "total": 2808
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 5733,
+      "under_votes": 100,
+      "over_votes": 0,
+      "total_ballots_cast": 5833
+    },
+    {
+      "race_title": "Hyde Park Receiver of Taxes",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Cindy Todd",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4015
+            }
+          ],
+          "total": 4015
+        }
+      ],
+      "write_in": 18,
+      "total_votes_cast": 4033,
+      "under_votes": 1800,
+      "over_votes": 0,
+      "total_ballots_cast": 5833
+    },
+    {
+      "race_title": "Hyde Park Member of Town Council-Ward 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Marc Prine",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 886
+            }
+          ],
+          "total": 886
+        },
+        {
+          "name": "Nicole A. Noakes",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 108
+            },
+            {
+              "party": "Republican",
+              "votes": 510
+            }
+          ],
+          "total": 618
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1504,
+      "under_votes": 39,
+      "over_votes": 0,
+      "total_ballots_cast": 1543
+    },
+    {
+      "race_title": "Hyde Park Member of Town Council-Ward 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Greg Komar",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 733
+            }
+          ],
+          "total": 733
+        },
+        {
+          "name": "Liz Mesquita",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 78
+            },
+            {
+              "party": "Republican",
+              "votes": 490
+            }
+          ],
+          "total": 568
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1301,
+      "under_votes": 34,
+      "over_votes": 0,
+      "total_ballots_cast": 1335
+    },
+    {
+      "race_title": "Hyde Park Member of Town Council-Ward 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Paul Donnelly",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 601
+            }
+          ],
+          "total": 650
+        },
+        {
+          "name": "Gregory A. Campus",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 82
+            },
+            {
+              "party": "Republican",
+              "votes": 484
+            }
+          ],
+          "total": 566
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1216,
+      "under_votes": 20,
+      "over_votes": 1,
+      "total_ballots_cast": 1237
+    },
+    {
+      "race_title": "Hyde Park Member of Town Council-Ward 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Rogerrio Rodriguez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 696
+            },
+            {
+              "party": "Working Families",
+              "votes": 75
+            }
+          ],
+          "total": 771
+        },
+        {
+          "name": "Donald E. Prusakowski Sr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 142
+            },
+            {
+              "party": "Republican",
+              "votes": 773
+            }
+          ],
+          "total": 915
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1686,
+      "under_votes": 31,
+      "over_votes": 1,
+      "total_ballots_cast": 1718
+    },
+    {
+      "race_title": "LaGrange Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "James A. Fredrickson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2051
+            }
+          ],
+          "total": 2051
+        },
+        {
+          "name": "Anthony Marinaro",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 398
+            },
+            {
+              "party": "Republican",
+              "votes": 2261
+            }
+          ],
+          "total": 2659
+        },
+        {
+          "name": "Theresa A. Morley",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 180
+            }
+          ],
+          "total": 180
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 4892,
+      "under_votes": 58,
+      "over_votes": 1,
+      "total_ballots_cast": 4951
+    },
+    {
+      "race_title": "LaGrange Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "John Wisseman",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 618
+            },
+            {
+              "party": "Republican",
+              "votes": 2649
+            }
+          ],
+          "total": 3267
+        }
+      ],
+      "write_in": 30,
+      "total_votes_cast": 3297,
+      "under_votes": 1654,
+      "over_votes": 0,
+      "total_ballots_cast": 4951
+    },
+    {
+      "race_title": "LaGrange Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Peter J. Turoff",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2123
+            }
+          ],
+          "total": 2123
+        },
+        {
+          "name": "Michael A. Maher",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2097
+            }
+          ],
+          "total": 2097
+        },
+        {
+          "name": "Franco Giangrasso",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2257
+            }
+          ],
+          "total": 2257
+        },
+        {
+          "name": "Susan Condon",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 365
+            },
+            {
+              "party": "Republican",
+              "votes": 2064
+            }
+          ],
+          "total": 2429
+        },
+        {
+          "name": "Alfred P. Rabasco",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 297
+            }
+          ],
+          "total": 297
+        },
+        {
+          "name": "Allyson Persaud",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 194
+            }
+          ],
+          "total": 194
+        },
+        {
+          "name": "Reese Persaud",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 128
+            }
+          ],
+          "total": 128
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 9530,
+      "under_votes": 366,
+      "over_votes": 6,
+      "total_ballots_cast": 4951
+    },
+    {
+      "race_title": "Milan Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "William Jeffway",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 641
+            }
+          ],
+          "total": 641
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 644,
+      "under_votes": 226,
+      "over_votes": 0,
+      "total_ballots_cast": 870
+    },
+    {
+      "race_title": "Milan Town Clerk / Tax Collector",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ingrid Kulick",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 650
+            }
+          ],
+          "total": 650
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 650,
+      "under_votes": 220,
+      "over_votes": 0,
+      "total_ballots_cast": 870
+    },
+    {
+      "race_title": "Milan Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Glenn Louis Weinrich",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 565
+            }
+          ],
+          "total": 565
+        },
+        {
+          "name": "Clinton Bond Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 558
+            }
+          ],
+          "total": 558
+        },
+        {
+          "name": "Glenn J. Carrezola",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 294
+            }
+          ],
+          "total": 294
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1417,
+      "under_votes": 323,
+      "over_votes": 0,
+      "total_ballots_cast": 870
+    },
+    {
+      "race_title": "Milan Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Slade Mead",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 553
+            }
+          ],
+          "total": 553
+        },
+        {
+          "name": "Lawrence M. Longo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 298
+            }
+          ],
+          "total": 298
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 851,
+      "under_votes": 19,
+      "over_votes": 0,
+      "total_ballots_cast": 870
+    },
+    {
+      "race_title": "North East Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Rachele Grieco Cole",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 500
+            }
+          ],
+          "total": 500
+        },
+        {
+          "name": "Christopher Mayville",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 449
+            },
+            {
+              "party": "Republican",
+              "votes": 240
+            }
+          ],
+          "total": 689
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 1197,
+      "under_votes": 369,
+      "over_votes": 0,
+      "total_ballots_cast": 783
+    },
+    {
+      "race_title": "North East Town Assessor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Katherine Johnson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 498
+            },
+            {
+              "party": "Republican",
+              "votes": 220
+            }
+          ],
+          "total": 718
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 720,
+      "under_votes": 63,
+      "over_votes": 0,
+      "total_ballots_cast": 783
+    },
+    {
+      "race_title": "North East Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Casey McCabe",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 606
+            }
+          ],
+          "total": 606
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 606,
+      "under_votes": 177,
+      "over_votes": 0,
+      "total_ballots_cast": 783
+    },
+    {
+      "race_title": "Pawling Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Catherine Giordano",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1075
+            }
+          ],
+          "total": 1641
+        },
+        {
+          "name": "James Schmitt",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 795
+            }
+          ],
+          "total": 795
+        }
+      ],
+      "write_in": 10,
+      "total_votes_cast": 2446,
+      "under_votes": 164,
+      "over_votes": 6,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Pawling Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Cheryl Knowles",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1601
+            }
+          ],
+          "total": 1601
+        }
+      ],
+      "write_in": 18,
+      "total_votes_cast": 1619,
+      "under_votes": 997,
+      "over_votes": 0,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Pawling Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert F. Brill Jr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 427
+            },
+            {
+              "party": "Republican",
+              "votes": 1364
+            }
+          ],
+          "total": 1791
+        }
+      ],
+      "write_in": 18,
+      "total_votes_cast": 1809,
+      "under_votes": 807,
+      "over_votes": 0,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Pawling Tax Collector",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Barbara Tyson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1651
+            }
+          ],
+          "total": 1651
+        }
+      ],
+      "write_in": 15,
+      "total_votes_cast": 1666,
+      "under_votes": 950,
+      "over_votes": 0,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Pawling Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Corinne Musella-Pitt",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 338
+            },
+            {
+              "party": "Republican",
+              "votes": 848
+            }
+          ],
+          "total": 1186
+        },
+        {
+          "name": "James McCarthy",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 343
+            },
+            {
+              "party": "Republican",
+              "votes": 817
+            }
+          ],
+          "total": 1160
+        },
+        {
+          "name": "Andrea Hunt United4Pawling",
+          "party_lines": [],
+          "total": 1081
+        },
+        {
+          "name": "Joseph B. Furlong United4Pawling",
+          "party_lines": [],
+          "total": 1098
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 4536,
+      "under_votes": 668,
+      "over_votes": 28,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Pine Plains Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kevin Joseph Walsh",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 419
+            }
+          ],
+          "total": 419
+        },
+        {
+          "name": "Brian Walsh",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 427
+            }
+          ],
+          "total": 427
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 846,
+      "under_votes": 6,
+      "over_votes": 0,
+      "total_ballots_cast": 852
+    },
+    {
+      "race_title": "Pine Plains Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Trevor Roush",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 453
+            }
+          ],
+          "total": 453
+        },
+        {
+          "name": "Murphy Birdsall",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 410
+            }
+          ],
+          "total": 410
+        },
+        {
+          "name": "Robert Ambrose",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 373
+            }
+          ],
+          "total": 373
+        },
+        {
+          "name": "David Prentice",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 390
+            }
+          ],
+          "total": 390
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 1629,
+      "under_votes": 75,
+      "over_votes": 0,
+      "total_ballots_cast": 852
+    },
+    {
+      "race_title": "Pleasant Valley Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Mary E. Albrecht",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1801
+            }
+          ],
+          "total": 1801
+        }
+      ],
+      "write_in": 50,
+      "total_votes_cast": 1851,
+      "under_votes": 1026,
+      "over_votes": 0,
+      "total_ballots_cast": 2877
+    },
+    {
+      "race_title": "Pleasant Valley Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Meghan Borland",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1284
+            },
+            {
+              "party": "Working Families",
+              "votes": 175
+            }
+          ],
+          "total": 1459
+        },
+        {
+          "name": "Merry Meyer",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1295
+            }
+          ],
+          "total": 1295
+        },
+        {
+          "name": "Michael S. Rifenburgh",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 218
+            },
+            {
+              "party": "Republican",
+              "votes": 1181
+            }
+          ],
+          "total": 1399
+        },
+        {
+          "name": "Scott C. Cookinham Sr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 207
+            },
+            {
+              "party": "Republican",
+              "votes": 1123
+            }
+          ],
+          "total": 1330
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 5486,
+      "under_votes": 262,
+      "over_votes": 6,
+      "total_ballots_cast": 2877
+    },
+    {
+      "race_title": "Pleasant Valley Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Darren H. Fairlie",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 342
+            },
+            {
+              "party": "Republican",
+              "votes": 1452
+            }
+          ],
+          "total": 1794
+        }
+      ],
+      "write_in": 23,
+      "total_votes_cast": 1817,
+      "under_votes": 1060,
+      "over_votes": 0,
+      "total_ballots_cast": 2877
+    },
+    {
+      "race_title": "Town of Poughkeepsie Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Rebecca Edwards",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5895
+            },
+            {
+              "party": "Working Families",
+              "votes": 773
+            }
+          ],
+          "total": 6668
+        },
+        {
+          "name": "Larry Sheehan",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 581
+            },
+            {
+              "party": "Republican",
+              "votes": 3347
+            }
+          ],
+          "total": 3928
+        }
+      ],
+      "write_in": 10,
+      "total_votes_cast": 10606,
+      "under_votes": 151,
+      "over_votes": 4,
+      "total_ballots_cast": 10761
+    },
+    {
+      "race_title": "Town of Poughkeepsie Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Felicia Salvatore",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6193
+            },
+            {
+              "party": "Republican",
+              "votes": 3716
+            }
+          ],
+          "total": 9909
+        }
+      ],
+      "write_in": 16,
+      "total_votes_cast": 9925,
+      "under_votes": 835,
+      "over_votes": 1,
+      "total_ballots_cast": 10761
+    },
+    {
+      "race_title": "Town of Poughkeepsie Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Mike Simon",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1403
+            },
+            {
+              "party": "Republican",
+              "votes": 5201
+            }
+          ],
+          "total": 6604
+        }
+      ],
+      "write_in": 72,
+      "total_votes_cast": 6676,
+      "under_votes": 4084,
+      "over_votes": 1,
+      "total_ballots_cast": 10761
+    },
+    {
+      "race_title": "Town of Poughkeepsie Receiver of Taxes",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nicole Gemmati",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5414
+            },
+            {
+              "party": "Working Families",
+              "votes": 738
+            }
+          ],
+          "total": 6152
+        },
+        {
+          "name": "Kelly Tremper",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 636
+            },
+            {
+              "party": "Republican",
+              "votes": 3813
+            }
+          ],
+          "total": 4449
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 10604,
+      "under_votes": 153,
+      "over_votes": 4,
+      "total_ballots_cast": 10761
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Gregory Freeman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 654
+            },
+            {
+              "party": "Working Families",
+              "votes": 79
+            }
+          ],
+          "total": 733
+        },
+        {
+          "name": "Bill Reuter",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 122
+            },
+            {
+              "party": "Republican",
+              "votes": 745
+            }
+          ],
+          "total": 867
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1601,
+      "under_votes": 9,
+      "over_votes": 1,
+      "total_ballots_cast": 1611
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Barbara Laird",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1064
+            },
+            {
+              "party": "Working Families",
+              "votes": 97
+            }
+          ],
+          "total": 1161
+        },
+        {
+          "name": "Alexander Cuesta",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 130
+            },
+            {
+              "party": "Republican",
+              "votes": 663
+            }
+          ],
+          "total": 793
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1954,
+      "under_votes": 30,
+      "over_votes": 3,
+      "total_ballots_cast": 1987
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Shantha Thangiah",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 961
+            },
+            {
+              "party": "Working Families",
+              "votes": 113
+            }
+          ],
+          "total": 1074
+        },
+        {
+          "name": "Anne Burger",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 132
+            },
+            {
+              "party": "Republican",
+              "votes": 770
+            }
+          ],
+          "total": 902
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 1977,
+      "under_votes": 27,
+      "over_votes": 1,
+      "total_ballots_cast": 2005
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Emily Watson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 877
+            },
+            {
+              "party": "Working Families",
+              "votes": 91
+            }
+          ],
+          "total": 968
+        },
+        {
+          "name": "Adam Goldfish",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 92
+            },
+            {
+              "party": "Republican",
+              "votes": 530
+            }
+          ],
+          "total": 622
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1590,
+      "under_votes": 34,
+      "over_votes": 2,
+      "total_ballots_cast": 1626
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 5",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ryan Sharpe",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 968
+            },
+            {
+              "party": "Working Families",
+              "votes": 117
+            }
+          ],
+          "total": 1085
+        },
+        {
+          "name": "Jennifer Betz",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 102
+            },
+            {
+              "party": "Republican",
+              "votes": 499
+            }
+          ],
+          "total": 601
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1688,
+      "under_votes": 22,
+      "over_votes": 0,
+      "total_ballots_cast": 1710
+    },
+    {
+      "race_title": "Town of Poughkeepsie Member of Town Council-Ward 6",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ann Shershin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1137
+            },
+            {
+              "party": "Working Families",
+              "votes": 298
+            }
+          ],
+          "total": 1435
+        }
+      ],
+      "write_in": 4,
+      "total_votes_cast": 1439,
+      "under_votes": 383,
+      "over_votes": 0,
+      "total_ballots_cast": 1822
+    },
+    {
+      "race_title": "Red Hook Town Clerk / Tax Collector",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Deanna Cochran",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2836
+            }
+          ],
+          "total": 2836
+        }
+      ],
+      "write_in": 12,
+      "total_votes_cast": 2848,
+      "under_votes": 738,
+      "over_votes": 0,
+      "total_ballots_cast": 3586
+    },
+    {
+      "race_title": "Red Hook Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Homegrown RH",
+          "party_lines": [],
+          "total": 376
+        },
+        {
+          "name": "Kristina Dousharm",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2273
+            }
+          ],
+          "total": 2649
+        },
+        {
+          "name": "Homegrown RH",
+          "party_lines": [],
+          "total": 536
+        },
+        {
+          "name": "Kenneth Migliorelli",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2295
+            }
+          ],
+          "total": 2831
+        },
+        {
+          "name": "David Mergendahl",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 148
+            },
+            {
+              "party": "Republican",
+              "votes": 708
+            }
+          ],
+          "total": 856
+        },
+        {
+          "name": "Christine Kane",
+          "party_lines": [],
+          "total": 34
+        },
+        {
+          "name": "Zoe Evans",
+          "party_lines": [],
+          "total": 42
+        }
+      ],
+      "write_in": 27,
+      "total_votes_cast": 6439,
+      "under_votes": 719,
+      "over_votes": 14,
+      "total_ballots_cast": 3586
+    },
+    {
+      "race_title": "Rhinebeck Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Elizabeth Spinzia",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1665
+            }
+          ],
+          "total": 1665
+        },
+        {
+          "name": "Gary Bassett",
+          "party_lines": [],
+          "total": 467
+        }
+      ],
+      "write_in": 37,
+      "total_votes_cast": 2169,
+      "under_votes": 564,
+      "over_votes": 3,
+      "total_ballots_cast": 2736
+    },
+    {
+      "race_title": "Rhinebeck Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert Wyant",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2245
+            }
+          ],
+          "total": 2245
+        }
+      ],
+      "write_in": 16,
+      "total_votes_cast": 2261,
+      "under_votes": 475,
+      "over_votes": 0,
+      "total_ballots_cast": 2736
+    },
+    {
+      "race_title": "Rhinebeck Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Debbie Hecht",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1975
+            }
+          ],
+          "total": 1975
+        },
+        {
+          "name": "Dana Colleen Peterson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2031
+            }
+          ],
+          "total": 2031
+        }
+      ],
+      "write_in": 33,
+      "total_votes_cast": 4039,
+      "under_votes": 1433,
+      "over_votes": 0,
+      "total_ballots_cast": 2736
+    },
+    {
+      "race_title": "Rhinebeck Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lisa Rubenstein",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2140
+            }
+          ],
+          "total": 2140
+        }
+      ],
+      "write_in": 17,
+      "total_votes_cast": 2157,
+      "under_votes": 579,
+      "over_votes": 0,
+      "total_ballots_cast": 2736
+    },
+    {
+      "race_title": "Stanford Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Julia Descoteaux",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 734
+            },
+            {
+              "party": "Working Families",
+              "votes": 76
+            }
+          ],
+          "total": 810
+        },
+        {
+          "name": "Michael Roche",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 579
+            }
+          ],
+          "total": 579
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1389,
+      "under_votes": 15,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Stanford Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ritamary Bell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 749
+            },
+            {
+              "party": "Republican",
+              "votes": 612
+            }
+          ],
+          "total": 1361
+        }
+      ],
+      "write_in": 5,
+      "total_votes_cast": 1366,
+      "under_votes": 38,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Stanford Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "James Myers Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 983
+            }
+          ],
+          "total": 983
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 984,
+      "under_votes": 420,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Stanford Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Theodore E. Secor",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 691
+            },
+            {
+              "party": "Working Families",
+              "votes": 69
+            }
+          ],
+          "total": 760
+        },
+        {
+          "name": "Charles Cunningham",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 749
+            }
+          ],
+          "total": 749
+        },
+        {
+          "name": "Durga G. Taylor",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 593
+            }
+          ],
+          "total": 593
+        },
+        {
+          "name": "Frank Marcin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 624
+            }
+          ],
+          "total": 624
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 2727,
+      "under_votes": 81,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Stanford Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Dennis E. Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 710
+            },
+            {
+              "party": "Republican",
+              "votes": 624
+            }
+          ],
+          "total": 1334
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1334,
+      "under_votes": 70,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Union Vale Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Steven Frazier",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 154
+            },
+            {
+              "party": "Republican",
+              "votes": 785
+            }
+          ],
+          "total": 939
+        }
+      ],
+      "write_in": 38,
+      "total_votes_cast": 977,
+      "under_votes": 456,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Union Vale Town Clerk",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Andrea Casey",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 189
+            },
+            {
+              "party": "Republican",
+              "votes": 859
+            }
+          ],
+          "total": 1048
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 1059,
+      "under_votes": 374,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Union Vale Superintendent of Highways",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Edward Kading",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 182
+            },
+            {
+              "party": "Republican",
+              "votes": 826
+            }
+          ],
+          "total": 1008
+        }
+      ],
+      "write_in": 14,
+      "total_votes_cast": 1022,
+      "under_votes": 411,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Union Vale Tax Collector",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Kaye Saglibene",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 185
+            },
+            {
+              "party": "Republican",
+              "votes": 801
+            }
+          ],
+          "total": 986
+        }
+      ],
+      "write_in": 12,
+      "total_votes_cast": 998,
+      "under_votes": 435,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Union Vale Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Angela Sheldon",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 619
+            }
+          ],
+          "total": 619
+        },
+        {
+          "name": "Kevin T. Harrington",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 125
+            },
+            {
+              "party": "Republican",
+              "votes": 704
+            }
+          ],
+          "total": 829
+        },
+        {
+          "name": "Joshua M. Redinger",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 138
+            },
+            {
+              "party": "Republican",
+              "votes": 672
+            }
+          ],
+          "total": 810
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 2269,
+      "under_votes": 597,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Union Vale Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Stephen Diamond",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 162
+            },
+            {
+              "party": "Republican",
+              "votes": 782
+            }
+          ],
+          "total": 944
+        }
+      ],
+      "write_in": 14,
+      "total_votes_cast": 958,
+      "under_votes": 475,
+      "over_votes": 0,
+      "total_ballots_cast": 1433
+    },
+    {
+      "race_title": "Wappinger Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Joseph D. Cavaccini",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4831
+            }
+          ],
+          "total": 4831
+        }
+      ],
+      "write_in": 78,
+      "total_votes_cast": 4909,
+      "under_votes": 2211,
+      "over_votes": 2,
+      "total_ballots_cast": 7122
+    },
+    {
+      "race_title": "Wappinger Member of Town Council-Ward 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Samtreo Tucker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 620
+            },
+            {
+              "party": "Working Families",
+              "votes": 88
+            }
+          ],
+          "total": 708
+        },
+        {
+          "name": "William H. Beale",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 118
+            },
+            {
+              "party": "Republican",
+              "votes": 603
+            }
+          ],
+          "total": 721
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1429,
+      "under_votes": 18,
+      "over_votes": 1,
+      "total_ballots_cast": 1448
+    },
+    {
+      "race_title": "Wappinger Member of Town Council-Ward 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Heather O'Dell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 652
+            },
+            {
+              "party": "Working Families",
+              "votes": 96
+            }
+          ],
+          "total": 748
+        },
+        {
+          "name": "Sara Sheehan",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 107
+            },
+            {
+              "party": "Republican",
+              "votes": 589
+            }
+          ],
+          "total": 696
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 1447,
+      "under_votes": 11,
+      "over_votes": 2,
+      "total_ballots_cast": 1460
+    },
+    {
+      "race_title": "Wappinger Member of Town Council-Ward 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Robert Cofer Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1069
+            }
+          ],
+          "total": 1069
+        },
+        {
+          "name": "Christopher Phillips",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1118
+            }
+          ],
+          "total": 1118
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 2194,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 2252
+    },
+    {
+      "race_title": "Wappinger Member of Town Council-Ward 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Linda Ibrahim",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 712
+            }
+          ],
+          "total": 712
+        },
+        {
+          "name": "Alfred J. Casella",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1211
+            }
+          ],
+          "total": 1211
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1923,
+      "under_votes": 38,
+      "over_votes": 1,
+      "total_ballots_cast": 1962
+    },
+    {
+      "race_title": "Wappinger Town Justice",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Heather L. Kitchen",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 812
+            },
+            {
+              "party": "Republican",
+              "votes": 3814
+            }
+          ],
+          "total": 4626
+        }
+      ],
+      "write_in": 47,
+      "total_votes_cast": 4673,
+      "under_votes": 2448,
+      "over_votes": 1,
+      "total_ballots_cast": 7122
+    },
+    {
+      "race_title": "Washington Town Supervisor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Gary Ciferri",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 925
+            }
+          ],
+          "total": 925
+        }
+      ],
+      "write_in": 17,
+      "total_votes_cast": 942,
+      "under_votes": 606,
+      "over_votes": 4,
+      "total_ballots_cast": 1552
+    },
+    {
+      "race_title": "Washington Member of Town Council",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Susan Mancuso",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 814
+            }
+          ],
+          "total": 814
+        },
+        {
+          "name": "Maxine Verne",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 785
+            }
+          ],
+          "total": 785
+        },
+        {
+          "name": "Nicholas Galente",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 709
+            }
+          ],
+          "total": 709
+        },
+        {
+          "name": "Douglas Giles",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 702
+            }
+          ],
+          "total": 702
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3010,
+      "under_votes": 86,
+      "over_votes": 8,
+      "total_ballots_cast": 1552
+    },
+    {
+      "race_title": "City of Beacon City Councilmember at Large",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Amber Grant",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3023
+            }
+          ],
+          "total": 3023
+        },
+        {
+          "name": "Paloma Wake",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2334
+            },
+            {
+              "party": "Working Families",
+              "votes": 771
+            }
+          ],
+          "total": 3105
+        }
+      ],
+      "write_in": 62,
+      "total_votes_cast": 6190,
+      "under_votes": 1564,
+      "over_votes": 0,
+      "total_ballots_cast": 3877
+    },
+    {
+      "race_title": "City of Beacon City Council Member Ward 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Lastar Gorton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 637
+            },
+            {
+              "party": "Working Families",
+              "votes": 192
+            }
+          ],
+          "total": 829
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 835,
+      "under_votes": 152,
+      "over_votes": 0,
+      "total_ballots_cast": 987
+    },
+    {
+      "race_title": "City of Beacon City Council Member Ward 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Zack Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 765
+            }
+          ],
+          "total": 765
+        }
+      ],
+      "write_in": 6,
+      "total_votes_cast": 771,
+      "under_votes": 129,
+      "over_votes": 0,
+      "total_ballots_cast": 900
+    },
+    {
+      "race_title": "City of Beacon City Council Member Ward 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sergei Krasikov",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 528
+            },
+            {
+              "party": "Working Families",
+              "votes": 173
+            }
+          ],
+          "total": 701
+        }
+      ],
+      "write_in": 11,
+      "total_votes_cast": 712,
+      "under_votes": 148,
+      "over_votes": 0,
+      "total_ballots_cast": 860
+    },
+    {
+      "race_title": "City of Beacon City Council Member Ward 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Carolyn Bennett Glauda",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 735
+            },
+            {
+              "party": "Working Families",
+              "votes": 215
+            }
+          ],
+          "total": 950
+        }
+      ],
+      "write_in": 7,
+      "total_votes_cast": 957,
+      "under_votes": 173,
+      "over_votes": 0,
+      "total_ballots_cast": 1130
+    },
+    {
+      "race_title": "City of Poughkeepsie City Councilmember at Large",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "DaRon H. Wilson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3383
+            }
+          ],
+          "total": 3383
+        },
+        {
+          "name": "Yousef M. Haddad",
+          "party_lines": [
+            {
+              "party": "PK's Choice",
+              "votes": 493
+            }
+          ],
+          "total": 493
+        }
+      ],
+      "write_in": 13,
+      "total_votes_cast": 3889,
+      "under_votes": 949,
+      "over_votes": 15,
+      "total_ballots_cast": 4853
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ernest J. Henry",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 294
+            }
+          ],
+          "total": 294
+        },
+        {
+          "name": "Aaron Scott",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 135
+            }
+          ],
+          "total": 135
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 429,
+      "under_votes": 19,
+      "over_votes": 0,
+      "total_ballots_cast": 448
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Evan R. Menist",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 312
+            },
+            {
+              "party": "Working Families",
+              "votes": 58
+            }
+          ],
+          "total": 370
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 372,
+      "under_votes": 86,
+      "over_votes": 0,
+      "total_ballots_cast": 458
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Terriciena A. Brown",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 235
+            }
+          ],
+          "total": 235
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 237,
+      "under_votes": 58,
+      "over_votes": 0,
+      "total_ballots_cast": 295
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 4",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nathan A. Shook",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 850
+            }
+          ],
+          "total": 850
+        }
+      ],
+      "write_in": 14,
+      "total_votes_cast": 864,
+      "under_votes": 296,
+      "over_votes": 0,
+      "total_ballots_cast": 1160
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 5",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Ondie D. James",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 282
+            }
+          ],
+          "total": 282
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 284,
+      "under_votes": 42,
+      "over_votes": 0,
+      "total_ballots_cast": 326
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 6",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Christopher A. Grant",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 271
+            },
+            {
+              "party": "Working Families",
+              "votes": 58
+            }
+          ],
+          "total": 329
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 331,
+      "under_votes": 67,
+      "over_votes": 0,
+      "total_ballots_cast": 398
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 7",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Nedra R. Thompson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 248
+            },
+            {
+              "party": "Working Families",
+              "votes": 55
+            }
+          ],
+          "total": 303
+        }
+      ],
+      "write_in": 1,
+      "total_votes_cast": 304,
+      "under_votes": 49,
+      "over_votes": 0,
+      "total_ballots_cast": 353
+    },
+    {
+      "race_title": "City of Poughkeepsie City Council Member Ward 8",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Daniel L. Atonna",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 825
+            },
+            {
+              "party": "Working Families",
+              "votes": 97
+            }
+          ],
+          "total": 922
+        },
+        {
+          "name": "Austin Mora",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 468
+            }
+          ],
+          "total": 468
+        }
+      ],
+      "write_in": 2,
+      "total_votes_cast": 1392,
+      "under_votes": 23,
+      "over_votes": 0,
+      "total_ballots_cast": 1415
+    },
+    {
+      "race_title": "Village of Millbrook Trustee",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Theodore Briggs",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 328
+            }
+          ],
+          "total": 328
+        }
+      ],
+      "write_in": 8,
+      "total_votes_cast": 336,
+      "under_votes": 235,
+      "over_votes": 2,
+      "total_ballots_cast": 573
+    },
+    {
+      "race_title": "Village of Pawling Mayor",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Louis Musella",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 270
+            }
+          ],
+          "total": 270
+        },
+        {
+          "name": "Lauri Taylor",
+          "party_lines": [
+            {
+              "party": "Pawling Values",
+              "votes": 305
+            }
+          ],
+          "total": 305
+        }
+      ],
+      "write_in": 3,
+      "total_votes_cast": 578,
+      "under_votes": 48,
+      "over_votes": 1,
+      "total_ballots_cast": 627
+    },
+    {
+      "race_title": "Village of Pawling Trustee",
+      "vote_for": 2,
+      "candidates": [
+        {
+          "name": "Stephen Pezzella",
+          "party_lines": [
+            {
+              "party": "Pawling Values",
+              "votes": 162
+            },
+            {
+              "party": "Republican",
+              "votes": 243
+            }
+          ],
+          "total": 405
+        },
+        {
+          "name": "Jerry Locascio",
+          "party_lines": [
+            {
+              "party": "Pawling Values",
+              "votes": 170
+            },
+            {
+              "party": "Republican",
+              "votes": 258
+            }
+          ],
+          "total": 428
+        }
+      ],
+      "write_in": 9,
+      "total_votes_cast": 842,
+      "under_votes": 412,
+      "over_votes": 0,
+      "total_ballots_cast": 627
+    },
+    {
+      "race_title": "Town of Poughkeepsie Library Trustee",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Sophia Kozlowski Sciacca",
+          "party_lines": [
+            {
+              "party": "Non- Partisan",
+              "votes": 5276
+            }
+          ],
+          "total": 5276
+        }
+      ],
+      "write_in": 30,
+      "total_votes_cast": 5306,
+      "under_votes": 5273,
+      "over_votes": 1,
+      "total_ballots_cast": 10580
+    },
+    {
+      "race_title": "Statewide Proposal",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 39944
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 32122
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 72066,
+      "under_votes": 3847,
+      "over_votes": 15,
+      "total_ballots_cast": 75928
+    },
+    {
+      "race_title": "Town of Amenia Proposition 1",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 708
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 405
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1113,
+      "under_votes": 22,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Town of Amenia Proposition 2",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 529
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 575
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1104,
+      "under_votes": 31,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Town of Amenia Proposition 3",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 457
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 647
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1104,
+      "under_votes": 31,
+      "over_votes": 0,
+      "total_ballots_cast": 1135
+    },
+    {
+      "race_title": "Town of Beekman Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 2043
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 1052
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 3095,
+      "under_votes": 70,
+      "over_votes": 1,
+      "total_ballots_cast": 3166
+    },
+    {
+      "race_title": "Town of Clinton Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1192
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 404
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1596,
+      "under_votes": 23,
+      "over_votes": 0,
+      "total_ballots_cast": 1619
+    },
+    {
+      "race_title": "Town of Dover Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1091
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 432
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1523,
+      "under_votes": 69,
+      "over_votes": 0,
+      "total_ballots_cast": 1592
+    },
+    {
+      "race_title": "Town of North East Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 598
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 170
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 768,
+      "under_votes": 15,
+      "over_votes": 0,
+      "total_ballots_cast": 783
+    },
+    {
+      "race_title": "Town of Pawling Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1675
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 855
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2530,
+      "under_votes": 83,
+      "over_votes": 3,
+      "total_ballots_cast": 2616
+    },
+    {
+      "race_title": "Town of Pine Plains Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 578
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 264
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 842,
+      "under_votes": 10,
+      "over_votes": 0,
+      "total_ballots_cast": 852
+    },
+    {
+      "race_title": "Town of Pleasant Valley Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1964
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 831
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2795,
+      "under_votes": 81,
+      "over_votes": 1,
+      "total_ballots_cast": 2877
+    },
+    {
+      "race_title": "Town of Poughkeepsie Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 5406
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 4951
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 10357,
+      "under_votes": 402,
+      "over_votes": 2,
+      "total_ballots_cast": 10761
+    },
+    {
+      "race_title": "Town of Rhinebeck Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1937
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 735
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 2672,
+      "under_votes": 64,
+      "over_votes": 0,
+      "total_ballots_cast": 2736
+    },
+    {
+      "race_title": "Town of Stanford Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 1066
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 286
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 1352,
+      "under_votes": 52,
+      "over_votes": 0,
+      "total_ballots_cast": 1404
+    },
+    {
+      "race_title": "Town of Poughkeepsie Library Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 6923
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 3296
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 10219,
+      "under_votes": 359,
+      "over_votes": 2,
+      "total_ballots_cast": 10580
+    },
+    {
+      "race_title": "City of Poughkeepsie Library Proposition",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [],
+          "total": 3601
+        },
+        {
+          "name": "No",
+          "party_lines": [],
+          "total": 962
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 4563,
+      "under_votes": 290,
+      "over_votes": 0,
+      "total_ballots_cast": 4853
+    }
+  ]
+}
