@@ -5,9 +5,14 @@ import psycopg
 from psycopg.rows import dict_row
 from psycopg_pool import ConnectionPool
 
-from ..models.schemas import RaceData, StatsResponse, FilterOptions
+from ..models.schemas import RaceData, StatsResponse, FilterOptions, RaceFusionMetrics, CandidateFusionMetrics, PartyLineBreakdown
 from ..config import DATABASE_URL
 
+
+# Party classification for fusion voting analysis
+MAIN_PARTIES = {"Democratic", "Republican"}
+D_ALIGNED_MINOR = {"Working Families"}
+R_ALIGNED_MINOR = {"Conservative"}
 
 # Connection pool (initialized by app lifespan)
 _pool: Optional[ConnectionPool] = None
@@ -251,4 +256,148 @@ def get_filter_options() -> FilterOptions:
         raceTypes=race_types,
         parties=parties,
         competitivenessLevels=competitiveness_levels
+    )
+
+
+def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
+    """Get fusion voting metrics for a specific race.
+
+    Returns detailed party line breakdown and leverage analysis for winner and runner-up.
+    Returns None if race not found.
+    """
+    pool = get_pool()
+    with pool.connection() as conn:
+        with conn.cursor(row_factory=dict_row) as cursor:
+
+            # Get race info and margin
+            cursor.execute("""
+                SELECT
+                    r.id,
+                    r.race_title,
+                    MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
+                    MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes
+                FROM races r
+                JOIN candidates c ON r.id = c.race_id
+                WHERE r.id = %s
+                GROUP BY r.id
+            """, [race_id])
+
+            race_row = cursor.fetchone()
+            if not race_row:
+                return None
+
+            race_title = race_row["race_title"]
+            winner_votes = race_row["winner_votes"] or 0
+            runnerup_votes = race_row["runnerup_votes"] or 0
+            margin_of_victory = winner_votes - runnerup_votes
+
+            # Get all candidates with party line breakdowns
+            cursor.execute("""
+                SELECT
+                    c.id as candidate_id,
+                    c.name,
+                    c.total_votes,
+                    c.is_winner,
+                    pl.party,
+                    pl.votes
+                FROM candidates c
+                JOIN party_lines pl ON c.id = pl.candidate_id
+                WHERE c.race_id = %s
+                ORDER BY c.total_votes DESC, pl.votes DESC
+            """, [race_id])
+
+            candidate_rows = cursor.fetchall()
+
+    if not candidate_rows:
+        return None
+
+    # Group party lines by candidate
+    candidates_data = {}
+    for row in candidate_rows:
+        candidate_id = row["candidate_id"]
+        if candidate_id not in candidates_data:
+            candidates_data[candidate_id] = {
+                "name": row["name"],
+                "total_votes": row["total_votes"],
+                "is_winner": row["is_winner"],
+                "party_lines": []
+            }
+        candidates_data[candidate_id]["party_lines"].append({
+            "party": row["party"],
+            "votes": row["votes"]
+        })
+
+    # Process winner and runner-up
+    candidates_list = list(candidates_data.values())
+    if not candidates_list:
+        return None
+
+    winner_data = next((c for c in candidates_list if c["is_winner"]), None)
+    runner_up_data = next((c for c in candidates_list if not c["is_winner"]), None)
+
+    if not winner_data:
+        return None
+
+    def build_candidate_metrics(cand_data: Dict[str, Any]) -> CandidateFusionMetrics:
+        """Build fusion metrics for a candidate."""
+        total_votes = cand_data["total_votes"]
+        party_lines = []
+        main_party_votes = 0
+        minor_party_votes = 0
+
+        for pl in cand_data["party_lines"]:
+            party = pl["party"]
+            votes = pl["votes"]
+            share_pct = (votes / total_votes * 100) if total_votes > 0 else 0.0
+
+            party_lines.append(PartyLineBreakdown(
+                party=party,
+                votes=votes,
+                share_pct=round(share_pct, 2)
+            ))
+
+            if party in MAIN_PARTIES:
+                main_party_votes += votes
+            else:
+                minor_party_votes += votes
+
+        minor_party_share = (minor_party_votes / total_votes) if total_votes > 0 else 0.0
+
+        return CandidateFusionMetrics(
+            candidate_name=cand_data["name"],
+            party_lines=party_lines,
+            main_party_votes=main_party_votes,
+            minor_party_votes=minor_party_votes,
+            minor_party_share=round(minor_party_share, 4)
+        )
+
+    winner_metrics = build_candidate_metrics(winner_data)
+    runner_up_metrics = build_candidate_metrics(runner_up_data) if runner_up_data else None
+
+    # Calculate leverage
+    winner_leverage = None
+    runner_up_leverage = None
+    decisive_minor_party = None
+
+    if margin_of_victory > 0:
+        winner_leverage = winner_metrics.minor_party_votes / margin_of_victory
+        if runner_up_metrics:
+            runner_up_leverage = runner_up_metrics.minor_party_votes / margin_of_victory
+
+        # Identify decisive minor party if leverage > 1.0
+        if winner_leverage > 1.0:
+            # Find the minor party that contributed most to winner
+            minor_party_lines = [pl for pl in winner_metrics.party_lines if pl.party not in MAIN_PARTIES]
+            if minor_party_lines:
+                decisive_minor_party = max(minor_party_lines, key=lambda x: x.votes).party
+
+    return RaceFusionMetrics(
+        race_id=race_id,
+        race_title=race_title,
+        margin_of_victory=margin_of_victory,
+        winner_metrics=winner_metrics,
+        runner_up_metrics=runner_up_metrics,
+        winner_leverage=round(winner_leverage, 4) if winner_leverage is not None else None,
+        runner_up_leverage=round(runner_up_leverage, 4) if runner_up_leverage is not None else None,
+        decisive_minor_party=decisive_minor_party
     )

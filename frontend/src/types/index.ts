@@ -27,3 +27,28 @@ export interface FilterOptions {
   parties: string[];
   competitivenessLevels: string[];
 }
+
+export interface PartyLineBreakdown {
+  party: string;
+  votes: number;
+  share_pct: number;
+}
+
+export interface CandidateFusionMetrics {
+  candidate_name: string;
+  party_lines: PartyLineBreakdown[];
+  main_party_votes: number;
+  minor_party_votes: number;
+  minor_party_share: number;
+}
+
+export interface RaceFusionMetrics {
+  race_id: number;
+  race_title: string;
+  margin_of_victory: number;
+  winner_metrics: CandidateFusionMetrics;
+  runner_up_metrics: CandidateFusionMetrics | null;
+  winner_leverage: number | null;
+  runner_up_leverage: number | null;
+  decisive_minor_party: string | null;
+}

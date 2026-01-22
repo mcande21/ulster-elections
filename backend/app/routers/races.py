@@ -1,10 +1,10 @@
 """Race data API endpoints."""
 
 from typing import List, Optional
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, HTTPException
 
-from ..models.schemas import RaceData, StatsResponse, FilterOptions
-from ..services.database import get_races, get_stats, get_filter_options
+from ..models.schemas import RaceData, StatsResponse, FilterOptions, RaceFusionMetrics
+from ..services.database import get_races, get_stats, get_filter_options, get_race_fusion_metrics
 
 
 router = APIRouter(prefix="/api", tags=["races"])
@@ -73,3 +73,19 @@ async def get_statistics(
 async def get_filters():
     """Get available filter options."""
     return get_filter_options()
+
+
+@router.get("/races/{race_id}/fusion", response_model=RaceFusionMetrics)
+async def get_fusion_metrics(race_id: int):
+    """Get fusion voting metrics for a specific race.
+
+    Returns detailed party line breakdown and leverage analysis:
+    - Party line vote shares for winner and runner-up
+    - Main party vs minor party vote splits
+    - Leverage: ratio of minor party votes to margin of victory
+    - Decisive minor party if leverage > 1.0
+    """
+    metrics = get_race_fusion_metrics(race_id)
+    if not metrics:
+        raise HTTPException(status_code=404, detail="Race not found")
+    return metrics

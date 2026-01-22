@@ -44,3 +44,31 @@ class UploadResponse(BaseModel):
     message: str
     racesProcessed: Optional[int] = None
     errors: Optional[List[str]] = None
+
+
+class PartyLineBreakdown(BaseModel):
+    """Party line vote breakdown for a candidate."""
+    party: str
+    votes: int
+    share_pct: float
+
+
+class CandidateFusionMetrics(BaseModel):
+    """Fusion voting metrics for a single candidate."""
+    candidate_name: str
+    party_lines: List[PartyLineBreakdown]
+    main_party_votes: int
+    minor_party_votes: int
+    minor_party_share: float
+
+
+class RaceFusionMetrics(BaseModel):
+    """Fusion voting analysis for a race."""
+    race_id: int
+    race_title: str
+    margin_of_victory: int
+    winner_metrics: CandidateFusionMetrics
+    runner_up_metrics: Optional[CandidateFusionMetrics] = None
+    winner_leverage: Optional[float] = None
+    runner_up_leverage: Optional[float] = None
+    decisive_minor_party: Optional[str] = None
