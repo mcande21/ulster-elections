@@ -88,9 +88,9 @@ def _is_word_likely_mirrored(word: str) -> bool:
     Heuristic to detect if a word is likely mirrored.
 
     Checks for common patterns in mirrored names/words:
-    - Double letters at start (mirrored from end: "NAMDOOG" has "OO" -> "NN")
-    - Unusual consonant clusters
-    - Known mirrored patterns
+    - Known candidate/party names when reversed
+    - Unusual consonant clusters at word start
+    - Double letters at start (mirrored from end)
 
     Args:
         word: Word to check
@@ -103,25 +103,58 @@ def _is_word_likely_mirrored(word: str) -> bool:
         return False
 
     word_upper = word.upper()
+    reversed_word = word_upper[::-1]
 
-    # Common mirrored indicators (these patterns are rare at word start in English)
-    # These are actual mirrored words found in Westchester PDFs
-    rare_starts = ['NYLAREHS', 'NAMDOOG', 'REVLUP', 'AHLITSAP', 'DRAHCIR',
+    # Known election-related words that get mirrored
+    known_words = {
+        # Candidates (2024 election)
+        'HARRIS', 'TRUMP', 'WALZ', 'VANCE', 'STEIN', 'JILL', 'OLIVER', 'CHASE',
+        'CORNEL', 'WEST', 'CLAUDIA', 'CRUZ', 'RANDOLPH', 'SONSKI', 'PETER',
+        'AYYADURAI', 'SHIVA', 'GARRITY', 'CHRIS', "O'DONNELL", 'ANDREW',
+        'POTUS', 'MADAM', 'FUTURE',
+        # Common political names
+        'BIDEN', 'KENNEDY', 'CLINTON', 'PENCE', 'PELOSI', 'MCCARTHY',
+        # Parties (might appear in header rows)
+        'DEMOCRATIC', 'REPUBLICAN', 'CONSERVATIVE', 'WORKING', 'FAMILIES',
+        # Common summary words
+        'TOTAL', 'BLANK', 'VOID', 'SCATTERING', 'BALLOTS', 'CANVAS', 'CANVASS',
+        # Common names/patterns
+        'GOODMAN', 'PULVER', 'FAVA', 'SHERLYN', 'INLAW', 'RICHARD', 'IRREGULAR',
+        'PASTIHAL'
+    }
+
+    # If reversed word is a known word, this is mirrored
+    if reversed_word in known_words:
+        return True
+
+    # Check for exact mirrored patterns found in Westchester/Putnam PDFs
+    rare_starts = ['SIRRAH', 'PMURT', 'ZLAW', 'ECNAV', 'NIETS', 'LLIJ', 'TSEW',
+                   'LENROC', 'REVILO', 'ESAHC', 'ZURC', 'AIDUALC', 'HPLODNAR',
+                   'NYLAREHS', 'NAMDOOG', 'REVLUP', 'AHLITSAP', 'DRAHCIR',
                    'WALNI', 'NAVE', 'RALUGERRI', 'SSAVNAC', 'LATOT', 'DIOV',
-                   'KNALB', 'TOLLAB', 'DWT', 'AVAF']
+                   'KNALB', 'TOLLAB', 'AVAF', 'GNIRETTACS']
 
-    # Check if word matches known mirrored patterns
     if any(word_upper.startswith(pattern) for pattern in rare_starts):
         return True
 
     # Heuristic: Words with double letters at start (common in mirrored text)
-    # Lower threshold to 4+ chars for short names
+    # This catches "LLIJ" (JILL), "SSAVNAC" (CANVASS), etc.
     if len(word) >= 4:
         # Double letter at start is suspicious for proper names
-        if word_upper[0] == word_upper[1] and word_upper[0] in 'NMLRSTABCDEFGHIJKLPQUVWXYZ':
+        if word_upper[0] == word_upper[1] and word_upper[0] in 'LNMRSTABCDEFGHIJKPQUVWXYZ':
             # Check if reversing would give common ending
-            reversed_word = word_upper[::-1]
-            if reversed_word.endswith(('MAN', 'SON', 'VER', 'TON', 'LER', 'HAM', 'ANN', 'VAN')):
+            if reversed_word.endswith(('MAN', 'SON', 'VER', 'TON', 'LER', 'HAM', 'ANN', 'VAN', 'ILL', 'ASS', 'ELL')):
+                return True
+
+    # Heuristic: Unusual consonant clusters at start
+    # English words rarely start with these clusters
+    unusual_starts = ['ZL', 'CN', 'PM', 'NI', 'TS', 'RR', 'LL', 'RC', 'VO', 'VI']
+    if len(word) >= 4:
+        first_two = word_upper[:2]
+        if first_two in unusual_starts:
+            # Extra check: reversed word should look more normal
+            # If reversed word starts with vowel or common consonant, likely mirrored
+            if reversed_word[0] in 'AEIOUHTSCWBDFGKMNPR':
                 return True
 
     return False

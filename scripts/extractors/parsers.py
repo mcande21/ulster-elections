@@ -905,6 +905,298 @@ class CanvassPDFParser(BaseParser):
         return any(h in line for h in headers)
 
 
+class PrecinctTableParser(BaseParser):
+    """
+    For Putnam/Westchester-style precinct table PDFs.
+
+    Format characteristics:
+    - Precinct-level tables with district rows × candidate/party columns
+    - Race title in page header
+    - Column headers with vertical text (need fixing via pdf_text_fixer)
+    - Party affiliations in row below headers (DEM, REP, CON, WOR, etc.)
+    - TOTAL row aggregating all precincts
+    - Multi-page races (same race across multiple pages)
+    """
+
+    def can_parse(self, source: str, county_config: dict) -> bool:
+        """Check if source is a PDF and county expects precinct table format."""
+        return source.lower().endswith('.pdf')
+
+    def parse(self, source: str, county_config: dict) -> dict:
+        """Parse precinct table PDF format."""
+        pdf_path = Path(source)
+        if not pdf_path.exists():
+            raise FileNotFoundError(f'PDF not found: {pdf_path}')
+
+        races = self._parse_races(pdf_path)
+
+        return {
+            'county': county_config['name'],
+            'election_date': county_config.get('election_date', ''),
+            'races': races
+        }
+
+    def _extract_race_title(self, text: str) -> str | None:
+        """Extract race title from page header text."""
+        lines = [l.strip() for l in text.split('\n') if l.strip()]
+
+        # Look for lines that contain race title
+        # Usually in format: "COUNTY NAME RACE TITLE"
+        for i, line in enumerate(lines[:10]):
+            # Skip "GENERAL ELECTION" lines
+            if 'GENERAL ELECTION' in line or 'November' in line or 'VOTE FOR' in line:
+                continue
+            # Race title usually contains keywords
+            if any(keyword in line.upper() for keyword in [
+                'PRESIDENT', 'SENATOR', 'GOVERNOR', 'REPRESENTATIVE',
+                'ASSEMBLY', 'JUSTICE', 'JUDGE', 'DISTRICT ATTORNEY',
+                'CORONER', 'CLERK', 'SUPERVISOR', 'COUNCIL'
+            ]):
+                # Clean up the title (remove county name prefix)
+                title = line
+                # Remove "PUTNAM COUNTY" or similar prefix
+                for county_prefix in ['PUTNAM COUNTY', 'WESTCHESTER COUNTY']:
+                    if title.startswith(county_prefix):
+                        title = title[len(county_prefix):].strip()
+                return title
+
+        return None
+
+    def _fix_vertical_text(self, text: str) -> str:
+        """
+        Fix vertical text in column headers.
+
+        The PDF stores vertical text from bottom to top, with inconsistent
+        character grouping. We'll do our best to reconstruct it.
+
+        Example:
+        Input: "S\nRI\nR\nA\nH\nD.\nA M\nLTI\nA\nM\nA\nK" (bottom-to-top)
+        Desired: "KAMALA D. HARRIS"
+        Pragmatic: "KAMALTI AM D.HARRIS" (close enough for vote totals)
+        """
+        # Split by newlines, filter empty, reverse
+        parts = [p.strip() for p in text.split('\n') if p.strip()]
+        parts = list(reversed(parts))
+
+        # Join all parts together, treating internal spaces as part of the name
+        joined = ''.join(parts)
+
+        # Clean up common patterns
+        import re
+        # Add space before periods (name separators like "D.")
+        joined = re.sub(r'\.', '. ', joined)
+        # Add space before/after slashes
+        joined = re.sub(r'/', ' / ', joined)
+        # Collapse multiple spaces
+        joined = re.sub(r'\s+', ' ', joined)
+
+        return joined.strip()
+
+    def _parse_column_headers(self, header_row: list[str], party_row: list[str]) -> list[dict]:
+        """
+        Parse column headers and associate with party affiliations.
+
+        Handles two formats:
+        1. Putnam: Row 0 has vertical text candidate names, Row 1 has party abbreviations
+        2. Westchester: Row 0 has party abbreviations, Row 1 has candidate names (with newlines)
+
+        Args:
+            header_row: Row 0 from table
+            party_row: Row 1 from table
+
+        Returns:
+            List of column info dicts with 'name' and 'party'
+        """
+        columns = []
+
+        # Detect format: if header_row has known parties, it's Westchester format
+        westchester_format = any(
+            cell and is_known_party(cell.strip())
+            for cell in header_row
+            if cell
+        )
+
+        for i, (header_cell, name_cell) in enumerate(zip(header_row, party_row)):
+            if westchester_format:
+                # Westchester: header_row has party, party_row has candidate name
+                party = header_cell.strip() if header_cell else ''
+                candidate_text = name_cell.strip() if name_cell else ''
+            else:
+                # Putnam: header_row has candidate name (vertical), party_row has party
+                party = name_cell.strip() if name_cell else ''
+                candidate_text = header_cell.strip() if header_cell else ''
+
+            # Only process columns that have a party affiliation
+            if not party or not is_known_party(party):
+                continue
+
+            # This is a candidate column
+            if not candidate_text:
+                continue
+
+            # Fix candidate name
+            if westchester_format:
+                # Westchester: names have newlines, may be mirrored
+                # Split by newlines, reverse each part if mirrored, then join
+                parts = [p.strip() for p in candidate_text.split('\n') if p.strip()]
+
+                # Apply mirroring fix to each part
+                from .pdf_text_fixer import _is_word_likely_mirrored
+                fixed_parts = []
+                for part in parts:
+                    # Handle slashes (like "WALZ / HARRIS")
+                    if part == '/':
+                        fixed_parts.append(part)
+                    else:
+                        words = part.split()
+                        fixed_words = []
+                        for word in words:
+                            if _is_word_likely_mirrored(word):
+                                fixed_words.append(word[::-1])
+                            else:
+                                fixed_words.append(word)
+                        fixed_parts.append(' '.join(fixed_words))
+
+                candidate_name = ' '.join(fixed_parts)
+            else:
+                # Putnam: vertical text
+                candidate_name = self._fix_vertical_text(candidate_text)
+
+            # Normalize party
+            normalized = normalize_party(party)
+            display_party = get_display_name(normalized)
+
+            columns.append({
+                'index': i,
+                'name': candidate_name,
+                'party': display_party
+            })
+
+        return columns
+
+    def _parse_races(self, pdf_path: Path) -> list[dict[str, Any]]:
+        """Parse all races from PDF."""
+        races = []
+        current_race = None
+        current_race_title = None
+        candidate_totals = {}  # Track totals across pages for same race
+
+        with pdfplumber.open(pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages):
+                # Extract race title from page header
+                text = extract_text_with_fixes(page)
+                race_title = self._extract_race_title(text)
+
+                if not race_title:
+                    continue
+
+                # Check if this is a new race or continuation
+                if current_race_title != race_title:
+                    # Save previous race if it exists
+                    if current_race:
+                        # Convert candidate_totals to candidates list
+                        current_race['candidates'] = list(candidate_totals.values())
+                        races.append(current_race)
+
+                    # Start new race
+                    current_race_title = race_title
+                    current_race = {
+                        'race_title': race_title,
+                        'vote_for': 1,  # Precinct tables don't specify
+                        'candidates': [],
+                        'write_in': 0,
+                        'total_votes_cast': 0,
+                        'under_votes': 0,
+                        'over_votes': 0,
+                        'total_ballots_cast': 0,
+                    }
+                    candidate_totals = {}
+
+                # Extract table data
+                tables = page.extract_tables()
+                if not tables:
+                    continue
+
+                table = tables[0]
+                if len(table) < 3:  # Need header, party, and at least one data row
+                    continue
+
+                # Parse column headers
+                header_row = table[0]
+                party_row = table[1]
+                columns = self._parse_column_headers(header_row, party_row)
+
+                # Process data rows (skip header and party rows)
+                for row_idx in range(2, len(table)):
+                    row = table[row_idx]
+
+                    # Check if this is the TOTAL row
+                    if row[0] and 'TOTAL' in str(row[0]).upper():
+                        # Use TOTAL row to get aggregate votes for each candidate
+                        for col in columns:
+                            col_idx = col['index']
+                            if col_idx < len(row) and row[col_idx]:
+                                votes_str = str(row[col_idx]).replace(',', '').strip()
+                                if votes_str.isdigit():
+                                    votes = int(votes_str)
+
+                                    # Get or create candidate entry
+                                    name = col['name']
+                                    if name not in candidate_totals:
+                                        candidate_totals[name] = {
+                                            'name': name,
+                                            'party_lines': [],
+                                            'total_votes': 0
+                                        }
+
+                                    # Add party line
+                                    if col['party']:
+                                        candidate_totals[name]['party_lines'].append({
+                                            'party': col['party'],
+                                            'votes': votes
+                                        })
+
+                                    # Sum up total votes (only once per party line)
+                                    candidate_totals[name]['total_votes'] += votes
+
+                        # Look for BLANK, VOID, SCATTERING in subsequent rows
+                        for summary_idx in range(row_idx + 1, min(row_idx + 10, len(table))):
+                            summary_row = table[summary_idx]
+                            if not summary_row[0]:
+                                continue
+
+                            label = str(summary_row[0]).strip().upper()
+
+                            # Get the value (usually in second or third column)
+                            value = None
+                            for cell_idx in range(1, min(5, len(summary_row))):
+                                cell = summary_row[cell_idx]
+                                if cell:
+                                    cell_str = str(cell).replace(',', '').strip()
+                                    if cell_str.isdigit():
+                                        value = int(cell_str)
+                                        break
+
+                            if value is not None:
+                                if 'BLANK' in label:
+                                    current_race['under_votes'] = value
+                                elif 'VOID' in label:
+                                    current_race['over_votes'] = value
+                                elif 'SCATTERING' in label or 'WRITE' in label:
+                                    current_race['write_in'] = value
+                                elif 'TOTAL' in label and 'VOTE' in label:
+                                    current_race['total_votes_cast'] = value
+                                elif 'TOTAL' in label and 'BALLOT' in label:
+                                    current_race['total_ballots_cast'] = value
+
+        # Save final race
+        if current_race:
+            current_race['candidates'] = list(candidate_totals.values())
+            races.append(current_race)
+
+        return races
+
+
 def get_parser(county_config: dict) -> BaseParser:
     """
     Factory function to get appropriate parser for a county.
@@ -924,5 +1216,7 @@ def get_parser(county_config: dict) -> BaseParser:
         return HTMLParser()
     elif format_type == 'canvass':
         return CanvassPDFParser()
+    elif format_type == 'precinct_table':
+        return PrecinctTableParser()
     else:  # standard_pdf or unknown
         return StandardPDFParser()

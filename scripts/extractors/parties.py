@@ -9,11 +9,11 @@ PARTY_ALIASES: dict[str, list[str]] = {
     "democratic": ["dem", "d", "democrat", "democrats"],
     "republican": ["rep", "r", "gop", "republicans"],
     "conservative": ["con", "c", "conservatives"],
-    "working families": ["wfp", "wf", "working families party", "working"],
+    "working families": ["wfp", "wf", "wor", "working families party", "working"],
     "independence": ["ind", "i"],
     "green": ["gre", "g", "greens"],
     "libertarian": ["lib", "l", "libertarians"],
-    "write-in": ["wri", "w", "write in", "writein"],
+    "write-in": ["wri", "w", "write in", "writein", "w/i"],
     "community 1st": ["community first", "community"],
     "larouche": [],
 }
