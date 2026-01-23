@@ -1,7 +1,0 @@
-{
-  "county": "Westchester",
-  "election_date": "2024-11-05",
-  "extraction_status": "partial",
-  "notes": "Mirroring fix implemented and verified. Full extraction requires race title extraction enhancement. See WESTCHESTER_NOTES.md for details.",
-  "races": []
-}

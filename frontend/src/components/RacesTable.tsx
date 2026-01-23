@@ -239,7 +239,7 @@ export const RacesTable = ({ races }: RacesTableProps) => {
     },
     {
       title: (
-        <Tooltip title="Based on margin %: Thin (<2%), Lean (2-5%), Likely (5-10%), Safe (>10%)">
+        <Tooltip title="Based on margin %: Thin (<5%), Lean (5-10%), Likely (10-20%), Safe (≥20%)">
           Competitiveness <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
         </Tooltip>
       ),

@@ -52,8 +52,8 @@ HUDSON_VALLEY_COUNTIES: dict[str, CountyConfig] = {
     "orange": {
         "name": "Orange",
         "source_type": "pdf",
-        "results_url": "https://www.orangecountygov.com/DocumentCenter/View/32244",
-        "local_pdf": "data/raw/orange_2024-11-05.pdf",
+        "results_url": "https://www.orangecountygov.com/DocumentCenter/View/35590",
+        "local_pdf": "data/raw/orange_2025.pdf",
         "format": "canvass"
     },
     "sullivan": {

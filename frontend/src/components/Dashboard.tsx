@@ -9,6 +9,7 @@ import { CompetitivenessChart } from './charts/CompetitivenessChart';
 import { CountyChart } from './charts/CountyChart';
 import { UploadSection } from './UploadSection';
 import { VulnerabilityPanel } from './VulnerabilityPanel';
+import { useVulnerabilityScores } from '../hooks/useVulnerabilityScores';
 
 const { Header, Sider, Content } = Layout;
 const { Title, Text } = Typography;
@@ -17,6 +18,7 @@ export const Dashboard = () => {
   const { filters, updateFilter, clearFilters } = useFilters();
   const { data: races, isLoading, error, refetch } = useRaces(filters);
   const { data: filterOptions } = useFilterOptions();
+  const { data: vulnerabilityScores = [], isLoading: isLoadingVulnerability } = useVulnerabilityScores(100, filters);
 
   if (isLoading && !races) {
     return (
@@ -62,7 +64,7 @@ export const Dashboard = () => {
           <StatCards races={races || []} />
 
           <div style={{ marginTop: 24 }}>
-            <VulnerabilityPanel filters={filters} />
+            <VulnerabilityPanel data={vulnerabilityScores} loading={isLoadingVulnerability} />
           </div>
 
           <Row gutter={16} style={{ marginTop: 24 }}>

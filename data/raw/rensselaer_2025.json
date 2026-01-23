@@ -1,0 +1,3648 @@
+{
+  "county": "Rensselaer",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "title": "County Clerk",
+      "candidates": [
+        {
+          "name": "Frank J. Merola",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 20269
+            },
+            {
+              "party": "Conservative",
+              "votes": 7217
+            }
+          ],
+          "total": 27486
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 704
+            }
+          ],
+          "total": 704
+        }
+      ]
+    },
+    {
+      "title": "County Executive",
+      "candidates": [
+        {
+          "name": "Steven F. McLaughlin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 17076
+            },
+            {
+              "party": "Conservative",
+              "votes": 4624
+            }
+          ],
+          "total": 21700
+        },
+        {
+          "name": "Tiffani T. Silverman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 15872
+            },
+            {
+              "party": "Working Families",
+              "votes": 2635
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 18507
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 39
+            }
+          ],
+          "total": 39
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 1",
+      "candidates": [
+        {
+          "name": "Mark J. Fleming",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4056
+            },
+            {
+              "party": "Working Families",
+              "votes": 921
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 4977
+        },
+        {
+          "name": "Kenneth J. Zalewski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4006
+            },
+            {
+              "party": "Working Families",
+              "votes": 948
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 4954
+        },
+        {
+          "name": "Nina M. Nichols",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3988
+            },
+            {
+              "party": "Working Families",
+              "votes": 943
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 4931
+        },
+        {
+          "name": "Jessica F. Ashley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4365
+            },
+            {
+              "party": "Common Cents",
+              "votes": 400
+            }
+          ],
+          "total": 4765
+        },
+        {
+          "name": "Gary L. Galuski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4357
+            },
+            {
+              "party": "Common Cents",
+              "votes": 324
+            }
+          ],
+          "total": 4681
+        },
+        {
+          "name": "Carole Claren-Weaver",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4293
+            },
+            {
+              "party": "Common Cents",
+              "votes": 375
+            }
+          ],
+          "total": 4668
+        },
+        {
+          "name": "Jim Canfield",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2127
+            },
+            {
+              "party": "Conservative",
+              "votes": 545
+            },
+            {
+              "party": "Working Families",
+              "votes": 378
+            }
+          ],
+          "total": 3050
+        },
+        {
+          "name": "Laurie A. Kennedy",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2015
+            },
+            {
+              "party": "Conservative",
+              "votes": 490
+            },
+            {
+              "party": "Working Families",
+              "votes": 440
+            }
+          ],
+          "total": 2945
+        },
+        {
+          "name": "Mark D. Wojcik",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1998
+            },
+            {
+              "party": "Conservative",
+              "votes": 532
+            }
+          ],
+          "total": 2530
+        },
+        {
+          "name": "Jamie  M. Kosowsky",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1886
+            },
+            {
+              "party": "Conservative",
+              "votes": 487
+            }
+          ],
+          "total": 2373
+        },
+        {
+          "name": "Thomas R. Abbott",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1855
+            },
+            {
+              "party": "Conservative",
+              "votes": 494
+            }
+          ],
+          "total": 2349
+        },
+        {
+          "name": "Tina Urzan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1844
+            },
+            {
+              "party": "Conservative",
+              "votes": 486
+            }
+          ],
+          "total": 2330
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 3
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 2",
+      "candidates": [
+        {
+          "name": "Robert W. Bayly",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4577
+            },
+            {
+              "party": "Conservative",
+              "votes": 1526
+            }
+          ],
+          "total": 6103
+        },
+        {
+          "name": "Kelly C. Hoffman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4494
+            },
+            {
+              "party": "Conservative",
+              "votes": 1268
+            }
+          ],
+          "total": 5762
+        },
+        {
+          "name": "Mary F. Sabo",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5030
+            },
+            {
+              "party": "Working Families",
+              "votes": 658
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 5688
+        },
+        {
+          "name": "Thomas P. Grant",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4256
+            },
+            {
+              "party": "Conservative",
+              "votes": 1246
+            }
+          ],
+          "total": 5502
+        },
+        {
+          "name": "Leon B. Fiacco",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4278
+            },
+            {
+              "party": "Conservative",
+              "votes": 1221
+            }
+          ],
+          "total": 5499
+        },
+        {
+          "name": "Robert H. Crowley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4970
+            },
+            {
+              "party": "Common Cents",
+              "votes": 318
+            }
+          ],
+          "total": 5288
+        },
+        {
+          "name": "James Matzdorf",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4925
+            },
+            {
+              "party": "Common Cents",
+              "votes": 302
+            }
+          ],
+          "total": 5227
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 7
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 148
+            }
+          ],
+          "total": 157
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 3",
+      "candidates": [
+        {
+          "name": "Daniel F. Casale",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4160
+            },
+            {
+              "party": "Conservative",
+              "votes": 1472
+            }
+          ],
+          "total": 5632
+        },
+        {
+          "name": "Kenneth H. Herrington",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4016
+            },
+            {
+              "party": "Conservative",
+              "votes": 1410
+            }
+          ],
+          "total": 5426
+        },
+        {
+          "name": "William E. Maloney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3960
+            },
+            {
+              "party": "Conservative",
+              "votes": 1414
+            }
+          ],
+          "total": 5374
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 83
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 80
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 69
+            }
+          ],
+          "total": 232
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 4",
+      "candidates": [
+        {
+          "name": "Thomas Choquette",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3896
+            },
+            {
+              "party": "Conservative",
+              "votes": 1249
+            }
+          ],
+          "total": 5145
+        },
+        {
+          "name": "Wayne A. Gendron",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3804
+            },
+            {
+              "party": "Conservative",
+              "votes": 1255
+            }
+          ],
+          "total": 5059
+        },
+        {
+          "name": "Robert R. Loveridge",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3622
+            },
+            {
+              "party": "Conservative",
+              "votes": 1008
+            }
+          ],
+          "total": 4630
+        },
+        {
+          "name": "Michael A. Decker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3535
+            },
+            {
+              "party": "Common Cents",
+              "votes": 304
+            }
+          ],
+          "total": 3839
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 13
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 86
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 75
+            }
+          ],
+          "total": 174
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 5",
+      "candidates": [
+        {
+          "name": "Jeffrey J. Wysocki",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1938
+            },
+            {
+              "party": "Conservative",
+              "votes": 602
+            }
+          ],
+          "total": 2540
+        },
+        {
+          "name": "Bruce J. Patire",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1912
+            },
+            {
+              "party": "Conservative",
+              "votes": 556
+            }
+          ],
+          "total": 2468
+        },
+        {
+          "name": "Alan Gaynor",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1367
+            },
+            {
+              "party": "Common Cents",
+              "votes": 141
+            }
+          ],
+          "total": 1508
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 30
+            }
+          ],
+          "total": 32
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 6",
+      "candidates": [
+        {
+          "name": "Lark Barnett Rutecki",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 966
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 86
+            }
+          ],
+          "total": 1052
+        },
+        {
+          "name": "Scott A. Rogers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 647
+            },
+            {
+              "party": "Conservative",
+              "votes": 158
+            }
+          ],
+          "total": 805
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 1",
+      "candidates": [
+        {
+          "name": "Philip J. DiLorenzo",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 748
+            },
+            {
+              "party": "Working Families",
+              "votes": 119
+            }
+          ],
+          "total": 867
+        },
+        {
+          "name": "William B. Keal",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 503
+            },
+            {
+              "party": "Conservative",
+              "votes": 131
+            }
+          ],
+          "total": 634
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 2",
+      "candidates": [
+        {
+          "name": "Shikole M. Struber",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 375
+            },
+            {
+              "party": "Working Families",
+              "votes": 90
+            }
+          ],
+          "total": 465
+        },
+        {
+          "name": "Ryan M. Brosnan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 223
+            },
+            {
+              "party": "Conservative",
+              "votes": 64
+            }
+          ],
+          "total": 287
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 3",
+      "candidates": [
+        {
+          "name": "Kathleen Spain-McLaren",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 604
+            },
+            {
+              "party": "Working Families",
+              "votes": 141
+            }
+          ],
+          "total": 745
+        },
+        {
+          "name": "John M. Mancinelli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 189
+            },
+            {
+              "party": "Conservative",
+              "votes": 48
+            }
+          ],
+          "total": 237
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 4",
+      "candidates": [
+        {
+          "name": "Noreen McKee",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 741
+            },
+            {
+              "party": "Working Families",
+              "votes": 277
+            }
+          ],
+          "total": 1018
+        },
+        {
+          "name": "Richard P. Mosall",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 101
+            },
+            {
+              "party": "Conservative",
+              "votes": 26
+            }
+          ],
+          "total": 127
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 5",
+      "candidates": [
+        {
+          "name": "Jona L. Favreau",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1222
+            },
+            {
+              "party": "Common Cents",
+              "votes": 109
+            }
+          ],
+          "total": 1331
+        },
+        {
+          "name": "Eric E. Wisher",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 710
+            },
+            {
+              "party": "Conservative",
+              "votes": 183
+            },
+            {
+              "party": "Working Families",
+              "votes": 59
+            }
+          ],
+          "total": 952
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Troy City Council District 6",
+      "candidates": [
+        {
+          "name": "Gregory M. Campbell-Cohen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 442
+            },
+            {
+              "party": "Working Families",
+              "votes": 116
+            }
+          ],
+          "total": 558
+        },
+        {
+          "name": "Thomas J. Casey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 422
+            },
+            {
+              "party": "Conservative",
+              "votes": 110
+            }
+          ],
+          "total": 532
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Berlin Supervisor",
+      "candidates": [
+        {
+          "name": "Robert C. Jaeger",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 132
+            },
+            {
+              "party": "Republican",
+              "votes": 193
+            },
+            {
+              "party": "Conservative",
+              "votes": 51
+            }
+          ],
+          "total": 376
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Berlin Town Clerk",
+      "candidates": [
+        {
+          "name": "Sarah G. VanBuskirk",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 144
+            },
+            {
+              "party": "Republican",
+              "votes": 202
+            },
+            {
+              "party": "Conservative",
+              "votes": 56
+            }
+          ],
+          "total": 402
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Berlin Town Council",
+      "candidates": [
+        {
+          "name": "John P. Winn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 212
+            },
+            {
+              "party": "Conservative",
+              "votes": 64
+            }
+          ],
+          "total": 276
+        },
+        {
+          "name": "Henry C. Tanner, III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 207
+            },
+            {
+              "party": "Conservative",
+              "votes": 58
+            }
+          ],
+          "total": 265
+        },
+        {
+          "name": "Elaine A. Hills",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 149
+            }
+          ],
+          "total": 149
+        },
+        {
+          "name": "Tammy J. Osterhout",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 140
+            }
+          ],
+          "total": 140
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Berlin Tax Collector",
+      "candidates": [
+        {
+          "name": "Nancy L. Sweener",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 151
+            },
+            {
+              "party": "Republican",
+              "votes": 190
+            },
+            {
+              "party": "Conservative",
+              "votes": 56
+            }
+          ],
+          "total": 397
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Berlin Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "James A. Winn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 140
+            },
+            {
+              "party": "Republican",
+              "votes": 194
+            },
+            {
+              "party": "Conservative",
+              "votes": 53
+            }
+          ],
+          "total": 387
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Berlin Assessor",
+      "candidates": [
+        {
+          "name": "Julie T. Riccardi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 144
+            },
+            {
+              "party": "Republican",
+              "votes": 197
+            },
+            {
+              "party": "Conservative",
+              "votes": 56
+            }
+          ],
+          "total": 397
+        },
+        {
+          "name": "Sandra J. Billert",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 145
+            },
+            {
+              "party": "Republican",
+              "votes": 192
+            },
+            {
+              "party": "Conservative",
+              "votes": 54
+            }
+          ],
+          "total": 391
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Brunswick Town Council",
+      "candidates": [
+        {
+          "name": "Gordon W. Christian",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1752
+            },
+            {
+              "party": "Conservative",
+              "votes": 540
+            }
+          ],
+          "total": 2292
+        },
+        {
+          "name": "Mark J. Balistreri",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1703
+            },
+            {
+              "party": "Conservative",
+              "votes": 503
+            }
+          ],
+          "total": 2206
+        },
+        {
+          "name": "Thomas McGrath, IV",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1816
+            }
+          ],
+          "total": 1816
+        },
+        {
+          "name": "Kimberly Jensen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1809
+            }
+          ],
+          "total": 1809
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Brunswick Receiver of Taxes",
+      "candidates": [
+        {
+          "name": "Jayne M. Tarbox",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2297
+            },
+            {
+              "party": "Conservative",
+              "votes": 863
+            }
+          ],
+          "total": 3160
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 41
+            }
+          ],
+          "total": 41
+        }
+      ]
+    },
+    {
+      "title": "East Greenbush Town Council",
+      "candidates": [
+        {
+          "name": "Hollie L. Kennedy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2632
+            },
+            {
+              "party": "East Greenbush First",
+              "votes": 175
+            }
+          ],
+          "total": 2807
+        },
+        {
+          "name": "Elizabeth M. Koenig",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2611
+            },
+            {
+              "party": "East Greenbush First",
+              "votes": 173
+            }
+          ],
+          "total": 2784
+        },
+        {
+          "name": "Edward W. Nestler, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1736
+            },
+            {
+              "party": "Conservative",
+              "votes": 429
+            }
+          ],
+          "total": 2165
+        },
+        {
+          "name": "Mickey (Michelle) Jenkins",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1658
+            },
+            {
+              "party": "Conservative",
+              "votes": 441
+            }
+          ],
+          "total": 2099
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Grafton Town Clerk",
+      "candidates": [
+        {
+          "name": "Rebecca L. Greene",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 372
+            },
+            {
+              "party": "Conservative",
+              "votes": 130
+            }
+          ],
+          "total": 502
+        },
+        {
+          "name": "Erika L. Douglas",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 324
+            }
+          ],
+          "total": 324
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Grafton Town Council",
+      "candidates": [
+        {
+          "name": "Ryan D. Gosse",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 356
+            },
+            {
+              "party": "Conservative",
+              "votes": 116
+            }
+          ],
+          "total": 472
+        },
+        {
+          "name": "Pierce M. Hoyt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 354
+            },
+            {
+              "party": "Conservative",
+              "votes": 116
+            }
+          ],
+          "total": 470
+        },
+        {
+          "name": "Robert F. Loveday",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 348
+            }
+          ],
+          "total": 348
+        },
+        {
+          "name": "David M. Buckley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 341
+            }
+          ],
+          "total": 341
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Hoosick Supervisor",
+      "candidates": [
+        {
+          "name": "Eric R. Sheffer",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 812
+            },
+            {
+              "party": "Conservative",
+              "votes": 298
+            }
+          ],
+          "total": 1110
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        }
+      ]
+    },
+    {
+      "title": "Hoosick Town Clerk",
+      "candidates": [
+        {
+          "name": "Holli M. Cross",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 833
+            },
+            {
+              "party": "Conservative",
+              "votes": 314
+            }
+          ],
+          "total": 1147
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Hoosick Town Council",
+      "candidates": [
+        {
+          "name": "Gerald J. McAuliffe, Sr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 823
+            },
+            {
+              "party": "Conservative",
+              "votes": 304
+            }
+          ],
+          "total": 1127
+        },
+        {
+          "name": "William M. Hanselman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 786
+            },
+            {
+              "party": "Conservative",
+              "votes": 290
+            }
+          ],
+          "total": 1076
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 18
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 16
+            }
+          ],
+          "total": 34
+        }
+      ]
+    },
+    {
+      "title": "Hoosick Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "Paul G. Hoag",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 825
+            },
+            {
+              "party": "Conservative",
+              "votes": 311
+            }
+          ],
+          "total": 1136
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Nassau Supervisor",
+      "candidates": [
+        {
+          "name": "David F. Fleming, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 783
+            },
+            {
+              "party": "Conservative",
+              "votes": 245
+            }
+          ],
+          "total": 1028
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 24
+            }
+          ],
+          "total": 24
+        }
+      ]
+    },
+    {
+      "title": "Nassau Town Council",
+      "candidates": [
+        {
+          "name": "Robert J. Rings",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 747
+            },
+            {
+              "party": "Conservative",
+              "votes": 232
+            }
+          ],
+          "total": 979
+        },
+        {
+          "name": "Jonathan E. Goebel",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 720
+            },
+            {
+              "party": "Conservative",
+              "votes": 231
+            }
+          ],
+          "total": 951
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 17
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 18
+            }
+          ],
+          "total": 35
+        }
+      ]
+    },
+    {
+      "title": "Nassau Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "Donald W. Denue",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 753
+            },
+            {
+              "party": "Conservative",
+              "votes": 230
+            }
+          ],
+          "total": 983
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 19
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Supervisor",
+      "candidates": [
+        {
+          "name": "Joseph H. Bott, III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1765
+            },
+            {
+              "party": "Conservative",
+              "votes": 555
+            }
+          ],
+          "total": 2320
+        },
+        {
+          "name": "Matthew M. Brockbank",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1801
+            },
+            {
+              "party": "Working Families",
+              "votes": 276
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 2077
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Clerk",
+      "candidates": [
+        {
+          "name": "Janice Hannigan Kerwin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2263
+            },
+            {
+              "party": "Conservative",
+              "votes": 864
+            }
+          ],
+          "total": 3127
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 47
+            }
+          ],
+          "total": 47
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Town Council",
+      "candidates": [
+        {
+          "name": "Jessica M. Merola",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1773
+            },
+            {
+              "party": "Conservative",
+              "votes": 589
+            }
+          ],
+          "total": 2362
+        },
+        {
+          "name": "James R. Gordon",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1622
+            },
+            {
+              "party": "Conservative",
+              "votes": 548
+            }
+          ],
+          "total": 2170
+        },
+        {
+          "name": "Sally H. Lauletta",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1775
+            },
+            {
+              "party": "Working Families",
+              "votes": 287
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 2062
+        },
+        {
+          "name": "Christopher B. Harris",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1782
+            },
+            {
+              "party": "Working Families",
+              "votes": 274
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 2056
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "Michael Martinez",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1737
+            },
+            {
+              "party": "Conservative",
+              "votes": 596
+            }
+          ],
+          "total": 2333
+        },
+        {
+          "name": "Jason L. Hamlin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1773
+            },
+            {
+              "party": "Common Cents",
+              "votes": 166
+            }
+          ],
+          "total": 1939
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Petersburgh Supervisor",
+      "candidates": [
+        {
+          "name": "Heinz H. Noeding",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 108
+            },
+            {
+              "party": "Republican",
+              "votes": 190
+            }
+          ],
+          "total": 298
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Petersburgh Clerk",
+      "candidates": [
+        {
+          "name": "Deidre L. Fowler",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 123
+            },
+            {
+              "party": "Republican",
+              "votes": 198
+            }
+          ],
+          "total": 321
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Petersburgh Town Council",
+      "candidates": [
+        {
+          "name": "Thomas J. Masone",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 121
+            },
+            {
+              "party": "Republican",
+              "votes": 181
+            }
+          ],
+          "total": 302
+        },
+        {
+          "name": "Nathan Michaels",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 198
+            }
+          ],
+          "total": 198
+        },
+        {
+          "name": "Amber M. Stewart",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 145
+            }
+          ],
+          "total": 145
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Petersburgh Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "David Hewitt, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 124
+            },
+            {
+              "party": "Republican",
+              "votes": 201
+            }
+          ],
+          "total": 325
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Pittstown Town Supervisor",
+      "candidates": [
+        {
+          "name": "Matthew W. Curley, III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 872
+            },
+            {
+              "party": "Conservative",
+              "votes": 277
+            }
+          ],
+          "total": 1149
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    },
+    {
+      "title": "Pittstown Town Clerk",
+      "candidates": [
+        {
+          "name": "Michelle A. Hoag",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 923
+            },
+            {
+              "party": "Conservative",
+              "votes": 295
+            }
+          ],
+          "total": 1218
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Pittstown Town Council",
+      "candidates": [
+        {
+          "name": "Erin W. Maxon",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 854
+            },
+            {
+              "party": "Conservative",
+              "votes": 279
+            }
+          ],
+          "total": 1133
+        },
+        {
+          "name": "Jason W. Eddy",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 863
+            },
+            {
+              "party": "Conservative",
+              "votes": 269
+            }
+          ],
+          "total": 1132
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 10
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 9
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "Pittstown Tax Collector",
+      "candidates": [
+        {
+          "name": "Judy L. Herrington",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 900
+            },
+            {
+              "party": "Conservative",
+              "votes": 285
+            }
+          ],
+          "total": 1185
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Pittstown Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "Paul G. Campbell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 904
+            },
+            {
+              "party": "Conservative",
+              "votes": 284
+            }
+          ],
+          "total": 1188
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "Poestenkill Supervisor",
+      "candidates": [
+        {
+          "name": "Michelle Garofolo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 712
+            },
+            {
+              "party": "Conservative",
+              "votes": 160
+            }
+          ],
+          "total": 872
+        },
+        {
+          "name": "Thomas J. Russell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 790
+            },
+            {
+              "party": "Common Cents",
+              "votes": 71
+            }
+          ],
+          "total": 861
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Poestenkill Town Clerk",
+      "candidates": [
+        {
+          "name": "Susan A. Horton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 656
+            },
+            {
+              "party": "Republican",
+              "votes": 825
+            },
+            {
+              "party": "Conservative",
+              "votes": 195
+            }
+          ],
+          "total": 1676
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Poestenkill Town Council",
+      "candidates": [
+        {
+          "name": "Rodney Rescott",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 797
+            },
+            {
+              "party": "Conservative",
+              "votes": 169
+            }
+          ],
+          "total": 966
+        },
+        {
+          "name": "David N. Hass",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 778
+            },
+            {
+              "party": "Conservative",
+              "votes": 170
+            }
+          ],
+          "total": 948
+        },
+        {
+          "name": "Andrew T. Batista",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 675
+            },
+            {
+              "party": "Common Cents",
+              "votes": 59
+            }
+          ],
+          "total": 734
+        },
+        {
+          "name": "Gregory C. Pattenaude",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 730
+            }
+          ],
+          "total": 730
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 4
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Poestenkill Superintendent of Highways",
+      "candidates": [
+        {
+          "name": "David T. Goyer, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 643
+            },
+            {
+              "party": "Republican",
+              "votes": 828
+            },
+            {
+              "party": "Conservative",
+              "votes": 194
+            }
+          ],
+          "total": 1665
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Mayor",
+      "candidates": [
+        {
+          "name": "John A. DeFrancesco",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 954
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 86
+            }
+          ],
+          "total": 1040
+        },
+        {
+          "name": "Michael E. Stammel",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 699
+            },
+            {
+              "party": "Conservative",
+              "votes": 181
+            }
+          ],
+          "total": 880
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer President of Common Council",
+      "candidates": [
+        {
+          "name": "Eric J. Endres",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1050
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 96
+            }
+          ],
+          "total": 1146
+        },
+        {
+          "name": "Amy M. Puls",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 600
+            },
+            {
+              "party": "Conservative",
+              "votes": 152
+            }
+          ],
+          "total": 752
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer City Clerk",
+      "candidates": [
+        {
+          "name": "Nancy E. Hardt",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1250
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 189
+            }
+          ],
+          "total": 1439
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer City Treasurer",
+      "candidates": [
+        {
+          "name": "Michael A. Mizener",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1224
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 171
+            }
+          ],
+          "total": 1395
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderperson 1",
+      "candidates": [
+        {
+          "name": "Timothy J. Kitterman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 173
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 15
+            }
+          ],
+          "total": 188
+        },
+        {
+          "name": "Miranda L. Gillan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 91
+            },
+            {
+              "party": "Conservative",
+              "votes": 21
+            }
+          ],
+          "total": 112
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderperson 2",
+      "candidates": [
+        {
+          "name": "Stacy L. Hover",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 145
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 14
+            }
+          ],
+          "total": 159
+        },
+        {
+          "name": "Ernest K.  Dambrose",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 81
+            },
+            {
+              "party": "Conservative",
+              "votes": 32
+            }
+          ],
+          "total": 113
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderperson 3",
+      "candidates": [
+        {
+          "name": "Sara Beth Bollman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 88
+            },
+            {
+              "party": "Conservative",
+              "votes": 32
+            }
+          ],
+          "total": 120
+        },
+        {
+          "name": "Andrea Van Bergen Lopez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 101
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 16
+            }
+          ],
+          "total": 117
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderperson 4",
+      "candidates": [
+        {
+          "name": "Andrew P. Kretzschmar",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 146
+            },
+            {
+              "party": "Conservative",
+              "votes": 48
+            }
+          ],
+          "total": 194
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderperson 5",
+      "candidates": [
+        {
+          "name": "Diane Dwyer",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 236
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 24
+            }
+          ],
+          "total": 260
+        },
+        {
+          "name": "Joseph John Adamo, III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 111
+            },
+            {
+              "party": "Conservative",
+              "votes": 27
+            }
+          ],
+          "total": 138
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Rensselaer Alderson Ward 6",
+      "candidates": [
+        {
+          "name": "Anne E. Burton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 225
+            },
+            {
+              "party": "Rensselaer United",
+              "votes": 11
+            }
+          ],
+          "total": 236
+        },
+        {
+          "name": "Jacqueline E. Dunlavey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 156
+            },
+            {
+              "party": "Conservative",
+              "votes": 40
+            }
+          ],
+          "total": 196
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Sand Lake Supervisor",
+      "candidates": [
+        {
+          "name": "Stephen Z. Clemens",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1434
+            },
+            {
+              "party": "Conservative",
+              "votes": 509
+            }
+          ],
+          "total": 1943
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 37
+            }
+          ],
+          "total": 37
+        }
+      ]
+    },
+    {
+      "title": "Sand Lake Town Clerk",
+      "candidates": [
+        {
+          "name": "Barbara A. Hansen",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1536
+            },
+            {
+              "party": "Conservative",
+              "votes": 530
+            }
+          ],
+          "total": 2066
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 25
+            }
+          ],
+          "total": 25
+        }
+      ]
+    },
+    {
+      "title": "Sand Lake Town Council",
+      "candidates": [
+        {
+          "name": "Karen L. Mason",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1150
+            },
+            {
+              "party": "Conservative",
+              "votes": 354
+            }
+          ],
+          "total": 1504
+        },
+        {
+          "name": "William E. Baker",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1135
+            },
+            {
+              "party": "Conservative",
+              "votes": 333
+            }
+          ],
+          "total": 1468
+        },
+        {
+          "name": "Timothy P. Desmond",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1305
+            }
+          ],
+          "total": 1305
+        },
+        {
+          "name": "Robert P. Malik",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1227
+            },
+            {
+              "party": "Common Cents",
+              "votes": 77
+            }
+          ],
+          "total": 1304
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Schaghticoke Supervisor",
+      "candidates": [
+        {
+          "name": "Timothy S. Salisbury",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1065
+            },
+            {
+              "party": "Conservative",
+              "votes": 379
+            }
+          ],
+          "total": 1444
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        }
+      ]
+    },
+    {
+      "title": "Schaghticoke Town Council",
+      "candidates": [
+        {
+          "name": "William J. Fogarty",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1049
+            },
+            {
+              "party": "Conservative",
+              "votes": 382
+            }
+          ],
+          "total": 1431
+        },
+        {
+          "name": "James T. Ward, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1008
+            },
+            {
+              "party": "Conservative",
+              "votes": 367
+            }
+          ],
+          "total": 1375
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 16
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 13
+            }
+          ],
+          "total": 29
+        }
+      ]
+    },
+    {
+      "title": "Schodack Town Supervisor",
+      "candidates": [
+        {
+          "name": "Charles J. Peter",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2151
+            },
+            {
+              "party": "Conservative",
+              "votes": 664
+            }
+          ],
+          "total": 2815
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 55
+            }
+          ],
+          "total": 55
+        }
+      ]
+    },
+    {
+      "title": "Schodack Town Council",
+      "candidates": [
+        {
+          "name": "Scott P. Swartz",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2127
+            },
+            {
+              "party": "Conservative",
+              "votes": 642
+            }
+          ],
+          "total": 2769
+        },
+        {
+          "name": "James E. Bult",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2048
+            },
+            {
+              "party": "Conservative",
+              "votes": 649
+            }
+          ],
+          "total": 2697
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 44
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 39
+            }
+          ],
+          "total": 83
+        }
+      ]
+    },
+    {
+      "title": "Stephentown Town Council",
+      "candidates": [
+        {
+          "name": "Diana Clark",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 361
+            },
+            {
+              "party": "Conservative",
+              "votes": 74
+            }
+          ],
+          "total": 435
+        },
+        {
+          "name": "Kyle R. Kidney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 334
+            },
+            {
+              "party": "Conservative",
+              "votes": 75
+            }
+          ],
+          "total": 409
+        },
+        {
+          "name": "Jarrid W. Brazie",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 358
+            },
+            {
+              "party": "Common Cents",
+              "votes": 48
+            }
+          ],
+          "total": 406
+        },
+        {
+          "name": "Vincent E. Teachout",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 349
+            },
+            {
+              "party": "Common Cents",
+              "votes": 42
+            }
+          ],
+          "total": 391
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            },
+            {
+              "party": "Nonpartisan",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "State Supreme Court Justice",
+      "candidates": [
+        {
+          "name": "William T. Little Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 17211
+            },
+            {
+              "party": "Working Families",
+              "votes": 2629
+            }
+          ],
+          "total": 19840
+        },
+        {
+          "name": "Dana Lynn Salazar",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 15236
+            },
+            {
+              "party": "Conservative",
+              "votes": 4233
+            }
+          ],
+          "total": 19469
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Berlin Town Justice",
+      "candidates": [
+        {
+          "name": "Jan L. Hunt",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 145
+            },
+            {
+              "party": "Republican",
+              "votes": 192
+            },
+            {
+              "party": "Conservative",
+              "votes": 55
+            }
+          ],
+          "total": 392
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Grafton Town Justice",
+      "candidates": [
+        {
+          "name": "Francis M. Higgins, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 267
+            },
+            {
+              "party": "Republican",
+              "votes": 364
+            },
+            {
+              "party": "Conservative",
+              "votes": 121
+            }
+          ],
+          "total": 752
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Hoosick Town Justice",
+      "candidates": [
+        {
+          "name": "Thomas G. Restino, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 814
+            },
+            {
+              "party": "Conservative",
+              "votes": 309
+            }
+          ],
+          "total": 1123
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Nassau Town Justice",
+      "candidates": [
+        {
+          "name": "Robert A. Schuman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 737
+            },
+            {
+              "party": "Conservative",
+              "votes": 237
+            }
+          ],
+          "total": 974
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Town Justice",
+      "candidates": [
+        {
+          "name": "Kathryn S. Dell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1716
+            },
+            {
+              "party": "Conservative",
+              "votes": 563
+            }
+          ],
+          "total": 2279
+        },
+        {
+          "name": "Jessica K. DiFiore",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1801
+            },
+            {
+              "party": "Working Families",
+              "votes": 282
+            },
+            {
+              "party": "Common Cents",
+              "votes": 0
+            }
+          ],
+          "total": 2083
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Petersburgh Town Justice",
+      "candidates": [
+        {
+          "name": "Gerald E. Russell, III",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 113
+            },
+            {
+              "party": "Republican",
+              "votes": 184
+            }
+          ],
+          "total": 297
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Sand Lake Town Justice",
+      "candidates": [
+        {
+          "name": "Scott A. Paul",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1404
+            },
+            {
+              "party": "Conservative",
+              "votes": 523
+            }
+          ],
+          "total": 1927
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 30
+            }
+          ],
+          "total": 30
+        }
+      ]
+    },
+    {
+      "title": "Schaghticoke Town Justice",
+      "candidates": [
+        {
+          "name": "Scott T. Ryan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1065
+            },
+            {
+              "party": "Conservative",
+              "votes": 380
+            }
+          ],
+          "total": 1445
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    },
+    {
+      "title": "Stephentown Town Justice",
+      "candidates": [
+        {
+          "name": "Cyril A. Grant",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 477
+            },
+            {
+              "party": "Common Cents",
+              "votes": 123
+            }
+          ],
+          "total": 600
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "PROPOSAL NUMBER ONE, AN AMENDMENT",
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 22800
+            }
+          ],
+          "total": 22800
+        },
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 14376
+            }
+          ],
+          "total": 14376
+        }
+      ]
+    },
+    {
+      "title": "Berlin Library",
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 268
+            }
+          ],
+          "total": 268
+        },
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 145
+            }
+          ],
+          "total": 145
+        }
+      ]
+    },
+    {
+      "title": "East Greenbush Prop",
+      "candidates": [
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 517
+            }
+          ],
+          "total": 517
+        },
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 505
+            }
+          ],
+          "total": 505
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Prop 1",
+      "candidates": [
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2598
+            }
+          ],
+          "total": 2598
+        },
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1614
+            }
+          ],
+          "total": 1614
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Prop 2",
+      "candidates": [
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2399
+            }
+          ],
+          "total": 2399
+        },
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1799
+            }
+          ],
+          "total": 1799
+        }
+      ]
+    },
+    {
+      "title": "North Greenbush Prop 3",
+      "candidates": [
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 2442
+            }
+          ],
+          "total": 2442
+        },
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 1736
+            }
+          ],
+          "total": 1736
+        }
+      ]
+    },
+    {
+      "title": "Stephentown Library",
+      "candidates": [
+        {
+          "name": "No",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 528
+            }
+          ],
+          "total": 528
+        },
+        {
+          "name": "Yes",
+          "party_lines": [
+            {
+              "party": "Nonpartisan",
+              "votes": 60
+            }
+          ],
+          "total": 60
+        }
+      ]
+    }
+  ]
+}

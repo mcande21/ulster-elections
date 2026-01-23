@@ -95,6 +95,9 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
             for c in candidates
         )
 
+    # Get race title - handle both 'race_title' and 'title' keys for compatibility
+    race_title = race_data.get('race_title') or race_data.get('title', 'Unknown Race')
+
     # Insert race with calculated total if necessary
     cursor.execute("""
         INSERT INTO races (county, election_date, race_title, vote_for, total_votes_cast,
@@ -104,7 +107,7 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
     """, (
         county,
         election_date,
-        race_data['race_title'],
+        race_title,
         race_data.get('vote_for', 1),
         total_votes,  # Use calculated total if race-level was 0
         race_data.get('under_votes'),

@@ -1,0 +1,3436 @@
+{
+  "county": "Rockland",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "title": "County Executive",
+      "candidates": [
+        {
+          "name": "REP Ed Day",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 27192
+            }
+          ],
+          "total": 27192
+        },
+        {
+          "name": "GDG Michael Parietti",
+          "party_lines": [
+            {
+              "party": "Good Gov",
+              "votes": 10956
+            }
+          ],
+          "total": 10956
+        },
+        {
+          "name": "CON Ed Day",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 5089
+            }
+          ],
+          "total": 5089
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 207
+            }
+          ],
+          "total": 207
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 42
+            }
+          ],
+          "total": 42
+        },
+        {
+          "name": "Miriam Rosenberg",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 23
+            }
+          ],
+          "total": 23
+        },
+        {
+          "name": "Ed Day",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Legislative District 13 Legislative District 13",
+      "candidates": [
+        {
+          "name": "DEM Moshe Hopstein",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1542
+            }
+          ],
+          "total": 1542
+        },
+        {
+          "name": "REP Mordchai Ostreicher",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 126
+            }
+          ],
+          "total": 126
+        },
+        {
+          "name": "CON Moshe Hopstein",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 122
+            }
+          ],
+          "total": 122
+        },
+        {
+          "name": "ROU Natacha Audain",
+          "party_lines": [
+            {
+              "party": "Rockland United",
+              "votes": 75
+            }
+          ],
+          "total": 75
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Moshe Hopstein",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor Clarkstown",
+      "candidates": [
+        {
+          "name": "REP George A. Hoehmann",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 9194
+            }
+          ],
+          "total": 9194
+        },
+        {
+          "name": "DEM Eugene Bondar",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 8191
+            }
+          ],
+          "total": 8191
+        },
+        {
+          "name": "CON George A. Hoehmann",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1703
+            }
+          ],
+          "total": 1703
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "George A. Hoehmann",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Eugene Bondar",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM Howard T. Phillips Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2746
+            }
+          ],
+          "total": 2746
+        },
+        {
+          "name": "CON Howard T. Phillips Jr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1001
+            }
+          ],
+          "total": 1001
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 22
+            }
+          ],
+          "total": 22
+        },
+        {
+          "name": "Brett Yagel",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor Orangetown",
+      "candidates": [
+        {
+          "name": "REP Teresa M. Kenny",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 6483
+            }
+          ],
+          "total": 6483
+        },
+        {
+          "name": "CON Teresa M. Kenny",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1506
+            }
+          ],
+          "total": 1506
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 198
+            }
+          ],
+          "total": 198
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 30
+            }
+          ],
+          "total": 30
+        },
+        {
+          "name": "Heather Hurley",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor Ramapo",
+      "candidates": [
+        {
+          "name": "DEM Michael B. Specht",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 9216
+            }
+          ],
+          "total": 9216
+        },
+        {
+          "name": "CON Michael B. Specht",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1877
+            }
+          ],
+          "total": 1877
+        },
+        {
+          "name": "Miriam Rosenberg",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 542
+            }
+          ],
+          "total": 542
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 171
+            }
+          ],
+          "total": 171
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor Stony Point",
+      "candidates": [
+        {
+          "name": "REP Amy Conklin- Stamm",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1792
+            }
+          ],
+          "total": 1792
+        },
+        {
+          "name": "CON Amy Conklin- Stamm",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 437
+            }
+          ],
+          "total": 437
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 37
+            }
+          ],
+          "total": 37
+        },
+        {
+          "name": "Deirdra Murphy O'Connor",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 35
+            }
+          ],
+          "total": 35
+        },
+        {
+          "name": "James Parcel",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Amy Conklin Stamm",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Deirdre Oconner",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "JIm Parcel",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Clarkstown Ward 1",
+      "candidates": [
+        {
+          "name": "DEM Mark B. Licker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2485
+            }
+          ],
+          "total": 2485
+        },
+        {
+          "name": "REP Jon P. Valentino",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2140
+            }
+          ],
+          "total": 2140
+        },
+        {
+          "name": "CON Jon P. Valentino",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 389
+            }
+          ],
+          "total": 389
+        },
+        {
+          "name": "WOR Ryan P. Orlando",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 73
+            }
+          ],
+          "total": 73
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Clarkstown Ward 2",
+      "candidates": [
+        {
+          "name": "DEM Gregory Sheehan",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2539
+            }
+          ],
+          "total": 2539
+        },
+        {
+          "name": "REP Mike Graziano",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2443
+            }
+          ],
+          "total": 2443
+        },
+        {
+          "name": "CON Mike Graziano",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 445
+            }
+          ],
+          "total": 445
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Mike Graziano",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Clarkstown Ward 3",
+      "candidates": [
+        {
+          "name": "REP Donald Franchino",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1542
+            }
+          ],
+          "total": 1542
+        },
+        {
+          "name": "DEM Daniel P. Maher",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1490
+            }
+          ],
+          "total": 1490
+        },
+        {
+          "name": "CON Donald Franchino",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 316
+            }
+          ],
+          "total": 316
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Daniel P. Maher",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Clarkstown Ward 4",
+      "candidates": [
+        {
+          "name": "REP Robert A. Axelrod",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2396
+            }
+          ],
+          "total": 2396
+        },
+        {
+          "name": "DEM Gina Defelice",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2353
+            }
+          ],
+          "total": 2353
+        },
+        {
+          "name": "CON Robert A. Axelrod",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 373
+            }
+          ],
+          "total": 373
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM Isidro Cancel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2535
+            }
+          ],
+          "total": 2535
+        },
+        {
+          "name": "DEM Vincent J. Gamboli",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2445
+            }
+          ],
+          "total": 2445
+        },
+        {
+          "name": "CON Vincent J. Gamboli",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 974
+            }
+          ],
+          "total": 974
+        },
+        {
+          "name": "CON Isidro Cancel",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 937
+            }
+          ],
+          "total": 937
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 34
+            }
+          ],
+          "total": 34
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Orangetown",
+      "candidates": [
+        {
+          "name": "REP Daniel W. Sullivan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 5733
+            }
+          ],
+          "total": 5733
+        },
+        {
+          "name": "REP Brian M. Donohue",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 5661
+            }
+          ],
+          "total": 5661
+        },
+        {
+          "name": "DEM Tiffany M. Sturdivant- Morrison",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5226
+            }
+          ],
+          "total": 5226
+        },
+        {
+          "name": "CON Brian M. Donohue",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1219
+            }
+          ],
+          "total": 1219
+        },
+        {
+          "name": "CON Daniel W. Sullivan",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1106
+            }
+          ],
+          "total": 1106
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 107
+            }
+          ],
+          "total": 107
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Ramapo",
+      "candidates": [
+        {
+          "name": "DEM David Wanounou",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 10245
+            }
+          ],
+          "total": 10245
+        },
+        {
+          "name": "DEM Yehuda Weissmandl",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 9254
+            }
+          ],
+          "total": 9254
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 333
+            }
+          ],
+          "total": 333
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 39
+            }
+          ],
+          "total": 39
+        },
+        {
+          "name": "Miriam Rosenberg",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        },
+        {
+          "name": "Eudson Tyson Francois",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        },
+        {
+          "name": "David Wanounou",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        },
+        {
+          "name": "Yehuda Weissmandl",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Council Stony Point",
+      "candidates": [
+        {
+          "name": "REP Todd W. Rose",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1771
+            }
+          ],
+          "total": 1771
+        },
+        {
+          "name": "REP Keith Williams",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1748
+            }
+          ],
+          "total": 1748
+        },
+        {
+          "name": "CON Todd W. Rose",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 440
+            }
+          ],
+          "total": 440
+        },
+        {
+          "name": "CON Keith Williams",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 413
+            }
+          ],
+          "total": 413
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 59
+            }
+          ],
+          "total": 59
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk Clarkstown",
+      "candidates": [
+        {
+          "name": "REP Lauren M. Wohl",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8945
+            }
+          ],
+          "total": 8945
+        },
+        {
+          "name": "DEM David R. Bruen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 8353
+            }
+          ],
+          "total": 8353
+        },
+        {
+          "name": "CON Lauren M. Wohl",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1626
+            }
+          ],
+          "total": 1626
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "David R. Bruen",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Lauren M. Wohl",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM Raquel Ventura",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2665
+            }
+          ],
+          "total": 2665
+        },
+        {
+          "name": "CON Raquel Ventura",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1003
+            }
+          ],
+          "total": 1003
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk Orangetown",
+      "candidates": [
+        {
+          "name": "REP Rosanna Sfraga",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 6683
+            }
+          ],
+          "total": 6683
+        },
+        {
+          "name": "CON Rosanna Sfraga",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1513
+            }
+          ],
+          "total": 1513
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 103
+            }
+          ],
+          "total": 103
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes Stony Point",
+      "candidates": [
+        {
+          "name": "REP Kathy Campbell Lyons",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1855
+            }
+          ],
+          "total": 1855
+        },
+        {
+          "name": "CON Kathy Campbell Lyons",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 466
+            }
+          ],
+          "total": 466
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 27
+            }
+          ],
+          "total": 27
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Kathy Campbell Lyons",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supt. of Highways Clarkstown",
+      "candidates": [
+        {
+          "name": "REP Robert E. Milone",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10528
+            }
+          ],
+          "total": 10528
+        },
+        {
+          "name": "CON Robert E. Milone",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 2502
+            }
+          ],
+          "total": 2502
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 188
+            }
+          ],
+          "total": 188
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 28
+            }
+          ],
+          "total": 28
+        },
+        {
+          "name": "Emily Feiner",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        },
+        {
+          "name": "Robert E. Milone",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        },
+        {
+          "name": "Frank Dizenzo",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supt. of Highways Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM John Bart Gordon",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2557
+            }
+          ],
+          "total": 2557
+        },
+        {
+          "name": "CON John Bart Gordon",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 982
+            }
+          ],
+          "total": 982
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supt. of Highways Orangetown",
+      "candidates": [
+        {
+          "name": "REP James J. Dean",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 6543
+            }
+          ],
+          "total": 6543
+        },
+        {
+          "name": "CON James J. Dean",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1486
+            }
+          ],
+          "total": 1486
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 107
+            }
+          ],
+          "total": 107
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "James J. Dean",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supt. of Highways Ramapo",
+      "candidates": [
+        {
+          "name": "DEM Fredric M. Brinn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 10100
+            }
+          ],
+          "total": 10100
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 128
+            }
+          ],
+          "total": 128
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        },
+        {
+          "name": "Fredrick M. Brinn",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Mayor Village of Nyack",
+      "candidates": [
+        {
+          "name": "DEM Joseph W. Rand",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1252
+            }
+          ],
+          "total": 1252
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 23
+            }
+          ],
+          "total": 23
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Mayor Village of Piermont",
+      "candidates": [
+        {
+          "name": "DEM Nathan S. Mitchell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 475
+            }
+          ],
+          "total": 475
+        },
+        {
+          "name": "PUN Kevin Timoney",
+          "party_lines": [
+            {
+              "party": "Piermont United",
+              "votes": 450
+            }
+          ],
+          "total": 450
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Mayor Village of Suffern",
+      "candidates": [
+        {
+          "name": "DEM Michael F. Curley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1167
+            }
+          ],
+          "total": 1167
+        },
+        {
+          "name": "CON Michael F. Curley",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 439
+            }
+          ],
+          "total": 439
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 28
+            }
+          ],
+          "total": 28
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Mayor Village of Spring Valley",
+      "candidates": [
+        {
+          "name": "DEM Schenley Vital",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2718
+            }
+          ],
+          "total": 2718
+        },
+        {
+          "name": "REP Aaron Stern",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 251
+            }
+          ],
+          "total": 251
+        },
+        {
+          "name": "Eudson Tyson Francois",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 196
+            }
+          ],
+          "total": 196
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee Village of Nyack",
+      "candidates": [
+        {
+          "name": "DEM Joe Carlin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1219
+            }
+          ],
+          "total": 1219
+        },
+        {
+          "name": "DEM Nathalie Riobe-Taylor",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1175
+            }
+          ],
+          "total": 1175
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 20
+            }
+          ],
+          "total": 20
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee Village of Piermont",
+      "candidates": [
+        {
+          "name": "DEM Catherine McCabe",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 663
+            }
+          ],
+          "total": 663
+        },
+        {
+          "name": "DEM Michael Wright",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 652
+            }
+          ],
+          "total": 652
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        },
+        {
+          "name": "Rondi Casey",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee Village of Suffern",
+      "candidates": [
+        {
+          "name": "DEM Jo Meegan- Corrigan",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1105
+            }
+          ],
+          "total": 1105
+        },
+        {
+          "name": "DEM Clarke W. Osborn",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1098
+            }
+          ],
+          "total": 1098
+        },
+        {
+          "name": "CON Clarke W. Osborn",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 451
+            }
+          ],
+          "total": 451
+        },
+        {
+          "name": "CON Jo Meegan- Corrigan",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 410
+            }
+          ],
+          "total": 410
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 26
+            }
+          ],
+          "total": 26
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee Village of Spring Valley",
+      "candidates": [
+        {
+          "name": "DEM Joseph Gross",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2360
+            }
+          ],
+          "total": 2360
+        },
+        {
+          "name": "Yakov Yosef Kaufman",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1867
+            }
+          ],
+          "total": 1867
+        },
+        {
+          "name": "DEM Sherry McGill",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1315
+            }
+          ],
+          "total": 1315
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 41
+            }
+          ],
+          "total": 41
+        },
+        {
+          "name": "BLANK",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        },
+        {
+          "name": "Eudson Francois",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        },
+        {
+          "name": "Sherry McGill",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee Village of West Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM Peter R. Eckert",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 769
+            }
+          ],
+          "total": 769
+        },
+        {
+          "name": "DEM Robert J. Lagrow",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 724
+            }
+          ],
+          "total": 724
+        },
+        {
+          "name": "REP Kathleenann Cool",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 438
+            }
+          ],
+          "total": 438
+        },
+        {
+          "name": "REP Helaine M. Nemeth",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 328
+            }
+          ],
+          "total": 328
+        },
+        {
+          "name": "CON Robert J. Lagrow",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 95
+            }
+          ],
+          "total": 95
+        },
+        {
+          "name": "CON Peter R. Eckert",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total": 94
+        },
+        {
+          "name": "PWH Kathleenann Cool",
+          "party_lines": [
+            {
+              "party": "Preserve West Haverstraw",
+              "votes": 64
+            }
+          ],
+          "total": 64
+        },
+        {
+          "name": "PWH Helaine M. Nemeth",
+          "party_lines": [
+            {
+              "party": "Preserve West Haverstraw",
+              "votes": 46
+            }
+          ],
+          "total": 46
+        },
+        {
+          "name": "Peter Eckert",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supreme Court Justice 9th Judicial District 9th Judicial District",
+      "candidates": [
+        {
+          "name": "DEM Diane M. Clerkin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 25329
+            }
+          ],
+          "total": 25329
+        },
+        {
+          "name": "DEM Desmond C. Lyons",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 24981
+            }
+          ],
+          "total": 24981
+        },
+        {
+          "name": "DEM John P. Collins Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 24772
+            }
+          ],
+          "total": 24772
+        },
+        {
+          "name": "DEM Verris B. Shako",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 24383
+            }
+          ],
+          "total": 24383
+        },
+        {
+          "name": "REP George A. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 19941
+            }
+          ],
+          "total": 19941
+        },
+        {
+          "name": "REP Thomas Humbach",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 19087
+            }
+          ],
+          "total": 19087
+        },
+        {
+          "name": "REP Kiel E. Van Horn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 18528
+            }
+          ],
+          "total": 18528
+        },
+        {
+          "name": "REP Raymond P. Raiche",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 18147
+            }
+          ],
+          "total": 18147
+        },
+        {
+          "name": "CON Raymond P. Raiche",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3518
+            }
+          ],
+          "total": 3518
+        },
+        {
+          "name": "CON Diane M. Clerkin",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3463
+            }
+          ],
+          "total": 3463
+        },
+        {
+          "name": "CON John P. Collins Jr.",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3422
+            }
+          ],
+          "total": 3422
+        },
+        {
+          "name": "CON Verris B. Shako",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 2946
+            }
+          ],
+          "total": 2946
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 163
+            }
+          ],
+          "total": 163
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 32
+            }
+          ],
+          "total": 32
+        },
+        {
+          "name": "Desmond Lyons",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Diane Clerkin",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "George Smith",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "John Collins",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Kiel Van Horn",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Verris Shako",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Family Court Judge",
+      "candidates": [
+        {
+          "name": "DEM Nabeela McLeod",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 25122
+            }
+          ],
+          "total": 25122
+        },
+        {
+          "name": "REP Nabeela McLeod",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 17812
+            }
+          ],
+          "total": 17812
+        },
+        {
+          "name": "CON Nabeela McLeod",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 3755
+            }
+          ],
+          "total": 3755
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 160
+            }
+          ],
+          "total": 160
+        },
+        {
+          "name": "Stephanie Small",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 49
+            }
+          ],
+          "total": 49
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        },
+        {
+          "name": "Nabeela McLeod",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice Clarkstown",
+      "candidates": [
+        {
+          "name": "REP Leslie Kahn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10375
+            }
+          ],
+          "total": 10375
+        },
+        {
+          "name": "CON Leslie Kahn",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 2535
+            }
+          ],
+          "total": 2535
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 196
+            }
+          ],
+          "total": 196
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 28
+            }
+          ],
+          "total": 28
+        },
+        {
+          "name": "Craig Johns",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        },
+        {
+          "name": "Leslie Kahn",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice Haverstraw",
+      "candidates": [
+        {
+          "name": "DEM Ivonne S. Santos",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2543
+            }
+          ],
+          "total": 2543
+        },
+        {
+          "name": "CON Ivonne S. Santos",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 844
+            }
+          ],
+          "total": 844
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice Orangetown",
+      "candidates": [
+        {
+          "name": "REP Richard C. Finning",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 6334
+            }
+          ],
+          "total": 6334
+        },
+        {
+          "name": "CON Richard C. Finning",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1407
+            }
+          ],
+          "total": 1407
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 101
+            }
+          ],
+          "total": 101
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice Ramapo",
+      "candidates": [
+        {
+          "name": "DEM Rhoda F. Schoenberger",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 8678
+            }
+          ],
+          "total": 8678
+        },
+        {
+          "name": "CON Rhoda F. Schoenberger",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1821
+            }
+          ],
+          "total": 1821
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 103
+            }
+          ],
+          "total": 103
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice Stony Point",
+      "candidates": [
+        {
+          "name": "REP Frank J. Phillips",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1783
+            }
+          ],
+          "total": 1783
+        },
+        {
+          "name": "CON Frank J. Phillips",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 432
+            }
+          ],
+          "total": 432
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 22
+            }
+          ],
+          "total": 22
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Frank Philips",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Justice Village of Piermont",
+      "candidates": [
+        {
+          "name": "DEM Marc R. Ruby",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 709
+            }
+          ],
+          "total": 709
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Justice Village of Spring Valley",
+      "candidates": [
+        {
+          "name": "DEM Justin L. Sweet",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2105
+            }
+          ],
+          "total": 2105
+        },
+        {
+          "name": "DEM James H. Mellion",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1983
+            }
+          ],
+          "total": 1983
+        },
+        {
+          "name": "REP Justin L. Sweet",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 208
+            }
+          ],
+          "total": 208
+        },
+        {
+          "name": "REP James H. Mellion",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 196
+            }
+          ],
+          "total": 196
+        },
+        {
+          "name": "CON Justin L. Sweet",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 77
+            }
+          ],
+          "total": 77
+        },
+        {
+          "name": "CON James H. Mellion",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 73
+            }
+          ],
+          "total": 73
+        },
+        {
+          "name": "WOR James H. Mellion",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "WOR Justin L. Sweet",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        },
+        {
+          "name": "Blank",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Village Justice Village of Spring Valley",
+      "candidates": [
+        {
+          "name": "DEM Patricia Brimais- Tenemille",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2443
+            }
+          ],
+          "total": 2443
+        },
+        {
+          "name": "REP Mike Koplen",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 261
+            }
+          ],
+          "total": 261
+        },
+        {
+          "name": "CON Patricia Brimais- Tenemille",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 88
+            }
+          ],
+          "total": 88
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        },
+        {
+          "name": "Write-in: Not Assigned",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5593 @@
+{
+  "county": "Orange",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "title": "State Supreme Court Justice - 9th Judicial District",
+      "candidates": [
+        {
+          "name": "Diane M. Clerkin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 34536
+            },
+            {
+              "party": "Conservative",
+              "votes": 3824
+            }
+          ],
+          "total": 38360
+        },
+        {
+          "name": "Verris B. Shako",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 33892
+            },
+            {
+              "party": "Conservative",
+              "votes": 3435
+            }
+          ],
+          "total": 37327
+        },
+        {
+          "name": "John P. Collins Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 33512
+            },
+            {
+              "party": "Conservative",
+              "votes": 3604
+            }
+          ],
+          "total": 37116
+        },
+        {
+          "name": "Desmond C. Lyons",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 33633
+            }
+          ],
+          "total": 33633
+        },
+        {
+          "name": "Raymond P. Raiche",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 25256
+            },
+            {
+              "party": "Conservative",
+              "votes": 3892
+            }
+          ],
+          "total": 29148
+        },
+        {
+          "name": "George A. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 28795
+            }
+          ],
+          "total": 28795
+        },
+        {
+          "name": "Kiel E. Van Horn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 26877
+            }
+          ],
+          "total": 26877
+        },
+        {
+          "name": "Thomas Humbach",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 26469
+            }
+          ],
+          "total": 26469
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 98
+            }
+          ],
+          "total": 98
+        }
+      ]
+    },
+    {
+      "title": "County Executive",
+      "candidates": [
+        {
+          "name": "Steven Neuhaus",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 38062
+            },
+            {
+              "party": "Conservative",
+              "votes": 5493
+            }
+          ],
+          "total": 43555
+        },
+        {
+          "name": "Michael Sussman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 26155
+            },
+            {
+              "party": "Working Families",
+              "votes": 2700
+            }
+          ],
+          "total": 28855
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 32
+            }
+          ],
+          "total": 32
+        }
+      ]
+    },
+    {
+      "title": "District Attorney",
+      "candidates": [
+        {
+          "name": "David M. Hoovler",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 34738
+            },
+            {
+              "party": "Conservative",
+              "votes": 5077
+            }
+          ],
+          "total": 39815
+        },
+        {
+          "name": "Alan Joseph",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 28004
+            },
+            {
+              "party": "Working Families",
+              "votes": 2990
+            }
+          ],
+          "total": 30994
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 44
+            }
+          ],
+          "total": 44
+        }
+      ]
+    },
+    {
+      "title": "County Clerk",
+      "candidates": [
+        {
+          "name": "Kelly A. Eskew",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 39303
+            },
+            {
+              "party": "Conservative",
+              "votes": 7844
+            }
+          ],
+          "total": 47147
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 245
+            }
+          ],
+          "total": 245
+        }
+      ]
+    },
+    {
+      "title": "County Court Judge",
+      "candidates": [
+        {
+          "name": "Craig S. Brown",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 36936
+            },
+            {
+              "party": "Conservative",
+              "votes": 7467
+            }
+          ],
+          "total": 44403
+        },
+        {
+          "name": "Karen D. Edelman-Reyes",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 35347
+            },
+            {
+              "party": "Conservative",
+              "votes": 7438
+            }
+          ],
+          "total": 42785
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 442
+            }
+          ],
+          "total": 442
+        }
+      ]
+    },
+    {
+      "title": "Family Court Judge",
+      "candidates": [
+        {
+          "name": "Victoria B. Campbell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 36489
+            },
+            {
+              "party": "Conservative",
+              "votes": 7551
+            }
+          ],
+          "total": 44040
+        },
+        {
+          "name": "Amanda B. Brady",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 35364
+            },
+            {
+              "party": "Conservative",
+              "votes": 7431
+            }
+          ],
+          "total": 42795
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 408
+            }
+          ],
+          "total": 408
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 1st Legislative District",
+      "candidates": [
+        {
+          "name": "Katherine E. Bonelli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1853
+            }
+          ],
+          "total": 1853
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 2nd Legislative District",
+      "candidates": [
+        {
+          "name": "Jonathan Redeker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2311
+            },
+            {
+              "party": "Good Neighbors",
+              "votes": 58
+            }
+          ],
+          "total": 2369
+        },
+        {
+          "name": "Aaron Ubides",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1780
+            }
+          ],
+          "total": 1780
+        },
+        {
+          "name": "James D. O'Donnell",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 434
+            }
+          ],
+          "total": 434
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 3rd Legislative District",
+      "candidates": [
+        {
+          "name": "Glenn R. Ehlers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2054
+            },
+            {
+              "party": "Conservative",
+              "votes": 344
+            }
+          ],
+          "total": 2398
+        },
+        {
+          "name": "Stephen Diffley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1910
+            },
+            {
+              "party": "Working Families",
+              "votes": 163
+            }
+          ],
+          "total": 2073
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 4th Legislative District",
+      "candidates": [
+        {
+          "name": "Genesis Ramos",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1508
+            },
+            {
+              "party": "Working Families",
+              "votes": 351
+            }
+          ],
+          "total": 1859
+        },
+        {
+          "name": "Dwayne Jordan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 937
+            },
+            {
+              "party": "Conservative",
+              "votes": 109
+            }
+          ],
+          "total": 1046
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 5th Legislative District",
+      "candidates": [
+        {
+          "name": "Michael L. Essig",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1623
+            },
+            {
+              "party": "Conservative",
+              "votes": 272
+            }
+          ],
+          "total": 1895
+        },
+        {
+          "name": "Stephanie Powell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1531
+            },
+            {
+              "party": "Working Families",
+              "votes": 270
+            }
+          ],
+          "total": 1801
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 6th Legislative District",
+      "candidates": [
+        {
+          "name": "Gabrielle Hill",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 853
+            },
+            {
+              "party": "Working Families",
+              "votes": 246
+            }
+          ],
+          "total": 1099
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 7th Legislative District",
+      "candidates": [
+        {
+          "name": "Michael F. Amo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2792
+            }
+          ],
+          "total": 2792
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 8th Legislative District",
+      "candidates": [
+        {
+          "name": "Barry J. Cheney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2355
+            }
+          ],
+          "total": 2355
+        },
+        {
+          "name": "Orion Russell Blake",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1988
+            },
+            {
+              "party": "Working Families",
+              "votes": 175
+            }
+          ],
+          "total": 2163
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 9th Legislative District",
+      "candidates": [
+        {
+          "name": "Rob Sassi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2131
+            },
+            {
+              "party": "Conservative",
+              "votes": 419
+            }
+          ],
+          "total": 2550
+        },
+        {
+          "name": "Shauna Best",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1531
+            },
+            {
+              "party": "Working Families",
+              "votes": 153
+            }
+          ],
+          "total": 1684
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 10th Legislative District",
+      "candidates": [
+        {
+          "name": "Peter V. Tuohy",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1904
+            },
+            {
+              "party": "Conservative",
+              "votes": 263
+            }
+          ],
+          "total": 2167
+        },
+        {
+          "name": "Maria C. May",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1809
+            },
+            {
+              "party": "Working Families",
+              "votes": 221
+            }
+          ],
+          "total": 2030
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 11th Legislative District",
+      "candidates": [
+        {
+          "name": "Deshanda T. Carter",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1755
+            },
+            {
+              "party": "WallkillWinning",
+              "votes": 55
+            }
+          ],
+          "total": 1810
+        },
+        {
+          "name": "Eric Valentin",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 855
+            }
+          ],
+          "total": 855
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 12th Legislative District",
+      "candidates": [
+        {
+          "name": "Virginia A. Scott",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1968
+            },
+            {
+              "party": "Working Families",
+              "votes": 231
+            }
+          ],
+          "total": 2199
+        },
+        {
+          "name": "David M. Blythe",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1746
+            },
+            {
+              "party": "Conservative",
+              "votes": 247
+            }
+          ],
+          "total": 1993
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 13th Legislative District",
+      "candidates": [
+        {
+          "name": "Thomas J. Faggione",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1740
+            },
+            {
+              "party": "Conservative",
+              "votes": 269
+            }
+          ],
+          "total": 2009
+        },
+        {
+          "name": "Michael Cox",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 997
+            },
+            {
+              "party": "Working Families",
+              "votes": 123
+            }
+          ],
+          "total": 1120
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 14th Legislative District",
+      "candidates": [
+        {
+          "name": "Laurie Tautel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1432
+            },
+            {
+              "party": "Working Families",
+              "votes": 313
+            }
+          ],
+          "total": 1745
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 15th Legislative District",
+      "candidates": [
+        {
+          "name": "Matthew Fascaldi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1517
+            },
+            {
+              "party": "Working Families",
+              "votes": 148
+            }
+          ],
+          "total": 1665
+        },
+        {
+          "name": "Joseph J. Minuta",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1145
+            },
+            {
+              "party": "Conservative",
+              "votes": 178
+            }
+          ],
+          "total": 1323
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 16th Legislative District",
+      "candidates": [
+        {
+          "name": "Stephen R. Hunter Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1779
+            },
+            {
+              "party": "Working Families",
+              "votes": 174
+            }
+          ],
+          "total": 1953
+        },
+        {
+          "name": "Leigh J. Benton",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1678
+            },
+            {
+              "party": "Conservative",
+              "votes": 273
+            }
+          ],
+          "total": 1951
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 17th Legislative District",
+      "candidates": [
+        {
+          "name": "John J. Revella",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1590
+            },
+            {
+              "party": "Conservative",
+              "votes": 259
+            }
+          ],
+          "total": 1849
+        },
+        {
+          "name": "Karina Tipton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1660
+            }
+          ],
+          "total": 1660
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 18th Legislative District",
+      "candidates": [
+        {
+          "name": "Janet Sutherland",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1474
+            },
+            {
+              "party": "Conservative",
+              "votes": 260
+            }
+          ],
+          "total": 1734
+        },
+        {
+          "name": "Moniysha Maldonado",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1341
+            },
+            {
+              "party": "Working Families",
+              "votes": 109
+            }
+          ],
+          "total": 1450
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 19th Legislative District",
+      "candidates": [
+        {
+          "name": "Paul Ruszkiewicz",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2267
+            },
+            {
+              "party": "Conservative",
+              "votes": 306
+            }
+          ],
+          "total": 2573
+        },
+        {
+          "name": "Deirdre Post",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1504
+            },
+            {
+              "party": "Working Families",
+              "votes": 146
+            }
+          ],
+          "total": 1650
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 20th Legislative District",
+      "candidates": [
+        {
+          "name": "Sparrow Tobin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1367
+            },
+            {
+              "party": "Working Families",
+              "votes": 152
+            }
+          ],
+          "total": 1519
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "County Legislator for 21st Legislative District",
+      "candidates": [
+        {
+          "name": "Kathy A. Stegenga",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1810
+            },
+            {
+              "party": "Conservative",
+              "votes": 326
+            }
+          ],
+          "total": 2136
+        },
+        {
+          "name": "Dennis K. Leahy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1562
+            }
+          ],
+          "total": 1562
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Mayor for City of Middletown",
+      "candidates": [
+        {
+          "name": "Joseph M. DeStefano",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2685
+            }
+          ],
+          "total": 2685
+        },
+        {
+          "name": "Joel Sierra",
+          "party_lines": [
+            {
+              "party": "Time for Change",
+              "votes": 564
+            }
+          ],
+          "total": 564
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Alderman At Large for City of Middletown",
+      "candidates": [
+        {
+          "name": "J. Miguel Rodrigues",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2654
+            }
+          ],
+          "total": 2654
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "Alderman for Middletown Ward 1",
+      "candidates": [
+        {
+          "name": "Joseph G. Masi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 380
+            }
+          ],
+          "total": 380
+        },
+        {
+          "name": "Kevin D. Witt",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 346
+            }
+          ],
+          "total": 346
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Alderman for Middletown Ward 2",
+      "candidates": [
+        {
+          "name": "Andrew R. Green",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 631
+            }
+          ],
+          "total": 631
+        },
+        {
+          "name": "Kevin Gomez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 590
+            }
+          ],
+          "total": 590
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Alderman for Middletown Ward 3",
+      "candidates": [
+        {
+          "name": "Katie Wray",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 508
+            }
+          ],
+          "total": 508
+        },
+        {
+          "name": "Paul K. Johnson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 475
+            }
+          ],
+          "total": 475
+        },
+        {
+          "name": "Rafael Cordero",
+          "party_lines": [
+            {
+              "party": "Time for Change",
+              "votes": 97
+            }
+          ],
+          "total": 97
+        },
+        {
+          "name": "Roberto Browne",
+          "party_lines": [
+            {
+              "party": "Time for Change",
+              "votes": 94
+            }
+          ],
+          "total": 94
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Alderman for Middletown Ward 4",
+      "candidates": [
+        {
+          "name": "Alex A. Rodriguez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 946
+            }
+          ],
+          "total": 946
+        },
+        {
+          "name": "Jude Jean-Francois",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 944
+            }
+          ],
+          "total": 944
+        },
+        {
+          "name": "Evelyn Ortega",
+          "party_lines": [
+            {
+              "party": "Time for Change",
+              "votes": 196
+            }
+          ],
+          "total": 196
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "City Court Judge for Middletown",
+      "candidates": [
+        {
+          "name": "Steven W. Brockett",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2612
+            }
+          ],
+          "total": 2612
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Newburgh Ward 1",
+      "candidates": [
+        {
+          "name": "Giselle L. Martinez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 372
+            },
+            {
+              "party": "Working Families",
+              "votes": 117
+            }
+          ],
+          "total": 489
+        },
+        {
+          "name": "Dennis Grant",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 125
+            }
+          ],
+          "total": 125
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Newburgh Ward 2",
+      "candidates": [
+        {
+          "name": "Ramona R. Monteverde",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 217
+            },
+            {
+              "party": "Working Families",
+              "votes": 73
+            }
+          ],
+          "total": 290
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Newburgh Ward 3",
+      "candidates": [
+        {
+          "name": "Tamika Stewart",
+          "party_lines": [
+            {
+              "party": "Working Families",
+              "votes": 392
+            }
+          ],
+          "total": 392
+        },
+        {
+          "name": "Ann Marie Hines",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 323
+            }
+          ],
+          "total": 323
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Newburgh Ward 4",
+      "candidates": [
+        {
+          "name": "Ronald Zorrilla",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 307
+            },
+            {
+              "party": "Working Families",
+              "votes": 90
+            }
+          ],
+          "total": 397
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Mayor for City of Port Jervis",
+      "candidates": [
+        {
+          "name": "Dominic Cicalese",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 722
+            },
+            {
+              "party": "Conservative",
+              "votes": 150
+            }
+          ],
+          "total": 872
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Council Member At Large for City of  Port Jervis",
+      "candidates": [
+        {
+          "name": "Michael Hockenberry",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 679
+            },
+            {
+              "party": "Conservative",
+              "votes": 153
+            }
+          ],
+          "total": 832
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Port Jervis Ward 1",
+      "candidates": [
+        {
+          "name": "Jason Vicchiariello",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 154
+            },
+            {
+              "party": "Conservative",
+              "votes": 29
+            }
+          ],
+          "total": 183
+        },
+        {
+          "name": "Colin O'Connell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 141
+            },
+            {
+              "party": "Conservative",
+              "votes": 26
+            }
+          ],
+          "total": 167
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Port Jervis Ward 2",
+      "candidates": [
+        {
+          "name": "Maria Mann",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 173
+            },
+            {
+              "party": "Conservative",
+              "votes": 31
+            }
+          ],
+          "total": 204
+        },
+        {
+          "name": "Misty Fuller",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 152
+            },
+            {
+              "party": "Conservative",
+              "votes": 26
+            }
+          ],
+          "total": 178
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Port Jervis Ward 3",
+      "candidates": [
+        {
+          "name": "Jeffrey S. Rhoades",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 204
+            },
+            {
+              "party": "Conservative",
+              "votes": 27
+            }
+          ],
+          "total": 231
+        },
+        {
+          "name": "Gerald Oney Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 185
+            },
+            {
+              "party": "Conservative",
+              "votes": 44
+            }
+          ],
+          "total": 229
+        },
+        {
+          "name": "Jackie L. Smith",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 154
+            },
+            {
+              "party": "Port Jervis First",
+              "votes": 16
+            }
+          ],
+          "total": 170
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "City Council Member for Port Jervis Ward 4",
+      "candidates": [
+        {
+          "name": "Stanley B. Siegel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 163
+            },
+            {
+              "party": "Port Jervis First",
+              "votes": 39
+            }
+          ],
+          "total": 202
+        },
+        {
+          "name": "Jacqueline D. Dennison",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 149
+            },
+            {
+              "party": "Port Jervis First",
+              "votes": 22
+            }
+          ],
+          "total": 171
+        },
+        {
+          "name": "Michael A. Witt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 104
+            },
+            {
+              "party": "Conservative",
+              "votes": 20
+            }
+          ],
+          "total": 124
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Blooming Grove",
+      "candidates": [
+        {
+          "name": "Robert C. Jeroloman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1812
+            },
+            {
+              "party": "Conservative",
+              "votes": 421
+            }
+          ],
+          "total": 2233
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Blooming Grove",
+      "candidates": [
+        {
+          "name": "Darlena E. Decker",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2160
+            }
+          ],
+          "total": 2160
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes and Assessments for Blooming Grove",
+      "candidates": [
+        {
+          "name": "Vanessa R. Lynn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1813
+            },
+            {
+              "party": "Conservative",
+              "votes": 418
+            }
+          ],
+          "total": 2231
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Blooming Grove",
+      "candidates": [
+        {
+          "name": "Wayne W. Kirkpatrick",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1880
+            },
+            {
+              "party": "Conservative",
+              "votes": 425
+            }
+          ],
+          "total": 2305
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 1",
+      "candidates": [
+        {
+          "name": "Cathy A. Gregg-Acevedo",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 271
+            },
+            {
+              "party": "Conservative",
+              "votes": 139
+            }
+          ],
+          "total": 410
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 2",
+      "candidates": [
+        {
+          "name": "Frank L. Malloy",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 287
+            },
+            {
+              "party": "Conservative",
+              "votes": 57
+            }
+          ],
+          "total": 344
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 3",
+      "candidates": [
+        {
+          "name": "John F. Byrnes",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 202
+            },
+            {
+              "party": "Conservative",
+              "votes": 58
+            }
+          ],
+          "total": 260
+        },
+        {
+          "name": "Johanna K. Kiernan",
+          "party_lines": [
+            {
+              "party": "For The People",
+              "votes": 140
+            }
+          ],
+          "total": 140
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 4",
+      "candidates": [
+        {
+          "name": "Simon Schwartz",
+          "party_lines": [
+            {
+              "party": "RSBM",
+              "votes": 272
+            }
+          ],
+          "total": 272
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 49
+            }
+          ],
+          "total": 49
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 5",
+      "candidates": [
+        {
+          "name": "John P. Stegenga",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 338
+            },
+            {
+              "party": "Conservative",
+              "votes": 79
+            }
+          ],
+          "total": 417
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Blooming Grove Ward 6",
+      "candidates": [
+        {
+          "name": "Steven J. Amante",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 389
+            },
+            {
+              "party": "Conservative",
+              "votes": 90
+            }
+          ],
+          "total": 479
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Blooming Grove",
+      "candidates": [
+        {
+          "name": "Christopher J. Turpin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1740
+            },
+            {
+              "party": "Conservative",
+              "votes": 424
+            }
+          ],
+          "total": 2164
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Chester",
+      "candidates": [
+        {
+          "name": "Linda A. Zappala",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1419
+            },
+            {
+              "party": "United Chester",
+              "votes": 76
+            }
+          ],
+          "total": 1495
+        },
+        {
+          "name": "PJ Gorman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1196
+            },
+            {
+              "party": "Conservative",
+              "votes": 202
+            }
+          ],
+          "total": 1398
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Chester",
+      "candidates": [
+        {
+          "name": "Giuseppe Cassara",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1205
+            },
+            {
+              "party": "Conservative",
+              "votes": 205
+            }
+          ],
+          "total": 1410
+        },
+        {
+          "name": "Robert G. Courtenay",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1328
+            },
+            {
+              "party": "United Chester",
+              "votes": 62
+            }
+          ],
+          "total": 1390
+        },
+        {
+          "name": "David Collins Sr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1310
+            },
+            {
+              "party": "United Chester",
+              "votes": 51
+            }
+          ],
+          "total": 1361
+        },
+        {
+          "name": "Christine E. Maurer",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1140
+            },
+            {
+              "party": "Conservative",
+              "votes": 188
+            }
+          ],
+          "total": 1328
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes for Chester",
+      "candidates": [
+        {
+          "name": "Vincent A. Maniscalco",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1262
+            },
+            {
+              "party": "Republican",
+              "votes": 1303
+            }
+          ],
+          "total": 2565
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 39
+            }
+          ],
+          "total": 39
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Chester",
+      "candidates": [
+        {
+          "name": "Sharon Worthy Spiegl",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1482
+            },
+            {
+              "party": "Conservative",
+              "votes": 315
+            }
+          ],
+          "total": 1797
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Cornwall",
+      "candidates": [
+        {
+          "name": "Josh Wojehowski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2012
+            },
+            {
+              "party": "Working Families",
+              "votes": 264
+            }
+          ],
+          "total": 2276
+        },
+        {
+          "name": "Helen L. Bunt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1820
+            },
+            {
+              "party": "Cornwall Vision",
+              "votes": 84
+            }
+          ],
+          "total": 1904
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Cornwall",
+      "candidates": [
+        {
+          "name": "Jennifer McCormick",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2312
+            },
+            {
+              "party": "Conservative",
+              "votes": 439
+            }
+          ],
+          "total": 2751
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 26
+            }
+          ],
+          "total": 26
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Cornwall",
+      "candidates": [
+        {
+          "name": "Rokhsha Michael-Razi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1925
+            },
+            {
+              "party": "Working Families",
+              "votes": 271
+            }
+          ],
+          "total": 2196
+        },
+        {
+          "name": "Mary A. Heed",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1802
+            },
+            {
+              "party": "Working Families",
+              "votes": 259
+            }
+          ],
+          "total": 2061
+        },
+        {
+          "name": "James R. Keyes",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1852
+            },
+            {
+              "party": "Cornwall Vision",
+              "votes": 81
+            }
+          ],
+          "total": 1933
+        },
+        {
+          "name": "Ryan C. Krafft",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1756
+            },
+            {
+              "party": "Cornwall Vision",
+              "votes": 92
+            }
+          ],
+          "total": 1848
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Crawford",
+      "candidates": [
+        {
+          "name": "Michael J. Menendez",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1153
+            },
+            {
+              "party": "Conservative",
+              "votes": 243
+            }
+          ],
+          "total": 1396
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Crawford",
+      "candidates": [
+        {
+          "name": "Jessica M. Kempter",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1141
+            },
+            {
+              "party": "Conservative",
+              "votes": 255
+            }
+          ],
+          "total": 1396
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Crawford",
+      "candidates": [
+        {
+          "name": "Jason L. Muehr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1085
+            },
+            {
+              "party": "Conservative",
+              "votes": 233
+            }
+          ],
+          "total": 1318
+        },
+        {
+          "name": "Richard M. Mahon",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1042
+            },
+            {
+              "party": "Conservative",
+              "votes": 235
+            }
+          ],
+          "total": 1277
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Tax Collector for Crawford",
+      "candidates": [
+        {
+          "name": "Constance F. Latimer",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1339
+            }
+          ],
+          "total": 1339
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Crawford",
+      "candidates": [
+        {
+          "name": "Russell R. Futrell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1115
+            },
+            {
+              "party": "Conservative",
+              "votes": 237
+            }
+          ],
+          "total": 1352
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Crawford",
+      "candidates": [
+        {
+          "name": "Bryan M. Kulak",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1216
+            }
+          ],
+          "total": 1216
+        },
+        {
+          "name": "Mark L. Schuh",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1205
+            }
+          ],
+          "total": 1205
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Deerpark",
+      "candidates": [
+        {
+          "name": "Gary Spears",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 838
+            },
+            {
+              "party": "Conservative",
+              "votes": 155
+            }
+          ],
+          "total": 993
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Deerpark",
+      "candidates": [
+        {
+          "name": "Florence T. Santini",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 859
+            },
+            {
+              "party": "Conservative",
+              "votes": 166
+            }
+          ],
+          "total": 1025
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Deerpark",
+      "candidates": [
+        {
+          "name": "Alan F. Schock",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 761
+            },
+            {
+              "party": "Conservative",
+              "votes": 151
+            }
+          ],
+          "total": 912
+        },
+        {
+          "name": "Arthur T. Trovei",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 763
+            },
+            {
+              "party": "Conservative",
+              "votes": 145
+            }
+          ],
+          "total": 908
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Deerpark",
+      "candidates": [
+        {
+          "name": "Raymond Cirulli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 830
+            },
+            {
+              "party": "Conservative",
+              "votes": 155
+            }
+          ],
+          "total": 985
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Deerpark",
+      "candidates": [
+        {
+          "name": "Charlotte L. Van Horn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 783
+            },
+            {
+              "party": "Conservative",
+              "votes": 137
+            }
+          ],
+          "total": 920
+        },
+        {
+          "name": "Suzan D. Sacks",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 815
+            }
+          ],
+          "total": 815
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Goshen",
+      "candidates": [
+        {
+          "name": "Joseph Betro",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1825
+            },
+            {
+              "party": "Conservative",
+              "votes": 414
+            }
+          ],
+          "total": 2239
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 67
+            }
+          ],
+          "total": 67
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Goshen",
+      "candidates": [
+        {
+          "name": "Mary A. Riso",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1908
+            },
+            {
+              "party": "Conservative",
+              "votes": 418
+            }
+          ],
+          "total": 2326
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Goshen",
+      "candidates": [
+        {
+          "name": "George M. Lyons",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1426
+            },
+            {
+              "party": "Conservative",
+              "votes": 242
+            }
+          ],
+          "total": 1668
+        },
+        {
+          "name": "Melissa H. Gallo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1390
+            },
+            {
+              "party": "Conservative",
+              "votes": 248
+            }
+          ],
+          "total": 1638
+        },
+        {
+          "name": "Neal Halloran",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1529
+            },
+            {
+              "party": "Good Neighbors",
+              "votes": 52
+            }
+          ],
+          "total": 1581
+        },
+        {
+          "name": "Wendy Morel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1487
+            },
+            {
+              "party": "Good Neighbors",
+              "votes": 31
+            }
+          ],
+          "total": 1518
+        },
+        {
+          "name": "Chris Healy",
+          "party_lines": [
+            {
+              "party": "No Warehouses",
+              "votes": 308
+            }
+          ],
+          "total": 308
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes for Goshen",
+      "candidates": [
+        {
+          "name": "Nan Gill-Wilson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1809
+            },
+            {
+              "party": "Good Neighbors",
+              "votes": 56
+            }
+          ],
+          "total": 1865
+        },
+        {
+          "name": "Kelly L. Makuen",
+          "party_lines": [
+            {
+              "party": "Community First",
+              "votes": 454
+            }
+          ],
+          "total": 454
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Goshen",
+      "candidates": [
+        {
+          "name": "P. Broderick Knoell",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1893
+            },
+            {
+              "party": "Conservative",
+              "votes": 427
+            }
+          ],
+          "total": 2320
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Greenville",
+      "candidates": [
+        {
+          "name": "David Zubikowski",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 766
+            }
+          ],
+          "total": 766
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Greenville",
+      "candidates": [
+        {
+          "name": "Theresa M. Whelan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 694
+            },
+            {
+              "party": "Conservative",
+              "votes": 91
+            }
+          ],
+          "total": 785
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Greenville",
+      "candidates": [
+        {
+          "name": "Jason R. Soudant",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 649
+            }
+          ],
+          "total": 649
+        },
+        {
+          "name": "Geoffrey R. Stafford",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 644
+            }
+          ],
+          "total": 644
+        },
+        {
+          "name": "Julie Takatsch",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 342
+            }
+          ],
+          "total": 342
+        },
+        {
+          "name": "Diana Rogers",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 318
+            }
+          ],
+          "total": 318
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Tax Collector for Greenville",
+      "candidates": [
+        {
+          "name": "Lisa M. O'Connor",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 773
+            }
+          ],
+          "total": 773
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Greenville",
+      "candidates": [
+        {
+          "name": "James E. Ferguson Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 768
+            }
+          ],
+          "total": 768
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Greenville",
+      "candidates": [
+        {
+          "name": "Gregory L. Wieboldt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 735
+            }
+          ],
+          "total": 735
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Hamptonburgh",
+      "candidates": [
+        {
+          "name": "Robert S. Jankowski",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 788
+            },
+            {
+              "party": "Conservative",
+              "votes": 134
+            }
+          ],
+          "total": 922
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Hamptonburgh",
+      "candidates": [
+        {
+          "name": "Christine Durante",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 796
+            },
+            {
+              "party": "Conservative",
+              "votes": 149
+            }
+          ],
+          "total": 945
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Hamptonburgh",
+      "candidates": [
+        {
+          "name": "Richard M. Cocchiara",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 779
+            },
+            {
+              "party": "Conservative",
+              "votes": 144
+            }
+          ],
+          "total": 923
+        },
+        {
+          "name": "James M. Lord",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 755
+            },
+            {
+              "party": "Conservative",
+              "votes": 137
+            }
+          ],
+          "total": 892
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Hamptonburgh",
+      "candidates": [
+        {
+          "name": "Michael Babb",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 794
+            },
+            {
+              "party": "Conservative",
+              "votes": 150
+            }
+          ],
+          "total": 944
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Highlands",
+      "candidates": [
+        {
+          "name": "Bob Livsey",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 550
+            },
+            {
+              "party": "HighlandsStrong",
+              "votes": 53
+            }
+          ],
+          "total": 603
+        },
+        {
+          "name": "Peter C. Kinney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 537
+            }
+          ],
+          "total": 537
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Highlands",
+      "candidates": [
+        {
+          "name": "Richard M. Sullivan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 587
+            }
+          ],
+          "total": 587
+        },
+        {
+          "name": "Michael J. Leahy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 518
+            },
+            {
+              "party": "HighlandsStrong",
+              "votes": 50
+            }
+          ],
+          "total": 568
+        },
+        {
+          "name": "Sallie A. Dorsch",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 512
+            },
+            {
+              "party": "HighlandsStrong",
+              "votes": 50
+            }
+          ],
+          "total": 562
+        },
+        {
+          "name": "Jeffrey Buchheim",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 435
+            }
+          ],
+          "total": 435
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Highlands",
+      "candidates": [
+        {
+          "name": "Barbara Falgoust Mennite",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 614
+            },
+            {
+              "party": "HighlandsStrong",
+              "votes": 127
+            }
+          ],
+          "total": 741
+        },
+        {
+          "name": "Dana F. Holland",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 593
+            },
+            {
+              "party": "HighlandsStrong",
+              "votes": 127
+            }
+          ],
+          "total": 720
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Minisink",
+      "candidates": [
+        {
+          "name": "Barbara A. Clifford",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 604
+            },
+            {
+              "party": "Conservative",
+              "votes": 97
+            }
+          ],
+          "total": 701
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Minisink",
+      "candidates": [
+        {
+          "name": "Sally A. Crawford",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 629
+            },
+            {
+              "party": "Conservative",
+              "votes": 96
+            }
+          ],
+          "total": 725
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Minisink",
+      "candidates": [
+        {
+          "name": "Richard L. Hansen Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 596
+            },
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total": 690
+        },
+        {
+          "name": "Michelle L. Miedema",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 582
+            },
+            {
+              "party": "Conservative",
+              "votes": 98
+            }
+          ],
+          "total": 680
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Tax Collector for Minisink",
+      "candidates": [
+        {
+          "name": "Stacey L. Drake",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 616
+            },
+            {
+              "party": "Conservative",
+              "votes": 96
+            }
+          ],
+          "total": 712
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Minisink",
+      "candidates": [
+        {
+          "name": "James A. Lain",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 603
+            },
+            {
+              "party": "Conservative",
+              "votes": 94
+            }
+          ],
+          "total": 697
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Monroe",
+      "candidates": [
+        {
+          "name": "Maureen Richardson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2205
+            },
+            {
+              "party": "Preserve Monroe",
+              "votes": 270
+            }
+          ],
+          "total": 2475
+        },
+        {
+          "name": "Anthony P. Cardone III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1599
+            },
+            {
+              "party": "Conservative",
+              "votes": 269
+            }
+          ],
+          "total": 1868
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 124
+            }
+          ],
+          "total": 124
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Monroe",
+      "candidates": [
+        {
+          "name": "Beth Stephens",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2231
+            },
+            {
+              "party": "Preserve Monroe",
+              "votes": 289
+            }
+          ],
+          "total": 2520
+        },
+        {
+          "name": "Luis Rivera",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2196
+            },
+            {
+              "party": "Preserve Monroe",
+              "votes": 268
+            }
+          ],
+          "total": 2464
+        },
+        {
+          "name": "Steven R. Thau",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1535
+            },
+            {
+              "party": "Conservative",
+              "votes": 268
+            }
+          ],
+          "total": 1803
+        },
+        {
+          "name": "Dorey F. Houle",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1536
+            },
+            {
+              "party": "Conservative",
+              "votes": 266
+            }
+          ],
+          "total": 1802
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways (TFV) for Monroe",
+      "candidates": [
+        {
+          "name": "William E. Brown Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2119
+            },
+            {
+              "party": "Conservative",
+              "votes": 502
+            }
+          ],
+          "total": 2621
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 29
+            }
+          ],
+          "total": 29
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Monroe",
+      "candidates": [
+        {
+          "name": "Audra Schwartz",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2230
+            },
+            {
+              "party": "Preserve Monroe",
+              "votes": 192
+            }
+          ],
+          "total": 2422
+        },
+        {
+          "name": "Yvette A. Rosario",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1580
+            },
+            {
+              "party": "Conservative",
+              "votes": 278
+            }
+          ],
+          "total": 1858
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Montgomery",
+      "candidates": [
+        {
+          "name": "L. Stephen Brescia",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2317
+            },
+            {
+              "party": "Conservative",
+              "votes": 499
+            }
+          ],
+          "total": 2816
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 68
+            }
+          ],
+          "total": 68
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Montgomery",
+      "candidates": [
+        {
+          "name": "Karen Miller",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2398
+            },
+            {
+              "party": "Conservative",
+              "votes": 519
+            }
+          ],
+          "total": 2917
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 21
+            }
+          ],
+          "total": 21
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Montgomery",
+      "candidates": [
+        {
+          "name": "Sheryl A. Melick",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1899
+            },
+            {
+              "party": "Conservative",
+              "votes": 314
+            }
+          ],
+          "total": 2213
+        },
+        {
+          "name": "Michael Setteducato",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1800
+            },
+            {
+              "party": "Conservative",
+              "votes": 312
+            }
+          ],
+          "total": 2112
+        },
+        {
+          "name": "Amy Grzybinski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1778
+            },
+            {
+              "party": "Working Families",
+              "votes": 199
+            }
+          ],
+          "total": 1977
+        },
+        {
+          "name": "Aimee McLaughlin-Stout",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1688
+            },
+            {
+              "party": "Working Families",
+              "votes": 180
+            }
+          ],
+          "total": 1868
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Montgomery",
+      "candidates": [
+        {
+          "name": "Shaun Meres",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2423
+            },
+            {
+              "party": "Conservative",
+              "votes": 513
+            }
+          ],
+          "total": 2936
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 20
+            }
+          ],
+          "total": 20
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Montgomery",
+      "candidates": [
+        {
+          "name": "Raynard Ozman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2421
+            },
+            {
+              "party": "Conservative",
+              "votes": 539
+            }
+          ],
+          "total": 2960
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Mount Hope",
+      "candidates": [
+        {
+          "name": "Paul J. Rickard Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 832
+            },
+            {
+              "party": "Conservative",
+              "votes": 167
+            }
+          ],
+          "total": 999
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Mount Hope",
+      "candidates": [
+        {
+          "name": "Heidi Phillips",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 934
+            }
+          ],
+          "total": 934
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Mount Hope",
+      "candidates": [
+        {
+          "name": "Sean Burke",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 707
+            },
+            {
+              "party": "Conservative",
+              "votes": 115
+            }
+          ],
+          "total": 822
+        },
+        {
+          "name": "James C. Jennings",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 646
+            },
+            {
+              "party": "Conservative",
+              "votes": 104
+            }
+          ],
+          "total": 750
+        },
+        {
+          "name": "David Bendlin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 405
+            }
+          ],
+          "total": 405
+        },
+        {
+          "name": "Justine M. Dooley",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 398
+            }
+          ],
+          "total": 398
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Mount Hope",
+      "candidates": [
+        {
+          "name": "Andrew A. Pingotti",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 828
+            },
+            {
+              "party": "Conservative",
+              "votes": 155
+            }
+          ],
+          "total": 983
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Mount Hope",
+      "candidates": [
+        {
+          "name": "Joe Hosking",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 973
+            }
+          ],
+          "total": 973
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for New Windsor",
+      "candidates": [
+        {
+          "name": "Stephen A. Bedetti",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2448
+            },
+            {
+              "party": "Conservative",
+              "votes": 577
+            }
+          ],
+          "total": 3025
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 26
+            }
+          ],
+          "total": 26
+        }
+      ]
+    },
+    {
+      "title": "Council Member for New Windsor",
+      "candidates": [
+        {
+          "name": "Steven Moreau",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2262
+            },
+            {
+              "party": "Conservative",
+              "votes": 555
+            }
+          ],
+          "total": 2817
+        },
+        {
+          "name": "Eve I. Lincoln",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2183
+            },
+            {
+              "party": "Conservative",
+              "votes": 541
+            }
+          ],
+          "total": 2724
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 39
+            }
+          ],
+          "total": 39
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes and Assessments for New Windsor",
+      "candidates": [
+        {
+          "name": "Susan C. Scheible",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2385
+            },
+            {
+              "party": "Conservative",
+              "votes": 596
+            }
+          ],
+          "total": 2981
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 19
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for New Windsor",
+      "candidates": [
+        {
+          "name": "Anthony Fayo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2319
+            },
+            {
+              "party": "Conservative",
+              "votes": 574
+            }
+          ],
+          "total": 2893
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 33
+            }
+          ],
+          "total": 33
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for New Windsor",
+      "candidates": [
+        {
+          "name": "Noreen Calderin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2315
+            },
+            {
+              "party": "Conservative",
+              "votes": 581
+            }
+          ],
+          "total": 2896
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 19
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Newburgh Town",
+      "candidates": [
+        {
+          "name": "Gilbert J. Piaquadio",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3255
+            },
+            {
+              "party": "Conservative",
+              "votes": 689
+            }
+          ],
+          "total": 3944
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 51
+            }
+          ],
+          "total": 51
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Newburgh Town",
+      "candidates": [
+        {
+          "name": "Lisa M. Vance-Ayers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3247
+            },
+            {
+              "party": "Conservative",
+              "votes": 714
+            }
+          ],
+          "total": 3961
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 39
+            }
+          ],
+          "total": 39
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Newburgh Town",
+      "candidates": [
+        {
+          "name": "Mary L. McLymore",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3220
+            }
+          ],
+          "total": 3220
+        },
+        {
+          "name": "Paul I. Ruggiero",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2737
+            },
+            {
+              "party": "Conservative",
+              "votes": 429
+            }
+          ],
+          "total": 3166
+        },
+        {
+          "name": "Mary Lou Carolan",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2884
+            },
+            {
+              "party": "Working Families",
+              "votes": 278
+            }
+          ],
+          "total": 3162
+        },
+        {
+          "name": "Jim Politi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2651
+            },
+            {
+              "party": "Conservative",
+              "votes": 421
+            }
+          ],
+          "total": 3072
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes and Assessments for Newburgh Town",
+      "candidates": [
+        {
+          "name": "Joseph P. Pedi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3232
+            },
+            {
+              "party": "Conservative",
+              "votes": 709
+            }
+          ],
+          "total": 3941
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 36
+            }
+          ],
+          "total": 36
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Tuxedo",
+      "candidates": [
+        {
+          "name": "David M. McMillen",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 607
+            }
+          ],
+          "total": 607
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Tuxedo",
+      "candidates": [
+        {
+          "name": "Deirdre Murphy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 617
+            }
+          ],
+          "total": 617
+        },
+        {
+          "name": "John P. Sandak",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 538
+            }
+          ],
+          "total": 538
+        },
+        {
+          "name": "Christopher A. Dollbaum",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 478
+            }
+          ],
+          "total": 478
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Council Member (TFV) for Tuxedo",
+      "candidates": [
+        {
+          "name": "Adam C. Eirand",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 610
+            }
+          ],
+          "total": 610
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Tuxedo",
+      "candidates": [
+        {
+          "name": "Shawn M. Brown",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 600
+            }
+          ],
+          "total": 600
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Wallkill",
+      "candidates": [
+        {
+          "name": "Frank DenDanto III",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2806
+            },
+            {
+              "party": "WallkillWinning",
+              "votes": 94
+            }
+          ],
+          "total": 2900
+        },
+        {
+          "name": "Ralph H. Carr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2253
+            },
+            {
+              "party": "Conservative",
+              "votes": 475
+            }
+          ],
+          "total": 2728
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Wallkill",
+      "candidates": [
+        {
+          "name": "Louisa M. Ingrassia",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2811
+            },
+            {
+              "party": "Conservative",
+              "votes": 816
+            }
+          ],
+          "total": 3627
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 20
+            }
+          ],
+          "total": 20
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Wallkill Ward 1",
+      "candidates": [
+        {
+          "name": "Mark E. Coyne",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 565
+            },
+            {
+              "party": "Conservative",
+              "votes": 132
+            }
+          ],
+          "total": 697
+        },
+        {
+          "name": "Jean Day",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 614
+            },
+            {
+              "party": "Working Families",
+              "votes": 52
+            }
+          ],
+          "total": 666
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Wallkill Ward 2",
+      "candidates": [
+        {
+          "name": "Don Sileo",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 806
+            },
+            {
+              "party": "WallkillWinning",
+              "votes": 25
+            }
+          ],
+          "total": 831
+        },
+        {
+          "name": "Rosa D. Otero Walsh",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 475
+            },
+            {
+              "party": "Conservative",
+              "votes": 101
+            }
+          ],
+          "total": 576
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Wallkill Ward 3",
+      "candidates": [
+        {
+          "name": "Steven Vinella",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1126
+            }
+          ],
+          "total": 1126
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Wallkill Ward 4",
+      "candidates": [
+        {
+          "name": "Eric M. Johnson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 638
+            },
+            {
+              "party": "Conservative",
+              "votes": 113
+            }
+          ],
+          "total": 751
+        },
+        {
+          "name": "Clifton Alan Baker",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 437
+            },
+            {
+              "party": "WallkillWinning",
+              "votes": 31
+            }
+          ],
+          "total": 468
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Wallkill",
+      "candidates": [
+        {
+          "name": "Maria A. Patrizio",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3049
+            },
+            {
+              "party": "WallkillWinning",
+              "votes": 116
+            }
+          ],
+          "total": 3165
+        },
+        {
+          "name": "David L. Furlin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1964
+            },
+            {
+              "party": "Conservative",
+              "votes": 395
+            }
+          ],
+          "total": 2359
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Warwick",
+      "candidates": [
+        {
+          "name": "Eileen M. Astorino",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4434
+            },
+            {
+              "party": "Conservative",
+              "votes": 843
+            }
+          ],
+          "total": 5277
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 24
+            }
+          ],
+          "total": 24
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Warwick",
+      "candidates": [
+        {
+          "name": "Floyd T. DeAngelo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3606
+            },
+            {
+              "party": "Conservative",
+              "votes": 505
+            }
+          ],
+          "total": 4111
+        },
+        {
+          "name": "Kevin M. Shuback",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3584
+            },
+            {
+              "party": "Conservative",
+              "votes": 507
+            }
+          ],
+          "total": 4091
+        },
+        {
+          "name": "Donald S. Kilcoyne",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3600
+            },
+            {
+              "party": "Working Families",
+              "votes": 282
+            }
+          ],
+          "total": 3882
+        },
+        {
+          "name": "Danielle Sinisi",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3403
+            },
+            {
+              "party": "Working Families",
+              "votes": 282
+            }
+          ],
+          "total": 3685
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Warwick",
+      "candidates": [
+        {
+          "name": "Peter D. Barlet",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4443
+            },
+            {
+              "party": "Conservative",
+              "votes": 867
+            }
+          ],
+          "total": 5310
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 29
+            }
+          ],
+          "total": 29
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes and Assessments for Warwick",
+      "candidates": [
+        {
+          "name": "Ana B. Kanz",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4517
+            },
+            {
+              "party": "Conservative",
+              "votes": 870
+            }
+          ],
+          "total": 5387
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 23
+            }
+          ],
+          "total": 23
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Wawayanda",
+      "candidates": [
+        {
+          "name": "Denise F. Quinn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 872
+            },
+            {
+              "party": "Conservative",
+              "votes": 129
+            }
+          ],
+          "total": 1001
+        },
+        {
+          "name": "George H. Albertson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 758
+            }
+          ],
+          "total": 758
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Wawayanda",
+      "candidates": [
+        {
+          "name": "Kathryn A. Sherlock",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 928
+            },
+            {
+              "party": "Conservative",
+              "votes": 137
+            }
+          ],
+          "total": 1065
+        },
+        {
+          "name": "Alicia R. Albertson",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 684
+            }
+          ],
+          "total": 684
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Wawayanda",
+      "candidates": [
+        {
+          "name": "David S. Cole",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 857
+            },
+            {
+              "party": "Conservative",
+              "votes": 125
+            }
+          ],
+          "total": 982
+        },
+        {
+          "name": "Richard G. Penaluna III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 835
+            },
+            {
+              "party": "Conservative",
+              "votes": 122
+            }
+          ],
+          "total": 957
+        },
+        {
+          "name": "Leslie Hanes",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 745
+            }
+          ],
+          "total": 745
+        },
+        {
+          "name": "Barbara Dedufour",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 723
+            }
+          ],
+          "total": 723
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways for Wawayanda",
+      "candidates": [
+        {
+          "name": "Thomas J. DeBlock",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1051
+            },
+            {
+              "party": "Conservative",
+              "votes": 190
+            }
+          ],
+          "total": 1241
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Wawayanda",
+      "candidates": [
+        {
+          "name": "Shawn R. O'Connor",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1029
+            },
+            {
+              "party": "Conservative",
+              "votes": 217
+            }
+          ],
+          "total": 1246
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Supervisor for Woodbury",
+      "candidates": [
+        {
+          "name": "Jacqueline C. Hernandez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 794
+            },
+            {
+              "party": "We The People",
+              "votes": 852
+            }
+          ],
+          "total": 1646
+        },
+        {
+          "name": "Kathryn D. Luciani",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1345
+            },
+            {
+              "party": "Conservative",
+              "votes": 130
+            }
+          ],
+          "total": 1475
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk for Woodbury",
+      "candidates": [
+        {
+          "name": "Nicole M. Young",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1658
+            },
+            {
+              "party": "Conservative",
+              "votes": 374
+            }
+          ],
+          "total": 2032
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    },
+    {
+      "title": "Council Member for Woodbury",
+      "candidates": [
+        {
+          "name": "Vernick E. Alvarez",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 747
+            },
+            {
+              "party": "We The People",
+              "votes": 877
+            }
+          ],
+          "total": 1624
+        },
+        {
+          "name": "Martha E. Lopez",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 666
+            },
+            {
+              "party": "We The People",
+              "votes": 894
+            }
+          ],
+          "total": 1560
+        },
+        {
+          "name": "Kelly A. Rinaldi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1384
+            },
+            {
+              "party": "Working4Woodbury",
+              "votes": 70
+            }
+          ],
+          "total": 1454
+        },
+        {
+          "name": "David T. Yoffee",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1305
+            }
+          ],
+          "total": 1305
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes and Assessments for Woodbury",
+      "candidates": [
+        {
+          "name": "Karin Poggio",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1641
+            },
+            {
+              "party": "Conservative",
+              "votes": 414
+            }
+          ],
+          "total": 2055
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 36
+            }
+          ],
+          "total": 36
+        }
+      ]
+    },
+    {
+      "title": "Town Justice for Woodbury",
+      "candidates": [
+        {
+          "name": "David V. Hasin",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1630
+            },
+            {
+              "party": "Conservative",
+              "votes": 354
+            }
+          ],
+          "total": 1984
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Mayor for Chester Village",
+      "candidates": [
+        {
+          "name": "John Thomas Bell",
+          "party_lines": [
+            {
+              "party": "CitizenAlliance",
+              "votes": 364
+            }
+          ],
+          "total": 364
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee for Chester",
+      "candidates": [
+        {
+          "name": "Alan Battiato",
+          "party_lines": [
+            {
+              "party": "CitizenAlliance",
+              "votes": 343
+            }
+          ],
+          "total": 343
+        },
+        {
+          "name": "Brian J. Boone",
+          "party_lines": [
+            {
+              "party": "CitizenAlliance",
+              "votes": 314
+            }
+          ],
+          "total": 314
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Village Justice for Chester",
+      "candidates": [
+        {
+          "name": "L. Fred Vandermeulen",
+          "party_lines": [
+            {
+              "party": "Justice",
+              "votes": 328
+            }
+          ],
+          "total": 328
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Mayor for Woodbury Village",
+      "candidates": [
+        {
+          "name": "Andrew R. Giacomazza",
+          "party_lines": [
+            {
+              "party": "We The People",
+              "votes": 1391
+            }
+          ],
+          "total": 1391
+        },
+        {
+          "name": "Brandon J. Calore",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1292
+            },
+            {
+              "party": "Working4Woodbury",
+              "votes": 91
+            }
+          ],
+          "total": 1383
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee for Woodbury",
+      "candidates": [
+        {
+          "name": "Tara M. Burek",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 629
+            },
+            {
+              "party": "We The People",
+              "votes": 935
+            }
+          ],
+          "total": 1564
+        },
+        {
+          "name": "Christopher J. Graziano",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 603
+            },
+            {
+              "party": "We The People",
+              "votes": 923
+            }
+          ],
+          "total": 1526
+        },
+        {
+          "name": "James Michael Freiband",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1317
+            },
+            {
+              "party": "Working Families",
+              "votes": 104
+            }
+          ],
+          "total": 1421
+        },
+        {
+          "name": "Matthew J. Fabbro",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1308
+            },
+            {
+              "party": "Working Families",
+              "votes": 103
+            }
+          ],
+          "total": 1411
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    }
+  ]
+}

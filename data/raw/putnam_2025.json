@@ -1,0 +1,1258 @@
+{
+  "county": "Putnam",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "title": "State Supreme Court Justice 9th Judicial District",
+      "candidates": [
+        {
+          "name": "Diane M. Clerkin",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 10168
+            },
+            {
+              "party": "Conservative",
+              "votes": 1559
+            }
+          ],
+          "total": 11727
+        },
+        {
+          "name": "John P. Collins, Jr.",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 9979
+            },
+            {
+              "party": "Conservative",
+              "votes": 1519
+            }
+          ],
+          "total": 11498
+        },
+        {
+          "name": "Verris B. Shako",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 9963
+            },
+            {
+              "party": "Conservative",
+              "votes": 1318
+            }
+          ],
+          "total": 11281
+        },
+        {
+          "name": "Raymond P. Raiche",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8497
+            },
+            {
+              "party": "Conservative",
+              "votes": 1624
+            }
+          ],
+          "total": 10121
+        },
+        {
+          "name": "Desmond C. Lyons",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 10050
+            }
+          ],
+          "total": 10050
+        },
+        {
+          "name": "George A. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 9375
+            }
+          ],
+          "total": 9375
+        },
+        {
+          "name": "Thomas Humbach",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8769
+            }
+          ],
+          "total": 8769
+        },
+        {
+          "name": "Kiel E. Van Horn",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 8706
+            }
+          ],
+          "total": 8706
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 43
+            }
+          ],
+          "total": 43
+        }
+      ]
+    },
+    {
+      "title": "Sheriff ",
+      "candidates": [
+        {
+          "name": "Brian M. Hess",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10076
+            },
+            {
+              "party": "Conservative",
+              "votes": 2162
+            }
+          ],
+          "total": 12238
+        },
+        {
+          "name": "Lawrence J. Burke",
+          "party_lines": [
+            {
+              "party": "Serve & Protect",
+              "votes": 5627
+            }
+          ],
+          "total": 5627
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 85
+            }
+          ],
+          "total": 85
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 5th District",
+      "candidates": [
+        {
+          "name": "Jake D'Angelo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1145
+            },
+            {
+              "party": "Conservative",
+              "votes": 211
+            }
+          ],
+          "total": 1356
+        },
+        {
+          "name": "Brett Yarris",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1055
+            },
+            {
+              "party": "For the People",
+              "votes": 162
+            }
+          ],
+          "total": 1217
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 6th District",
+      "candidates": [
+        {
+          "name": "Tommy Regan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1018
+            },
+            {
+              "party": "Conservative",
+              "votes": 191
+            }
+          ],
+          "total": 1209
+        },
+        {
+          "name": "Thomas P. Sprague",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1178
+            }
+          ],
+          "total": 1178
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "County Legislator 9th District",
+      "candidates": [
+        {
+          "name": "Erin L. Crowley",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1034
+            },
+            {
+              "party": "Conservative",
+              "votes": 196
+            }
+          ],
+          "total": 1230
+        },
+        {
+          "name": "Lenny Harrington",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 917
+            },
+            {
+              "party": "Working Families",
+              "votes": 112
+            }
+          ],
+          "total": 1029
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Carmel",
+      "candidates": [
+        {
+          "name": "Michael S. Cazzari",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3397
+            },
+            {
+              "party": "Conservative",
+              "votes": 606
+            }
+          ],
+          "total": 4003
+        },
+        {
+          "name": "Jean J. Hopper",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2683
+            }
+          ],
+          "total": 2683
+        },
+        {
+          "name": "Frank Ciano",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 346
+            }
+          ],
+          "total": 346
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Carmel",
+      "candidates": [
+        {
+          "name": "Michael Lugo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3669
+            },
+            {
+              "party": "Conservative",
+              "votes": 707
+            }
+          ],
+          "total": 4376
+        },
+        {
+          "name": "Robert F. Schanil, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3417
+            },
+            {
+              "party": "Conservative",
+              "votes": 687
+            }
+          ],
+          "total": 4104
+        },
+        {
+          "name": "Brett M. Wieland",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2899
+            }
+          ],
+          "total": 2899
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 28
+            }
+          ],
+          "total": 28
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Kent",
+      "candidates": [
+        {
+          "name": "Jaime F. McGlasson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1438
+            },
+            {
+              "party": "Conservative",
+              "votes": 288
+            }
+          ],
+          "total": 1726
+        },
+        {
+          "name": "Alex Sewell",
+          "party_lines": [
+            {
+              "party": "Democratic/People Over Party",
+              "votes": 1450
+            },
+            {
+              "party": "Working Families",
+              "votes": 170
+            }
+          ],
+          "total": 1620
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk - Town of Kent",
+      "candidates": [
+        {
+          "name": "Yolanda D. Cappelli",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1843
+            },
+            {
+              "party": "Conservative",
+              "votes": 497
+            }
+          ],
+          "total": 2340
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Kent",
+      "candidates": [
+        {
+          "name": "Anne B. Campbell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1572
+            },
+            {
+              "party": "People Over Party",
+              "votes": 108
+            }
+          ],
+          "total": 1680
+        },
+        {
+          "name": "Eileen Olifiers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1352
+            },
+            {
+              "party": "Conservative",
+              "votes": 289
+            }
+          ],
+          "total": 1641
+        },
+        {
+          "name": "Jorma J. Tompuri",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1366
+            },
+            {
+              "party": "Conservative",
+              "votes": 267
+            }
+          ],
+          "total": 1633
+        },
+        {
+          "name": "Becca Niitzel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1372
+            },
+            {
+              "party": "People Over Party",
+              "votes": 95
+            }
+          ],
+          "total": 1467
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes - Town of Kent",
+      "candidates": [
+        {
+          "name": "Stephanie A. Nix",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1889
+            },
+            {
+              "party": "Conservative",
+              "votes": 528
+            }
+          ],
+          "total": 2417
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 19
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "Highway Superintendent - Town of Kent",
+      "candidates": [
+        {
+          "name": "Richard T. Othmer, Jr.",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1906
+            },
+            {
+              "party": "Conservative",
+              "votes": 516
+            }
+          ],
+          "total": 2422
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 19
+            }
+          ],
+          "total": 19
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Kent",
+      "candidates": [
+        {
+          "name": "Kevin L. Douchkoff",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1777
+            },
+            {
+              "party": "Conservative",
+              "votes": 518
+            }
+          ],
+          "total": 2295
+        },
+        {
+          "name": "Timothy J. Curtiss",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1784
+            },
+            {
+              "party": "Conservative",
+              "votes": 491
+            }
+          ],
+          "total": 2275
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 22
+            }
+          ],
+          "total": 22
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Patterson",
+      "candidates": [
+        {
+          "name": "Stacy Dumont",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1012
+            },
+            {
+              "party": "IndependentVoter",
+              "votes": 89
+            }
+          ],
+          "total": 1101
+        },
+        {
+          "name": "Gwen K. Dougherty",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1000
+            },
+            {
+              "party": "IndependentVoter",
+              "votes": 83
+            }
+          ],
+          "total": 1083
+        },
+        {
+          "name": "Joseph J. Esposito",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 870
+            },
+            {
+              "party": "Conservative",
+              "votes": 178
+            }
+          ],
+          "total": 1048
+        },
+        {
+          "name": "Mary E. Smith",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 835
+            },
+            {
+              "party": "Conservative",
+              "votes": 185
+            }
+          ],
+          "total": 1020
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes - Town of Patterson",
+      "candidates": [
+        {
+          "name": "Mary L. Delanoy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1129
+            },
+            {
+              "party": "Conservative/IndependentVoter",
+              "votes": 694
+            }
+          ],
+          "total": 1823
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Patterson",
+      "candidates": [
+        {
+          "name": "Michael V. Caruso",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1168
+            },
+            {
+              "party": "Conservative",
+              "votes": 336
+            }
+          ],
+          "total": 1504
+        },
+        {
+          "name": "Robert B. Leader",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1032
+            },
+            {
+              "party": "Conservative",
+              "votes": 331
+            }
+          ],
+          "total": 1363
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 24
+            }
+          ],
+          "total": 24
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Philipstown",
+      "candidates": [
+        {
+          "name": "John J. VanTassel",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2120
+            },
+            {
+              "party": "Philipstown Focus",
+              "votes": 440
+            }
+          ],
+          "total": 2560
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 40
+            }
+          ],
+          "total": 40
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Philipstown",
+      "candidates": [
+        {
+          "name": "Ned P. Rauch",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2023
+            },
+            {
+              "party": "Philipstown Focus",
+              "votes": 361
+            }
+          ],
+          "total": 2384
+        },
+        {
+          "name": "Nathaniel S. Prentice",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2322
+            }
+          ],
+          "total": 2322
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 53
+            }
+          ],
+          "total": 53
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Philipstown ",
+      "candidates": [
+        {
+          "name": "Frederick S. Clarke",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2093
+            }
+          ],
+          "total": 2093
+        },
+        {
+          "name": "Luke Hilpert",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 356
+            }
+          ],
+          "total": 356
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Putnam Valley",
+      "candidates": [
+        {
+          "name": "Alison Jolicoeur",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1345
+            },
+            {
+              "party": "Working Together",
+              "votes": 132
+            }
+          ],
+          "total": 1477
+        },
+        {
+          "name": "Jacqueline Annabi",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1175
+            },
+            {
+              "party": "Conservative",
+              "votes": 279
+            }
+          ],
+          "total": 1454
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 23
+            }
+          ],
+          "total": 23
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Putnam Valley",
+      "candidates": [
+        {
+          "name": "Christian J. Russo",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1227
+            },
+            {
+              "party": "Conservative",
+              "votes": 323
+            }
+          ],
+          "total": 1550
+        },
+        {
+          "name": "C.J. Brooks",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1413
+            },
+            {
+              "party": "Working Together",
+              "votes": 123
+            }
+          ],
+          "total": 1536
+        },
+        {
+          "name": "Stacey E. Tompkins",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1197
+            },
+            {
+              "party": "Conservative",
+              "votes": 308
+            }
+          ],
+          "total": 1505
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        }
+      ]
+    },
+    {
+      "title": "Highway Superintendent - Town of Putnam Valley",
+      "candidates": [
+        {
+          "name": "Shawn M. Keeler",
+          "party_lines": [
+            {
+              "party": "Democratic/Working Together",
+              "votes": 1593
+            },
+            {
+              "party": "Conservative",
+              "votes": 874
+            }
+          ],
+          "total": 2467
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 21
+            }
+          ],
+          "total": 21
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Southeast",
+      "candidates": [
+        {
+          "name": "Eric N. Cyprus",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1696
+            },
+            {
+              "party": "Conservative",
+              "votes": 446
+            }
+          ],
+          "total": 2142
+        },
+        {
+          "name": "Eric J. Larca",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1680
+            },
+            {
+              "party": "Conservative",
+              "votes": 460
+            }
+          ],
+          "total": 2140
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 42
+            }
+          ],
+          "total": 42
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Southeast",
+      "candidates": [
+        {
+          "name": "Gregory L. Folchetti",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1784
+            },
+            {
+              "party": "Conservative",
+              "votes": 470
+            }
+          ],
+          "total": 2254
+        },
+        {
+          "name": "Louis Gasparini",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1667
+            },
+            {
+              "party": "Conservative",
+              "votes": 460
+            }
+          ],
+          "total": 2127
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 30
+            }
+          ],
+          "total": 30
+        }
+      ]
+    },
+    {
+      "title": "Mayor - Village Brewster",
+      "candidates": [
+        {
+          "name": "James J. Schoenig",
+          "party_lines": [
+            {
+              "party": "Best for Brewster",
+              "votes": 103
+            }
+          ],
+          "total": 103
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee - Village Brewster",
+      "candidates": [
+        {
+          "name": "Christine M. Piccini",
+          "party_lines": [
+            {
+              "party": "Best for Brewster",
+              "votes": 106
+            }
+          ],
+          "total": 106
+        },
+        {
+          "name": "George J. Gaspar",
+          "party_lines": [
+            {
+              "party": "Best for Brewster",
+              "votes": 97
+            }
+          ],
+          "total": 97
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Village Justice - Village Brewster",
+      "candidates": [
+        {
+          "name": "Andrew W. Negro",
+          "party_lines": [
+            {
+              "party": "Best for Brewster",
+              "votes": 95
+            }
+          ],
+          "total": 95
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Mayor - Village Cold Spring",
+      "candidates": [
+        {
+          "name": "Kathleen E. Foley",
+          "party_lines": [
+            {
+              "party": "Forge Ahead",
+              "votes": 553
+            }
+          ],
+          "total": 553
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 21
+            }
+          ],
+          "total": 21
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee - Village Cold Spring",
+      "candidates": [
+        {
+          "name": "Andrew E. Hall",
+          "party_lines": [
+            {
+              "party": "The Village Party",
+              "votes": 478
+            }
+          ],
+          "total": 478
+        },
+        {
+          "name": "John A. Bardes",
+          "party_lines": [
+            {
+              "party": "Garden Party",
+              "votes": 448
+            }
+          ],
+          "total": 448
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 15
+            }
+          ],
+          "total": 15
+        }
+      ]
+    },
+    {
+      "title": "Village Justice - Village Cold Spring",
+      "candidates": [
+        {
+          "name": "Luke Hilpert",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 262
+            }
+          ],
+          "total": 262
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 49
+            }
+          ],
+          "total": 49
+        }
+      ]
+    }
+  ]
+}
