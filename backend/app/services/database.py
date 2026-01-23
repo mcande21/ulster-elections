@@ -306,9 +306,9 @@ def calculate_vulnerability_score(
             margin_component = min(100, margin_component * 1.3)
 
     # 2. Swing potential (25% weight)
-    # How many votes in dispute (both sides of margin)
-    # More contested votes = more vulnerable
-    swing_potential = min(100, (margin_pct / 5) * 100)  # Max at 5% margin
+    # Tighter margins = higher swing potential (more vulnerable)
+    # Inverted: 0% margin = 100, 5%+ margin = 0
+    swing_potential = max(0, 100 - (margin_pct / 5) * 100)
 
     # 3. Turnout factor (15% weight)
     # Smaller electorates are more volatile

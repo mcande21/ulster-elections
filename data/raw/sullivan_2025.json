@@ -1,0 +1,3029 @@
+{
+  "county": "Sullivan",
+  "election_date": "2025-11-04",
+  "races": [
+    {
+      "title": "Sheriff",
+      "candidates": [
+        {
+          "name": "Michael A. Schiff",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 6780
+            },
+            {
+              "party": "Conservative",
+              "votes": 2830
+            }
+          ],
+          "total": 9610
+        },
+        {
+          "name": "Tim Dymond",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4343
+            }
+          ],
+          "total": 4343
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 451
+            }
+          ],
+          "total": 451
+        },
+        {
+          "name": "Mike Osterhout",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 35
+            }
+          ],
+          "total": 35
+        },
+        {
+          "name": "Sandra Oxford",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 31
+            }
+          ],
+          "total": 31
+        }
+      ]
+    },
+    {
+      "title": "County Treasurer",
+      "candidates": [
+        {
+          "name": "Kathleen M. Lara",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6773
+            },
+            {
+              "party": "Conservative",
+              "votes": 6132
+            }
+          ],
+          "total": 12905
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 63
+            }
+          ],
+          "total": 63
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Bethel",
+      "candidates": [
+        {
+          "name": "Daniel Sturm",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 669
+            },
+            {
+              "party": "Sullivan United",
+              "votes": 409
+            }
+          ],
+          "total": 1078
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "William Pammer",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk - Town of Bethel",
+      "candidates": [
+        {
+          "name": "Rita J. Sheehan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 642
+            },
+            {
+              "party": "Conservative",
+              "votes": 296
+            }
+          ],
+          "total": 938
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Bethel",
+      "candidates": [
+        {
+          "name": "William J. Crumley",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 550
+            },
+            {
+              "party": "Conservative",
+              "votes": 176
+            }
+          ],
+          "total": 726
+        },
+        {
+          "name": "Adam L. Gold",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 547
+            },
+            {
+              "party": "Conservative",
+              "votes": 151
+            }
+          ],
+          "total": 698
+        },
+        {
+          "name": "Paula Moss",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 542
+            },
+            {
+              "party": "Vision for Bethel",
+              "votes": 59
+            }
+          ],
+          "total": 601
+        },
+        {
+          "name": "Cliff Manning",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 389
+            }
+          ],
+          "total": 389
+        },
+        {
+          "name": "John Maniec",
+          "party_lines": [
+            {
+              "party": "Keep Us Rural",
+              "votes": 133
+            }
+          ],
+          "total": 133
+        },
+        {
+          "name": "Nicole Newick",
+          "party_lines": [
+            {
+              "party": "Good Neighbor",
+              "votes": 75
+            }
+          ],
+          "total": 75
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Bethel",
+      "candidates": [
+        {
+          "name": "Rob Bonnaci",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 690
+            },
+            {
+              "party": "Sullivan United",
+              "votes": 240
+            }
+          ],
+          "total": 930
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Tax Collector - Town of Bethel",
+      "candidates": [
+        {
+          "name": "Susan L. Brown",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 603
+            },
+            {
+              "party": "Conservative",
+              "votes": 294
+            }
+          ],
+          "total": 897
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Bethel",
+      "candidates": [
+        {
+          "name": "Kevin Rhyne",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 714
+            },
+            {
+              "party": "Sullivan United",
+              "votes": 259
+            }
+          ],
+          "total": 973
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Callicoon",
+      "candidates": [
+        {
+          "name": "Thomas R. Bose",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 421
+            },
+            {
+              "party": "Conservative",
+              "votes": 122
+            }
+          ],
+          "total": 543
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Callicoon",
+      "candidates": [
+        {
+          "name": "Scott Gaebel",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 513
+            }
+          ],
+          "total": 513
+        },
+        {
+          "name": "Charles Schadt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 392
+            },
+            {
+              "party": "Conservative",
+              "votes": 120
+            }
+          ],
+          "total": 512
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 9
+            }
+          ],
+          "total": 9
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Callicoon",
+      "candidates": [
+        {
+          "name": "Ryan T. Bose",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 427
+            },
+            {
+              "party": "Conservative",
+              "votes": 118
+            }
+          ],
+          "total": 545
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Gary D. Maas",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 266
+            }
+          ],
+          "total": 266
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Maryann L. Oumrim",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 266
+            }
+          ],
+          "total": 266
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Sean P. Nearing",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 237
+            }
+          ],
+          "total": 237
+        },
+        {
+          "name": "Paul Salzberg",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 214
+            }
+          ],
+          "total": 214
+        },
+        {
+          "name": "John D. Nober",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 197
+            }
+          ],
+          "total": 197
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Jeffrey A. Daub",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 252
+            }
+          ],
+          "total": 252
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Tax Collector - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Eileen Hennessy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 188
+            },
+            {
+              "party": "Conservative",
+              "votes": 188
+            }
+          ],
+          "total": 376
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Cochecton",
+      "candidates": [
+        {
+          "name": "Craig Fine",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 185
+            },
+            {
+              "party": "Conservative",
+              "votes": 164
+            }
+          ],
+          "total": 349
+        },
+        {
+          "name": "Steven Sauer",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 286
+            }
+          ],
+          "total": 286
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Delaware",
+      "candidates": [
+        {
+          "name": "Scott DuBois",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 435
+            }
+          ],
+          "total": 435
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Delaware",
+      "candidates": [
+        {
+          "name": "Leila McCullough",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 364
+            },
+            {
+              "party": "People Over Politics",
+              "votes": 71
+            }
+          ],
+          "total": 435
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Delaware",
+      "candidates": [
+        {
+          "name": "Ian S. Blumenthal",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 281
+            },
+            {
+              "party": "Conservative",
+              "votes": 52
+            }
+          ],
+          "total": 333
+        },
+        {
+          "name": "Alfred F. Steppich",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 244
+            },
+            {
+              "party": "Conservative",
+              "votes": 69
+            }
+          ],
+          "total": 313
+        },
+        {
+          "name": "Jonathan Duffy",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 250
+            }
+          ],
+          "total": 250
+        },
+        {
+          "name": "Steven Tollen",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 244
+            }
+          ],
+          "total": 244
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Delaware",
+      "candidates": [
+        {
+          "name": "Christopher Hermann",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 447
+            }
+          ],
+          "total": 447
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Nathan Steingart",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 592
+            },
+            {
+              "party": "Conservative",
+              "votes": 959
+            }
+          ],
+          "total": 1551
+        },
+        {
+          "name": "Brett Budde",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 576
+            }
+          ],
+          "total": 576
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 48
+            }
+          ],
+          "total": 48
+        },
+        {
+          "name": "Sean Wall-Carty",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Paula M. Grogan",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 870
+            },
+            {
+              "party": "Conservative",
+              "votes": 943
+            }
+          ],
+          "total": 1813
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 23
+            }
+          ],
+          "total": 23
+        },
+        {
+          "name": "Tabitha Hannold",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 7
+            }
+          ],
+          "total": 7
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Miranda Behan",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 400
+            },
+            {
+              "party": "Conservative",
+              "votes": 817
+            }
+          ],
+          "total": 1217
+        },
+        {
+          "name": "Michael Bensimon",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 457
+            },
+            {
+              "party": "Working Families",
+              "votes": 643
+            }
+          ],
+          "total": 1100
+        },
+        {
+          "name": "Amy R. Barkley-Carey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 826
+            }
+          ],
+          "total": 826
+        },
+        {
+          "name": "Dara Manzi",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 499
+            }
+          ],
+          "total": 499
+        },
+        {
+          "name": "Josh Druckman",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 482
+            }
+          ],
+          "total": 482
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 47
+            }
+          ],
+          "total": 47
+        }
+      ]
+    },
+    {
+      "title": "Receiver of Taxes - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Ada Cole",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 76
+            }
+          ],
+          "total": 76
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 32
+            }
+          ],
+          "total": 32
+        },
+        {
+          "name": "Yitzchok Fried",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 28
+            }
+          ],
+          "total": 28
+        },
+        {
+          "name": "Naftuli Grunhut",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "Paula M Grogan",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 16
+            }
+          ],
+          "total": 16
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Carl Lomnitz",
+          "party_lines": [
+            {
+              "party": "Silver Lake",
+              "votes": 146
+            }
+          ],
+          "total": 146
+        },
+        {
+          "name": "Celia Avadyaeu",
+          "party_lines": [
+            {
+              "party": "Tichtig",
+              "votes": 143
+            }
+          ],
+          "total": 143
+        },
+        {
+          "name": "Louis Saperstein",
+          "party_lines": [
+            {
+              "party": "Circle L",
+              "votes": 34
+            }
+          ],
+          "total": 34
+        },
+        {
+          "name": "Leni Binder",
+          "party_lines": [
+            {
+              "party": "Circle L",
+              "votes": 33
+            }
+          ],
+          "total": 33
+        },
+        {
+          "name": "Martin Rosenberger",
+          "party_lines": [
+            {
+              "party": "Equal",
+              "votes": 26
+            }
+          ],
+          "total": 26
+        },
+        {
+          "name": "Yoranda Sanabria",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 24
+            }
+          ],
+          "total": 24
+        },
+        {
+          "name": "Josef Rosenfeld",
+          "party_lines": [
+            {
+              "party": "For The Mosdos",
+              "votes": 18
+            }
+          ],
+          "total": 18
+        },
+        {
+          "name": "Malka Klitnick",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Fallsburg",
+      "candidates": [
+        {
+          "name": "Jamie Kaminski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 822
+            },
+            {
+              "party": "Conservative",
+              "votes": 611
+            }
+          ],
+          "total": 1433
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 21
+            }
+          ],
+          "total": 21
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Forestburgh",
+      "candidates": [
+        {
+          "name": "Dan Hogue Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 204
+            }
+          ],
+          "total": 204
+        },
+        {
+          "name": "William B. Sipos",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 104
+            },
+            {
+              "party": "Conservative",
+              "votes": 79
+            }
+          ],
+          "total": 183
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Forestburgh",
+      "candidates": [
+        {
+          "name": "Teresa Collins",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 240
+            }
+          ],
+          "total": 240
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Forestburgh",
+      "candidates": [
+        {
+          "name": "Robert J. Sipos",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 105
+            },
+            {
+              "party": "Conservative",
+              "votes": 117
+            }
+          ],
+          "total": 222
+        },
+        {
+          "name": "Susan Parks-Landis",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 148
+            },
+            {
+              "party": "Conservative",
+              "votes": 55
+            }
+          ],
+          "total": 203
+        },
+        {
+          "name": "Karen Ellsweig",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 192
+            }
+          ],
+          "total": 192
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Forestburgh",
+      "candidates": [
+        {
+          "name": "Joseph A. Ruggeri",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 155
+            },
+            {
+              "party": "Conservative",
+              "votes": 80
+            }
+          ],
+          "total": 235
+        },
+        {
+          "name": "Todd C. Petrowsky",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 142
+            }
+          ],
+          "total": 142
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Fremont",
+      "candidates": [
+        {
+          "name": "Brian P. Brustman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 237
+            },
+            {
+              "party": "Conservative",
+              "votes": 55
+            }
+          ],
+          "total": 292
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Fremont",
+      "candidates": [
+        {
+          "name": "Jody Schanil",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 281
+            }
+          ],
+          "total": 281
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Fremont",
+      "candidates": [
+        {
+          "name": "Charles W. Hahl",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 255
+            }
+          ],
+          "total": 255
+        },
+        {
+          "name": "John J. Hubert",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 254
+            }
+          ],
+          "total": 254
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Fremont",
+      "candidates": [
+        {
+          "name": "George E. Conklin III",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 204
+            }
+          ],
+          "total": 204
+        },
+        {
+          "name": "Colin Phelps",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 125
+            }
+          ],
+          "total": 125
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Highland",
+      "candidates": [
+        {
+          "name": "John M. Pizzolato",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 344
+            },
+            {
+              "party": "Lifting Neighbors",
+              "votes": 153
+            }
+          ],
+          "total": 497
+        },
+        {
+          "name": "Mary Ellen Carney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 313
+            },
+            {
+              "party": "Conservative",
+              "votes": 104
+            }
+          ],
+          "total": 417
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Highland",
+      "candidates": [
+        {
+          "name": "Sonia M. Kidney",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 324
+            },
+            {
+              "party": "Lifting Neighbors",
+              "votes": 158
+            }
+          ],
+          "total": 482
+        },
+        {
+          "name": "Susan M. Hoffman",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 373
+            }
+          ],
+          "total": 373
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Highland",
+      "candidates": [
+        {
+          "name": "Christopher P. Dickey",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 348
+            },
+            {
+              "party": "Lifting Neighbors",
+              "votes": 167
+            }
+          ],
+          "total": 515
+        },
+        {
+          "name": "Frank J. Monteleone",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 311
+            },
+            {
+              "party": "Lifting Neighbors",
+              "votes": 200
+            }
+          ],
+          "total": 511
+        },
+        {
+          "name": "Gabor J. Dezso",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 261
+            },
+            {
+              "party": "Highland First",
+              "votes": 15
+            }
+          ],
+          "total": 276
+        },
+        {
+          "name": "Joseph R. Krist",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 256
+            }
+          ],
+          "total": 256
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Highland",
+      "candidates": [
+        {
+          "name": "Joe Barnes",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 457
+            },
+            {
+              "party": "Conservative",
+              "votes": 278
+            }
+          ],
+          "total": 735
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Highland",
+      "candidates": [
+        {
+          "name": "Kathryn A. Sweeney",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 424
+            },
+            {
+              "party": "Conservative",
+              "votes": 163
+            }
+          ],
+          "total": 587
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 11
+            }
+          ],
+          "total": 11
+        },
+        {
+          "name": "Patricia Summa",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Liberty",
+      "candidates": [
+        {
+          "name": "Bruce Davidson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 640
+            },
+            {
+              "party": "Conservative",
+              "votes": 635
+            }
+          ],
+          "total": 1275
+        },
+        {
+          "name": "Sherri J. Kavleski",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 559
+            },
+            {
+              "party": "Conservative",
+              "votes": 698
+            }
+          ],
+          "total": 1257
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        },
+        {
+          "name": "Chris Austin",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Liberty",
+      "candidates": [
+        {
+          "name": "Matthew DeWitt",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1309
+            }
+          ],
+          "total": 1309
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Liberty",
+      "candidates": [
+        {
+          "name": "Troy Johnstone",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 685
+            },
+            {
+              "party": "Conservative",
+              "votes": 595
+            }
+          ],
+          "total": 1280
+        },
+        {
+          "name": "Brian J. Shortall",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 557
+            },
+            {
+              "party": "Conservative",
+              "votes": 630
+            }
+          ],
+          "total": 1187
+        },
+        {
+          "name": "Jerome Dorfman",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 349
+            }
+          ],
+          "total": 349
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Lumberland",
+      "candidates": [
+        {
+          "name": "Suzanne M. Edzenga",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 204
+            },
+            {
+              "party": "Conservative",
+              "votes": 77
+            }
+          ],
+          "total": 281
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Lumberland",
+      "candidates": [
+        {
+          "name": "Laurie A. Terry",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 230
+            },
+            {
+              "party": "Conservative",
+              "votes": 86
+            }
+          ],
+          "total": 316
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Lumberland",
+      "candidates": [
+        {
+          "name": "Zoriana M. Gingold",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 193
+            },
+            {
+              "party": "Conservative",
+              "votes": 81
+            }
+          ],
+          "total": 274
+        },
+        {
+          "name": "Ihor W. Lukiw",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 161
+            },
+            {
+              "party": "Conservative",
+              "votes": 77
+            }
+          ],
+          "total": 238
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        },
+        {
+          "name": "James Steimle",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Lumberland",
+      "candidates": [
+        {
+          "name": "Donald F. Hunt Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 223
+            },
+            {
+              "party": "Conservative",
+              "votes": 79
+            }
+          ],
+          "total": 302
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Lumberland",
+      "candidates": [
+        {
+          "name": "Lorry J. King",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 213
+            },
+            {
+              "party": "Conservative",
+              "votes": 80
+            }
+          ],
+          "total": 293
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Mamakating",
+      "candidates": [
+        {
+          "name": "Peter C. Goodman",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 869
+            },
+            {
+              "party": "Conservative",
+              "votes": 547
+            }
+          ],
+          "total": 1416
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 24
+            }
+          ],
+          "total": 24
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 1",
+      "candidates": [
+        {
+          "name": "Michael Robbins",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 152
+            },
+            {
+              "party": "Conservative",
+              "votes": 80
+            }
+          ],
+          "total": 232
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 2",
+      "candidates": [
+        {
+          "name": "Gary A. Forthoffer",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 123
+            },
+            {
+              "party": "Conservative",
+              "votes": 70
+            }
+          ],
+          "total": 193
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 8
+            }
+          ],
+          "total": 8
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 3",
+      "candidates": [
+        {
+          "name": "Matthew P. Mordas",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 173
+            },
+            {
+              "party": "Conservative",
+              "votes": 40
+            }
+          ],
+          "total": 213
+        },
+        {
+          "name": "Dino Orfanos",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 139
+            },
+            {
+              "party": "Mamakating First",
+              "votes": 15
+            }
+          ],
+          "total": 154
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 4",
+      "candidates": [
+        {
+          "name": "Robert F. Rogers",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 158
+            },
+            {
+              "party": "Conservative",
+              "votes": 91
+            }
+          ],
+          "total": 249
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 5",
+      "candidates": [
+        {
+          "name": "James Post",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 118
+            },
+            {
+              "party": "Conservative",
+              "votes": 59
+            }
+          ],
+          "total": 177
+        },
+        {
+          "name": "Leslie Ocasio",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 146
+            },
+            {
+              "party": "Mamakating United",
+              "votes": 12
+            }
+          ],
+          "total": 158
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Mamakating - Ward 6",
+      "candidates": [
+        {
+          "name": "Tyler Wood",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 182
+            },
+            {
+              "party": "Conservative",
+              "votes": 55
+            }
+          ],
+          "total": 237
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Mamakating",
+      "candidates": [
+        {
+          "name": "Thomas Morrow",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1238
+            }
+          ],
+          "total": 1238
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 22
+            }
+          ],
+          "total": 22
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Mamakating",
+      "candidates": [
+        {
+          "name": "Terrence F. Mullen",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1001
+            },
+            {
+              "party": "Conservative",
+              "votes": 405
+            }
+          ],
+          "total": 1406
+        },
+        {
+          "name": "Zachary D. Kelson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 859
+            },
+            {
+              "party": "Conservative",
+              "votes": 361
+            }
+          ],
+          "total": 1220
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 30
+            }
+          ],
+          "total": 30
+        }
+      ]
+    },
+    {
+      "title": "Village Trustee - Village of Bloomingburg",
+      "candidates": [
+        {
+          "name": "Chaim Friedman",
+          "party_lines": [
+            {
+              "party": "Yachad",
+              "votes": 129
+            }
+          ],
+          "total": 129
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Neversink",
+      "candidates": [
+        {
+          "name": "Christopher Mathews",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 510
+            },
+            {
+              "party": "Conservative",
+              "votes": 218
+            }
+          ],
+          "total": 728
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 25
+            }
+          ],
+          "total": 25
+        },
+        {
+          "name": "Doug Hamilton",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Neversink",
+      "candidates": [
+        {
+          "name": "Staci Conjura",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 537
+            },
+            {
+              "party": "Conservative",
+              "votes": 229
+            }
+          ],
+          "total": 766
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Neversink",
+      "candidates": [
+        {
+          "name": "Scott Grey",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 498
+            },
+            {
+              "party": "Conservative",
+              "votes": 221
+            }
+          ],
+          "total": 719
+        },
+        {
+          "name": "Richard I. Coombe Jr",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 486
+            },
+            {
+              "party": "Conservative",
+              "votes": 211
+            }
+          ],
+          "total": 697
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Neversink",
+      "candidates": [
+        {
+          "name": "Preston Kelly",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 226
+            },
+            {
+              "party": "Republican",
+              "votes": 469
+            },
+            {
+              "party": "Conservative",
+              "votes": 182
+            }
+          ],
+          "total": 877
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Neversink",
+      "candidates": [
+        {
+          "name": "Keith Stryker",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 506
+            },
+            {
+              "party": "Conservative",
+              "votes": 221
+            }
+          ],
+          "total": 727
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 17
+            }
+          ],
+          "total": 17
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Rockland",
+      "candidates": [
+        {
+          "name": "Robert W. Eggleton",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 464
+            },
+            {
+              "party": "Conservative",
+              "votes": 303
+            }
+          ],
+          "total": 767
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 10
+            }
+          ],
+          "total": 10
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Rockland",
+      "candidates": [
+        {
+          "name": "Marinella DiVita",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 530
+            },
+            {
+              "party": "Conservative",
+              "votes": 279
+            }
+          ],
+          "total": 809
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Rockland",
+      "candidates": [
+        {
+          "name": "Francis Hank Wolcott",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 419
+            },
+            {
+              "party": "Conservative",
+              "votes": 123
+            }
+          ],
+          "total": 542
+        },
+        {
+          "name": "Peter P. DeVantier",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 510
+            }
+          ],
+          "total": 510
+        },
+        {
+          "name": "Carole Edwards",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 506
+            }
+          ],
+          "total": 506
+        },
+        {
+          "name": "Robert Hager",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 246
+            }
+          ],
+          "total": 246
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Rockland",
+      "candidates": [
+        {
+          "name": "Roger S. Decker",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 519
+            },
+            {
+              "party": "Conservative",
+              "votes": 152
+            }
+          ],
+          "total": 671
+        },
+        {
+          "name": "Douglas A. Meyer",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 345
+            }
+          ],
+          "total": 345
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 2
+            }
+          ],
+          "total": 2
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Rockland",
+      "candidates": [
+        {
+          "name": "William P. Roser Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 478
+            },
+            {
+              "party": "Integrity",
+              "votes": 53
+            }
+          ],
+          "total": 531
+        },
+        {
+          "name": "Alexandra E. Vagnone",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 426
+            }
+          ],
+          "total": 426
+        },
+        {
+          "name": "Elwin M. Wood",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 72
+            }
+          ],
+          "total": 72
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Thompson",
+      "candidates": [
+        {
+          "name": "Scott Mace",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1404
+            },
+            {
+              "party": "People's Choice",
+              "votes": 124
+            }
+          ],
+          "total": 1528
+        },
+        {
+          "name": "William J. Rieber Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1128
+            },
+            {
+              "party": "Conservative",
+              "votes": 364
+            }
+          ],
+          "total": 1492
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 3
+            }
+          ],
+          "total": 3
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk - Town of Thompson",
+      "candidates": [
+        {
+          "name": "Marilee J. Calhoun",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1298
+            },
+            {
+              "party": "Conservative",
+              "votes": 1219
+            }
+          ],
+          "total": 2517
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 6
+            }
+          ],
+          "total": 6
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Thompson",
+      "candidates": [
+        {
+          "name": "John A. Pavese",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1190
+            },
+            {
+              "party": "Conservative",
+              "votes": 495
+            }
+          ],
+          "total": 1685
+        },
+        {
+          "name": "Melinda S. Meddaugh",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1285
+            },
+            {
+              "party": "People Over Politics",
+              "votes": 267
+            }
+          ],
+          "total": 1552
+        },
+        {
+          "name": "Shawn F. Wiles",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1353
+            },
+            {
+              "party": "People's Choice",
+              "votes": 80
+            }
+          ],
+          "total": 1433
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 12
+            }
+          ],
+          "total": 12
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Thompson",
+      "candidates": [
+        {
+          "name": "Hayden J. Carnell",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 1273
+            },
+            {
+              "party": "Conservative",
+              "votes": 891
+            }
+          ],
+          "total": 2164
+        },
+        {
+          "name": "Charles A. Brasington",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 753
+            },
+            {
+              "party": "People's Choice",
+              "votes": 63
+            }
+          ],
+          "total": 816
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 1
+            }
+          ],
+          "total": 1
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Thompson",
+      "candidates": [
+        {
+          "name": "Richard S. Baum",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1711
+            },
+            {
+              "party": "Conservative",
+              "votes": 587
+            }
+          ],
+          "total": 2298
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 14
+            }
+          ],
+          "total": 14
+        }
+      ]
+    },
+    {
+      "title": "Supervisor - Town of Tusten",
+      "candidates": [
+        {
+          "name": "Bernard R. Johnson",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 208
+            },
+            {
+              "party": "Conservative",
+              "votes": 93
+            }
+          ],
+          "total": 301
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 5
+            }
+          ],
+          "total": 5
+        }
+      ]
+    },
+    {
+      "title": "Town Clerk/ Tax Collector - Town of Tusten",
+      "candidates": [
+        {
+          "name": "Crystal L. Weston",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 214
+            },
+            {
+              "party": "Conservative",
+              "votes": 89
+            }
+          ],
+          "total": 303
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 4
+            }
+          ],
+          "total": 4
+        }
+      ]
+    },
+    {
+      "title": "Council Member - Town of Tusten",
+      "candidates": [
+        {
+          "name": "Greg Triggs",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 290
+            }
+          ],
+          "total": 290
+        },
+        {
+          "name": "Kevin McDonough",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 284
+            }
+          ],
+          "total": 284
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Superintendent of Highways - Town of Tusten",
+      "candidates": [
+        {
+          "name": "Donald J. Neiger",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 209
+            },
+            {
+              "party": "Conservative",
+              "votes": 83
+            }
+          ],
+          "total": 292
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Town Justice - Town of Tusten",
+      "candidates": [
+        {
+          "name": "Klu K. Padu",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 211
+            },
+            {
+              "party": "Republican",
+              "votes": 110
+            },
+            {
+              "party": "Conservative",
+              "votes": 43
+            }
+          ],
+          "total": 364
+        },
+        {
+          "name": "David M. Casey",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 205
+            },
+            {
+              "party": "Republican",
+              "votes": 118
+            },
+            {
+              "party": "Conservative",
+              "votes": 38
+            }
+          ],
+          "total": 361
+        },
+        {
+          "name": "Write-in",
+          "party_lines": [
+            {
+              "party": "",
+              "votes": 0
+            }
+          ],
+          "total": 0
+        }
+      ]
+    },
+    {
+      "title": "Supreme Court Justice 3rd Judicial District",
+      "candidates": [
+        {
+          "name": "Dana Lynn Salazar",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 5454
+            },
+            {
+              "party": "Conservative",
+              "votes": 2383
+            }
+          ],
+          "total": 7837
+        },
+        {
+          "name": "William T. Little Jr",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6158
+            },
+            {
+              "party": "Working Families",
+              "votes": 1373
+            }
+          ],
+          "total": 7531
+        },
+        {
+          "name": "Scattering",
+          "party_lines": [
+            {
+              "party": "Unknown",
+              "votes": 13
+            }
+          ],
+          "total": 13
+        }
+      ]
+    }
+  ]
+}

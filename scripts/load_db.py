@@ -84,7 +84,21 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
     """Load a single race and its candidates into the database."""
     cursor = conn.cursor()
 
-    # Insert race
+    # Calculate total_votes_cast from candidates if not provided
+    candidates = race_data.get('candidates', [])
+    total_votes = race_data.get('total_votes_cast', 0)
+
+    if total_votes == 0 and candidates:
+        # Sum candidate totals to get race total (handles both 'total' and 'total_votes' keys)
+        total_votes = sum(
+            c.get('total_votes') or c.get('total', 0)
+            for c in candidates
+        )
+
+    # Get race title - handle both 'race_title' and 'title' keys for compatibility
+    race_title = race_data.get('race_title') or race_data.get('title', 'Unknown Race')
+
+    # Insert race with calculated total if necessary
     cursor.execute("""
         INSERT INTO races (county, election_date, race_title, vote_for, total_votes_cast,
                           under_votes, over_votes, total_ballots_cast)
@@ -93,19 +107,17 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
     """, (
         county,
         election_date,
-        race_data['race_title'],
+        race_title,
         race_data.get('vote_for', 1),
-        race_data.get('total_votes_cast'),
+        total_votes,  # Use calculated total if race-level was 0
         race_data.get('under_votes'),
         race_data.get('over_votes'),
         race_data.get('total_ballots_cast')
-    ))
+    ), prepare=False)
 
     race_id = cursor.fetchone()[0]
-    total_votes = race_data.get('total_votes_cast', 0)
 
     # Find winner (highest vote total)
-    candidates = race_data.get('candidates', [])
     if candidates:
         # Prefer 'total_votes', fallback to 'total' for backward compatibility
         max_votes = max(c.get('total_votes') or c.get('total', 0) for c in candidates)
@@ -130,7 +142,7 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
                 is_winner,
                 vote_share,
                 party_coalition
-            ))
+            ), prepare=False)
 
             candidate_id = cursor.fetchone()[0]
 
@@ -143,7 +155,7 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
                     candidate_id,
                     party_line['party'],
                     party_line['votes']
-                ))
+                ), prepare=False)
 
     conn.commit()
 
@@ -195,7 +207,8 @@ def create_analysis_views(conn: psycopg.Connection) -> None:
             ROUND((winner_votes - runnerup_votes) * 100.0 / total_votes_cast, 2) as margin_pct,
             (winner_votes - runnerup_votes) as vote_margin
         FROM race_margins
-        WHERE (winner_votes - runnerup_votes) * 100.0 / total_votes_cast < 10
+        WHERE total_votes_cast > 0
+        AND (winner_votes - runnerup_votes) * 100.0 / total_votes_cast < 10
         ORDER BY margin_pct
     """)
 

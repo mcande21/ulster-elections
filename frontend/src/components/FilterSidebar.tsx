@@ -1,5 +1,5 @@
-import { Card, Checkbox, Button, Space, Typography, Divider } from 'antd';
-import { FilterOutlined, ClearOutlined } from '@ant-design/icons';
+import { Card, Checkbox, Button, Space, Typography, Divider, message } from 'antd';
+import { FilterOutlined, ClearOutlined, LinkOutlined } from '@ant-design/icons';
 import type { FilterOptions } from '../types';
 
 const { Title } = Typography;
@@ -15,6 +15,35 @@ export const FilterSidebar = ({ filters, onFilterChange, onClearFilters, filterO
   const counties = filterOptions?.counties || [];
   const raceTypes = filterOptions?.raceTypes || [];
   const parties = filterOptions?.parties || [];
+
+  const handleCopyLink = async () => {
+    try {
+      // Try modern clipboard API first
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(window.location.href);
+        message.success('Link copied to clipboard!');
+      } else {
+        // Fallback for older browsers
+        const textarea = document.createElement('textarea');
+        textarea.value = window.location.href;
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+
+        const success = document.execCommand('copy');
+        document.body.removeChild(textarea);
+
+        if (success) {
+          message.success('Link copied to clipboard!');
+        } else {
+          message.error('Failed to copy link. Please copy manually.');
+        }
+      }
+    } catch {
+      message.error('Failed to copy link. Please copy manually.');
+    }
+  };
 
   return (
     <Card
@@ -80,14 +109,24 @@ export const FilterSidebar = ({ filters, onFilterChange, onClearFilters, filterO
         />
       </div>
 
-      <Button
-        type="default"
-        icon={<ClearOutlined />}
-        onClick={onClearFilters}
-        block
-      >
-        Clear Filters
-      </Button>
+      <Space orientation="vertical" style={{ width: '100%' }}>
+        <Button
+          type="default"
+          icon={<ClearOutlined />}
+          onClick={onClearFilters}
+          block
+        >
+          Clear Filters
+        </Button>
+        <Button
+          type="primary"
+          icon={<LinkOutlined />}
+          onClick={handleCopyLink}
+          block
+        >
+          Copy Link
+        </Button>
+      </Space>
     </Card>
   );
 };
