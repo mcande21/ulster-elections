@@ -3,8 +3,8 @@
 from typing import List, Optional
 from fastapi import APIRouter, Query, HTTPException
 
-from ..models.schemas import RaceData, StatsResponse, FilterOptions, RaceFusionMetrics
-from ..services.database import get_races, get_stats, get_filter_options, get_race_fusion_metrics
+from ..models.schemas import RaceData, StatsResponse, FilterOptions, RaceFusionMetrics, VulnerabilityScore
+from ..services.database import get_races, get_stats, get_filter_options, get_race_fusion_metrics, get_vulnerability_scores
 
 
 router = APIRouter(prefix="/api", tags=["races"])
@@ -73,6 +73,30 @@ async def get_statistics(
 async def get_filters():
     """Get available filter options."""
     return get_filter_options()
+
+
+@router.get("/races/vulnerability", response_model=List[VulnerabilityScore])
+async def get_vulnerability(
+    limit: int = Query(20, description="Number of races to return"),
+    county: Optional[str] = Query(None, description="Comma-separated counties"),
+    competitiveness: Optional[str] = Query(None, description="Comma-separated competitiveness levels"),
+    party: Optional[str] = Query(None, description="Comma-separated parties"),
+    raceType: Optional[str] = Query(None, description="Comma-separated race types"),
+):
+    """Get races ranked by vulnerability score, with optional filters."""
+    # Parse comma-separated query params
+    county_list = county.split(",") if county else None
+    comp_list = competitiveness.split(",") if competitiveness else None
+    party_list = party.split(",") if party else None
+    race_type_list = raceType.split(",") if raceType else None
+
+    return get_vulnerability_scores(
+        limit=limit,
+        county=county_list,
+        competitiveness=comp_list,
+        party=party_list,
+        race_type=race_type_list,
+    )
 
 
 @router.get("/races/{race_id}/fusion", response_model=RaceFusionMetrics)

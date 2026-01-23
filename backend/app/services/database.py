@@ -14,6 +14,7 @@ MAIN_PARTIES = {"Democratic", "Republican"}
 D_ALIGNED_MINOR = {"Working Families"}
 R_ALIGNED_MINOR = {"Conservative"}
 
+
 # Connection pool (initialized by app lifespan)
 _pool: Optional[ConnectionPool] = None
 
@@ -257,6 +258,219 @@ def get_filter_options() -> FilterOptions:
         parties=parties,
         competitivenessLevels=competitiveness_levels
     )
+
+
+def calculate_vulnerability_score(
+    margin_pct: float,
+    total_votes: int,
+    winner_party: str,
+    county: str,
+    under_votes: Optional[int] = None,
+    total_ballots_cast: Optional[int] = None
+) -> float:
+    """Calculate strategic vulnerability score for a race.
+
+    Hybrid score factors (0-100 scale):
+    1. Margin tightness (35% weight) - tighter margins = higher vulnerability
+    2. Swing potential (25% weight) - how many votes could change outcome
+    3. Turnout factor (15% weight) - smaller electorates = more volatile
+    4. Undervote factor (15% weight) - high undervotes indicate voter ambivalence
+    5. Category multiplier (10% weight) - flip opportunity vs retention risk
+
+    Args:
+        margin_pct: Vote margin as percentage
+        total_votes: Total votes cast in race
+        winner_party: Winning candidate's party (D, R, or Other)
+        county: County name
+        under_votes: Ballots cast but left blank (optional)
+        total_ballots_cast: Total ballots in the race (optional)
+
+    Returns:
+        Vulnerability score (0-100, higher = more vulnerable)
+    """
+    # Normalize party
+    normalized_party = normalize_party(winner_party)
+
+    # 1. Margin tightness (35% weight)
+    # Inverted sigmoid: tight margins get high scores
+    # 0% margin = 100, 50% margin = ~0
+    if margin_pct <= 0:
+        margin_component = 100.0
+    elif margin_pct >= 50:
+        margin_component = 0.0
+    else:
+        # Non-linear: emphasize very tight races (< 5%)
+        margin_component = max(0, 100 * (1 - (margin_pct / 50)))
+        # Apply curve to emphasize tighter races
+        if margin_pct < 5:
+            margin_component = min(100, margin_component * 1.3)
+
+    # 2. Swing potential (25% weight)
+    # How many votes in dispute (both sides of margin)
+    # More contested votes = more vulnerable
+    swing_potential = min(100, (margin_pct / 5) * 100)  # Max at 5% margin
+
+    # 3. Turnout factor (15% weight)
+    # Smaller electorates are more volatile
+    # Benchmark: county-level races typically 5k-50k votes
+    # <5k votes = vulnerable to small swings
+    # >50k votes = more stable
+    if total_votes < 5000:
+        turnout_component = 80.0
+    elif total_votes < 10000:
+        turnout_component = 60.0
+    elif total_votes < 25000:
+        turnout_component = 40.0
+    elif total_votes < 50000:
+        turnout_component = 20.0
+    else:
+        turnout_component = 10.0
+
+    # 4. Undervote factor (15% weight)
+    # High undervotes = voter ambivalence = persuadable voters
+    # Cap at 20% undervote for max score
+    undervote_component = 0.0
+    if under_votes is not None and total_ballots_cast is not None and total_ballots_cast > 0:
+        undervote_pct = (under_votes / total_ballots_cast) * 100
+        undervote_component = min(100, undervote_pct * 5)
+
+    # 5. Category multiplier (10% weight)
+    # Flip opportunities and retention risks warrant different weight
+    # These are explicitly vulnerable categories
+    if normalized_party == 'R':  # flip_opportunity
+        category_multiplier = 1.0
+    elif normalized_party == 'D':  # retention_risk
+        category_multiplier = 1.0
+    else:  # other
+        category_multiplier = 0.7
+
+    # Weighted composite score
+    composite = (
+        margin_component * 0.35 +
+        swing_potential * 0.25 +
+        turnout_component * 0.15 +
+        undervote_component * 0.15
+    )
+
+    # Apply category multiplier to overall score
+    final_score = composite * category_multiplier
+
+    return round(min(100, max(0, final_score)), 1)
+
+
+def get_vulnerability_scores(
+    limit: int = 20,
+    county: Optional[List[str]] = None,
+    competitiveness: Optional[List[str]] = None,
+    party: Optional[List[str]] = None,
+    race_type: Optional[List[str]] = None,
+) -> List[dict]:
+    """Get races ranked by vulnerability score.
+
+    Strategic vulnerability scoring for political analysis.
+    Categories:
+    - flip_opportunity: R winner with margin < 10%
+    - retention_risk: D winner with margin < 10%
+
+    Hybrid scoring factors:
+    - Margin tightness (35%): how close the race was
+    - Swing potential (25%): votes in dispute relative to margin
+    - Turnout (15%): smaller electorates are more volatile
+    - Undervote factor (15%): high undervotes indicate voter ambivalence
+    - Category (10%): explicit vulnerability categories get full weight
+    """
+    pool = get_pool()
+    with pool.connection() as conn:
+        with conn.cursor(row_factory=dict_row) as cursor:
+
+            # Build WHERE clause for SQL-filterable fields
+            where_clause, params = build_where_clause(county=county, party=party)
+
+            query = f"""
+            SELECT
+                r.id,
+                r.race_title,
+                r.county,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
+                r.total_votes_cast,
+                r.under_votes,
+                r.total_ballots_cast,
+                MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
+                MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes
+            FROM races r
+            JOIN candidates c ON r.id = c.race_id
+            {where_clause}
+            GROUP BY r.id
+            HAVING MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) IS NOT NULL
+                AND MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) IS NOT NULL
+            """
+
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
+
+    results = []
+    for row in rows:
+        total_votes = row['total_votes_cast'] or 0
+        winner_votes = row['winner_votes'] or 0
+        runnerup_votes = row['runnerup_votes'] or 0
+
+        if total_votes == 0:
+            continue
+
+        vote_diff = winner_votes - runnerup_votes
+        margin = (vote_diff / total_votes) * 100
+        winner_party_raw = row['winner_party_raw'] or ''
+
+        # Normalize party using existing function
+        normalized_party = normalize_party(winner_party_raw)
+
+        # Extract race type for filtering
+        race_type_str = extract_race_type(row['race_title'])
+
+        # Determine competitiveness band for filtering
+        competitiveness_band = determine_competitiveness_band(margin)
+
+        # Determine category based on winner party
+        if normalized_party == 'R':
+            category = 'flip_opportunity'
+        elif normalized_party == 'D':
+            category = 'retention_risk'
+        else:
+            category = 'other'
+
+        # Calculate strategic vulnerability score with undervote data
+        vuln_score = calculate_vulnerability_score(
+            margin_pct=margin,
+            total_votes=total_votes,
+            winner_party=normalized_party,
+            county=row['county'],
+            under_votes=row['under_votes'],
+            total_ballots_cast=row['total_ballots_cast']
+        )
+
+        results.append({
+            'id': row['id'],
+            'vulnerability_score': vuln_score,
+            'category': category,
+            'race_title': row['race_title'],
+            'county': row['county'],
+            'margin_pct': round(margin, 1),
+            'race_type': race_type_str,
+            'competitiveness_band': competitiveness_band,
+        })
+
+    # Apply post-query filters (calculated fields)
+    if competitiveness:
+        results = [r for r in results if r['competitiveness_band'] in competitiveness]
+
+    if race_type:
+        results = [r for r in results if r['race_type'] in race_type]
+
+    # Sort by vulnerability score descending (highest vulnerability first)
+    results.sort(key=lambda x: x['vulnerability_score'], reverse=True)
+
+    # Apply limit
+    return results[:limit]
 
 
 def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:

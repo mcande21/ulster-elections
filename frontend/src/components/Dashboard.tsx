@@ -8,6 +8,7 @@ import { RacesTable } from './RacesTable';
 import { CompetitivenessChart } from './charts/CompetitivenessChart';
 import { CountyChart } from './charts/CountyChart';
 import { UploadSection } from './UploadSection';
+import { VulnerabilityPanel } from './VulnerabilityPanel';
 
 const { Header, Sider, Content } = Layout;
 const { Title, Text } = Typography;
@@ -20,7 +21,9 @@ export const Dashboard = () => {
   if (isLoading && !races) {
     return (
       <Layout style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Spin size="large" tip="Loading races..." />
+        <Spin size="large" tip="What up Brian">
+          <div style={{ padding: 50 }} />
+        </Spin>
       </Layout>
     );
   }
@@ -29,8 +32,7 @@ export const Dashboard = () => {
     return (
       <Layout style={{ minHeight: '100vh', padding: 24 }}>
         <Alert
-          message="Error Loading Data"
-          description="Failed to load race data. Please try again later."
+          description="Error Loading Data: Failed to load race data. Please try again later."
           type="error"
           showIcon
         />
@@ -58,6 +60,10 @@ export const Dashboard = () => {
 
         <Content style={{ padding: 24, background: '#f0f2f5' }}>
           <StatCards races={races || []} />
+
+          <div style={{ marginTop: 24 }}>
+            <VulnerabilityPanel filters={filters} />
+          </div>
 
           <Row gutter={16} style={{ marginTop: 24 }}>
             <Col span={12}>

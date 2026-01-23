@@ -1,0 +1,1273 @@
+{
+  "county": "Putnam",
+  "election_date": "2024-11-05",
+  "races": [
+    {
+      "race_title": "ELECTORS FOR PRESIDENT / VICE PRESIDENT",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "KAMALTIA MD. HARRIS",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6570
+            },
+            {
+              "party": "Democratic",
+              "votes": 3176
+            },
+            {
+              "party": "Democratic",
+              "votes": 2258
+            },
+            {
+              "party": "Democratic",
+              "votes": 3832
+            },
+            {
+              "party": "Democratic",
+              "votes": 2762
+            },
+            {
+              "party": "Democratic",
+              "votes": 4241
+            }
+          ],
+          "total_votes": 22839
+        },
+        {
+          "name": "DONAJLDD VJ. WA TL RZ UMP / /",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 11749
+            },
+            {
+              "party": "Republican",
+              "votes": 3666
+            },
+            {
+              "party": "Republican",
+              "votes": 3066
+            },
+            {
+              "party": "Republican",
+              "votes": 1926
+            },
+            {
+              "party": "Republican",
+              "votes": 3465
+            },
+            {
+              "party": "Republican",
+              "votes": 4986
+            }
+          ],
+          "total_votes": 28858
+        },
+        {
+          "name": "DONAJLDD VA J. N TC RE UMP /",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1033
+            },
+            {
+              "party": "Conservative",
+              "votes": 409
+            },
+            {
+              "party": "Conservative",
+              "votes": 273
+            },
+            {
+              "party": "Conservative",
+              "votes": 248
+            },
+            {
+              "party": "Conservative",
+              "votes": 336
+            },
+            {
+              "party": "Conservative",
+              "votes": 396
+            }
+          ],
+          "total_votes": 2695
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "UNITED STATES SENATOR",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "KIRSTENE. GIL",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6721
+            },
+            {
+              "party": "Democratic",
+              "votes": 3230
+            },
+            {
+              "party": "Democratic",
+              "votes": 2300
+            },
+            {
+              "party": "Democratic",
+              "votes": 3829
+            },
+            {
+              "party": "Democratic",
+              "votes": 2814
+            },
+            {
+              "party": "Democratic",
+              "votes": 4244
+            }
+          ],
+          "total_votes": 23138
+        },
+        {
+          "name": "MICHAELD. SALIBRAND",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10855
+            },
+            {
+              "party": "Republican",
+              "votes": 3306
+            },
+            {
+              "party": "Republican",
+              "votes": 2786
+            },
+            {
+              "party": "Republican",
+              "votes": 1789
+            },
+            {
+              "party": "Republican",
+              "votes": 3194
+            },
+            {
+              "party": "Republican",
+              "votes": 4599
+            }
+          ],
+          "total_votes": 26529
+        },
+        {
+          "name": "MICHAELD. SAPRAICONE",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1058
+            },
+            {
+              "party": "Conservative",
+              "votes": 428
+            },
+            {
+              "party": "Conservative",
+              "votes": 267
+            },
+            {
+              "party": "Conservative",
+              "votes": 260
+            },
+            {
+              "party": "Conservative",
+              "votes": 351
+            },
+            {
+              "party": "Conservative",
+              "votes": 417
+            }
+          ],
+          "total_votes": 2781
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "STATE SUPREME COURT JUSTICE",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "COLLEEND. D",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6284
+            },
+            {
+              "party": "Conservative",
+              "votes": 1200
+            },
+            {
+              "party": "Democratic",
+              "votes": 3074
+            },
+            {
+              "party": "Conservative",
+              "votes": 456
+            },
+            {
+              "party": "Democratic",
+              "votes": 2196
+            },
+            {
+              "party": "Conservative",
+              "votes": 332
+            },
+            {
+              "party": "Democratic",
+              "votes": 3820
+            },
+            {
+              "party": "Conservative",
+              "votes": 287
+            },
+            {
+              "party": "Democratic",
+              "votes": 2753
+            }
+          ],
+          "total_votes": 20402
+        },
+        {
+          "name": "BRETTBROGU EFFY",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5590
+            },
+            {
+              "party": "Conservative",
+              "votes": 1003
+            },
+            {
+              "party": "Democratic",
+              "votes": 2787
+            },
+            {
+              "party": "Conservative",
+              "votes": 405
+            },
+            {
+              "party": "Democratic",
+              "votes": 1994
+            },
+            {
+              "party": "Conservative",
+              "votes": 294
+            },
+            {
+              "party": "Democratic",
+              "votes": 3619
+            },
+            {
+              "party": "Conservative",
+              "votes": 236
+            },
+            {
+              "party": "Democratic",
+              "votes": 2519
+            }
+          ],
+          "total_votes": 18447
+        },
+        {
+          "name": "KYLEC. MCGO",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5768
+            },
+            {
+              "party": "Conservative",
+              "votes": 1129
+            },
+            {
+              "party": "Democratic",
+              "votes": 2878
+            },
+            {
+              "party": "Conservative",
+              "votes": 450
+            },
+            {
+              "party": "Democratic",
+              "votes": 2039
+            },
+            {
+              "party": "Conservative",
+              "votes": 324
+            },
+            {
+              "party": "Democratic",
+              "votes": 3668
+            },
+            {
+              "party": "Conservative",
+              "votes": 260
+            },
+            {
+              "party": "Democratic",
+              "votes": 2598
+            },
+            {
+              "party": "Conservative",
+              "votes": 354
+            },
+            {
+              "party": "Democratic",
+              "votes": 3686
+            },
+            {
+              "party": "Conservative",
+              "votes": 451
+            }
+          ],
+          "total_votes": 23605
+        },
+        {
+          "name": "SCATM A R T A RYAV E R N N EN",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5756
+            },
+            {
+              "party": "Conservative",
+              "votes": 1035
+            },
+            {
+              "party": "Democratic",
+              "votes": 2815
+            },
+            {
+              "party": "Conservative",
+              "votes": 397
+            },
+            {
+              "party": "Democratic",
+              "votes": 2031
+            },
+            {
+              "party": "Conservative",
+              "votes": 285
+            },
+            {
+              "party": "Democratic",
+              "votes": 3653
+            },
+            {
+              "party": "Conservative",
+              "votes": 238
+            },
+            {
+              "party": "Democratic",
+              "votes": 2580
+            },
+            {
+              "party": "Conservative",
+              "votes": 324
+            },
+            {
+              "party": "Democratic",
+              "votes": 3658
+            },
+            {
+              "party": "Conservative",
+              "votes": 427
+            }
+          ],
+          "total_votes": 23199
+        },
+        {
+          "name": "RACHELE E. TI TC AO- NNABER",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5605
+            },
+            {
+              "party": "Conservative",
+              "votes": 943
+            },
+            {
+              "party": "Democratic",
+              "votes": 2782
+            },
+            {
+              "party": "Conservative",
+              "votes": 359
+            },
+            {
+              "party": "Democratic",
+              "votes": 1971
+            },
+            {
+              "party": "Conservative",
+              "votes": 275
+            },
+            {
+              "party": "Democratic",
+              "votes": 3605
+            },
+            {
+              "party": "Conservative",
+              "votes": 227
+            },
+            {
+              "party": "Democratic",
+              "votes": 2524
+            },
+            {
+              "party": "Conservative",
+              "votes": 302
+            },
+            {
+              "party": "Democratic",
+              "votes": 3586
+            },
+            {
+              "party": "Conservative",
+              "votes": 399
+            }
+          ],
+          "total_votes": 22578
+        },
+        {
+          "name": "THOMASHUMBGUAY",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10701
+            },
+            {
+              "party": "Republican",
+              "votes": 3347
+            },
+            {
+              "party": "Republican",
+              "votes": 2758
+            },
+            {
+              "party": "Republican",
+              "votes": 1798
+            },
+            {
+              "party": "Republican",
+              "votes": 3199
+            },
+            {
+              "party": "Republican",
+              "votes": 4562
+            }
+          ],
+          "total_votes": 26365
+        },
+        {
+          "name": "EDWARDR. MEACH",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10358
+            },
+            {
+              "party": "Republican",
+              "votes": 3234
+            },
+            {
+              "party": "Republican",
+              "votes": 2661
+            },
+            {
+              "party": "Republican",
+              "votes": 1739
+            },
+            {
+              "party": "Republican",
+              "votes": 3105
+            },
+            {
+              "party": "Republican",
+              "votes": 4485
+            }
+          ],
+          "total_votes": 25582
+        },
+        {
+          "name": "KARENA. OSTVEC",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10315
+            },
+            {
+              "party": "Republican",
+              "votes": 3206
+            },
+            {
+              "party": "Republican",
+              "votes": 2668
+            },
+            {
+              "party": "Republican",
+              "votes": 1728
+            },
+            {
+              "party": "Republican",
+              "votes": 3057
+            },
+            {
+              "party": "Republican",
+              "votes": 4490
+            }
+          ],
+          "total_votes": 25464
+        },
+        {
+          "name": "MARKT. STARBERG",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10247
+            },
+            {
+              "party": "Republican",
+              "votes": 3202
+            },
+            {
+              "party": "Republican",
+              "votes": 2647
+            },
+            {
+              "party": "Republican",
+              "votes": 1714
+            },
+            {
+              "party": "Republican",
+              "votes": 3031
+            },
+            {
+              "party": "Republican",
+              "votes": 4426
+            }
+          ],
+          "total_votes": 25267
+        },
+        {
+          "name": "LESLIEKAHNKMAN",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 10190
+            },
+            {
+              "party": "Republican",
+              "votes": 3164
+            },
+            {
+              "party": "Republican",
+              "votes": 2643
+            },
+            {
+              "party": "Republican",
+              "votes": 1714
+            },
+            {
+              "party": "Republican",
+              "votes": 3039
+            },
+            {
+              "party": "Republican",
+              "votes": 4364
+            }
+          ],
+          "total_votes": 25114
+        },
+        {
+          "name": "COLLEEND. DU",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 345
+            },
+            {
+              "party": "Democratic",
+              "votes": 3995
+            },
+            {
+              "party": "Conservative",
+              "votes": 508
+            }
+          ],
+          "total_votes": 4848
+        },
+        {
+          "name": "BRETTBROGEFFY",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 309
+            },
+            {
+              "party": "Democratic",
+              "votes": 3582
+            },
+            {
+              "party": "Conservative",
+              "votes": 423
+            }
+          ],
+          "total_votes": 4314
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "REPRESENTATIVE IN CONGRESS",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "MONDAIREL. J",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5900
+            },
+            {
+              "party": "Democratic",
+              "votes": 3009
+            },
+            {
+              "party": "Democratic",
+              "votes": 2117
+            },
+            {
+              "party": "Democratic",
+              "votes": 3793
+            },
+            {
+              "party": "Democratic",
+              "votes": 2673
+            },
+            {
+              "party": "Democratic",
+              "votes": 3847
+            }
+          ],
+          "total_votes": 21339
+        },
+        {
+          "name": "MIKELAWLERONES",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 11754
+            },
+            {
+              "party": "Republican",
+              "votes": 3590
+            },
+            {
+              "party": "Republican",
+              "votes": 3001
+            },
+            {
+              "party": "Republican",
+              "votes": 2023
+            },
+            {
+              "party": "Republican",
+              "votes": 3442
+            },
+            {
+              "party": "Republican",
+              "votes": 5012
+            }
+          ],
+          "total_votes": 28822
+        },
+        {
+          "name": "MIKELAWLER",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1157
+            },
+            {
+              "party": "Conservative",
+              "votes": 442
+            },
+            {
+              "party": "Conservative",
+              "votes": 307
+            },
+            {
+              "party": "Conservative",
+              "votes": 279
+            },
+            {
+              "party": "Conservative",
+              "votes": 364
+            },
+            {
+              "party": "Conservative",
+              "votes": 450
+            }
+          ],
+          "total_votes": 2999
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "STATE SENATOR",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "YVETTEVALDE",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3584
+            },
+            {
+              "party": "Democratic",
+              "votes": 2583
+            }
+          ],
+          "total_votes": 6167
+        },
+        {
+          "name": "ROBROLISONSSMITH",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1953
+            },
+            {
+              "party": "Republican",
+              "votes": 3363
+            }
+          ],
+          "total_votes": 5316
+        },
+        {
+          "name": "ROBROLISON",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 295
+            },
+            {
+              "party": "Conservative",
+              "votes": 360
+            }
+          ],
+          "total_votes": 655
+        },
+        {
+          "name": "PETERB. HAR",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 6178
+            },
+            {
+              "party": "Democratic",
+              "votes": 2984
+            },
+            {
+              "party": "Democratic",
+              "votes": 2163
+            },
+            {
+              "party": "Democratic",
+              "votes": 3961
+            }
+          ],
+          "total_votes": 15286
+        },
+        {
+          "name": "GINAM. ARENCKHAM",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 11258
+            },
+            {
+              "party": "Republican",
+              "votes": 3485
+            },
+            {
+              "party": "Republican",
+              "votes": 2893
+            },
+            {
+              "party": "Republican",
+              "votes": 4781
+            }
+          ],
+          "total_votes": 22417
+        },
+        {
+          "name": "GINAM. ARENA",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1133
+            },
+            {
+              "party": "Conservative",
+              "votes": 461
+            },
+            {
+              "party": "Conservative",
+              "votes": 292
+            },
+            {
+              "party": "Conservative",
+              "votes": 438
+            }
+          ],
+          "total_votes": 2324
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "MEMBER OF THE ASSEMBLY",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "ZACHARYC. C",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 5864
+            },
+            {
+              "party": "Democratic",
+              "votes": 2939
+            },
+            {
+              "party": "Democratic",
+              "votes": 2058
+            },
+            {
+              "party": "Democratic",
+              "votes": 2639
+            },
+            {
+              "party": "Democratic",
+              "votes": 3745
+            }
+          ],
+          "total_votes": 17245
+        },
+        {
+          "name": "MATTHEWJ. SOUZENS",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 11693
+            },
+            {
+              "party": "Republican",
+              "votes": 3633
+            },
+            {
+              "party": "Republican",
+              "votes": 3048
+            },
+            {
+              "party": "Republican",
+              "votes": 3473
+            },
+            {
+              "party": "Republican",
+              "votes": 5017
+            }
+          ],
+          "total_votes": 26864
+        },
+        {
+          "name": "MATTHEWJ. SLATER",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1228
+            },
+            {
+              "party": "Conservative",
+              "votes": 505
+            },
+            {
+              "party": "Conservative",
+              "votes": 331
+            },
+            {
+              "party": "Conservative",
+              "votes": 386
+            },
+            {
+              "party": "Conservative",
+              "votes": 500
+            }
+          ],
+          "total_votes": 2950
+        },
+        {
+          "name": "DANALEVENB",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 3698
+            }
+          ],
+          "total_votes": 3698
+        },
+        {
+          "name": "MICHAELL. CAERG",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 1817
+            }
+          ],
+          "total_votes": 1817
+        },
+        {
+          "name": "MICHAELL. CAPALBO",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 278
+            }
+          ],
+          "total_votes": 278
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "COUNTY CORONER",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "WENDYA. ERIC",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 13063
+            },
+            {
+              "party": "Republican",
+              "votes": 4293
+            },
+            {
+              "party": "Republican",
+              "votes": 3516
+            },
+            {
+              "party": "Republican",
+              "votes": 2687
+            },
+            {
+              "party": "Republican",
+              "votes": 4046
+            },
+            {
+              "party": "Republican",
+              "votes": 5934
+            }
+          ],
+          "total_votes": 33539
+        },
+        {
+          "name": "WENDYA. ERICKSON",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1862
+            },
+            {
+              "party": "Conservative",
+              "votes": 884
+            },
+            {
+              "party": "Conservative",
+              "votes": 690
+            },
+            {
+              "party": "Conservative",
+              "votes": 712
+            },
+            {
+              "party": "Conservative",
+              "votes": 995
+            }
+          ],
+          "total_votes": 5143
+        },
+        {
+          "name": "WENDYA. ERIKSON",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 571
+            }
+          ],
+          "total_votes": 571
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "CARMEL TOWN JUSTICE",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "DANIELM. MIL",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 13059
+            }
+          ],
+          "total_votes": 13059
+        },
+        {
+          "name": "DANIELM. MILLER",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1877
+            }
+          ],
+          "total_votes": 1877
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "CARMEL COUNCIL MEMBER",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "MICHAELLUG",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 12871
+            }
+          ],
+          "total_votes": 12871
+        },
+        {
+          "name": "MICHAELLUGO",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 1872
+            }
+          ],
+          "total_votes": 1872
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "PATTERSON COUNCIL MEMBER",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "SONYAABBYE",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2107
+            }
+          ],
+          "total_votes": 2107
+        },
+        {
+          "name": "JOSEPHJ. ESTAYLOR",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 2872
+            }
+          ],
+          "total_votes": 2872
+        },
+        {
+          "name": "JOSEPHJ. ESPOSITO",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 295
+            }
+          ],
+          "total_votes": 295
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "PHILIPSTOWN TOWN JUSTICE",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "CAMILLES. LIN",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 4013
+            }
+          ],
+          "total_votes": 4013
+        },
+        {
+          "name": "CAMILLES. LINSON",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 735
+            }
+          ],
+          "total_votes": 735
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "PUTNAM VALLEY TOWN CLERK",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "REGINAJ. GEL",
+          "party_lines": [
+            {
+              "party": "Democratic",
+              "votes": 2675
+            }
+          ],
+          "total_votes": 2675
+        },
+        {
+          "name": "MICHELLEP. SFER",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 3381
+            }
+          ],
+          "total_votes": 3381
+        },
+        {
+          "name": "MICHELLEP. STEPHENS",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 381
+            }
+          ],
+          "total_votes": 381
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    },
+    {
+      "race_title": "PUTNAM VALLEY TOWN JUSTICE",
+      "vote_for": 1,
+      "candidates": [
+        {
+          "name": "PATA. LONGO",
+          "party_lines": [
+            {
+              "party": "Republican",
+              "votes": 4072
+            }
+          ],
+          "total_votes": 4072
+        },
+        {
+          "name": "PATA. LONGOBUCCO",
+          "party_lines": [
+            {
+              "party": "Conservative",
+              "votes": 729
+            }
+          ],
+          "total_votes": 729
+        }
+      ],
+      "write_in": 0,
+      "total_votes_cast": 0,
+      "under_votes": 0,
+      "over_votes": 0,
+      "total_ballots_cast": 0
+    }
+  ]
+}

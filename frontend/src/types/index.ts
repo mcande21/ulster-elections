@@ -10,6 +10,7 @@ export interface Race {
   runner_up_votes: number;
   margin_pct: number;
   vote_diff: number;
+  total_votes: number;
   competitiveness_band: string;
   race_type: string;
 }
@@ -18,7 +19,7 @@ export interface Stats {
   total: number;
   flipOpportunities: number;
   retentionRisks: number;
-  closestMargin: number;
+  closestMargin: number | null;
 }
 
 export interface FilterOptions {
@@ -51,4 +52,13 @@ export interface RaceFusionMetrics {
   winner_leverage: number | null;
   runner_up_leverage: number | null;
   decisive_minor_party: string | null;
+}
+
+export interface VulnerabilityScore {
+  id: number;
+  vulnerability_score: number;
+  category: string;
+  race_title: string;
+  county: string;
+  margin_pct: number;
 }

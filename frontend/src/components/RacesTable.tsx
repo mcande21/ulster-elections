@@ -1,6 +1,6 @@
-import { useState, useMemo } from 'react';
-import { Table, Tag, Typography, Input, Card, Spin, Descriptions } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
+import React, { useState, useMemo } from 'react';
+import { Table, Tag, Typography, Input, Card, Spin, Descriptions, Tooltip } from 'antd';
+import { SearchOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import type { ColumnsType, TablePaginationConfig } from 'antd/es/table';
 import type { FilterValue, SorterResult } from 'antd/es/table/interface';
 import type { Race, RaceFusionMetrics } from '../types';
@@ -57,31 +57,32 @@ export const RacesTable = ({ races }: RacesTableProps) => {
   };
 
   const getPartyColor = (party: string): string => {
-    const partyLower = party.toLowerCase();
-    if (partyLower.includes('democratic')) return 'blue';
-    if (partyLower.includes('republican')) return 'red';
-    if (partyLower.includes('working families')) return 'green';
-    if (partyLower.includes('conservative')) return 'purple';
+    const p = party.toLowerCase();
+    if (p.includes('dem')) return 'blue';
+    if (p.includes('rep')) return 'red';
+    if (p.includes('con')) return 'purple';
+    if (p.includes('wor')) return 'orange';
+    if (p.includes('ind')) return 'cyan';
     return 'default';
   };
 
-  const getLeverageTag = (leverage: number | null) => {
+  const getLeverageTag = (leverage: number | null): React.ReactElement | null => {
     if (leverage === null) return null;
-    if (leverage < 0.5) return <Tag color="green">Low Impact</Tag>;
-    if (leverage <= 1.0) return <Tag color="orange">Significant</Tag>;
-    return <Tag color="red">DECISIVE</Tag>;
+    if (leverage > 1.5) return <Tag color="red">High Leverage</Tag>;
+    if (leverage > 1.0) return <Tag color="orange">Moderate Leverage</Tag>;
+    return <Tag color="green">Low Leverage</Tag>;
   };
 
   const handleExpand = async (expanded: boolean, record: Race) => {
     if (expanded && !fusionData[record.id]) {
-      setLoadingFusion({ ...loadingFusion, [record.id]: true });
+      setLoadingFusion(prev => ({ ...prev, [record.id]: true }));
       try {
         const data = await getFusionMetrics(record.id);
-        setFusionData({ ...fusionData, [record.id]: data });
+        setFusionData(prev => ({ ...prev, [record.id]: data }));
       } catch (error) {
         console.error('Failed to load fusion metrics:', error);
       } finally {
-        setLoadingFusion({ ...loadingFusion, [record.id]: false });
+        setLoadingFusion(prev => ({ ...prev, [record.id]: false }));
       }
     }
   };
@@ -93,19 +94,23 @@ export const RacesTable = ({ races }: RacesTableProps) => {
 
     const data = fusionData[record.id];
     if (!data) {
-      return <Text type="secondary">No fusion data available</Text>;
+      return <div>No fusion data available</div>;
     }
 
     return (
-      <div style={{ padding: '16px' }}>
-        <Typography.Title level={5}>Fusion Voting Analysis</Typography.Title>
-
-        <Descriptions bordered size="small" column={2} style={{ marginBottom: 16 }}>
+      <div style={{ padding: '16px', background: '#fafafa' }}>
+        <Descriptions title="Fusion Voting Analysis" bordered column={2}>
           <Descriptions.Item label="Margin of Victory">
             {data.margin_of_victory.toLocaleString()} votes
           </Descriptions.Item>
           {data.decisive_minor_party && (
-            <Descriptions.Item label="Decisive Minor Party">
+            <Descriptions.Item
+              label={
+                <Tooltip title="A minor party is 'decisive' when its votes alone exceed the margin of victory - removing that party line would flip the result.">
+                  Decisive Minor Party <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                </Tooltip>
+              }
+            >
               <Tag color={getPartyColor(data.decisive_minor_party)}>
                 {data.decisive_minor_party}
               </Tag>
@@ -113,69 +118,75 @@ export const RacesTable = ({ races }: RacesTableProps) => {
           )}
         </Descriptions>
 
-        <div style={{ display: 'flex', gap: '24px' }}>
-          <div style={{ flex: 1 }}>
-            <Typography.Title level={5}>Winner: {data.winner_metrics.candidate_name}</Typography.Title>
-            <Descriptions bordered size="small" column={1}>
+        <div style={{ marginTop: 24 }}>
+          <Typography.Title level={5}>Winner: {data.winner_metrics.candidate_name}</Typography.Title>
+          <Descriptions bordered column={2} size="small">
+            <Descriptions.Item label="Main Party Votes">
+              {data.winner_metrics.main_party_votes.toLocaleString()}
+            </Descriptions.Item>
+            <Descriptions.Item label="Minor Party Votes">
+              {data.winner_metrics.minor_party_votes.toLocaleString()}
+            </Descriptions.Item>
+            <Descriptions.Item label="Minor Party Share">
+              {data.winner_metrics.minor_party_share.toFixed(1)}%
+            </Descriptions.Item>
+            <Descriptions.Item
+              label={
+                <Tooltip title="Leverage = Minor party votes ÷ Margin of victory. Values >1.0 mean the minor party alone provided enough votes to flip the outcome.">
+                  Leverage <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                </Tooltip>
+              }
+            >
+              {getLeverageTag(data.winner_leverage)}
+            </Descriptions.Item>
+          </Descriptions>
+          <div style={{ marginTop: 12 }}>
+            <strong>Party Lines:</strong>
+            <div style={{ marginTop: 8 }}>
+              {data.winner_metrics.party_lines.map((line, idx) => (
+                <Tag key={idx} color={getPartyColor(line.party)} style={{ marginBottom: 4 }}>
+                  {line.party}: {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
+                </Tag>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {data.runner_up_metrics && (
+          <div style={{ marginTop: 24 }}>
+            <Typography.Title level={5}>Runner-up: {data.runner_up_metrics.candidate_name}</Typography.Title>
+            <Descriptions bordered column={2} size="small">
               <Descriptions.Item label="Main Party Votes">
-                {data.winner_metrics.main_party_votes.toLocaleString()}
+                {data.runner_up_metrics.main_party_votes.toLocaleString()}
               </Descriptions.Item>
               <Descriptions.Item label="Minor Party Votes">
-                {data.winner_metrics.minor_party_votes.toLocaleString()}
+                {data.runner_up_metrics.minor_party_votes.toLocaleString()}
               </Descriptions.Item>
               <Descriptions.Item label="Minor Party Share">
-                {(data.winner_metrics.minor_party_share * 100).toFixed(1)}%
+                {data.runner_up_metrics.minor_party_share.toFixed(1)}%
               </Descriptions.Item>
-              <Descriptions.Item label="Leverage">
-                {getLeverageTag(data.winner_leverage)}
+              <Descriptions.Item
+                label={
+                  <Tooltip title="Leverage = Minor party votes ÷ Margin of victory. Values >1.0 mean the minor party alone provided enough votes to flip the outcome.">
+                    Leverage <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+                  </Tooltip>
+                }
+              >
+                {getLeverageTag(data.runner_up_leverage)}
               </Descriptions.Item>
             </Descriptions>
-
-            <div style={{ marginTop: 8 }}>
-              <Text strong>Party Line Breakdown:</Text>
-              <div style={{ marginTop: 4 }}>
-                {data.winner_metrics.party_lines.map((line, idx) => (
-                  <div key={idx} style={{ marginBottom: 4 }}>
-                    <Tag color={getPartyColor(line.party)}>{line.party}</Tag>
-                    {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
-                  </div>
+            <div style={{ marginTop: 12 }}>
+              <strong>Party Lines:</strong>
+              <div style={{ marginTop: 8 }}>
+                {data.runner_up_metrics.party_lines.map((line, idx) => (
+                  <Tag key={idx} color={getPartyColor(line.party)} style={{ marginBottom: 4 }}>
+                    {line.party}: {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
+                  </Tag>
                 ))}
               </div>
             </div>
           </div>
-
-          {data.runner_up_metrics && (
-            <div style={{ flex: 1 }}>
-              <Typography.Title level={5}>Runner-up: {data.runner_up_metrics.candidate_name}</Typography.Title>
-              <Descriptions bordered size="small" column={1}>
-                <Descriptions.Item label="Main Party Votes">
-                  {data.runner_up_metrics.main_party_votes.toLocaleString()}
-                </Descriptions.Item>
-                <Descriptions.Item label="Minor Party Votes">
-                  {data.runner_up_metrics.minor_party_votes.toLocaleString()}
-                </Descriptions.Item>
-                <Descriptions.Item label="Minor Party Share">
-                  {(data.runner_up_metrics.minor_party_share * 100).toFixed(1)}%
-                </Descriptions.Item>
-                <Descriptions.Item label="Leverage">
-                  {getLeverageTag(data.runner_up_leverage)}
-                </Descriptions.Item>
-              </Descriptions>
-
-              <div style={{ marginTop: 8 }}>
-                <Text strong>Party Line Breakdown:</Text>
-                <div style={{ marginTop: 4 }}>
-                  {data.runner_up_metrics.party_lines.map((line, idx) => (
-                    <div key={idx} style={{ marginBottom: 4 }}>
-                      <Tag color={getPartyColor(line.party)}>{line.party}</Tag>
-                      {line.votes.toLocaleString()} ({line.share_pct.toFixed(1)}%)
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
+        )}
       </div>
     );
   };
@@ -227,14 +238,11 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       defaultSortOrder: 'ascend',
     },
     {
-      title: 'Vote Diff',
-      dataIndex: 'vote_diff',
-      key: 'vote_diff',
-      sorter: (a, b) => a.vote_diff - b.vote_diff,
-      render: (diff: number) => diff.toLocaleString(),
-    },
-    {
-      title: 'Competitiveness',
+      title: (
+        <Tooltip title="Based on margin %: Thin (<2%), Lean (2-5%), Likely (5-10%), Safe (>10%)">
+          Competitiveness <InfoCircleOutlined style={{ marginLeft: 4, color: '#999' }} />
+        </Tooltip>
+      ),
       dataIndex: 'competitiveness_band',
       key: 'competitiveness_band',
       filters: [
@@ -281,7 +289,6 @@ export const RacesTable = ({ races }: RacesTableProps) => {
         expandable={{
           expandedRowRender: renderFusionDetails,
           onExpand: handleExpand,
-          rowExpandable: () => true,
         }}
       />
     </Card>

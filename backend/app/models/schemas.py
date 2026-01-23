@@ -72,3 +72,13 @@ class RaceFusionMetrics(BaseModel):
     winner_leverage: Optional[float] = None
     runner_up_leverage: Optional[float] = None
     decisive_minor_party: Optional[str] = None
+
+
+class VulnerabilityScore(BaseModel):
+    """Race vulnerability scoring for strategic analysis."""
+    id: int
+    vulnerability_score: float
+    category: str
+    race_title: str
+    county: str
+    margin_pct: float
