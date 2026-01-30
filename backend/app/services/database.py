@@ -392,6 +392,7 @@ def get_vulnerability_scores(
                 r.race_title,
                 r.county,
                 MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
+                MAX(CASE WHEN c.is_winner = FALSE THEN c.party_coalition END) as runnerup_party_raw,
                 r.total_votes_cast,
                 r.under_votes,
                 r.total_ballots_cast,
@@ -420,9 +421,11 @@ def get_vulnerability_scores(
         vote_diff = winner_votes - runnerup_votes
         margin = (vote_diff / total_votes) * 100
         winner_party_raw = row['winner_party_raw'] or ''
+        runnerup_party_raw = row['runnerup_party_raw'] or ''
 
         # Normalize party using existing function
         normalized_party = normalize_party(winner_party_raw)
+        normalized_runnerup_party = normalize_party(runnerup_party_raw)
 
         # Extract race type for filtering
         race_type_str = extract_race_type(row['race_title'])
@@ -430,10 +433,10 @@ def get_vulnerability_scores(
         # Determine competitiveness band for filtering
         competitiveness_band = determine_competitiveness_band(margin)
 
-        # Determine category based on winner party
-        if normalized_party == 'R':
+        # Determine category based on winner AND runner-up party
+        if normalized_party == 'R' and normalized_runnerup_party == 'D':
             category = 'flip_opportunity'
-        elif normalized_party == 'D':
+        elif normalized_party == 'D' and normalized_runnerup_party == 'R':
             category = 'retention_risk'
         else:
             category = 'other'
@@ -575,7 +578,7 @@ def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
             else:
                 minor_party_votes += votes
 
-        minor_party_share = (minor_party_votes / total_votes) if total_votes > 0 else 0.0
+        minor_party_share = (minor_party_votes / total_votes * 100) if total_votes > 0 else 0.0
 
         return CandidateFusionMetrics(
             candidate_name=cand_data["name"],
