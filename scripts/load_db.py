@@ -5,11 +5,13 @@ Load election data from JSON files into PostgreSQL database with vulnerability s
 
 import json
 import os
+import time
 from pathlib import Path
 from typing import Dict, List
 
 from dotenv import load_dotenv
 import psycopg
+from psycopg import errors
 
 
 def create_schema(conn: psycopg.Connection) -> None:
@@ -169,8 +171,6 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
                     party_line['votes']
                 ), prepare=False)
 
-    conn.commit()
-
 
 def load_json_file(conn: psycopg.Connection, json_path: Path) -> int:
     """Load all races from a JSON file."""
@@ -181,8 +181,27 @@ def load_json_file(conn: psycopg.Connection, json_path: Path) -> int:
     election_date = data.get('election_date', '2025-11-04')  # Default to 2025 general
     races = data.get('races', [])
 
-    for race in races:
-        load_race(conn, county, election_date, race)
+    for i, race in enumerate(races):
+        max_retries = 3
+        retry_count = 0
+        while retry_count < max_retries:
+            try:
+                load_race(conn, county, election_date, race)
+                # Batch commit every 10 races to reduce lock contention
+                if (i + 1) % 10 == 0:
+                    conn.commit()
+                break
+            except errors.DeadlockDetected:
+                retry_count += 1
+                if retry_count >= max_retries:
+                    raise
+                wait_time = 0.5 * (2 ** retry_count)  # Exponential backoff: 1s, 2s, 4s
+                print(f"Deadlock detected on race {i+1}/{len(races)}, retrying in {wait_time}s...")
+                conn.rollback()
+                time.sleep(wait_time)
+
+    # Final commit for remaining races
+    conn.commit()
 
     return len(races)
 
