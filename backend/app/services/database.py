@@ -134,24 +134,38 @@ def get_races(
 
             where_clause, params = build_where_clause(county, party=party)
 
+            # Use ranked candidates to handle multi-winner races correctly
+            # For vote_for=1: winner_votes - runnerup_votes
+            # For vote_for>1: Nth winner's votes - (N+1)th candidate's votes
             query = f"""
+            WITH ranked_candidates AS (
+                SELECT
+                    c.*,
+                    r.vote_for,
+                    ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+                FROM candidates c
+                JOIN races r ON c.race_id = r.id
+            )
             SELECT
                 r.id,
                 r.county,
                 r.race_title,
+                r.vote_for,
                 r.total_votes_cast,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.name END) as winner_name,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
-                MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes,
-                MAX(CASE WHEN c.is_winner = FALSE THEN c.name END) as runnerup_name,
-                MAX(CASE WHEN c.is_winner = FALSE THEN c.party_coalition END) as runnerup_party_raw
+                -- Bubble winner (last winner to make cutoff)
+                MAX(CASE WHEN rc.rank = r.vote_for THEN rc.total_votes END) as winner_votes,
+                MAX(CASE WHEN rc.rank = r.vote_for THEN rc.name END) as winner_name,
+                MAX(CASE WHEN rc.rank = r.vote_for THEN rc.party_coalition END) as winner_party_raw,
+                -- First loser (candidate just below cutoff)
+                MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.total_votes END) as runnerup_votes,
+                MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.name END) as runnerup_name,
+                MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.party_coalition END) as runnerup_party_raw
             FROM races r
-            JOIN candidates c ON r.id = c.race_id
+            JOIN ranked_candidates rc ON r.id = rc.race_id
             {where_clause}
             GROUP BY r.id
-            HAVING MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) IS NOT NULL
-                AND MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) IS NOT NULL
+            HAVING MAX(CASE WHEN rc.rank = r.vote_for THEN rc.total_votes END) IS NOT NULL
+                AND MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.total_votes END) IS NOT NULL
             """
 
             cursor.execute(query, params)
@@ -235,13 +249,24 @@ def get_filter_options() -> FilterOptions:
     with pool.connection() as conn:
         with conn.cursor(row_factory=dict_row) as cursor:
 
-            # Get all races to extract unique values
+            # Get all races to extract unique values using ranked candidates
             query = """
-            SELECT DISTINCT r.county, r.race_title,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party
-            FROM races r
-            JOIN candidates c ON r.id = c.race_id
-            GROUP BY r.id
+            WITH ranked_candidates AS (
+                SELECT
+                    c.*,
+                    r.vote_for,
+                    r.county,
+                    r.race_title,
+                    ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+                FROM candidates c
+                JOIN races r ON c.race_id = r.id
+            )
+            SELECT DISTINCT
+                rc.county,
+                rc.race_title,
+                MAX(CASE WHEN rc.rank = rc.vote_for THEN rc.party_coalition END) as winner_party
+            FROM ranked_candidates rc
+            GROUP BY rc.race_id, rc.county, rc.race_title
             """
 
             cursor.execute(query)
@@ -386,24 +411,36 @@ def get_vulnerability_scores(
             # Build WHERE clause for SQL-filterable fields
             where_clause, params = build_where_clause(county=county, party=party)
 
+            # Use ranked candidates to handle multi-winner races correctly
             query = f"""
+            WITH ranked_candidates AS (
+                SELECT
+                    c.*,
+                    r.vote_for,
+                    ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+                FROM candidates c
+                JOIN races r ON c.race_id = r.id
+            )
             SELECT
                 r.id,
                 r.race_title,
                 r.county,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.party_coalition END) as winner_party_raw,
-                MAX(CASE WHEN c.is_winner = FALSE THEN c.party_coalition END) as runnerup_party_raw,
+                r.vote_for,
                 r.total_votes_cast,
                 r.under_votes,
                 r.total_ballots_cast,
-                MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
-                MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes
+                -- Bubble winner (last winner to make cutoff)
+                MAX(CASE WHEN rc.rank = r.vote_for THEN rc.party_coalition END) as winner_party_raw,
+                MAX(CASE WHEN rc.rank = r.vote_for THEN rc.total_votes END) as winner_votes,
+                -- First loser (candidate just below cutoff)
+                MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.party_coalition END) as runnerup_party_raw,
+                MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.total_votes END) as runnerup_votes
             FROM races r
-            JOIN candidates c ON r.id = c.race_id
+            JOIN ranked_candidates rc ON r.id = rc.race_id
             {where_clause}
             GROUP BY r.id
-            HAVING MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) IS NOT NULL
-                AND MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) IS NOT NULL
+            HAVING MAX(CASE WHEN rc.rank = r.vote_for THEN rc.total_votes END) IS NOT NULL
+                AND MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.total_votes END) IS NOT NULL
             """
 
             cursor.execute(query, params)
@@ -486,16 +523,25 @@ def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
     with pool.connection() as conn:
         with conn.cursor(row_factory=dict_row) as cursor:
 
-            # Get race info and margin
+            # Get race info and margin using ranked candidates for multi-winner support
             cursor.execute("""
+                WITH ranked_candidates AS (
+                    SELECT
+                        c.*,
+                        r.vote_for,
+                        ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+                    FROM candidates c
+                    JOIN races r ON c.race_id = r.id
+                    WHERE r.id = %s
+                )
                 SELECT
                     r.id,
                     r.race_title,
-                    MAX(CASE WHEN c.is_winner = TRUE THEN c.total_votes END) as winner_votes,
-                    MAX(CASE WHEN c.is_winner = FALSE THEN c.total_votes END) as runnerup_votes
+                    r.vote_for,
+                    MAX(CASE WHEN rc.rank = r.vote_for THEN rc.total_votes END) as winner_votes,
+                    MAX(CASE WHEN rc.rank = r.vote_for + 1 THEN rc.total_votes END) as runnerup_votes
                 FROM races r
-                JOIN candidates c ON r.id = c.race_id
-                WHERE r.id = %s
+                JOIN ranked_candidates rc ON r.id = rc.race_id
                 GROUP BY r.id
             """, [race_id])
 
@@ -504,23 +550,32 @@ def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
                 return None
 
             race_title = race_row["race_title"]
+            vote_for = race_row["vote_for"]
             winner_votes = race_row["winner_votes"] or 0
             runnerup_votes = race_row["runnerup_votes"] or 0
             margin_of_victory = winner_votes - runnerup_votes
 
-            # Get all candidates with party line breakdowns
+            # Get all candidates with party line breakdowns, ranked for multi-winner support
             cursor.execute("""
+                WITH ranked_candidates AS (
+                    SELECT
+                        c.id as candidate_id,
+                        c.name,
+                        c.total_votes,
+                        ROW_NUMBER() OVER (ORDER BY c.total_votes DESC) as rank
+                    FROM candidates c
+                    WHERE c.race_id = %s
+                )
                 SELECT
-                    c.id as candidate_id,
-                    c.name,
-                    c.total_votes,
-                    c.is_winner,
+                    rc.candidate_id,
+                    rc.name,
+                    rc.total_votes,
+                    rc.rank,
                     pl.party,
                     pl.votes
-                FROM candidates c
-                JOIN party_lines pl ON c.id = pl.candidate_id
-                WHERE c.race_id = %s
-                ORDER BY c.total_votes DESC, pl.votes DESC
+                FROM ranked_candidates rc
+                JOIN party_lines pl ON rc.candidate_id = pl.candidate_id
+                ORDER BY rc.total_votes DESC, pl.votes DESC
             """, [race_id])
 
             candidate_rows = cursor.fetchall()
@@ -536,7 +591,7 @@ def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
             candidates_data[candidate_id] = {
                 "name": row["name"],
                 "total_votes": row["total_votes"],
-                "is_winner": row["is_winner"],
+                "rank": row["rank"],
                 "party_lines": []
             }
         candidates_data[candidate_id]["party_lines"].append({
@@ -544,13 +599,15 @@ def get_race_fusion_metrics(race_id: int) -> Optional[RaceFusionMetrics]:
             "votes": row["votes"]
         })
 
-    # Process winner and runner-up
+    # Process winner and runner-up using ranks
     candidates_list = list(candidates_data.values())
     if not candidates_list:
         return None
 
-    winner_data = next((c for c in candidates_list if c["is_winner"]), None)
-    runner_up_data = next((c for c in candidates_list if not c["is_winner"]), None)
+    # Bubble winner = candidate at rank vote_for
+    # First loser = candidate at rank vote_for + 1
+    winner_data = next((c for c in candidates_list if c["rank"] == vote_for), None)
+    runner_up_data = next((c for c in candidates_list if c["rank"] == vote_for + 1), None)
 
     if not winner_data:
         return None

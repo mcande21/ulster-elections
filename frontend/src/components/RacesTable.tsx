@@ -97,10 +97,40 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       return <div>No fusion data available</div>;
     }
 
+    const isMultiWinner = record.vote_for && record.vote_for > 1;
+    const hasWinners = record.winners && record.winners.length > 0;
+
     return (
       <div style={{ padding: '16px', background: '#fafafa' }}>
+        {isMultiWinner && hasWinners && record.winners && (
+          <div style={{ marginBottom: 24 }}>
+            <Typography.Title level={5}>
+              Winners ({record.winners.length} of {record.vote_for})
+            </Typography.Title>
+            <div>
+              {record.winners!.map((winner, idx) => {
+                const isBubble = idx === record.winners!.length - 1;
+                return (
+                  <div key={idx} style={{ marginBottom: 8 }}>
+                    <Text strong>{winner.name}</Text>
+                    {' '}
+                    <Text type="secondary">({winner.party})</Text>
+                    {' - '}
+                    <Text>{winner.votes.toLocaleString()} votes</Text>
+                    {isBubble && (
+                      <Tag color="cyan" style={{ marginLeft: 8 }}>
+                        bubble winner
+                      </Tag>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         <Descriptions title="Fusion Voting Analysis" bordered column={2}>
-          <Descriptions.Item label="Margin of Victory">
+          <Descriptions.Item label={isMultiWinner ? "Bubble Margin" : "Margin of Victory"}>
             {data.margin_of_victory.toLocaleString()} votes
           </Descriptions.Item>
           {data.decisive_minor_party && (
@@ -208,16 +238,45 @@ export const RacesTable = ({ races }: RacesTableProps) => {
       dataIndex: 'race_title',
       key: 'race_title',
       sorter: (a, b) => a.race_title.localeCompare(b.race_title),
+      render: (title: string, record) => (
+        <div>
+          {title}
+          {record.vote_for && record.vote_for > 1 && (
+            <Tag color="blue" style={{ marginLeft: 8 }}>
+              {record.vote_for} seats
+            </Tag>
+          )}
+        </div>
+      ),
     },
     {
       title: 'Winner',
       key: 'winner',
-      render: (_, record) => (
-        <div>
-          <div>{record.winner_name}</div>
-          <Text type="secondary" style={{ fontSize: '12px' }}>{record.winner_party}</Text>
-        </div>
-      ),
+      render: (_, record) => {
+        const isMultiWinner = record.vote_for && record.vote_for > 1;
+        const hasWinners = record.winners && record.winners.length > 0;
+
+        if (isMultiWinner && hasWinners && record.winners) {
+          return (
+            <div>
+              <div>{record.winners.length} winners</div>
+              <Text type="secondary" style={{ fontSize: '12px' }}>
+                (expand for details)
+              </Text>
+            </div>
+          );
+        }
+
+        return (
+          <div>
+            <div>{record.winner_name}</div>
+            <Text type="secondary" style={{ fontSize: '12px' }}>{record.winner_party}</Text>
+            {isMultiWinner && !hasWinners && (
+              <Tag color="cyan" style={{ marginTop: 4 }}>bubble winner</Tag>
+            )}
+          </div>
+        );
+      },
     },
     {
       title: 'Runner-up',
@@ -231,10 +290,26 @@ export const RacesTable = ({ races }: RacesTableProps) => {
     },
     {
       title: 'Margin',
-      dataIndex: 'margin_pct',
-      key: 'margin_pct',
-      sorter: (a, b) => a.margin_pct - b.margin_pct,
-      render: (margin: number) => `${margin.toFixed(1)}%`,
+      key: 'margin',
+      sorter: (a, b) => {
+        const aMargin = a.bubble_margin_pct ?? a.margin_pct;
+        const bMargin = b.bubble_margin_pct ?? b.margin_pct;
+        return aMargin - bMargin;
+      },
+      render: (_, record) => {
+        const isMultiWinner = record.vote_for && record.vote_for > 1;
+        const margin = record.bubble_margin_pct ?? record.margin_pct;
+        const label = isMultiWinner && record.bubble_margin_pct !== undefined ? 'bubble' : '';
+
+        return (
+          <div>
+            <div>{margin.toFixed(1)}%</div>
+            {label && (
+              <Text type="secondary" style={{ fontSize: '11px' }}>({label})</Text>
+            )}
+          </div>
+        );
+      },
       defaultSortOrder: 'ascend',
     },
     {

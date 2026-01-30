@@ -20,6 +20,10 @@ class RaceData(BaseModel):
     margin_pct: float
     vote_diff: int
     competitiveness_band: str
+    vote_for: int = 1
+    winners: Optional[List[dict]] = None
+    bubble_margin: Optional[int] = None
+    bubble_margin_pct: Optional[float] = None
 
 
 class StatsResponse(BaseModel):

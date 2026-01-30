@@ -13,6 +13,10 @@ export interface Race {
   total_votes: number;
   competitiveness_band: string;
   race_type: string;
+  vote_for?: number;
+  winners?: Array<{name: string; party: string; votes: number}>;
+  bubble_margin?: number;
+  bubble_margin_pct?: number;
 }
 
 export interface Stats {

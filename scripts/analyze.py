@@ -30,8 +30,40 @@ def get_flip_opportunities(conn: psycopg.Connection) -> List[Dict]:
     """
     Find R-held seats where Democrats came within 10%.
     These represent the best opportunities to flip in 2026.
+    Uses ranked candidates to support multi-winner races.
     """
     query = """
+    WITH ranked_candidates AS (
+        SELECT
+            c.*,
+            r.vote_for,
+            r.county,
+            r.race_title,
+            r.total_votes_cast,
+            ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+        FROM candidates c
+        JOIN races r ON c.race_id = r.id
+    ),
+    race_analysis AS (
+        SELECT
+            rc_winner.county,
+            rc_winner.race_title,
+            rc_winner.total_votes_cast,
+            rc_winner.name as winner_name,
+            rc_winner.total_votes as winner_votes,
+            rc_winner.party_coalition as winner_coalition,
+            rc_winner.vote_share * 100 as winner_pct,
+            rc_loser.name as runner_up_name,
+            rc_loser.total_votes as runner_up_votes,
+            rc_loser.party_coalition as runner_up_coalition,
+            rc_loser.vote_share * 100 as runner_up_pct,
+            (rc_winner.vote_share - COALESCE(rc_loser.vote_share, 0)) * 100 as margin_of_victory
+        FROM ranked_candidates rc_winner
+        LEFT JOIN ranked_candidates rc_loser
+            ON rc_winner.race_id = rc_loser.race_id
+            AND rc_loser.rank = rc_winner.vote_for + 1
+        WHERE rc_winner.rank = rc_winner.vote_for
+    )
     SELECT
         county,
         race_title,
@@ -41,29 +73,7 @@ def get_flip_opportunities(conn: psycopg.Connection) -> List[Dict]:
         runner_up_votes,
         margin_of_victory,
         total_votes_cast
-    FROM (
-        SELECT
-            r.county,
-            r.race_title,
-            r.total_votes_cast,
-            w.name as winner_name,
-            w.total_votes as winner_votes,
-            w.party_coalition as winner_coalition,
-            w.vote_share * 100 as winner_pct,
-            ru.name as runner_up_name,
-            ru.total_votes as runner_up_votes,
-            ru.party_coalition as runner_up_coalition,
-            ru.vote_share * 100 as runner_up_pct,
-            (w.vote_share - COALESCE(ru.vote_share, 0)) * 100 as margin_of_victory
-        FROM races r
-        JOIN candidates w ON w.race_id = r.id AND w.is_winner = TRUE
-        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = FALSE
-            AND ru.total_votes = (
-                SELECT MAX(total_votes)
-                FROM candidates
-                WHERE race_id = r.id AND is_winner = FALSE
-            )
-    )
+    FROM race_analysis
     WHERE winner_coalition = 'R'
       AND runner_up_coalition = 'D'
       AND margin_of_victory < 10
@@ -81,8 +91,40 @@ def get_retention_risks(conn: psycopg.Connection) -> List[Dict]:
     """
     Find D-held seats where Republicans came within 10%.
     These represent the seats Democrats must defend in 2026.
+    Uses ranked candidates to support multi-winner races.
     """
     query = """
+    WITH ranked_candidates AS (
+        SELECT
+            c.*,
+            r.vote_for,
+            r.county,
+            r.race_title,
+            r.total_votes_cast,
+            ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+        FROM candidates c
+        JOIN races r ON c.race_id = r.id
+    ),
+    race_analysis AS (
+        SELECT
+            rc_winner.county,
+            rc_winner.race_title,
+            rc_winner.total_votes_cast,
+            rc_winner.name as winner_name,
+            rc_winner.total_votes as winner_votes,
+            rc_winner.party_coalition as winner_coalition,
+            rc_winner.vote_share * 100 as winner_pct,
+            rc_loser.name as runner_up_name,
+            rc_loser.total_votes as runner_up_votes,
+            rc_loser.party_coalition as runner_up_coalition,
+            rc_loser.vote_share * 100 as runner_up_pct,
+            (rc_winner.vote_share - COALESCE(rc_loser.vote_share, 0)) * 100 as margin_of_victory
+        FROM ranked_candidates rc_winner
+        LEFT JOIN ranked_candidates rc_loser
+            ON rc_winner.race_id = rc_loser.race_id
+            AND rc_loser.rank = rc_winner.vote_for + 1
+        WHERE rc_winner.rank = rc_winner.vote_for
+    )
     SELECT
         county,
         race_title,
@@ -92,29 +134,7 @@ def get_retention_risks(conn: psycopg.Connection) -> List[Dict]:
         runner_up_votes,
         margin_of_victory,
         total_votes_cast
-    FROM (
-        SELECT
-            r.county,
-            r.race_title,
-            r.total_votes_cast,
-            w.name as winner_name,
-            w.total_votes as winner_votes,
-            w.party_coalition as winner_coalition,
-            w.vote_share * 100 as winner_pct,
-            ru.name as runner_up_name,
-            ru.total_votes as runner_up_votes,
-            ru.party_coalition as runner_up_coalition,
-            ru.vote_share * 100 as runner_up_pct,
-            (w.vote_share - COALESCE(ru.vote_share, 0)) * 100 as margin_of_victory
-        FROM races r
-        JOIN candidates w ON w.race_id = r.id AND w.is_winner = TRUE
-        LEFT JOIN candidates ru ON ru.race_id = r.id AND ru.is_winner = FALSE
-            AND ru.total_votes = (
-                SELECT MAX(total_votes)
-                FROM candidates
-                WHERE race_id = r.id AND is_winner = FALSE
-            )
-    )
+    FROM race_analysis
     WHERE winner_coalition = 'D'
       AND runner_up_coalition = 'R'
       AND margin_of_victory < 10

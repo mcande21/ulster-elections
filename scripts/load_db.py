@@ -117,16 +117,28 @@ def load_race(conn: psycopg.Connection, county: str, election_date: str, race_da
 
     race_id = cursor.fetchone()[0]
 
-    # Find winner (highest vote total)
+    # Find winners (top N candidates based on vote_for)
     if candidates:
-        # Prefer 'total_votes', fallback to 'total' for backward compatibility
-        max_votes = max(c.get('total_votes') or c.get('total', 0) for c in candidates)
+        # Get vote_for from race data (defaults to 1)
+        vote_for = race_data.get('vote_for', 1)
+
+        # Sort candidates by votes descending
+        sorted_candidates = sorted(
+            candidates,
+            key=lambda c: c.get('total_votes') or c.get('total', 0),
+            reverse=True
+        )
+
+        # Get names of top N candidates (the winners)
+        # Handle edge case: if vote_for > number of candidates, all are winners
+        num_winners = min(vote_for, len(sorted_candidates))
+        winner_names = {c['name'] for c in sorted_candidates[:num_winners]}
 
         # Load candidates
         for candidate in candidates:
             # Prefer 'total_votes', fallback to 'total' for backward compatibility
             candidate_total = candidate.get('total_votes') or candidate.get('total', 0)
-            is_winner = candidate_total == max_votes
+            is_winner = candidate['name'] in winner_names
             vote_share = candidate_total / total_votes if total_votes > 0 else 0
             party_coalition = determine_coalition(candidate.get('party_lines', []))
 
@@ -180,35 +192,35 @@ def create_analysis_views(conn: psycopg.Connection) -> None:
     cursor = conn.cursor()
 
     # Competitive races view (margin < 10%)
+    # Uses ranked candidates to support multi-winner races
+    # Bubble winner = rank equals vote_for
+    # First loser = rank equals vote_for + 1
     cursor.execute("""
         CREATE VIEW competitive_races AS
-        WITH race_margins AS (
+        WITH ranked_candidates AS (
             SELECT
-                r.id,
-                r.county,
-                r.race_title,
+                c.*,
+                r.vote_for,
                 r.total_votes_cast,
-                MAX(CASE WHEN c.is_winner THEN c.total_votes END) as winner_votes,
-                MAX(CASE WHEN c.is_winner THEN c.party_coalition END) as winner_party,
-                MAX(CASE WHEN NOT c.is_winner THEN c.total_votes END) as runnerup_votes,
-                MAX(CASE WHEN NOT c.is_winner THEN c.party_coalition END) as runnerup_party
-            FROM races r
-            JOIN candidates c ON r.id = c.race_id
-            GROUP BY r.id
+                ROW_NUMBER() OVER (PARTITION BY c.race_id ORDER BY c.total_votes DESC) as rank
+            FROM candidates c
+            JOIN races r ON c.race_id = r.id
         )
         SELECT
-            id,
-            county,
-            race_title,
-            winner_party,
-            runnerup_party,
-            winner_votes,
-            runnerup_votes,
-            ROUND((winner_votes - runnerup_votes) * 100.0 / total_votes_cast, 2) as margin_pct,
-            (winner_votes - runnerup_votes) as vote_margin
-        FROM race_margins
-        WHERE total_votes_cast > 0
-        AND (winner_votes - runnerup_votes) * 100.0 / total_votes_cast < 10
+            r.id,
+            r.county,
+            r.race_title,
+            rc_winner.party_coalition as winner_party,
+            rc_loser.party_coalition as runnerup_party,
+            rc_winner.total_votes as winner_votes,
+            rc_loser.total_votes as runnerup_votes,
+            ROUND((rc_winner.total_votes - COALESCE(rc_loser.total_votes, 0)) * 100.0 / r.total_votes_cast, 2) as margin_pct,
+            (rc_winner.total_votes - COALESCE(rc_loser.total_votes, 0)) as vote_margin
+        FROM races r
+        JOIN ranked_candidates rc_winner ON r.id = rc_winner.race_id AND rc_winner.rank = r.vote_for
+        LEFT JOIN ranked_candidates rc_loser ON r.id = rc_loser.race_id AND rc_loser.rank = r.vote_for + 1
+        WHERE r.total_votes_cast > 0
+        AND (rc_winner.total_votes - COALESCE(rc_loser.total_votes, 0)) * 100.0 / r.total_votes_cast < 10
         ORDER BY margin_pct
     """)
 
