@@ -1,10 +1,10 @@
 # Brian's Boards 2025
 
-A quick election data visualization tool for analyzing competitive races in Hudson Valley NY counties.
-
-Built for fun to explore local election results and identify:
+Election data analysis platform for Hudson Valley NY counties: county board-of-elections PDFs go in, a competitiveness dashboard comes out. Results are extracted with pdfplumber, normalized into SQLite, and served through FastAPI to a React dashboard that identifies:
 - **Flip opportunities** - R-held seats Dems could win
 - **Retention risks** - D-held seats at risk
+
+Analysis notes (fusion-voting methodology, vulnerability scoring) live in [`docs/`](docs/).
 
 ## Features
 
@@ -53,4 +53,4 @@ MIT - Do whatever you want with it.
 
 ---
 
-*Spun up quickly for fun. Not affiliated with any political organization.*
+*Weekend build. Not affiliated with any political organization.*
